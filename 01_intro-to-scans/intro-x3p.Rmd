@@ -155,7 +155,11 @@ get_crosscut(bullet = b1, x = 100) %>% bulletr::get_grooves()
 
 ## Your turn 
 
-- Install `bulletr` from github: `devtools::install_github("erichare/bulletr")`
+- Install `bulletr` from github: 
+```
+devtools::install_github("erichare/bulletr")
+library(bulletr)
+```
 - Investigate object `br411`. Which format is it?
 - Plot a profile for `br411` and identify grooves
 

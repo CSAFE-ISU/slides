@@ -22,7 +22,7 @@ CSAFE has a github organization: https://github.com/CSAFE-ISU
 
 Please email Sam (sctyner) your github handle to get signed up as members
 
-The slides for today are in the *slides* repo (pull it/fork it) or follow along on 
+The slides for today are in the *slides* repo (pull it/fork it) or follow along on https://csafe-isu.github.io/slides/01_intro-to-scans/intro-x3p.html
 
 
 ## A bit of motivation
@@ -188,12 +188,12 @@ con <- src_mysql(dbname, host, user=user, password=password)
 
 ## Database schematic
 
-![](https://github.com/erichare/dissertation/blob/master/images/schema.png?raw=true)
+<img src="https://github.com/erichare/dissertation/blob/master/images/schema.png?raw=true" width=1200>
 
 ## Your Turn
 
 - Log into the csafe RStudio server at https://isu-csafe.stat.iastate.edu/rstudio/
-- Open the file `scripts/database-access.R` and try out the code
+- Open the file `scripts/database-access.R` (on the `slides` repo) and try out the code
 
 ## Our 'own' data
 
@@ -207,7 +207,7 @@ Instructions for mounting file space: https://researchit.las.iastate.edu/how-mou
 
 Files are in x-y-value format `.dat`
 
-```{r, eval = FALSE}
+```{r, eval = FALSE, echo = TRUE}
 b2 <- read_dat("/Volumes/csafe/bullet-scans/land-replicate/H44-GX-1b.dat")
 head(b2)
 ```

@@ -188,7 +188,7 @@ con <- src_mysql(dbname, host, user=user, password=password)
 
 ## Database schematic
 
-<img src="https://github.com/erichare/dissertation/blob/master/images/schema.png?raw=true" width=1200>
+<img src="https://github.com/erichare/dissertation/blob/master/images/schema.png?raw=true" width=800>
 
 ## Your Turn
 
@@ -205,9 +205,26 @@ Instructions for mounting file space: https://researchit.las.iastate.edu/how-mou
 
 ## Reading local scans
 
-Files are in x-y-value format `.dat`
+Files are in x-y-value format `.dat`, `read_dat` converts them to (smaller) x3p format
 
 ```{r, eval = FALSE, echo = TRUE}
 b2 <- read_dat("/Volumes/csafe/bullet-scans/land-replicate/H44-GX-1b.dat")
-head(b2)
 ```
+
+```
+> b2 %>% glimpse()
+List of 2
+ $ header.info   :List of 4
+  ..$ num_profiles       : int 1023
+  ..$ num_obs_per_profile: int 3639
+  ..$ profile_inc        : num 0.645
+  ..$ obs_inc            : num 0.645
+ $ surface.matrix: num [1:3639, 1:1023] 24.4 24.5 24.8 25.2 25.6 ...
+```
+
+## Getting help 
+
+- these slides are a work in progress. 
+- something doesn't work? - tell me!
+- you figured out, how something works better? - tell me! (pull requests!)
+- talk to each other!

@@ -8,9 +8,9 @@ output:
 ---
 
 
-# Show and Tell May 22
+# Show and Tell <br> May 22
 
 ## AFTE conference
 
 - Alicia, Heike, Haley
-- link to slides for the talk (Matching Bullet Lands: Full and Degraded)
+- slides for the talk: [Matching Bullet Lands: Full and Degraded](../../talks/AFTE\ 2017/AFTE-slides.html)

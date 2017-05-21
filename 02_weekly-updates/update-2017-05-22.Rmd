@@ -1,0 +1,16 @@
+---
+title: "Weekly update for May 22"
+author: "Heike Hofmann"
+date: "May 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+
+# Show and Tell May 22
+
+## AFTE conference
+
+- Alicia, Heike, Haley
+- link to slides for the talk (Matching Bullet Lands: Full and Degraded)

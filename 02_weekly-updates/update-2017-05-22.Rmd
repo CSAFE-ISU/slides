@@ -14,3 +14,8 @@ output:
 
 - Alicia, Heike, Haley
 - slides for the talk: [Matching Bullet Lands: Full and Degraded](../../talks/AFTE\ 2017/AFTE-slides.html)
+
+## Handwriting Examination
+
+- Amy
+- 

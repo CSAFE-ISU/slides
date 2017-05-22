@@ -32,7 +32,13 @@ output:
 ## Handwriting Examination
 
 - Writing skill
-
+- Document examiner training 
+    - Two years
+    - Form-perception testing
+- Current proccess
+    - Independent examination of the questioned document
+    - Side by side comparison
+    - Evaluate the sginificance of the combination of characteristics observed during comparison
 
 
 

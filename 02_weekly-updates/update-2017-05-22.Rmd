@@ -39,6 +39,14 @@ output:
     - Independent examination of the questioned document
     - Side by side comparison
     - Evaluate the sginificance of the combination of characteristics observed during comparison
+    - Peer review
+    
+## Handwriting Examination
+
+- ASTM standard guide
+- The FBI has no established number of "points" required to establish a match
+- Software tools
+    - CEDAR-FOX
 
 
 

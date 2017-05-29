@@ -1,0 +1,70 @@
+---
+title: "Weekly update for May 29"
+author: "Heike Hofmann"
+date: "May 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+
+# Show and Tell <br> May 29
+
+## Bullet matching (Heike)
+
+- scans from Sensofar (Bill Henderson) of bullets by Phoenix PD: 8 barrels (2 shots), 2 unknown bullets
+- total of 108 lands (each file ~133 MB)
+- available from `/myfiles/las/research/csafe/bullet-scans/Phoenix Test/` 
+
+## Changes to bulletr
+
+- changes to parameter settings in `bulletr` (`groove_cutoff`, `smooth_factor` in `get_groove` both depend on resolution)
+- `get_groove` has now parameter `method` - just hook any alternative method in here. 
+- currently available methods are `rollapply` (Eric's) and `middle` (takes middle 75 percent of a land)
+
+## Results
+
+- feature set for Phoenix PD bullet lands are a bit strange
+- next week: investigate feature set
+
+## Chumbley Score
+
+- Chumbley score is non-parametric test based on multiple correlation values extracted from striation marks of two lands (Chumbley et al 2010)
+
+```{r, echo = FALSE, message=FALSE}
+library(tidyverse)
+library(bulletr)
+data(br411)
+b1 <- get_crosscut(x = 250, bullet=br411)
+b2 <- get_crosscut(x = 150, bullet = br411)
+b1.gr <- b1 %>% get_grooves(smoothfactor=30)
+b2.gr <- b2 %>% get_grooves()
+b1 <- fit_loess(b1, b1.gr)$data
+b2 <- fit_loess(b2, b2.gr)$data
+ctest <- chumbley(b1, b2, window=150, reps=5)
+ctest$alignment$plot
+```
+
+## Chumbley score
+
+```{r}
+# aligned correlation scores
+ctest[[3]]
+# random correlation scores
+ctest[[4]]
+# results from Mann-Whitney U test
+ctest$test
+```
+
+## Chumbley on Phoenix PD (orange is known match)
+
+<img src="images/phoenix-chumbley.png" width=800>
+
+## Chumbley on Phoenix PD, again
+
+<img src="images/phoenix-chumbley-3.png" width=800>
+
+## Chumbley score
+
+- impact of parameters (window width, number of replicates) on test result?
+- variability of results?

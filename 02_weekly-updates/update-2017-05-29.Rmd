@@ -108,8 +108,13 @@ Two objectives
 <img src="images/cedarfox_th.png" width=500>
 
 ## CEDAR-FOX
-<img src="images/cedarfox_and.png" width=500>
+<img src="images/cedarfox_and.png" width=200>
 
-## 
+## Statistical Models and Inference
+- Problem complexity
+- Bayesian Networks
+- Markov Networks
+- Probability of Evidence
 
 ## Automated determination of characteristics
+

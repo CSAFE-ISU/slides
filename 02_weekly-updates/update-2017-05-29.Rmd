@@ -68,3 +68,9 @@ ctest$test
 
 - impact of parameters (window width, number of replicates) on test result?
 - variability of results?
+
+## More on Grooves (Kiegan and Ulrike)  
+- working with development version of `bulletr`, looking at `get_grooves`
+- making sure we understand what the current code is doing
+- now with updates for parameter `method`, we will start looking at new methods to add
+- also adding a `get_grooves_test` that includes plot of smoothed crosscut  

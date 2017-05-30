@@ -125,5 +125,5 @@ Two objectives
 - Identify nodes and edges
 - Topology and Geometry
 
-## CEDAR-FOX
+## Graphemes
 <img src="images/graphemes.png" width=700>

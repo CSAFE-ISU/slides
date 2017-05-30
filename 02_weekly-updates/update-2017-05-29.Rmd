@@ -56,7 +56,7 @@ ctest[[4]]
 ctest$test
 ```
 
-## Chumbley on Phoenix PD (orange is known match)
+## Chumbley on Phoenix PD (orange is KM)
 
 <img src="images/phoenix-chumbley.png" width=800>
 

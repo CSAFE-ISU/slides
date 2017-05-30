@@ -74,3 +74,8 @@ ctest$test
 - making sure we understand what the current code is doing
 - now with updates for parameter `method`, we will start looking at new methods to add
 - also adding a `get_grooves_test` that includes plot of smoothed crosscut  
+
+## Optional smoothed grooves output
+- thinking this could be added as an option depending on the method
+<img src="images/get_grooves$plot.png" width=400>
+<img src="images/get_grooves$plot2.png" width=400>

@@ -77,5 +77,12 @@ ctest$test
 
 ## Optional smoothed grooves output
 - thinking this could be added as an option depending on the method
-<img src="images/get_grooves$plot.png" width=400>
-<img src="images/get_grooves$plot2.png" width=400>
+- allows us to check to make sure the image is "smooth enough"
+- if it is misidentifying, this gives a check for whether its because there is a bump before the true peak
+- works in my clone of the dev version of bulletr
+
+## Original plot from get_grooves  
+<img src="images/get_grooves$plot.png" width=600>
+
+## New smoothed option for get_grooves 
+<img src="images/get_grooves$plot2.png" width=600>

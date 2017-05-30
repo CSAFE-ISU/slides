@@ -125,7 +125,8 @@ Two objectives
 - Identify nodes and edges
 - Topology and Geometry
 
-
+## CEDAR-FOX
+<img src="images/cedarfox_and.png" width=500>
 
 
 

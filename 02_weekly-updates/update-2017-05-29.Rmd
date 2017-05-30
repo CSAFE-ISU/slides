@@ -87,3 +87,8 @@ ctest$test
 
 ## New smoothed option for get_grooves 
 <img src="images/get_grooves$plot2.png" width=600>
+
+## Handwriting Analysis  
+Two objectives
+- Assistance in the QD Examiner current workflow
+- Automated determination of characteristics

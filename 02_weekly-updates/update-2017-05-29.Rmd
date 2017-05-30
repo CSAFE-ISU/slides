@@ -120,5 +120,11 @@ Two objectives
 - Christopher Saunders, PhD
 - FLASH ID software (proprietary)
 - "... the careful reader should be able to implement a similar system based on the information in this article."
-- 
+- Data: modified London Letter (FBI)
+- Skeleton
+- Topology and Geometry
+
+
+
+
 

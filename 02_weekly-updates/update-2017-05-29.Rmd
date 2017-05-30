@@ -99,15 +99,17 @@ Two objectives
 - CEDAR dataset
   - CEDAR letter
   - over 1,500 individuals wrote the letter three times each
+  - representative of the United States population
 
 ## CEDAR letter
 <img src="images/cedar_letter.png" width=600>
 
 ## CEDAR-FOX
-<img src="images/cedarfox_th.png" width=600>
+<img src="images/cedarfox_th.png" width=500>
 
 ## CEDAR-FOX
-<img src="images/cedarfox_and.png" width=600>
+<img src="images/cedarfox_and.png" width=500>
 
+## 
 
-
+## Automated determination of characteristics

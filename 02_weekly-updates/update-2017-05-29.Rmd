@@ -126,4 +126,4 @@ Two objectives
 - Topology and Geometry
 
 ## CEDAR-FOX
-<img src="images/graphemes.png" width=500>
+<img src="images/graphemes.png" width=700>

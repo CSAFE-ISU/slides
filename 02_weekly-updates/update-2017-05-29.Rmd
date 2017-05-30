@@ -124,3 +124,6 @@ Two objectives
 - Skeleton of the writing, 1 pixel in width
 - Identify nodes and edges
 - Topology and Geometry
+
+## CEDAR-FOX
+<img src="images/graphemes.png" width=500>

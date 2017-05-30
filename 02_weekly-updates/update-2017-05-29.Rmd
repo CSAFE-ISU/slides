@@ -97,8 +97,9 @@ Two objectives
 - Sargur N. Srihari, University of Buffalo
 - CEDAR-FOX software
 - CEDAR dataset
+  - CEDAR letter
   - over 1,500 individuals wrote the letter three times each
 
-
-
+## CEDAR letter
+<img src="images/cedar_letter.png" width=600>
 

@@ -88,7 +88,17 @@ ctest$test
 ## New smoothed option for get_grooves 
 <img src="images/get_grooves$plot2.png" width=600>
 
-## Handwriting Analysis  
+## Handwriting Analysis (Amy) 
 Two objectives
-- Assistance in the QD Examiner current workflow
+- Begin with human QD examiners specifying characteristics
 - Automated determination of characteristics
+
+## Begin with human QD examiners specifying characteristics
+- Sargur N. Srihari, University of Buffalo
+- CEDAR-FOX software
+- CEDAR dataset
+  - over 1,500 individuals wrote the letter three times each
+
+
+
+

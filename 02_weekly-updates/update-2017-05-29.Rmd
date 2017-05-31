@@ -127,3 +127,11 @@ Two objectives
 
 ## Graphemes
 <img src="images/graphemes.png" width=700>
+
+## Shoeprints
+
+- Guillermo and Martin have scans of shoesoles
+- Go [here](https://iastate.box.com/s/jdtxxj0ox26fc65sfqzbmvnf594f7hrr) to access them
+- There are (5 types of shoe)x(2 models with the same outsole pattern)x(left and right feet)x(5 replicates per shoe) = 100 scans.
+- We want to ultimately determine whether it is possible to determine whether a shoeprint was generated with a given shoe.
+- The parameters of an affine transformation will be find by manually selecting two points on each scan. Code will be available for you in the future (as an R package).

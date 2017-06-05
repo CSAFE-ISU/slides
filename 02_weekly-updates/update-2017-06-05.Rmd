@@ -82,6 +82,21 @@ Three methods (continued..)
     
 ## Binary Feature Vector
 - High accuracy for off-line character recognition
-- 
+- Gradient, Structural, and Concavity features (GSC)
+    - __Gradient__ features use stroke shapes on a small scale
+    - __Structural__ features use stroke trajectories on an intermediate scale
+    - __Concavity__ features use stroke relationships at longer distances
+- Image is binarized
+- Grid is placed
+- In all there are 512 features
+
+## Binary Feature Vector
+
+<img src="images/GSC-feature-matrix.png" width=700>
+
+## Binary Feature Vector
+
+<img src="images/GSC-example.png" width=700>
+
 
 

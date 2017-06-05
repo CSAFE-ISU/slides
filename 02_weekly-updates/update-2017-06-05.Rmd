@@ -24,3 +24,12 @@ output:
 - James Hamby sent us a new set of bullets!
 
 ![](images/IMG_4839.png)
+
+
+## Handwriting  
+
+- Score based likelihood ratios (SLRs)
+- Three methods
+    - SLR_1 is trace-anchored $\quad\quad SLR_1 = g(\Delta(x,y)|H_p, I)$
+    - SLR_2 is source-anchored
+    - SLR_3 is general match ("no anchor")

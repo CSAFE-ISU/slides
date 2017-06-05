@@ -52,6 +52,8 @@ output:
 - Check what locations get_grooves is finding
 - Thinking about fitting a line to account for the angle in the grooves  
 
+## Handwriting 
+<img src="images/letter-isocode-matrix.png" width=600>
 
 ## Handwriting  
 

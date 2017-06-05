@@ -1,0 +1,26 @@
+---
+title: "Weekly update for June 5"
+author: "Heike Hofmann"
+date: "June 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+
+# Show and Tell <br> June 5
+
+## Bullet project 
+
+- Heike: lots of bug fixing in `bulletr` package and new/simpler functions. Working on a vignette.
+- shout-out to Ganesh: we can now writ to x3p!!! - function will be in bulletr package 
+
+## Random forest
+
+<img src="images/phoenix-matches.png" width=750>
+
+## Bullet project 
+
+- James Hamby sent us a new set of bullets!
+
+![](images/IMG_4839.png)

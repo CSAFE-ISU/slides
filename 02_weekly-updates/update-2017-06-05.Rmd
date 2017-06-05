@@ -25,9 +25,6 @@ output:
 
 ![](images/IMG_4839.png)
 
-## Handwriting 
-![](images/letter-isocode-matrix.png)
-
 
 ## Bullet project - identifying grooves  
 

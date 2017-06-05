@@ -26,6 +26,21 @@ output:
 ![](images/IMG_4839.png)
 
 
+## Bullet project - identifying grooves  
+
+- Looking at a single crosscut from each land of Hamby 44, Hamby 252, Cary studies
+- Using get_grooves (with "rollapply" method) to see how groove identification is going
+
+## Identifying grooves  
+- 
+
+## Identifying grooves - next steps  
+
+- Instead of looking at single crosscuts ("signatures"), we will look at "data" file in database and look for multiple x values
+- Check what locations get_grooves is finding
+- Thinking about fitting a line to account for the angle in the grooves  
+
+
 ## Handwriting  
 
 - Score based likelihood ratios (SLRs)

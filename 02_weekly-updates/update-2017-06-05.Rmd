@@ -32,7 +32,8 @@ output:
 - Using get_grooves (with "rollapply" method) to see how groove identification is going
 
 ## Identifying grooves  
-- 
+
+<img src="images/get_grooves_test_img.png" width=750>
 
 ## Identifying grooves - next steps  
 

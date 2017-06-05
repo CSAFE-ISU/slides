@@ -86,9 +86,9 @@ Three methods (continued..)
     - __Gradient__ features use stroke shapes on a small scale
     - __Structural__ features use stroke trajectories on an intermediate scale
     - __Concavity__ features use stroke relationships at longer distances
-- Image is binarized
-- Grid is placed
-- In all there are 512 features
+- Image is binarized and slant normalized
+- Bounding box is placed around the edges
+- Grid (4x4) is placed in the bounding box
 
 ## Binary Feature Vector
 
@@ -98,5 +98,7 @@ Three methods (continued..)
 
 <img src="images/GSC-example.png" width=700>
 
+## Binary Feature Vector
 
+<img src="images/offline-signature-2D.png" width=500>
 

@@ -6,7 +6,7 @@ output:
     rmdshower::shower_presentation:
         ratio: 4x3
 ---
-
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}
 
 # Show and Tell <br> June 5
 
@@ -25,11 +25,37 @@ output:
 
 ![](images/IMG_4839.png)
 
+## Handwriting 
+![](images/letter-isocode-matrix.png)
+
 
 ## Handwriting  
 
 - Score based likelihood ratios (SLRs)
-- Three methods
-    - SLR_1 is trace-anchored $\quad\quad SLR_1 = g(\Delta(x,y)|H_p, I)$
-    - SLR_2 is source-anchored
-    - SLR_3 is general match ("no anchor")
+- $x$ = measurement obtained from the source (sample with known source)
+- $y$ = measurement obtained from the trace (sample with unkown source) 
+- $LR = \frac{f(x,y|H_p, I)}{f(x,y|H_d, I)} = \frac{f(y|x,H_p,I)}{f(y|H_d,I)} \approx \frac{g(\Delta(x,y|H_p, I))}{g(\Delta(x,y|H_d, I))} = SLR$  
+- $\Delta$ assesses the dissimilarity between $x$ and $y$
+- $g$ is the probability distribution associated with the random variable $\Delta(x,y)$
+- Interpretation of SLR numerator
+    - "the likelihood of observing this score if the known source measurement is paired with measurements taken from traces randomly drawn from the known source population"
+
+## SLRs  
+Three methods   
+
+- $SLR_1$ is trace-anchored   
+    - Denominator interpretation: "the likelihood of observing this score if _the_ trace measurement is paired with measurements taken from random sources in some relevant population"
+- $SLR_2$ is source-anchored   
+    - Denominator interpretation: "the likelihood of observing this score if trace measurements taken from randomly selected sources from some relevant population are paired with _the_ measurement taken from a known source"
+    
+## SLRs  
+Three methods (continued..)  
+
+- $SLR_3$ is general match ("no anchor")
+    - Denominator interpretation: "the likelihood of observing this score if trace measurement taken from a randomly selected source from a relevant population is paired with a measurement taken from a different source selected source from a relevant population"
+    
+## Binary Feature Vector
+- High accuracy for off-line character recognition
+- 
+
+

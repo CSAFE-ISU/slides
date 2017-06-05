@@ -33,7 +33,7 @@ output:
 
 ## Identifying grooves  
 
-<img src="images/get_grooves_test_img.png" width=750>
+<img src="images/get_grooves_test_img.png" width=400>
 
 ## Identifying grooves - next steps  
 

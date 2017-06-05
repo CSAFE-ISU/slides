@@ -29,6 +29,30 @@ output:
 ![](images/letter-isocode-matrix.png)
 
 
+## Bullet project - identifying grooves  
+
+- Looking at a single crosscut from each land of Hamby 44, Hamby 252, Cary studies
+- Using get_grooves (with "rollapply" method) to see how groove identification is going
+- Plotting both the original data points and the twice-smoothed line on top
+
+## Identifying grooves  
+
+<img src="images/get_grooves_test_img.png" width=400>
+
+## Identifying grooves  
+
+- A lot are being misidentified, especially when there isn't actually a groove present in the crosscut
+- Many of the single crosscuts available have some missing data 
+- They may be too close to the edge of the bullet, and we need to go further up in "x" values for groove identification
+- It may still be the best crosscut to use for matching, but not for identifying grooves
+
+## Identifying grooves - next steps  
+
+- Instead of looking at single crosscuts ("signatures"), we will look at "data" file in database and look for multiple x values
+- Check what locations get_grooves is finding
+- Thinking about fitting a line to account for the angle in the grooves  
+
+
 ## Handwriting  
 
 - Score based likelihood ratios (SLRs)

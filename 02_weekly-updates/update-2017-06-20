@@ -1,0 +1,24 @@
+---
+title: "Weekly update for June 20"
+date: "June 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}
+
+# Show and Tell <br> June 20
+
+## Grooves 
+- Check multiple spots on the land to see where the get_grooves_rollapply function is failing.  
+
+<img src="images/multiple groove locations.png" width=750>
+
+## Grooves - now implementing  
+- Median instead of mean  
+- Single smoothing instead of double smoothing  
+- Testing different smoothing parameters - is it smoothing enough of the striations out?  
+- Still calculate edge values in smoothing that were previously cut off due to the smoothing window.  
+- These will each go in as a 'method' in forked `bulletr`, and updated with changes if any are promising.  
+- For each land we test, all of these methods will be plotted side-by-side.  
+

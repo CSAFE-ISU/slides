@@ -14,6 +14,11 @@ output:
 
 <img src="images/multiple groove locations.png" width=750>
 
+## Grooves 
+- These images are HUGE, so we will be downsampling the full land to save some of that space.  
+- Every 3rd x value will be kept  
+- If anyone has better suggestions for downsampling, please let us know!  
+
 ## Grooves - now implementing  
 - Median instead of mean  
 - Single smoothing instead of double smoothing  

@@ -27,3 +27,8 @@ output:
 - These will each go in as a 'method' in forked `bulletr`, and updated with changes if any are promising.  
 - For each land we test, all of these methods will be plotted side-by-side.  
 
+## Shoeprints
+
+- The plan is to have ready by Monday the image registry
+- It require the assistance of the shiny app: https://github.com/CSAFE-ISU/solefinder-app
+- Also, the shiny app will allow the user to see the image registry and get cross-sections

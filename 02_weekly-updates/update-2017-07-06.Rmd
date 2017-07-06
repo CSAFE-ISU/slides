@@ -33,3 +33,26 @@ output:
     - Visiting the Ankeny Crime Lab
     - ISU Campus Police talk: processing a crime scene and collecting evidence
     - Brandon Garret, U.V.: how evidence would hold up in court, how lawyers use results  
+    
+## REU Updates 
+
+- Students are working on projects! 
+    * Guillermo & Martin (shoes) 
+    * Dr Newman & Stephanie (steganograpy)
+- Chat & Chew #2 tomorrow
+    * students posting their updates on [GitHub](https://github.com/CSAFE-ISU/REU-welcome)
+- Haven't started with any handwriting or bullet data collection
+    * email the students at [csafe-reu@iastate.edu](mailto:csafe-reu@iastate.edu)
+- Visit to Iowa DCI Criminialistics Laboratory on Tuesday, July 11th
+    
+## Human Factors 
+
+- Amazon Mechanical Turk survey ready to go
+    * (just waiting on @heike's final approval and a funding source)
+    * If you want to take the survey and haven't yet, email Sam ([sctyner@iastate.edu](mailto:sctyner@iastate.edu))
+    
+## Sam has a crazy idea
+
+[ROpenSci Fellowship](https://ropensci.org/blog/blog/2017/07/06/ropensci-fellowships)
+
+Idea: Apply for this funding to write an online book for Open Forensic Science in R

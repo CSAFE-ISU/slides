@@ -5,8 +5,6 @@ output:
     rmdshower::shower_presentation:
         ratio: 4x3
 ---
-\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}
-
 # Show and Tell <br> July 6
 
 ## NIST Technical Colloquium on the Weight of Evidence  

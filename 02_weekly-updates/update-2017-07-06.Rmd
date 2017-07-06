@@ -1,1 +1,37 @@
+---
+title: "Weekly update for July 6"
+date: "July 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}
 
+# Show and Tell <br> July 6
+
+## NIST Technical Colloquium on the Weight of Evidence  
+- Keynote speakers (Ian Evett & Christophe Champod, UNIL)  
+- Panel discussions on: 
+    - What is the weight of evidence?
+    - How do we quantify the weight of evidence?
+    - Validation and inter-laboratory testing
+    - Reliability, Reproducibility, and Repeatability
+    - Population Statistics (controversial!)
+    - Method Evaluation
+    - Communicating results of analyzing forensic evidence
+
+## NIST Technical Colloquium - major takeaways 
+- Big focus on the Likelihood Ratio approach to quantifying the weight of evidence
+    - There was discussion about whether it should be 'Bayes Factor' instead
+    - We were sad that score-based LR's were not more popular...  
+- CSAFE Reading Group / Working Group  
+    - Coming Fall 2017 ?!?! 
+    - There is a LOT of important articles/books on this subject matter  
+    
+## OPPTAG Preparations  
+- What is OPPTAG? 
+    - A week-long 'camp' for talented and gifted students about forensics
+    - Making a mock crime scene and having students analyze different pieces of evidence  
+    - Visiting the Ankeny Crime Lab
+    - ISU Campus Police talk: processing a crime scene and collecting evidence
+    - Brandon Garret, U.V.: how evidence would hold up in court, how lawyers use results  

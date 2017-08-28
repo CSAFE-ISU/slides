@@ -1,0 +1,71 @@
+---
+title: "CSAFE Tech Tools Intro"
+author: "Sam Tyner, Alan Dott"
+date: "2017/08/29"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+background-image: url(http://forensicstats.org/wp-content/uploads/2017/01/csafe-logo-90.png)
+
+
+---
+class: inverse, center, middle
+
+# Get Started
+
+---
+
+# Server Info
+
+---
+class: inverse, middle, center
+
+# Using R Markdown
+---
+
+# What does it do? 
+
+It's like `knitr` but better: insert R code and results directly into document. 
+
+- Presentations like this one (no Beamer required)
+- Papers (yes, compiled to PDFs)
+- Websites
+- Can even compile to MS Word 
+
+![](https://media.giphy.com/media/aEuipfYcxZoTC/giphy.gif)
+
+---
+
+```{r out.width='100%', fig.height=6, eval=require('leaflet')}
+library(leaflet)
+leaflet() %>% addTiles() %>% setView(-93.64993, 42.02772, zoom = 17)
+```
+
+---
+
+```{r eval=require('DT'), tidy=FALSE}
+DT::datatable(
+  head(iris, 10),
+  fillContainer = FALSE, options = list(pageLength = 8)
+)
+```
+
+---
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).

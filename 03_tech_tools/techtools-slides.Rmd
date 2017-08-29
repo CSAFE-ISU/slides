@@ -24,7 +24,6 @@ class: inverse, center, middle
 # Get Started
 
 ---
-
 # Server Info
 
 ---
@@ -33,7 +32,6 @@ class: inverse, center, middle
 # git and github
 
 ---
-
 ## Why git?
 
 

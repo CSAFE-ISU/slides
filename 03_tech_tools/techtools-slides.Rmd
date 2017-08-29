@@ -189,22 +189,14 @@ Have a look at RStudio's [RMarkdown cheat sheet](https://www.rstudio.com/wp-cont
 ---
 <img class="cover" src="images/hello-rmarkdown.png" alt="">
 
-
 ---
-## Your Turn (5 min) {.white}
+# Other cool things R Markdown can do
 
-<img class="cover" src="images/yourturn.jpg" alt="">
+- If output is HTML, can insert widgets (example on next slide)
+- R Notebooks
+- [`bookdown`](https://bookdown.org/yihui/bookdown/) 
 
-
-
-1. <span style="color:white">Open RStudio, create a new project.</span>
-2. <span style="color:white">Create a new RMarkdown file and knit it.</span>
-3. <span style="color:white">Navigate to the RMarkdown cheat sheet and download a copy (Google for the link!)</span>
-3. <span style="color:white">Make changes to the markdown formatting and knit again.</span>
-4. <span style="color:white">Export output to different files.</span>
-5. <span style="color:white">If you feel adventurous, change some of the R code and knit again.</span>
-
-
+![](https://media.giphy.com/media/xT4uQcvDww0HEJYA36/giphy.gif)
 
 ---
 

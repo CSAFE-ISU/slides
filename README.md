@@ -13,4 +13,6 @@ May 22: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/upd
 May 30: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-05-29.html)<br>
 June 20: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-06-20.html) 
 
+## Fall 2017 Slides
 
+August 29: [Tech Tools](https://csafe-isu.github.io/slides/03_tech_tools/techtools-slides.html)

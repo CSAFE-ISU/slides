@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSAFE Tech Tools Intro</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Sam Tyner, Alan Dott, Heike Hofmann (slide material)" />
+    <link href="libs/remark-css/example.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet/leaflet.js"></script>
+    <link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
+    <link href="libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
+    <script src="libs/leaflet-label/leaflet.label.js"></script>
+    <script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
+    <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
+    <script src="libs/leaflet-binding/leaflet.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# CSAFE Tech Tools Intro
+### Sam Tyner, Alan Dott, Heike Hofmann (slide material)
+### 2017/08/29
+
+---
+
+
+
+
+background-image: url(http://forensicstats.org/wp-content/uploads/2017/01/csafe-logo-90.png)
+
+
+---
+class: inverse, center, middle
+
+# Get Started
+
+---
+# Server Info (Jennifer &amp; Yong's teams)
+
+The following virtual machines are currently available for CSAFE use:
+
+- Csafe-01.cssm.iastate.edu - For use by Jennifer Newman's team, currently assigned 128GB Ram, 19 processors and 1 GPU
+- Csafe-02.cssm.iastate.edu - For use by Yong's team,  currently assigned 192GB Ram, 19 processors and 1 GPU
+ 
+Both of these machines are running Red Hat Linux, RHEL 7. R &amp; R-Studio are installed on these servers. Packages can be installed as needed.    
+ 
+You can SSH into these machines using most ssh clients. On the Mac the native ssh client works fine. On Windows most folks are using PuTTY, but other clients will work as well. Contact cssm_it@iastate.edu if you do not have an ssh client available.
+ 
+To use x-win, you will need this if you wish to run Rstudio,  follow the instructions in this link:
+https://researchit.las.iastate.edu/video/research-computing-x-forwarding-mac-and-windows
+
+---
+## Server Info (Heike's team)
+
+You will need to log in to the RStudio server at https://isu-csafe.stat.iastate.edu/rstudio/
+
+Database schematic (bullet data):
+
+&lt;img src="https://github.com/erichare/dissertation/blob/master/images/schema.png?raw=true" width=800&gt;
+
+---
+## Our 'own' data
+
+Files hosted temporarily on the Isilon server
+
+smb://my.files.iastate.edu/las/research/csafe
+
+Instructions for mounting file space: https://researchit.las.iastate.edu/how-mount-folders-isilon
+
+---
+class: inverse, center, middle
+
+# git and github
+
+---
+## Why git?
+
+
+&lt;img src="http://imgs.xkcd.com/comics/git_2x.png" width=300&gt;
+
+http://xkcd.com/1597/
+
+---
+## What is git?
+
+- **Git** is a *version control system* that was created to help developers manage collaborative software projects. Git tracks the evolution of a set of files, called a **repository** or **repo**. 
+- This helps us
+    - *merge* conflicts that arise from collaboration
+    - *rollback* to previous versions of files as necessary
+    - store *master* versions of files, no more `paper_final_final_I_really_mean_it.docx`
+
+---
+## GitHub 
+
+[GitHub](github.com) is one of many hosting services
+(others are e.g. [Bitbucket](bitbucket.org), [GitLab](about.gitlab.com), etc.). 
+
+&lt;img src="images/github.png" width=400&gt;
+
+---
+## Git Terminology
+
+from [github glossary](https://help.github.com/articles/github-glossary/)
+
+- **Repository:** the basic element of git - like a project's folder. A repository contains all of the project files, and their __revision history__. One person owns a repository, multiple people can collaborate. Can be either public or private.
+- **Remote:** This is the version of something that is hosted on a server. It can be (and usually is) connected to a local clone.
+- **Clone:** A local copy of a repository that lives on your computer instead of on a website's server somewhere
+- **Fork:** a remote copy of a repository stored under your account.Forks allow you to freely make changes to a project without affecting the original. 
+
+---
+## Terminology (cont'd)
+
+- **Pull:** When you are fetching changes from the remote repository and merging them with your local clone. 
+- **Commit:** A checkpoint for the local clone to save changes to a file (or set of files). Every time you commit, git creates a unique ID that allows you to keep record of what changes were made when and by who.
+- **Push:** Sending your committed changes to the remote repository.
+- **Pull Request:** Proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators.
+- **Issue:** Issues are suggested improvements, tasks or questions related to the repository. 
+
+---
+## Repositories
+
+By default, all materials on GitHub are **public**. This is *good* because you are getting your work out there and contributing to the open source community! 
+
+If you need **private** repos, checkout [GitHub for Education](https://education.github.com/) - free private repos for students/postdocs/professors.
+
+![](images/github-icon.png)
+
+---
+class: inverse, middle, center
+
+# Using R Markdown
+
+---
+# What does it do? 
+
+It's like `knitr` but better: insert R code and results directly into document. 
+
+- Presentations like this one (no Beamer required)
+- Papers (yes, compiled to PDFs. many journal templates supported)
+- Websites
+- Can even compile to MS Word 
+
+![](https://media.giphy.com/media/aEuipfYcxZoTC/giphy.gif)
+
+---
+## Markdown
+
+- Markdown is a particular type of **markup** language.
+- Markup languages are designed to **produce documents from plain text**.
+- Some of you may be familiar with **LaTeX**. This is another (less human friendly) markup language for creating pdf documents.
+- LaTeX gives you much greater control, but it is restricted to pdf and has a much greater learning curve.
+- **Markdown** is becoming a **standard**. Many websites will generate HTML from Markdown (e.g. GitHub, Stack Overflow, reddit, ...).
+
+---
+## Markdown is easy
+
+`*italic*`
+
+`**bold**`
+
+```
+# Header 1
+## Header 2
+### Header 3
+
+- List item 1
+- List item 2
+    - item 2a
+    - item 2b
+
+1. Numbered list item 1
+1. Numbered list item 2
+    - item 2a
+    - item 2b
+```
+
+
+Have a look at RStudio's [RMarkdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+
+---
+## What is RMarkdown?
+
+- ... an authoring format that enables easy creation of dynamic documents, presentations, and reports from R. 
+- it combines the core syntax of markdown with embedded R code chunks that are run so their output can be included in the final document.
+- R Markdown documents are fully reproducible (they are automatically regenerated whenever underlying R code or data changes).
+
+---
+
+&lt;img class="cover" src="images/rmarkdown.png" alt=""&gt;
+
+---
+## Why R Markdown?
+
+- **It's simple.** Focus on writing, rather than debugging silly errors.
+- **It's flexible.** Markdown was created to simplify writing HTML, but thanks to pandoc, Markdown converts to many different formats!
+- **It's dynamic.** Find a critical error? Get a new dataset? Regenerate your report without copy/paste hell!
+- **Encourages transparency.** Collaborators (including your future self) will thank you for integrating your analysis &amp; report.
+- **Enables interactivity/reactivity.** Allow your audience to explore the analysis (rather than passively read it).
+
+---
+&lt;img class="cover" src="images/hello-rmarkdown.png" alt=""&gt;
+
+---
+# Other cool things R Markdown can do
+
+- If output is HTML, can insert widgets (example on next slide)
+- R Notebooks
+- [`bookdown`](https://bookdown.org/yihui/bookdown/) 
+
+![](https://media.giphy.com/media/xT4uQcvDww0HEJYA36/giphy.gif)
+
+---
+
+
+```r
+library(leaflet)
+leaflet() %&gt;% addTiles() %&gt;% setView(-93.64993, 42.02772, zoom = 17)
+```
+
+<div id="htmlwidget-251d32ef4a8142b7e6cb" style="width:100%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-251d32ef4a8142b7e6cb">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.02772,-93.64993],17,[]]},"evals":[],"jsHooks":[]}</script>
+
+---
+class: inverse, center, middle
+
+# Github Activity (if time)
+
+
+---
+## Overview
+
+In this activity you are going to learn how to collaborate using Github.  With a partner you will learn some basics which allow you to share and edit files on Github. 
+
+1. Create a git repository hosted at GitHub
+2. Build `README.md` file 
+3. Commit changes to repository
+3. Collaborate by forking and editing partners file
+4. Explore Github features: graphs, diff, blame, ect.
+
+---
+## Create a repository with a README.md file (10 minutes)
+
+**Step 1**: First we are going to create a repository within our Github user account. 
+
+Follow along with your instructor and perform these steps:
+
+1. Go to your Github profile. The url should be [http://github/your-user-name]().
+2. Create a new Github repository, click &lt;span style="background:limegreen; color:white"&gt;new&lt;/span&gt; button, under the repositories tab.
+3. Name your repository 
+4. In the details write "tips to organizing research".
+5. Click the initiate a `README.md file` option. 
+
+---
+## So far
+
+-  Once the repository is created you will be directed to the repository page which now has its own web address. 
+-  Each repository on Github has a unique url so you can easily share. 
+-  The git history is a detailed history of all the changes made to that file.  One of the features of using Github is the ability to view your repository history which are displayed in the Graphs section of your Github repository page. 
+-  At this point in the git history of your repository there is only one commit.
+
+---
+## Edit the `README.md` file
+
+1.  Go to your repository main page. Click on `README.md`, then click "edit this file". Add the following information into the `README.md` file:
+    -  Name?
+    -  What are the three most important tools/strategies you use for organizing your work?
+
+&lt;p class="note"&gt;*tip*:  Notice that you can use markdown syntax. Use [this guide](https://help.github.com/articles/markdown-basics/) for Github's flavor of Markdown. Use the "Preview" button to view the formatting of your readme.md file. &lt;/p&gt;
+
+---
+## Commit
+
+- **Commit** takes a snap shot of your project. Each commit includes a commit message that concisely defines changes made or project state at the time of the commit. 
+
+1. Summarize the changes that you have made in 50 characters or less and click the &lt;span style="background:limegreen; color:white"&gt; commit &lt;/span&gt;    button. 
+2. Check out the git history.  You should now see two commits.
+
+---
+## Commit statements
+
+Get into the habit of writing informative commit statements. They will help you later!
+
+http://starlogs.net/#heike/rwrks
+
+Avoid less informative commit statements when you can...
+
+http://www.commitlogsfromlastnight.com/ 
+
+---
+## Edit and collaborate with your partner
+
+Now it is time to collaborate with your partner.  Navigate to your partner's repository by typing the url directly into your address bar. In order to edit someone else's repository you usually follow this simplified work flow: 
+
+1. Add your partner as a collaborator on your repository
+2. Make edits
+3. Commit and push
+
+---
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,19 +1,33 @@
----
-title: "CSAFE Tech Tools Intro"
-author: "Sam Tyner, Alan Dott, Heike Hofmann (slide material)"
-date: "2017/08/29"
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSAFE Tech Tools Intro</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Sam Tyner, Alan Dott, Heike Hofmann (slide material)" />
+    <link href="libs/remark-css/example.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet/leaflet.js"></script>
+    <link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
+    <link href="libs/leaflet-label/leaflet.label.css" rel="stylesheet" />
+    <script src="libs/leaflet-label/leaflet.label.js"></script>
+    <script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
+    <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
+    <script src="libs/leaflet-binding/leaflet.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# CSAFE Tech Tools Intro
+### Sam Tyner, Alan Dott, Heike Hofmann (slide material)
+### 2017/08/29
+
 ---
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
+
+
 
 background-image: url(http://forensicstats.org/wp-content/uploads/2017/01/csafe-logo-90.png)
 
@@ -24,14 +38,14 @@ class: inverse, center, middle
 # Get Started
 
 ---
-# Server Info (Jennifer & Yong's teams)
+# Server Info (Jennifer &amp; Yong's teams)
 
 The following virtual machines are currently available for CSAFE use:
 
 - Csafe-01.cssm.iastate.edu - For use by Jennifer Newman's team, currently assigned 128GB Ram, 19 processors and 1 GPU
 - Csafe-02.cssm.iastate.edu - For use by Yong's team,  currently assigned 192GB Ram, 19 processors and 1 GPU
  
-Both of these machines are running Red Hat Linux, RHEL 7. R & R-Studio are installed on these servers. Packages can be installed as needed.    
+Both of these machines are running Red Hat Linux, RHEL 7. R &amp; R-Studio are installed on these servers. Packages can be installed as needed.    
  
 You can SSH into these machines using most ssh clients. On the Mac the native ssh client works fine. On Windows most folks are using PuTTY, but other clients will work as well. Contact cssm_it@iastate.edu if you do not have an ssh client available.
  
@@ -45,7 +59,7 @@ You will need to log in to the RStudio server at https://isu-csafe.stat.iastate.
 
 Database schematic (bullet data):
 
-<img src="https://github.com/erichare/dissertation/blob/master/images/schema.png?raw=true" width=800>
+&lt;img src="https://github.com/erichare/dissertation/blob/master/images/schema.png?raw=true" width=800&gt;
 
 ---
 ## Our 'own' data
@@ -65,7 +79,7 @@ class: inverse, center, middle
 ## Why git?
 
 
-<img src="http://imgs.xkcd.com/comics/git_2x.png" width=300>
+&lt;img src="http://imgs.xkcd.com/comics/git_2x.png" width=300&gt;
 
 http://xkcd.com/1597/
 
@@ -84,7 +98,7 @@ http://xkcd.com/1597/
 [GitHub](github.com) is one of many hosting services
 (others are e.g. [Bitbucket](bitbucket.org), [GitLab](about.gitlab.com), etc.). 
 
-<img src="images/github.png" width=400>
+&lt;img src="images/github.png" width=400&gt;
 
 ---
 ## Git Terminology
@@ -175,7 +189,7 @@ Have a look at RStudio's [RMarkdown cheat sheet](https://www.rstudio.com/wp-cont
 
 ---
 
-<img class="cover" src="images/rmarkdown.png" alt="">
+&lt;img class="cover" src="images/rmarkdown.png" alt=""&gt;
 
 ---
 ## Why R Markdown?
@@ -183,35 +197,39 @@ Have a look at RStudio's [RMarkdown cheat sheet](https://www.rstudio.com/wp-cont
 - **It's simple.** Focus on writing, rather than debugging silly errors.
 - **It's flexible.** Markdown was created to simplify writing HTML, but thanks to pandoc, Markdown converts to many different formats!
 - **It's dynamic.** Find a critical error? Get a new dataset? Regenerate your report without copy/paste hell!
-- **Encourages transparency.** Collaborators (including your future self) will thank you for integrating your analysis & report.
+- **Encourages transparency.** Collaborators (including your future self) will thank you for integrating your analysis &amp; report.
 - **Enables interactivity/reactivity.** Allow your audience to explore the analysis (rather than passively read it).
 
 ---
-<img class="cover" src="images/hello-rmarkdown.png" alt="">
+&lt;img class="cover" src="images/hello-rmarkdown.png" alt=""&gt;
 
 
 ---
 ## Your Turn (5 min) {.white}
 
-<img class="cover" src="images/yourturn.jpg" alt="">
+&lt;img class="cover" src="images/yourturn.jpg" alt=""&gt;
 
 
 
-1. <span style="color:white">Open RStudio, create a new project.</span>
-2. <span style="color:white">Create a new RMarkdown file and knit it.</span>
-3. <span style="color:white">Navigate to the RMarkdown cheat sheet and download a copy (Google for the link!)</span>
-3. <span style="color:white">Make changes to the markdown formatting and knit again.</span>
-4. <span style="color:white">Export output to different files.</span>
-5. <span style="color:white">If you feel adventurous, change some of the R code and knit again.</span>
+1. &lt;span style="color:white"&gt;Open RStudio, create a new project.&lt;/span&gt;
+2. &lt;span style="color:white"&gt;Create a new RMarkdown file and knit it.&lt;/span&gt;
+3. &lt;span style="color:white"&gt;Navigate to the RMarkdown cheat sheet and download a copy (Google for the link!)&lt;/span&gt;
+3. &lt;span style="color:white"&gt;Make changes to the markdown formatting and knit again.&lt;/span&gt;
+4. &lt;span style="color:white"&gt;Export output to different files.&lt;/span&gt;
+5. &lt;span style="color:white"&gt;If you feel adventurous, change some of the R code and knit again.&lt;/span&gt;
 
 
 
 ---
 
-```{r out.width='100%', fig.height=6, eval=require('leaflet')}
+
+```r
 library(leaflet)
-leaflet() %>% addTiles() %>% setView(-93.64993, 42.02772, zoom = 17)
+leaflet() %&gt;% addTiles() %&gt;% setView(-93.64993, 42.02772, zoom = 17)
 ```
+
+<div id="htmlwidget-5b185c0d45ce84121371" style="width:100%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5b185c0d45ce84121371">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.02772,-93.64993],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 class: inverse, center, middle
@@ -238,7 +256,7 @@ In this activity you are going to learn how to collaborate using Github.  With a
 Follow along with your instructor and perform these steps:
 
 1. Go to your Github profile. The url should be [http://github/your-user-name]().
-2. Create a new Github repository, click <span style="background:limegreen; color:white">new</span> button, under the repositories tab.
+2. Create a new Github repository, click &lt;span style="background:limegreen; color:white"&gt;new&lt;/span&gt; button, under the repositories tab.
 3. Name your repository 
 4. In the details write "tips to organizing research".
 5. Click the initiate a `README.md file` option. 
@@ -258,14 +276,14 @@ Follow along with your instructor and perform these steps:
     -  Name?
     -  What are the three most important tools/strategies you use for organizing your work?
 
-<p class="note">*tip*:  Notice that you can use markdown syntax. Use [this guide](https://help.github.com/articles/markdown-basics/) for Github's flavor of Markdown. Use the "Preview" button to view the formatting of your readme.md file. </p>
+&lt;p class="note"&gt;*tip*:  Notice that you can use markdown syntax. Use [this guide](https://help.github.com/articles/markdown-basics/) for Github's flavor of Markdown. Use the "Preview" button to view the formatting of your readme.md file. &lt;/p&gt;
 
 ---
 ## Commit
 
 - **Commit** takes a snap shot of your project. Each commit includes a commit message that concisely defines changes made or project state at the time of the commit. 
 
-1. Summarize the changes that you have made in 50 characters or less and click the <span style="background:limegreen; color:white"> commit </span>    button. 
+1. Summarize the changes that you have made in 50 characters or less and click the &lt;span style="background:limegreen; color:white"&gt; commit &lt;/span&gt;    button. 
 2. Check out the git history.  You should now see two commits.
 
 ---
@@ -297,3 +315,32 @@ class: center, middle
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
 
 The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -217,6 +217,7 @@ plotImageThinned(london, london_thin)
 ```{r}
 plotNodes(london, london_thin, london_nodes)
 ```
+
 ## Ganesh  
 
 Summer:

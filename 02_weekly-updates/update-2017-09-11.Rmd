@@ -37,6 +37,7 @@ The shinyapps repo on github is a sandbox for our different shiny applications:
 
 bulletr, [x3p-viewer](https://x3p-viewer.shinyapps.io/x3p-viewer/), and groove-finder are on there at the moment.
 
+
 # Sam's Slides
 
 ## ICFIS Workshop 
@@ -113,4 +114,106 @@ A: Microscopic debris easily transferred from one location to another
 
 <img src="images/goodversionofbadgraphic.tiff" style="width:800px;height:300px">
 
+## Shoeprint 1 by Soyoung
+- Created database of 150 pairs of shoe print images with 5 reps on each foot. 
+- The algorithm speeds up and is packed as the package 'shoeprintr'.
+- Toward a final score for similarity between shoe prints. 
 
+<img src="images/plan1_3circles.png" width=750>
+
+## Shoeprint 2 by Soyoung
+- Find more evidence of KM and KNM.
+
+<img src="images/plan2_center_circle.png" width=750>
+
+## Jason Saporta
+
+I spent the summer at Credit Suisse making models for predicting loan defaults, prepayments, etc. Not much connection with CSAFE unless you believe everybody on Wall St. is a criminal.
+
+During the past week I implemented a neural network for matching bullet signatures. Everything's running well, but no serious results yet.
+
+Plans for this week:
+- Maybe actually getting results for the aforementioned model
+- Replicating studies on CNN effectiveness for stego problems
+- Reading more about recent developments in Bayesian ML and determining if that could help with my research
+
+## Shoeprints App and Package (Guillermo and Martin)
+
+- Upload your images
+- Pre-process image (negate values, rotate, crop, etc)
+- Algorithm to find affine transformation parameters
+
+## On Shoeprints Profile (Guillermo and Martin)
+
+<img src="images/solefinder-app.png" width=750>
+
+
+## Regarding Shoeprints Database (Guillermo and Martin)
+
+- A lot of this is going on. Among them
+   - Matscan (feet pressure heatmap)
+   - 3D scanner (fixed)
+   - 3D scanner (handheld)
+   - High resolution camera
+   - Shoeprints on sand
+   - Stand on paper (detailed, walking, stomping, twisting and more than one print)
+
+## Amy - Outreach
+
+STEMversity in Milledgeville, GA
+- 25 high school students  
+- One day program  
+- Intro, shoe print activity, handwriting activity  
+
+OPPTAG Explorations  
+- 15 high school students  
+- One week program  
+- ``From the Crime Scene to the Court Room''  
+- Alicia, Officer Natasha Greene, DCI Crime Lab, Brandon Garrett J.D.
+
+## Amy - Outreach
+
+Coming soon  
+- National Organization for the professional advancement of Black Chemists and Chemical Engineers (NOBChCE)  
+- Science Bound (September 23)  
+- Hands on Activity Modules (Handwriting \& Shoeprint)  
+
+## Automatic Handwriting Matching
+- Thinning Image  
+- Vertex Detection
+
+## Automatic Handwriting Matching -- Code
+```{r, message=FALSE, warning=FALSE}
+devtools::install_github("CSAFE-ISU/handwriter")
+library(handwriter)
+data(london)
+london_thin = thinImage(london)
+london_nodes = getNodes(london_thin)
+```
+
+## Automatic Handwriting Matching -- Thinning
+```{r}
+plotImageThinned(london, london_thin)
+```
+
+## Automatic Handwriting Matching -- Vertex Detection
+```{r}
+plotNodes(london, london_thin, london_nodes)
+```
+## Ganesh  
+
+Summmer:
+Development of x3p write capability in the bulletr package for different profiles
+Shiny app (wrApp) for reading dat/x3p files and writing in x3p format
+- Single file mode
+- Batch Mode
+ and a bunch of other things
+ 
+ Here's the link
+ https://github.com/ganeshkiastate/wrApp
+ 
+ Plan for the coming days:
+ 
+ Adaptation of the Chumbley score method from toolmark comparisons to bullets.
+  Key challenge:  Understanding the drawbacks of the current algorithm when applied to curved surfaces.
+>>>>>>> 5e29d4c220fc2f618c788fc3f695894f610c80d2

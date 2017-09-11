@@ -59,3 +59,24 @@ Plans for this week:
 - Maybe actually getting results for the aforementioned model
 - Replicating studies on CNN effectiveness for stego problems
 - Reading more about recent developments in Bayesian ML and determining if that could help with my research
+
+## Shoeprints App and Package (Guillermo and Martin)
+
+- Upload your images
+- Pre-process image (negate values, rotate, crop, etc)
+- Algorithm to find affine transformation parameters
+
+## On Shoeprints Profile (Guillermo and Martin)
+
+<img src="images/solefinder-app.png" width=750>
+
+
+## Regarding Shoeprints Database (Guillermo and Martin)
+
+- A lot of this is going on. Among them
+   - Matscan (feet pressure heatmap)
+   - 3D scanner (fixed)
+   - 3D scanner (handheld)
+   - High resolution camera
+   - Shoeprints on sand
+   - Stand on paper (detailed, walking, stomping, twisting and more than one print)

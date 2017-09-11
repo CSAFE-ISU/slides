@@ -37,3 +37,80 @@ The shinyapps repo on github is a sandbox for our different shiny applications:
 
 bulletr, [x3p-viewer](https://x3p-viewer.shinyapps.io/x3p-viewer/), and groove-finder are on there at the moment.
 
+# Sam's Slides
+
+## ICFIS Workshop 
+
+Title: "Elements of Forensic Science for Forensic Practitioners"
+
+Lessons learned:
+
+- Siloization - different disciplines have own language and terms 
+- "Hierarchy of Propositions"
+    * Source level - is a person the source of the evidence? (CSAFE can help most here, imho)
+    * Activity level - how did that evidence get there (investigators)
+    * Offense level - did a criminal act occur? (judicial system)
+
+## ICFIS Workshop (cont'd) {.smaller}
+
+More lessons learned: 
+
+- Generic Model for forensic evidence analysis
+    1. Feature selection (relevant & useful features)
+    2. Distortion assessment (intra-source variability; which differences matter?)
+    3. "Matching" step (correspondence; how strong of a match?)
+    4. "Significance" of the "match" (discriminability; how discriminating is the "match"?)
+    5. Decision (reporting; LR, frequency, categorical scale?)
+    6. Quality control (verification, technical review)
+    
+## ICFIS Workshop, Fingerprints
+    
+- Fingerprint evidence protocol ACE-V
+    * Analysis - information gathering step (1 + 2 above)
+    * Comparison - side-by-side of latent v. known (3 + 4 above)
+    * Evaluation - decision making (5 above)
+    * Verification - 2nd analyst repeats ACE (6 above)
+- GYRO marking of features - subjective qualitative assessment of uncertainty
+    * Green = High confidence
+    * Yellow = Medium confidence
+    * Red = Low confidence
+    * Orange = Annotations *after* viewing known print
+    
+## ICFIS Workshop, Trace Evidence
+
+Q: What is trace evidence? 
+
+A: Microscopic debris easily transferred from one location to another
+
+- "We will attempt to physically match anything"
+- Paint, tape, glass, fiber, etc. 
+- Flowchart of analysis: 
+
+<img src="images/glassflowchart.png" style="width:300px">
+
+## ICFIS Workshop, DNA
+
+- PCR-STR: polymerase chain reaction short tandem repeats
+- Replicate a DNA sample, count occurrences of STR alleles at 23 loci
+- One mismatched loci is enough to eliminate (in single-source sample)
+- Markers for sex are DYS391, Chromosomes (X,Y), one other location
+- SE33 is a very discriminating location. [more info here](http://strbase.nist.gov/)
+- At most 2 values per location - one from mom, one from dad. 
+<img src="images/DNA1.png" style="width:300px"> <img src="images/DNA2.png" style="width:300px"> 
+
+## MTurk Preliminary Results 1
+
+<img src="images/Samsbarchart.tiff" style="width:800px">
+
+
+## MTurk Preliminary Results 2
+
+<img src="images/Samsviolinplot.tiff" style="width:500px">
+
+## MTurk Preliminary Results 3
+
+<img src="images/badgraphic.tiff" style="width:800px;height:200px">
+
+<img src="images/goodversionofbadgraphic.tiff" style="width:800px;height:300px">
+
+

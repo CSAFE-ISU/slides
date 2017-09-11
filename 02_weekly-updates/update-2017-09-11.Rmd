@@ -36,3 +36,12 @@ output:
 The shinyapps repo on github is a sandbox for our different shiny applications:
 
 bulletr, [x3p-viewer](https://x3p-viewer.shinyapps.io/x3p-viewer/), and groove-finder are on there at the moment.
+
+
+## shoeprint 1 by Soyoung
+
+<img src="images/plan1_3circles.png" width=750>
+
+## shoeprint 2 by Soyoung
+
+<img src="images/final_circle.png" width=750>

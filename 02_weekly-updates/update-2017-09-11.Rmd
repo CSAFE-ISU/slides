@@ -123,7 +123,7 @@ plotImageThinned(london, london_thin)
 ```{r}
 plotNodes(london, london_thin, london_nodes)
 ```
-## Ganesh Krishnan  
+## Ganesh  
 
 Summmer:
 Development of x3p write capability in the bulletr package for different profiles

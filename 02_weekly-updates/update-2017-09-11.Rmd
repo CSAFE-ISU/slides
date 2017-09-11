@@ -59,3 +59,19 @@ Plans for this week:
 - Maybe actually getting results for the aforementioned model
 - Replicating studies on CNN effectiveness for stego problems
 - Reading more about recent developments in Bayesian ML and determining if that could help with my research
+
+
+## Amy - Outreach
+
+STEMversity in Milledgeville, GA
+- 25 high school students
+- One day program
+- Intro, shoe print activity, handwriting activity
+
+OPPTAG Explorations
+- 15 high school students
+- One week program
+- ``From the Crime Scene to the Court Room''
+- Alicia, Officer Natasha Greene, DCI Crime Lab, Brandon Garrett J.D.
+
+

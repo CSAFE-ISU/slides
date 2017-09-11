@@ -38,7 +38,7 @@ The shinyapps repo on github is a sandbox for our different shiny applications:
 bulletr, [x3p-viewer](https://x3p-viewer.shinyapps.io/x3p-viewer/), and groove-finder are on there at the moment.
 
 ## Shoeprint 1 by Soyoung
-- 150 pairs of shoe print images with 5 reps on each foot. 
+- Created database of 150 pairs of shoe print images with 5 reps on each foot. 
 - Toward a final score for similarity between shoe prints. 
 
 <img src="images/plan1_3circles.png" width=750>

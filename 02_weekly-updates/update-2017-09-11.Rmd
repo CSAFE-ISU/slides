@@ -101,18 +101,18 @@ A: Microscopic debris easily transferred from one location to another
 
 ## MTurk Preliminary Results 1
 
-<img src="images/Samsbarchart.tiff" style="width:800px">
+<img src="images/Samsbarchart.png" style="width:800px">
 
 
 ## MTurk Preliminary Results 2
 
-<img src="images/Samsviolinplot.tiff" style="width:500px">
+<img src="images/Samsviolinplot.png" style="width:500px">
 
 ## MTurk Preliminary Results 3
 
-<img src="images/badgraphic.tiff" style="width:800px;height:200px">
+<img src="images/badgraphic.png" style="width:800px;height:200px">
 
-<img src="images/goodversionofbadgraphic.tiff" style="width:800px;height:300px">
+<img src="images/goodversionofbadgraphic.png" style="width:800px;height:300px">
 
 ## Shoeprint 1 by Soyoung
 - Created database of 150 pairs of shoe print images with 5 reps on each foot. 
@@ -217,6 +217,7 @@ plotImageThinned(london, london_thin)
 ```{r}
 plotNodes(london, london_thin, london_nodes)
 ```
+
 ## Ganesh  
 
 Summer:
@@ -233,5 +234,3 @@ Shiny app (wrApp) for reading dat/x3p files and writing in x3p format
  
  Adaptation of the Chumbley score method from toolmark comparisons to bullets.
   Key challenge:  Understanding the drawbacks of the current algorithm when applied to curved surfaces.
->>>>>>> 5e29d4c220fc2f618c788fc3f695894f610c80d2
->>>>>>> b5e2c343ef5bd94af0a53c6388bf088cf51421bb

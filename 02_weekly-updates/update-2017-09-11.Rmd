@@ -123,3 +123,19 @@ plotImageThinned(london, london_thin)
 ```{r}
 plotNodes(london, london_thin, london_nodes)
 ```
+## Ganesh Krishnan  
+
+Summmer:
+Development of x3p write capability in the bulletr package for different profiles
+Shiny app (wrApp) for reading dat/x3p files and writing in x3p format
+- Single file mode
+- Batch Mode
+ and a bunch of other things
+ 
+ Here's the link
+ https://github.com/ganeshkiastate/wrApp
+ 
+ Plan for the coming days:
+ 
+ Adaptation of the Chumbley score method from toolmark comparisons to bullets.
+  Key challenge:  Understanding the drawbacks of the current algorithm when applied to curved surfaces.

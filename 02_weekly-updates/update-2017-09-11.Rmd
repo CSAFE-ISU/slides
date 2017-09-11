@@ -100,3 +100,26 @@ Coming soon
 - National Organization for the professional advancement of Black Chemists and Chemical Engineers (NOBChCE)  
 - Science Bound (September 23)  
 - Hands on Activity Modules (Handwriting \& Shoeprint)  
+
+## Automatic Handwriting Matching
+- Thinning Image  
+- Vertex Detection
+
+## Automatic Handwriting Matching -- Code
+```{r, message=FALSE, warning=FALSE}
+devtools::install_github("CSAFE-ISU/handwriter")
+library(handwriter)
+data(london)
+london_thin = thinImage(london)
+london_nodes = getNodes(london_thin)
+```
+
+## Automatic Handwriting Matching -- Thinning
+```{r}
+plotImageThinned(london, london_thin)
+```
+
+## Automatic Handwriting Matching -- Vertex Detection
+```{r}
+plotNodes(london, london_thin, london_nodes)
+```

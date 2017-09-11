@@ -2,8 +2,9 @@
 
 In this repository, you will find brief weekly updates of some of the worked developed at CSAFE in Iowa State University.
 
-- 2017-08-29
+## Fall 2017 Slides
 
+August 29: [Tech Tools](https://csafe-isu.github.io/slides/03_tech_tools/techtools-slides.html)
 
 
 ## Summer 2017 Slides
@@ -13,6 +14,3 @@ May 22: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/upd
 May 30: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-05-29.html)<br>
 June 20: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-06-20.html) 
 
-## Fall 2017 Slides
-
-August 29: [Tech Tools](https://csafe-isu.github.io/slides/03_tech_tools/techtools-slides.html)

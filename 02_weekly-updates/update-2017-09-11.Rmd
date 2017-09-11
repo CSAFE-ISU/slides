@@ -1,0 +1,13 @@
+---
+title: "Weekly update for September 11"
+date: "July 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> September 11
+
+## Upload your progress
+
+- ddd

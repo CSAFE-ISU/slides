@@ -31,12 +31,11 @@ output:
 
 - Commit and push your changes on 'update-2017-09-11.Rmd' and 'update-2017-09-11.html' in the Git section.
 
-## sinyapps repo
+## shinyapps repo
 
 The shinyapps repo on github is a sandbox for our different shiny applications:
 
 bulletr, [x3p-viewer](https://x3p-viewer.shinyapps.io/x3p-viewer/), and groove-finder are on there at the moment.
-
 
 ## shoeprint 1 by Soyoung
 

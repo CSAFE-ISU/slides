@@ -45,5 +45,6 @@ bulletr, [x3p-viewer](https://x3p-viewer.shinyapps.io/x3p-viewer/), and groove-f
 <img src="images/plan1_3circles.png" width=750>
 
 ## Shoeprint 2 by Soyoung
+- Find more evidence of KM and KNM.
 
 <img src="images/plan2_center_circle.png" width=750>

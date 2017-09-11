@@ -125,7 +125,7 @@ plotNodes(london, london_thin, london_nodes)
 ```
 ## Ganesh  
 
-Summmer:
+Summer:
 Development of x3p write capability in the bulletr package for different profiles
 Shiny app (wrApp) for reading dat/x3p files and writing in x3p format
 - Single file mode

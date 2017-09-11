@@ -60,6 +60,26 @@ Plans for this week:
 - Replicating studies on CNN effectiveness for stego problems
 - Reading more about recent developments in Bayesian ML and determining if that could help with my research
 
+## Shoeprints App and Package (Guillermo and Martin)
+
+- Upload your images
+- Pre-process image (negate values, rotate, crop, etc)
+- Algorithm to find affine transformation parameters
+
+## On Shoeprints Profile (Guillermo and Martin)
+
+<img src="images/solefinder-app.png" width=750>
+
+
+## Regarding Shoeprints Database (Guillermo and Martin)
+
+- A lot of this is going on. Among them
+   - Matscan (feet pressure heatmap)
+   - 3D scanner (fixed)
+   - 3D scanner (handheld)
+   - High resolution camera
+   - Shoeprints on sand
+   - Stand on paper (detailed, walking, stomping, twisting and more than one print)
 
 ## Amy - Outreach
 
@@ -75,5 +95,49 @@ OPPTAG Explorations
 - Alicia, Officer Natasha Greene, DCI Crime Lab, Brandon Garrett J.D.
 
 
+## Amy - Outreach
+
+Coming soon  
+- National Organization for the professional advancement of Black Chemists and Chemical Engineers (NOBChCE)  
+- Science Bound (September 23)  
+- Hands on Activity Modules (Handwriting \& Shoeprint)  
+
+## Amy - Handwriting
+
+REU Handwriting Samples
+- 10 students  
+- 2 days  
+- CEDAR Letter \& London Letter repeated 3 times each
+- Signature page
+
+Flash ID
+
+## Amy - Handwriting
+<img src="images/w1_d1_c1.png" width=600>
 
 
+
+
+## Automatic Handwriting Matching
+- Thinning Image  
+- Vertex Detection
+
+## Automatic Handwriting Matching -- Code
+```{r, message=FALSE, warning=FALSE}
+devtools::install_github("CSAFE-ISU/handwriter")
+library(handwriter)
+data(london)
+london_thin = thinImage(london)
+london_nodes = getNodes(london_thin)
+```
+
+## Automatic Handwriting Matching -- Thinning
+```{r}
+plotImageThinned(london, london_thin)
+```
+
+## Automatic Handwriting Matching -- Vertex Detection
+```{r}
+plotNodes(london, london_thin, london_nodes)
+```
+>>>>>>> ac5e0a2d82fe90bad4d5fd1e21b6d39be568e43e

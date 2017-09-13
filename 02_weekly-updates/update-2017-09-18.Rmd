@@ -26,7 +26,7 @@ output:
 
 ## Sample Table with Equations
 
-For me, it's been a nightmare to type equations and tables in RMarkdonws. But you can try...
+For me (Guillermo), it's been a nightmare to type equations and tables in RMarkdowns. But you can try...
 
 | Column A  | Column B  |
 | :- | :- |

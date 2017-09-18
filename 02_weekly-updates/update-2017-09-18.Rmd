@@ -61,3 +61,49 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 > Even though these two items are indistinguishable, we do not know how many other items would have also been indistinguishable from the crime scene evidence."
 
 - Work with Bill Thompson at UCI. 
+
+# Soyoung's slides
+
+- Working on many comparisons between known matches (replicates)
+- There are 10 possible pairwise comparisons for 5 replicated images
+- Example. Comparison between rep2 and rep3
+
+<img src="images/mat_02L_02_03.png" width=750>
+
+# Soyoung's slides
+
+- Working on many comparisons between known matches (replicates)
+- There are 10 possible pairwise comparisons for 5 replicated images
+- Example. Comparison between rep2 and rep4
+
+<img src="images/mat_02L_02_04.png" width=750>
+
+
+# Soyoung's slides
+
+- Working on many comparisons between known matches (replicates)
+- There are 10 possible pairwise comparisons for 5 replicated images
+- Example. Comparison between rep2 and rep4
+
+<img src="images/mat_02L_02_05.png" width=750>
+
+# Soyoung's slides
+- Get the results of 20 comparisons (2 pairs)
+- The goal is to find similarity attributes as many as possible
+- Euclidean distance of centers from 3 circles,
+- Average of Overlap features,
+- Standard deviation of rotation angle estimations.
+
+|Summary |Mean_overpt| Diff_ecd | sd_rot |
+|--------|-----------|----------|--------|
+| MIN    |0.8481     |0.9532    |0.1432  |
+|1st. Qu.|0.8938     |5.0380    |0.3872  |
+|Median  |0.9450     |6.1066    |0.5684  |
+|3rd. Qu.|0.9670     |10.5957   |0.9506  |
+|Max.    |0.9788     |20.5656   |2.2501  |
+
+
+
+
+
+

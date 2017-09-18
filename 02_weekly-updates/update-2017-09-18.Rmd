@@ -74,9 +74,8 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 
 <img src="images/mat_02L_02_03.png" width=750>
 
-## Example
-
-Comparison between rep2 and rep3
+## Soyoung's slides
+- Example. Comparison between rep2 and rep3
 
 
 |Circle | Fixed_circle_X | Fixed_circle_Y | Match_circle_X | Match_circle_Y |
@@ -128,6 +127,8 @@ Comparison between rep2 and rep3
 - Euclidean distance of centers from 3 circles,
 - Average of Overlap features,
 - Standard deviation of rotation angle estimations.
+
+## Soyoung's slides
 
 |Summary |Mean_overpt| Diff_ecd | sd_rot |
 |:------:|:---------:|:--------:|:------:|

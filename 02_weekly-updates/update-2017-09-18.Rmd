@@ -98,28 +98,6 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 |                 149.48  |               145.42|
 |                 321.84  |               336.80|
 
-
-## Soyoung's slides
-
-- Working on many comparisons between known matches (replicates)
-- There are 10 possible pairwise comparisons for 5 replicated images
-- Example. Comparison between rep2 and rep4
-
-## Soyoung's slides
-
-<img src="images/mat_02L_02_04.png" width=750>
-
-
-## Soyoung's slides
-
-- Working on many comparisons between known matches (replicates)
-- There are 10 possible pairwise comparisons for 5 replicated images
-- Example. Comparison between rep2 and rep4
-
-## Soyoung's slides
-
-<img src="images/mat_02L_02_05.png" width=750>
-
 ## Soyoung's slides
 
 - Get the results of 20 comparisons (2 pairs)
@@ -151,8 +129,8 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 # Nick's Slides
 
 ## London With Nodes
-<img src="images/LondonNodes.pdf" style="width:600px">
+<img src="images/LondonNodes.png" style="width:600px">
 
 ## London As Graph
-<img src="images/BinaryTreeLondon.pdf" style="width:600px">
+<img src="images/BinaryTreeLondon.png" style="width:600px">
 

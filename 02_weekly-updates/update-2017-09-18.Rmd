@@ -147,3 +147,29 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 - visit from Srinivasan Rathinam from LA PD
 - processing scans from Berettas
 - upload Phoenix data to local DB
+
+
+# Amy's Slides
+
+## FlashID Exported Measurements
+- 3 writers, 3 documents each (REU data: London and Cedar letters)
+<img src="images/handwriting_datadump_1.png" style="width:800px">
+
+## FlashID Exported Measurements
+
+<img src="images/handwriting_datadump_2.png" style="width:800px">
+
+## FlashID Exported Measurements
+
+<img src="images/handwriting_datadump_3.png" style="width:850px">
+
+## The Plan
+
+- Each file will have a number of columns that depend on the graph being measured.
+- Moving forward
+    + Extract grapheme counts
+    + Re-create the FlashID scoring
+    + Grapheme importance \& feature importance (number of features varies by grapheme type)
+- **This week**: Science Bound Forensics Session (Saturday, Sept. 23)
+    + Overview, handwriting, and fingerprints
+

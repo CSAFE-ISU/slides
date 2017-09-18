@@ -138,7 +138,6 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 |3rd. Qu.|0.9670     |10.5957   |0.9506  |
 |Max.    |0.9788     |20.5656   |2.2501  |
 
-<<<<<<< HEAD
 # Martin and Guillermo's slides
 
 ## Image Alignment
@@ -148,7 +147,7 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 <td> <img src="images/img2_show.tiff" width=190> </td>
 <td> <img src="images/imgt_show.tiff" width=190> </td>
 </tr>
-=======
+
 # Nick's Slides
 
 ## London With Nodes
@@ -156,18 +155,4 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 
 ## London As Graph
 <img src="images/BinaryTreeLondon.pdf" style="width:600px">
->>>>>>> 9d1e1ec67fc346a0674d1006e544535575b0cfae
-
-## Img 1
-
-<img src="images/img1_show.tiff" width=150>
-
-## Img 1
-
-<img src="images/img2_show.tiff" width=150>
-
-## Img 1
-
-<img src="images/imgt_show.tiff" width=150>
-
 

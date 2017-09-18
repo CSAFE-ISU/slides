@@ -148,6 +148,11 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 <td> <img src="images/imgt_show.tiff" width=190> </td>
 </tr>
 
+## Forgotten Image from Last Week
+
+<img src="images/side_by_side.png" style="width:750px">
+
+
 # Nick's Slides
 
 ## London With Nodes

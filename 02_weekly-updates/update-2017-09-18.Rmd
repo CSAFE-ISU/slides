@@ -98,28 +98,6 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 |                 149.48  |               145.42|
 |                 321.84  |               336.80|
 
-
-## Soyoung's slides
-
-- Working on many comparisons between known matches (replicates)
-- There are 10 possible pairwise comparisons for 5 replicated images
-- Example. Comparison between rep2 and rep4
-
-## Soyoung's slides
-
-<img src="images/mat_02L_02_04.png" width=750>
-
-
-## Soyoung's slides
-
-- Working on many comparisons between known matches (replicates)
-- There are 10 possible pairwise comparisons for 5 replicated images
-- Example. Comparison between rep2 and rep4
-
-## Soyoung's slides
-
-<img src="images/mat_02L_02_05.png" width=750>
-
 ## Soyoung's slides
 
 - Get the results of 20 comparisons (2 pairs)
@@ -156,15 +134,47 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 # Nick's Slides
 
 ## London With Nodes
-<img src="images/LondonNodes.pdf" style="width:600px">
+<img src="images/LondonNodes.png" style="width:600px">
 
 ## London As Graph
-<img src="images/BinaryTreeLondon.pdf" style="width:600px">
+<img src="images/BinaryTreeLondon.png" style="width:600px">
 
 ## Jason's Slide
-<img src="images/Jason Saporta SRN.png" style="width:400px">
+<img src="images/Jason Saporta SRN.png" style="width:250px">
 
 - Re-implemented, then re-re-implemented the above model
 - Attempted to code poorly-specified steganalysis models
 - Learned that being a Bayesian in neural network-land is pretty darn simple
 - [Introduction to Neural Networks for Statisticians](https://nbviewer.jupyter.org/github/jsaporta/Notebooks/blob/master/Notebooks/Neural%20Networks%20for%20Statisticians.ipynb)
+
+## Heike's slide
+
+- visit from Srinivasan Rathinam from LA PD
+- processing scans from Berettas
+- upload Phoenix data to local DB
+
+
+# Amy's Slides
+
+## FlashID Exported Measurements
+- 3 writers, 3 documents each (REU data: London and Cedar letters)
+<img src="images/handwriting_datadump_1.png" style="width:800px">
+
+## FlashID Exported Measurements
+
+<img src="images/handwriting_datadump_2.png" style="width:800px">
+
+## FlashID Exported Measurements
+
+<img src="images/handwriting_datadump_3.png" style="width:850px">
+
+## The Plan
+
+- Each file will have a number of columns that depend on the graph being measured.
+- Moving forward
+    + Extract grapheme counts
+    + Re-create the FlashID scoring
+    + Grapheme importance \& feature importance (number of features varies by grapheme type)
+- **This week**: Science Bound Forensics Session (Saturday, Sept. 23)
+    + Overview, handwriting, and fingerprints
+

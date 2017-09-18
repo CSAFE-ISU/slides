@@ -34,3 +34,30 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 | $\pi^e$ | $e^\pi$ |
 | $1/2$ | $\sum_{j=1} a_j$ |
 | $1/2$ | $\frac{1}{2^2} + \frac{1}{2^3} + \frac{1}{2^4} + \cdots$ |
+
+# Sam's Slides
+
+## Judge education and outreach
+
+- Phone call with Alicia and some other awesome people:
+    + Judge Barbara Hervey 
+    + Judge Stephanie Domitrovich 
+    + Felice Schur, Assoc. Dir., Judicial Div., ABA
+- Devise a course to teach statistics to judges  
+    + Use cases where statistical testimony has been / could be used
+    + Focus on concepts, not equations
+    + Ballistics, fraud, paternity, discrimination, mixture DNA
+    + e.g. U.S v. Glynn (2008) (ballistics)
+- Work with Hal Stern at UCI
+
+## Developing more human factors studies
+
+- Using ULTR language in the evidence conditions
+- Describing the ULTR language as approved by the FBI or not
+- Telling participants the known error rates or not (where applicable)
+- More evidence conditions: mixture DNA, ballistics, fingerprints
+- Including the statement below as a condition:
+
+> Even though these two items are indistinguishable, we do not know how many other items would have also been indistinguishable from the crime scene evidence."
+
+- Work with Bill Thompson at UCI. 

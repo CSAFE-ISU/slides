@@ -68,21 +68,28 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 - There are 10 possible pairwise comparisons for 5 replicated images
 - Example. Comparison between rep2 and rep3
 
+<img src="images/mat_02L_02_03.png" width=750>
+
+# Soyoung's slides
+- Example. Comparison between rep2 and rep3
+
+
 |Circle | Fixed_circle_X | Fixed_circle_Y | Match_circle_X | Match_circle_Y |
 |-------|----------------|----------------|----------------|----------------|
 |Circle1|          64.75 |         493.6  |        63.5    |      464.0     |
 |Circle2|          64.75 |         100.0  |         32.5   |        71.5    |
 |Circle3|       181.30   |       400.0    |     178.5     |    375.0       |
 |Match_circle_Radius    |Rotation_angle| Input_circle_overlap_pct   |Triangle_sides|
+|-----------------------|--------------|----------------------------|--------------|
 |            56.34      | 0.8441       |               0.9943    |          A-B |
 |            53.45      | 0.3165       |               0.9721    |          A-C |
 |            57.24      | 0.000        |               0.8855    |          B-C |
 |  Fixed_circle_side_length |Match_circle_side_length|
+|---------------------------|------------------------|
 |                 393.60  |               393.72|
 |                 149.48  |               145.42|
-|                 321.84  |              336.80|
+|                 321.84  |               336.80|
 
-<img src="images/mat_02L_02_03.png" width=750>
 
 # Soyoung's slides
 

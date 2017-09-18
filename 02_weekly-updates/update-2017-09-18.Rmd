@@ -126,8 +126,13 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 |3rd. Qu.|0.9670     |10.5957   |0.9506  |
 |Max.    |0.9788     |20.5656   |2.2501  |
 
+# Nick's Slides
 
+## London With Nodes
+<img src="images/LondonNodes.pdf" style="width:600px">
 
+## London As Graph
+<img src="images/BinaryTreeLondon.pdf" style="width:600px">
 
 
 

@@ -134,3 +134,10 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 ## London As Graph
 <img src="images/BinaryTreeLondon.png" style="width:600px">
 
+## Jason's Slide
+<img src="images/Jason Saporta SRN.png" style="width:250px">
+
+- Re-implemented, then re-re-implemented the above model
+- Attempted to code poorly-specified steganalysis models
+- Learned that being a Bayesian in neural network-land is pretty darn simple
+- [Introduction to Neural Networks for Statisticians](https://nbviewer.jupyter.org/github/jsaporta/Notebooks/blob/master/Notebooks/Neural%20Networks%20for%20Statisticians.ipynb)

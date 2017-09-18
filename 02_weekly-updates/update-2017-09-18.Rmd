@@ -157,7 +157,7 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 <img src="images/BinaryTreeLondon.pdf" style="width:600px">
 
 ## Jason's Slide
-<img src="images/Jason Saporta SRN.png" style="width:400px">
+<img src="images/Jason Saporta SRN.png" style="width:250px">
 
 - Re-implemented, then re-re-implemented the above model
 - Attempted to code poorly-specified steganalysis models

@@ -63,6 +63,7 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 - Work with Bill Thompson at UCI. 
 
 # Soyoung's slides
+## Soyoung's slides
 
 - Working on many comparisons between known matches (replicates)
 - There are 10 possible pairwise comparisons for 5 replicated images
@@ -70,7 +71,7 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 
 <img src="images/mat_02L_02_03.png" width=750>
 
-# Soyoung's slides
+## Soyoung's slides
 - Example. Comparison between rep2 and rep3
 
 
@@ -93,7 +94,7 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 |                 321.84  |               336.80|
 
 
-# Soyoung's slides
+## Soyoung's slides
 
 - Working on many comparisons between known matches (replicates)
 - There are 10 possible pairwise comparisons for 5 replicated images
@@ -102,7 +103,7 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 <img src="images/mat_02L_02_04.png" width=750>
 
 
-# Soyoung's slides
+## Soyoung's slides
 
 - Working on many comparisons between known matches (replicates)
 - There are 10 possible pairwise comparisons for 5 replicated images
@@ -110,7 +111,7 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 
 <img src="images/mat_02L_02_05.png" width=750>
 
-# Soyoung's slides
+## Soyoung's slides
 - Get the results of 20 comparisons (2 pairs)
 - The goal is to find similarity attributes as many as possible
 - Euclidean distance of centers from 3 circles,

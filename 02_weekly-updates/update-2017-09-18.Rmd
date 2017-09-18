@@ -138,8 +138,26 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 |3rd. Qu.|0.9670     |10.5957   |0.9506  |
 |Max.    |0.9788     |20.5656   |2.2501  |
 
+# Martin and Guillermo's slides
 
+## Image Alignment
 
+<tr>
+<td> <img src="images/img1_show.tiff" width=190> </td>
+<td> <img src="images/img2_show.tiff" width=190> </td>
+<td> <img src="images/imgt_show.tiff" width=190> </td>
+</tr>
 
+## Img 1
+
+<img src="images/img1_show.tiff" width=150>
+
+## Img 1
+
+<img src="images/img2_show.tiff" width=150>
+
+## Img 1
+
+<img src="images/imgt_show.tiff" width=150>
 
 

@@ -121,9 +121,9 @@ For me (Guillermo), it's been a nightmare to type equations and tables in RMarkd
 ## Image Alignment
 
 <tr>
-<td> <img src="images/img1_show.tiff" width=190> </td>
-<td> <img src="images/img2_show.tiff" width=190> </td>
-<td> <img src="images/imgt_show.tiff" width=190> </td>
+<td> <img src="images/img1_show.png" width=190> </td>
+<td> <img src="images/img2_show.png" width=190> </td>
+<td> <img src="images/imgt_show.png" width=190> </td>
 </tr>
 
 ## Forgotten Image from Last Week

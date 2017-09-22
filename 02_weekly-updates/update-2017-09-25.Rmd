@@ -1,0 +1,16 @@
+---
+title: "Weekly update for September 25"
+date: "September 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> September 25
+
+# Empty Slide
+
+- ff
+- asf
+- asd
+

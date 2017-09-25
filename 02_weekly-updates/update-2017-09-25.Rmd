@@ -8,9 +8,22 @@ output:
 
 # Show and Tell <br> September 25
 
-## Empty Slide
+## Soyoung's slides 1
+- Working on experiments for possible attributes for similarity score
+- Known Match (KM) : 20 comparisons
+- Known Non-Match (KNM) : 25 comparisons
 
-- ff
-- asf
-- asd
+- Average of overlap features from KM and KNM
+
+<img src="images/ave.overlap.png" width=750>
+
+## Soyoung's slides 2
+- Average of euclidean distances btw centers from KM and KNM
+
+<img src="images/ave.ecd.png" width=750>
+
+## Soyoung's slides 3
+- Standard deviation of rotation angle estimation from KM and KNM
+
+<img src="images/sd.rot.png" width=750>
 

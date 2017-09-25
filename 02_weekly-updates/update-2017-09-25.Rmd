@@ -29,3 +29,33 @@ output:
 
 <img src="images/sd.rot.png" width=750>
 
+
+# Martin's Slides
+
+## Update on Image Alignment
+- Now its possible to align two shoeprints after selecting three matching points on each image
+- Even when the transformation its done in C++, it is still a bit slow when working on the full resolution (roughly 4000x2000 pixels). Working on parallelization
+
+## Example
+
+<tr>
+<td> <img src="images/img1_show.png" width=190> </td>
+<td> <img src="images/img2_show.png" width=190> </td>
+<td> <img src="images/imgt_show.png" width=190> </td>
+</tr>
+
+## 
+- We need to transform all the shoeprints to the same scale, to be able to talk about the same cross section for any given shoeprint
+- The Israeli Police on a report from 2016 describes an approach to deal with this problem
+
+<tr>
+<td> <img src="images/israeli_1.png" width=350> </td>
+<td> <img src="images/israeli_2.png" width=400> </td>
+</tr>
+
+## 
+- We have the tools to do this manually, but it does not seem hard to do it automatically (at least for the nice images from the EverOS)
+- Procedure to test this week:
+    + Find the dominant direction of the shoeprint (three ideas to try: Radon transformation, linear regression and principal components)
+    + Find the center of the shoeprint using the sample mean of the non-zero pixels coordinates
+    + Search for the first and last non-zero pixel across the found axis

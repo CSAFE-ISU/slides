@@ -8,7 +8,7 @@ output:
 
 # Show and Tell <br> September 25
 
-# Soyoung
+# Soyoung's Slides
 
 ## Soyoung's slides 1
 - Working on experiments for possible attributes for similarity score

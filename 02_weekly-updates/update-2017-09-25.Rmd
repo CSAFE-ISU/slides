@@ -8,13 +8,11 @@ output:
 
 # Show and Tell <br> September 25
 
-# Soyoung's Slides
 
 ## Soyoung's slides 1
 - Working on experiments for possible attributes for similarity score
 - Known Match (KM) : 20 comparisons
 - Known Non-Match (KNM) : 25 comparisons
-
 - Average of overlap features from KM and KNM
 
 <img src="images/ave.overlap.png" width=500>

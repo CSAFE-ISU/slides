@@ -17,15 +17,15 @@ output:
 
 - Average of overlap features from KM and KNM
 
-<img src="images/ave.overlap.png" width=750>
+<img src="images/ave.overlap.png" width=500>
 
 ## Soyoung's slides 2
 - Average of euclidean distances btw centers from KM and KNM
 
-<img src="images/ave.ecd.png" width=750>
+<img src="images/ave.ecd.png" width=500>
 
 ## Soyoung's slides 3
 - Standard deviation of rotation angle estimation from KM and KNM
 
-<img src="images/sd.rot.png" width=750>
+<img src="images/sd.rot.png" width=500>
 

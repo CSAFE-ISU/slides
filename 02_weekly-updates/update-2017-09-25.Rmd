@@ -27,3 +27,20 @@ output:
 
 <img src="images/sd.rot.png" width=500>
 
+
+## Nick's Slides
+ - Create writing path isomorphism
+ - Having trouble with loops
+ - Can get paths for all other connection and limit the isomorphic graph to a simpler graph of just nodes
+ 
+## Path Graph
+
+<img src="images/LondonNodes.png">
+
+## Path Graph
+
+<img src="images/PathGraphsLondon.png">
+
+## Isomorphism
+
+<img src="images/IsomorphismLondon.png">

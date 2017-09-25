@@ -35,5 +35,27 @@ output:
 - Talking with IT about handling installation issues with the FlashID VM.
 - Does anyone have a shoe print case study to include with the middle school teacher resource package?
 
+# Guillermo
 
+## MAFS
+
+- Soyoung and I attended last Wednesday (2017-09-20) to the Midwestern Association of Forensic Scientists ([MAFS](http://www.mafs.net/mafs-2017-fall-meeting-homepage)) conference in Cincinnati, OH
+
+- Specifically, these two workshops by Lesley Hammer:
+    + _Ensuring Thorough and Fair Evaluation of Limitations during the Footwear Examination Process_ and 
+    + _Testifying about the Methods and Foundations of Footwear Evidence_.
+
+- Audience: mostly footwear practitioners
+
+## MAFS
+
++ __Ensuring Thorough and Fair Evaluation of Limitations during the Footwear Examination Process__: 
+    - Analysis of impressions (substrate, matrix, deposition, photography, collection): Clarity and reliability, limitations in conclusion
+
++ __Testifying about the Methods and Foundations of Footwear Evidence__:
+    - Discussion on error rates, PCAST report, standards (SWTREAD & OSAC)
+
+## Robustness of Hu moments
+
+- Go there (Update to his slide later)
 

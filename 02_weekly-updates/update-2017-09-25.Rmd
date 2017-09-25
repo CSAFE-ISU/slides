@@ -27,3 +27,13 @@ output:
 
 <img src="images/sd.rot.png" width=500>
 
+## Amy's Slide
+- Outreach on Saturday went well!
+    + 20 Science Bound students grades 9 - 11
+    + 3 hands-on activities and an online quiz (NIST - Fingerprint Examiner)
+- Tring to get a feel for the data that FlashID dumps out. Having trouble moving files.
+- Talking with IT about handling installation issues with the FlashID VM.
+- Does anyone have a shoe print case study to include with the middle school teacher resource package?
+
+
+

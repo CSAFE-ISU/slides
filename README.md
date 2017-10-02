@@ -8,7 +8,7 @@ August 29: [Tech Tools](https://csafe-isu.github.io/slides/03_tech_tools/techtoo
 September 03: Most of CSAFE members attended [ICFIS 2017](http://www.cvent.com/events/icfis-2017-international-conference-on-forensic-inference-and-statistics/event-summary-6d357a9583224144866d64f44de367a2.aspx). <br>
 September 11: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-09-11.html)<br>
 September 18: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-09-18.html)<br>
-September 25: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-09-25.html)<br>
+September 25: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-09-25.html)<br>October 02: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-10-02.html)<br>
 
 
 ## Summer 2017 Slides

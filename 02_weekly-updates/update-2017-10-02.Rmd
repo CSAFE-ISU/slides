@@ -40,10 +40,13 @@ output:
 
 
 ## Soyoung's slides 2
-- Overlap Features : 0.9726688, 0.9508197, 0.9098039, 0.9485294
+- Overlap Features : 0.9727, 0.9508, 0.9098, 0.9485
+- Rot.ang : 3.30, 3.27, 2.69, 2.19
+
 <img src="images/step2_plot_good.png" width=400>
 
 ## Soyoung's slides 3
-- Overlap Features : 0.9960317,0.9974490,0.3709328,0.9848485
-<img src="images/step2_plot_mid.png" width=400>
+- Overlap Features :  0.5072, 0.9874, 0.9980, 0.4804
+- Rot.ang : 28.13, 0, 1.16, 27.04
+<img src="images/step2_plot_bad.png" width=400>
 

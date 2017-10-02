@@ -21,3 +21,14 @@ output:
 - The border between Mexico and the USA is the second largest border in the world (US-Canada is longer)
 - Mexico???s size is 756,066 square miles, which is almost three times larger than Texas
 - Mexico is second only to Brazil in the number of Catholic citizens
+
+# Nick Berry
+
+## Nick Berry - Path Finding
+
+<img src="images/AnimatePaths.gif" width=600>
+
+## Nick Berry - Break Point Proposals
+
+<img src="images/LondonBreakPoints.png">
+

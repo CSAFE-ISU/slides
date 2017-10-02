@@ -50,3 +50,24 @@ output:
 - Rot.ang : 28.13, 0, 1.16, 27.04
 <img src="images/step2_plot_bad.png" width=400>
 
+# Sam's slides
+
+## Judge education
+
+Focus on topics first...
+
+1. (In)dependence and multiplying probabilities
+2. Characteristics' frequency in a population
+3. Sampling and bias
+4. Simpson's paradox
+5. Relevant populations
+
+## Cases
+
+Then get cases...
+
+1. Sally Clark
+2. People v. Collins, 68 Cal.2d 319
+3. 
+4. Berkeley Sex Bias Case
+5. 

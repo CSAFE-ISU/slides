@@ -32,3 +32,18 @@ output:
 
 <img src="images/LondonBreakPoints.png">
 
+# Soyoung
+
+## Soyoung's slides 1
+
+<img src="images/plan1_3circles.png" width=500>
+
+
+## Soyoung's slides 2
+
+<img src="images/step2_plot_good.png" width=500>
+
+## Soyoung's slides 3
+
+<img src="images/step2_plot_bad.png" width=500>
+

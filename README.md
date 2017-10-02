@@ -9,6 +9,7 @@ September 03: Most of CSAFE members attended [ICFIS 2017](http://www.cvent.com/e
 September 11: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-09-11.html)<br>
 September 18: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-09-18.html)<br>
 September 25: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-09-25.html)<br>
+October 02: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-10-02.html)<br>
 
 
 ## Summer 2017 Slides

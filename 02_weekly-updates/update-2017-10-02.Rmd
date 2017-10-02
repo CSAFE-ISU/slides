@@ -61,13 +61,17 @@ Focus on topics first...
 3. Sampling and bias
 4. Simpson's paradox
 5. Relevant populations
+6. Quantifying and understanding variability
+7. (Score-based) likelihood ratios
 
 ## Cases
 
 Then get cases...
 
 1. Sally Clark
-2. People v. Collins, 68 Cal.2d 319
-3. 
+2. People v. Collins, 68 Cal.2d 319 (1968)
+3. ?
 4. Berkeley Sex Bias Case
-5. 
+5. ?
+6. ?
+7. ?

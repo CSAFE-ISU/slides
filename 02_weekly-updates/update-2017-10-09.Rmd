@@ -56,3 +56,20 @@ output:
 ## Final Breakpoints
 
 ![](images/LondonFinalBreakpoints.png)
+
+
+# Amy (\& Kiegan)
+
+## Data
+![](images/Amy_demo_glimpse.png)
+
+## One data frame
+Need to find all unique writers
+![width = 200](images/Amy_demo_df.png)
+
+## Counting writer grapheme pairs
+![](images/Amy_demo_grapheme.png)
+
+
+
+

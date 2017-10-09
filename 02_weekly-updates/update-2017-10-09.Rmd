@@ -86,5 +86,27 @@ Need to find all unique writers
 ![](images/Amy_demo_grapheme.png)
 
 
+# Ganesh
 
+## Algorithm: Optimization and Validation 
+
+![Alt](images/cars-1.pdf)
+
+## Percentage of Failed Test
+
+![Alt](images/missings-1.pdf)
+
+## Type I Error Rate
+
+![Alt](images/type1-1.pdf)
+
+## Type II Error Rate
+
+![Alt](images/type2-1.pdf)
+
+## Optimized window
+
+![Alt](images/wo120-1.pdf)
+
+more information: https://github.com/CSAFE-ISU/toolmark-method-assessment
 

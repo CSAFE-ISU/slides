@@ -46,3 +46,19 @@ output:
 
 - Still moving forward on collecting cases to use for judge outreach courses
 - Any input w.r.t what to teach, how to teach it, cases to use, etc is welcome
+
+
+# Martin
+
+## Axis for a Shoeprint found with Linear Regression
+
+<tr>
+<td> <img src="images/img1_axis.png" width=190> </td>
+<td> <img src="images/img2_axis.png" width=190> </td>
+</tr>
+
+## To try this Week
+
+- There is a lot of variability on the area scanned of a shoe, even within the same shoe and subject
+- The alignment based on linear regression could be useful to get the initial values of a iterative method
+- I will look for an algorithm that can be applied to registry binary images

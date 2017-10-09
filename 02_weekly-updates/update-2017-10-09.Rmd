@@ -8,20 +8,6 @@ output:
 
 # Show and Tell <br> October 09
 
-# Presenter 1
-
-## Presenter 1 - Slide 1
-
-- Cherophobia is the fear of fun
-- "Facebook Addiction Disorder" is a mental disorder identified by Psychologists
-- Bananas grow curved because they start growing towards the sun
-
-## Presenter 1 - Slide 2
-
-- The border between Mexico and the USA is the second largest border in the world (US-Canada is longer)
-- Mexico???s size is 756,066 square miles, which is almost three times larger than Texas
-- Mexico is second only to Brazil in the number of Catholic citizens
-
 # Heike & Alicia
 
 ## Firing Range

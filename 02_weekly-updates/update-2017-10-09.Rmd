@@ -90,23 +90,23 @@ Need to find all unique writers
 
 ## Algorithm: Optimization and Validation 
 
-![](images/cars-1.png)
+![](images/cars-1-1.png)
 
 ## Percentage of Failed Test
 
-![](images/missings-1.png)
+![](images/missings-1-1.png)
 
 ## Type I Error Rate
 
-![](images/type1-1.png)
+![](images/type1-1-1.png)
 
 ## Type II Error Rate
 
-![](images/type2-1.png)
+![](images/type2-1-1.png)
 
 ## Optimized window
 
-![](images/wo120-1.png)
+![](images/wo120-1-1.png)
 
 more information: https://github.com/CSAFE-ISU/toolmark-method-assessment
 

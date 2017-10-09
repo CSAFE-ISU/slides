@@ -46,3 +46,13 @@ output:
 
 - Still moving forward on collecting cases to use for judge outreach courses
 - Any input w.r.t what to teach, how to teach it, cases to use, etc is welcome
+
+# Nick
+
+## Proposal Breakpoints
+
+![](images/LondonBreakPoints.png)
+
+## Final Breakpoints
+
+![](images/LondonFinalBreakpoints.png)

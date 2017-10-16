@@ -1,0 +1,19 @@
+---
+title: "Weekly Update for October 16"
+date: "October 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> October 17
+
+# Sample Speaker
+
+## About Iowa
+
+- Iowa is the only state name that starts with two vowels
+- Strawberry Point is a city in Clayton County home to the world's largest strawberry
+- German is the third most common language
+- Iowa is the only state whose east and west borders are 100% formed by water
+- Iowa ranks number one in producing corn, soybeans, hogs, eggs and ethanol

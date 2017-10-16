@@ -6,7 +6,7 @@ output:
         ratio: 4x3
 ---
 
-# Show and Tell <br> October 17
+# Show and Tell <br> October 16
 
 # Sample Speaker
 

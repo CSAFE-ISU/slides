@@ -60,7 +60,7 @@ Three operators A, C, M were asked to scan two bullets each (from the same barre
 ## 6 similarity attributes
 - 20 KM & 15 KNM
 
-<img src="images/ave.overlap.png" width=500>
+<img src="images/ave.ovelap.png" width=500>
 
 ## 6 similarity attributes
 - 20 KM & 15 KNM

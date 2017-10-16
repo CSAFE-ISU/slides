@@ -71,3 +71,42 @@ output:
 ## Final Breakpoints
 
 ![](images/LondonFinalBreakpoints.png)
+
+
+# Amy (\& Kiegan)
+
+## Data
+![](images/Amy_demo_glimpse.png)
+
+## One data frame
+Need to find all unique writers
+![width = 200](images/Amy_demo_df.png)
+
+## Counting writer grapheme pairs
+![](images/Amy_demo_grapheme.png)
+
+
+# Ganesh
+
+## Algorithm: Optimization and Validation 
+
+![](images/cars-1-1.png)
+
+## Percentage of Failed Test
+
+![](images/missings-1-1.png)
+
+## Type I Error Rate
+
+![](images/type1-1-1.png)
+
+## Type II Error Rate
+
+![](images/type2-1-1.png)
+
+## Optimized window
+
+![](images/wo120-1-1.png)
+
+more information: https://github.com/CSAFE-ISU/toolmark-method-assessment
+

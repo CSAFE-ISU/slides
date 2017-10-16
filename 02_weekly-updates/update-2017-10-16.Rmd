@@ -92,5 +92,19 @@ Three operators A, C, M were asked to scan two bullets each (from the same barre
 
 <center><img src="images/AnimatecodingLoops.gif" width=550></center>
 
+# Martin
 
+## Axis for a Shoeprint found with Linear Regression
+
+<tr>
+<td> <img src="images/img1_axis.png" width=190> </td>
+<td> <img src="images/img2_axis.png" width=190> </td>
+</tr>
+
+## Update on the Shoeprints Alignment
+
+- Using linear regression to find the axis of a shoeprint does a good job, but far from what wee need
+- After searching for methods to align binary images, it seems there is not that much done for this as special case
+- A bunch of people claim that the "imregister" function from MATLAB does a very good job even for binary images
+- The more important thing for "imregister" is that the objects on both images are not very far apart
 

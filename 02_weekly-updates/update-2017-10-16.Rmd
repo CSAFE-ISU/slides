@@ -17,3 +17,25 @@ output:
 - German is the third most common language
 - Iowa is the only state whose east and west borders are 100% formed by water
 - Iowa ranks number one in producing corn, soybeans, hogs, eggs and ethanol
+
+# Heike - news from the microscope
+
+## User test
+
+Three operators A, C, M were asked to scan two bullets each (from the same barrel) - i.e. the two bullets match each other
+
+... look at the results ...
+
+## What happened?
+
+- bullet-to-bullet scores 
+- high rf score is indicative of a match
+
+
+<img src="images/b2b-1.png" width=400>
+
+## What happened - more details
+
+- land-to-land scores 
+
+<img src="images/b2b-2.png" width=500>

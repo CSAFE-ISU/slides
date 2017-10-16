@@ -39,3 +39,45 @@ Three operators A, C, M were asked to scan two bullets each (from the same barre
 - land-to-land scores 
 
 <img src="images/b2b-2.png" width=500>
+
+## Soyoung
+
+## Experiments
+- Goal : 100 KM & 100 KNM
+
+<img src="images/match_KM8.png" width=500>
+
+## Experiments
+- Goal : 100 KM & 100 KNM
+<img src="images/match_KM13.png" width=500>
+
+
+## 6 similarity attributes
+- 20 KM & 15 KNM
+
+<img src="images/ave.clique.png" width=500>
+
+## 6 similarity attributes
+- 20 KM & 15 KNM
+
+<img src="images/ave.overlap.png" width=500>
+
+## 6 similarity attributes
+- 20 KM & 15 KNM
+
+<img src="images/ave.ref.overlap.png" width=500>
+
+## 6 similarity attributes
+- 20 KM & 15 KNM
+
+<img src="images/ave.med.dist.png" width=500>
+
+## 6 similarity attributes
+- 20 KM & 15 KNM
+
+<img src="images/sd.rot.ang.png" width=500>
+
+## 6 similarity attributes
+- 20 KM & 15 KNM
+
+<img src="images/ave.diff.euc.centers.png" width=500>

@@ -108,3 +108,24 @@ Three operators A, C, M were asked to scan two bullets each (from the same barre
 - A bunch of people claim that the "imregister" function from MATLAB does a very good job even for binary images
 - The more important thing for "imregister" is that the objects on both images are not very far apart
 
+# Sam and Miranda
+
+## Judge training (Sam)
+
+New books purchased for the CSAFE Library! 
+
+- *Statistical Science in the Courtroom*, Joseph L. Gastwirth, Ed. 
+- *Applying Statistics in the Courtroom: A New Approach for Attorneys and Expert Witnesses*, Phillip I. Good
+- *Statistics for Lawyers*, Michael O. Finkelstein & Bruce Levin
+
+## ~~Hazing~~ Introducing Miranda
+
+- Literature review: 
+    + How do people make decisions using psychological heuristics?
+    + How are jurors influenced by expert testimony?
+    + How are jurors influenced by the presence of statistics?
+- Annotated bibliography of literature review
+    + Work in progress
+- Ideas from lit review for future application to human factors experiments
+- Modifying Qualtrics survey to include conditions using ULTR (Uniform Language for Testimony and Reports)
+    + How are the ULTR conditions perceived as compared to the RMP or LR?

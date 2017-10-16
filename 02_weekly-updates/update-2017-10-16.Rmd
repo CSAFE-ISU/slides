@@ -118,7 +118,7 @@ New books purchased for the CSAFE Library!
 - *Applying Statistics in the Courtroom: A New Approach for Attorneys and Expert Witnesses*, Phillip I. Good
 - *Statistics for Lawyers*, Michael O. Finkelstein & Bruce Levin
 
-## ~~Hazing~~ Introducing Miranda
+## Lit Review - Miranda
 
 - Literature review: 
     + How do people make decisions using psychological heuristics?

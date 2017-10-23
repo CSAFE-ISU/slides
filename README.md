@@ -12,6 +12,7 @@ September 25: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updat
 October 02: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-10-02.html)<br>
 October 09: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-10-09.html)<br>
 October 16: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-10-16.html)<br>
+October 23: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-10-23.html)<br>
 
 
 ## Summer 2017 Slides

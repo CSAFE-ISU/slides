@@ -1,0 +1,20 @@
+---
+title: "Weekly Update for October 23"
+date: "October 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> October 23
+
+# Sample Speaker
+
+## Uruguay
+
+- is the least corrupt country in Latin America, it is ranked first in the region for democracy, peace, lack of corruption, quality of living, e-Government, freedom of press, size of the middle class, prosperity and security;
+- is the only country in Latin America which is entirely outside the tropics;
+- became the world's first country to legalize marijuana trade;
+- won gold for football at both the 1924 and 1928 Olympics (they are the only Olympic gold medals the country has ever won;
+- has the lowest poverty and population-growth rates in South America, and
+- produced almost 95% of its electricity from renewable sources in 2015

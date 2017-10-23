@@ -44,3 +44,18 @@ Fingerprint evidence - only one ULTR statement provided for indicating a match:
 Providing a numeric level of certainty is not allowed for fingerprint evidence: difficult to manipulate this guideline into two conditions equivalent to 1/100 and 1/1,000,000 RMP
 
 *Original condition* (moderate fingerprint): "Brian Kelly’s fingerprint is consistent with the latent print found on the bathroom faucet handle.  Based on scientific data on the characteristics of fingerprints, I estimate that approximately one in one hundred (very strong: one million) people has a fingerprint that is consistent with the partial print found on the faucet.  That means that there is one chance in one hundred (one million) of finding a consistent fingerprint from a randomly chosen person."
+
+# Martin
+
+## Axis for a Shoeprint found with Linear Regression
+
+<tr>
+<td> <img src="images/img1_axis.png" width=190> </td>
+<td> <img src="images/img2_axis.png" width=190> </td>
+</tr>
+
+## Update on the Shoeprints Alignment
+
+<tr>
+<td> <img src="images/matlab.png" width=750> </td>
+</tr>

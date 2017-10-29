@@ -19,7 +19,4 @@ output:
 - In Deadwood a permit is required to mix one alcoholic beverage with another. But you can mix all the beer you want.
 - It is also illegal there for casinos to hang a sign saying "Casino".
 
-# Guillermo
-
-## 3D scans
 

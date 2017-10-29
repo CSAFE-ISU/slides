@@ -20,3 +20,14 @@ output:
 - It is also illegal there for casinos to hang a sign saying "Casino".
 
 
+## Hamby-44 Re-scan
+
+- Hamby set 44: two test fires  each from ten consecutive barrels, 15 questioned bullets
+- Hamby set 44 is part of NIST ballistics dataset
+- all 35 bullets are now re-scanned with higher resolution CLM
+
+## Hamby-44: Questioned versus known bullets
+
+<img src="images/hamby44.png", width=750, height=450>
+
+- for which bullets would you request re-scans?

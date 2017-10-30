@@ -47,6 +47,8 @@ output:
 
 - Computed: Root Mean Squared
 - Software: Cloud Compare
+- Algorithm: [Iterative Closest Point](https://en.wikipedia.org/wiki/Iterative_closest_point) 
+- URL: [Cloud Compare Wiki](http://www.cloudcompare.org/doc/wiki/index.php?title=ICP)
 
 ## Cloud Compare
 

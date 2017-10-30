@@ -133,3 +133,7 @@ give us best results in terms of type I and type II errors.
 |Martin2 v. Martin4 | 0.2361030|different position |
 |Marc1 v. Martin1   | 0.9889590|different shoe     |
 |Marc3 v. Martin3   | 1.0699400|different shoe     |
+
+# Nick 
+## Grapheme Separation for London
+<center><img src="images/LondonGraphemes.gif" width=550></center>

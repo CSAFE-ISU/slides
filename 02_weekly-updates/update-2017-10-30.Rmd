@@ -90,7 +90,7 @@ output:
 ## Worn Nike 10
 
 |combination              |       RMS|comparison         |
-|:------------------------|---------:|:------------------|
+|:------------------------|:---------|:------------------|
 |Guillermo3 v. Guillermo4 | 0.0700580|same position      |
 |Jimmy3 v.Jimmy4          | 0.0954348|same position      |
 |Guillermo1 v. Guillermo2 | 0.1228840|same position      |

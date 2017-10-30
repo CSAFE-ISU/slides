@@ -41,6 +41,20 @@ output:
 - Widths increase as probabilities approach 0.5.
 - Similar results to modeling individual tree classifications as binomial and making intervals for each $p$.
 
+# Ganesh
+## Previous
+- Adjusted Chumbley Algorithm proposed by Hadler et al. applied to bullet signatures on all pairwise land-to-land comparisons of the Hamby scans ( a total of 85491 comparisons)
+- Identified the window of optimization and window of validation for the chumbley algorithm for Bullet Signatures
+for the Hamby-44 and Hamby-252.
+
+## Profiles
+- Trying to see how the chumbley algo works when profiles are used instead of signatures
+- Chumbley algo uses a LOwEss smoothing with a default coarseness as 0.25, the idea is to first identify what coarseness would
+give us best results in terms of type I and type II errors.
+- Window of optimization and validation used is the same as identified for signatures.
+
+
+
 # Guillermo
 
 ## 3D Scans

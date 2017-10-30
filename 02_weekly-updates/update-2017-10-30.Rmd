@@ -48,6 +48,15 @@ output:
 - Computed: Root Mean Squared
 - Software: Cloud Compare
 
+## Cloud Compare
+
+<img src="images/3D-before.png", width=850>
+
+## Cloud Compare
+
+<img src="images/3D-after.png", width=850>
+
+
 ## Adidas
 
 |combination                       |       RMS|comparison         |

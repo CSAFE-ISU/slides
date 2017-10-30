@@ -31,3 +31,9 @@ output:
 <img src="images/hamby44.png", width=750, height=450>
 
 - for which bullets would you request re-scans?
+
+## Intervals for Random Forest Predictions
+
+- Intervals constructed from predicted probabilities from many random forest classifiers.
+- Widths increase as probabilities approach 0.5.
+- Similar results to modeling individual tree classifications as binomial and making intervals for each $p$.

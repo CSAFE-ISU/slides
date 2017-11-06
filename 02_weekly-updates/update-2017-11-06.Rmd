@@ -28,25 +28,25 @@ output:
 ## 3 circle matching - all edge points
 - 100 KM & 117 KNM
 
-<img src="RF.png" width=500>
+<img src="images/RF.png" width=500>
 
 ## Rough alignment from corner points 
 - 500 of strong corners are detected by Harris-Stephens algorithm
 
-<img src="corner.png" width=500>
+<img src="images/corner.png" width=500>
 
 ## Apply the alignment to all of edge points
 
-<img src="apply_alignment.png" width=500>
+<img src="images/apply_alignment.png" width=500>
 
 ## corner matching results
 
-<img src="corner_boxplot.png" width=500>
+<img src="images/corner_boxplot.png" width=500>
 
 ## Same outsole pattern but different shoes
 
-<img src="same_shoe_corner.png" width=500>
+<img src="images/same_shoe_corner.png" width=500>
 
 ## Same outsole pattern but different shoes
 
-<img src="same_pattern.png" width=500>
+<img src="images/same_pattern.png" width=500>

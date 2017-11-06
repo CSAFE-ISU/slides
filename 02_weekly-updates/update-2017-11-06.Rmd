@@ -19,3 +19,34 @@ output:
 - Mount Rushmore took 14 years and only 1 million dollars to build.
 - In Deadwood a permit is required to mix one alcoholic beverage with another. But you can mix all the beer you want.
 - It is also illegal there for casinos to hang a sign saying "Casino".
+
+
+
+
+## Soyoung
+
+## 3 circle matching - all edge points
+- 100 KM & 117 KNM
+
+<img src="RF.png" width=500>
+
+## Rough alignment from corner points 
+- 500 of strong corners are detected by Harris-Stephens algorithm
+
+<img src="corner.png" width=500>
+
+## Apply the alignment to all of edge points
+
+<img src="apply_alignment.png" width=500>
+
+## corner matching results
+
+<img src="corner_boxplot.png" width=500>
+
+## Same outsole pattern but different shoes
+
+<img src="same_shoe_corner.png" width=500>
+
+## Same outsole pattern but different shoes
+
+<img src="same_pattern.png" width=500>

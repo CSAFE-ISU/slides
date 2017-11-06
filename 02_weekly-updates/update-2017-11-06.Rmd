@@ -33,22 +33,22 @@ output:
 ## Rough alignment from corner points 
 - 500 of strong corners are detected by Harris-Stephens algorithm
 
-<img src="images/corner.PNG" width=500>
+<img src="images/corner.PNG" width=400>
 
 ## Apply the alignment to all of edge points
 
-<img src="images/apply_alignment.PNG" width=500>
+<img src="images/apply_alignment.PNG" width=400>
 
 ## corner matching results
 
-<img src="images/corner_boxplot.PNG" width=500>
+<img src="images/corner_boxplot.PNG" width=400>
 
 ## Same outsole pattern but different shoes
 
-<img src="images/same_shoe_corner.PNG" width=500>
+<img src="images/same_shoe_corner.PNG" width=400>
 
 ## Same outsole pattern but different shoes
 
-<img src="images/same_pattern.PNG" width=500>
+<img src="images/same_pattern.PNG" width=400>
 
 

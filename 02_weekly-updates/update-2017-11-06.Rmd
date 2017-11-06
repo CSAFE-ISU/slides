@@ -23,7 +23,7 @@ output:
 
 
 
-## Soyoung
+# Soyoung
 
 ## 3 circle matching - all edge points
 - 100 KM & 117 KNM
@@ -50,5 +50,17 @@ output:
 ## Same outsole pattern but different shoes
 
 <img src="images/same_pattern.PNG" width=400>
+
+# Sam
+
+## My defense is tomorrow
+
+<img alt="leslie is my spirit animal" src="https://media.giphy.com/media/K6WNEiu0sqk12/giphy.gif" width=400>
+
+## But after that
+
+<img alt="drunk ron is my spirit animal" src="https://media.giphy.com/media/lfmLzyIbqgCI0/giphy.gif" width=600>
+
+Then all human factors research all the time! 😍
 
 

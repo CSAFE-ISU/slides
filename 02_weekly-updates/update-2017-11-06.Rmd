@@ -88,4 +88,20 @@ Data!
 ## Kiegan
 Breaking update: Baking the best possible pumpkin dessert that has ever, and will ever exist on this earth.
 
+# Nick
 
+## Graphemes Are Separated.
+
+<img src="images/NickGraphemesTestDoc.PNG" width=500>
+
+## What I'm working on:
+
+Needs to be better:
+
+1. Reading in and binarizing original image.
+2. There may be something weird with one of the path finding algorithms. See L-E connection in previous London.
+3. Write thinning algorithm in C++ to make it faster.
+
+## Because everyone loves london:
+
+<img src="images/NickLondonGraphemes.gif" width=500>

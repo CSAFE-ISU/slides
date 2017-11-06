@@ -52,3 +52,28 @@ output:
 <img src="images/same_pattern.PNG" width=400>
 
 
+## Outreach
+NOBCChE Conference in Minneapolis  
+
+- Interative workshop (2 hours)
+- 25(ish) participants
+    - Mostly undergraduate and graduate students.
+    - DEA chemist
+- Handwriting
+- Inked fingerprints
+- Bullet matching algrorithm \& machine learning introduction
+
+## Handwriting
+Data!  
+
+- Designing a study
+    - Day to day variability of writers
+- Participants of all ages \& writing style
+- Incentives
+- IRB materials
+
+
+## Kiegan
+Breaking update: Baking the best possible pumpkin dessert that has ever, and will ever exist on this earth.
+
+

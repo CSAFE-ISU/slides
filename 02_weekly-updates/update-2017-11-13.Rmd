@@ -8,6 +8,49 @@ output:
 
 # Show and Tell <br> November 13
 
+# Guillermo
+
+## Hu Moments Robustness
+
+|shoe  |side |user |pract |rep |image      |      hu1|
+|:-----|:----|:----|:------------|:----------|:----------|--------:|
+|boots |L    |G    |G            |1          |original   | 1.395490|
+|boots |L    |G    |G            |1          |translated | 1.419463|
+|boots |L    |G    |G            |1          |rotated30  | 1.395492|
+|boots |L    |G    |G            |1          |rotated60  | 1.395492|
+|boots |L    |G    |G            |1          |resized    | 1.393610|
+|boots |L    |G    |G            |2          |original   | 1.366388|
+|boots |L    |G    |G            |2          |translated | 1.384042|
+|boots |L    |G    |G            |2          |rotated30  | 1.366386|
+|boots |L    |G    |G            |2          |rotated60  | 1.366390|
+|boots |L    |G    |G            |2          |resized    | 1.365857|
+
+## Hu Moments Robustness
+
+<img src="images/all_data.png" width=800>
+
+
+## Hu Moments Robustness
+
+<img src="images/only_original.png" width=800>
+
+## Hu Moments Robustness
+
+<img src="images/noise1.png" width=800>
+
+## Hu Moments Robustness
+
+<img src="images/noise2.png" width=800>
+
+## Hu Moments Robustness
+
+<img src="images/noise3.png" width=800>
+
+## Hu Moments Robustness
+
+<img src="images/noise4.png" width=800>
+
+
 
 # Sample Speaker
 
@@ -25,5 +68,7 @@ output:
 - Changing the classification score cutoff drastically changes confusion matrices and model performance.
 - Ideal cutoff for current random forest model seems to be somewhere around 0.85.
 - Arguably better results with a simple neural network model (MLP with 5 hidden layers, no regularization).
+
+## Bullet Matching Models
 
 <img src="images/Current P vs R.png" width=500>

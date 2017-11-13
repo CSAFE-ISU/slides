@@ -11,12 +11,9 @@ output:
 
 # Sample Speaker
 
-## South Dakota
+## Some facts
 
-- Clark, South Dakota is home to the world famous Mashed Potato Wrestling Contest.
-- Mitchell is the home of the world's only Corn Palace, which is made of 3500 bushels of corn.
-- Pierre, South Dakota is the only combination of state and capital in the U.S. that doesn't share any letters.
-- Mount Rushmore took 14 years and only 1 million dollars to build.
-- In Deadwood a permit is required to mix one alcoholic beverage with another. But you can mix all the beer you want.
-- It is also illegal there for casinos to hang a sign saying "Casino".
-
+- The Aztecs sacrificed about 250,000 people, or about 1% of their population, each year.
+- As of 2015, indigenous people make up 21.5% of Mexico's population (25 million people).
+- 8 out of the 52 U.S. states exist on the land that used to belong to Mexico.
+- Each year, residents of Naco, Mexico, join those of Naco, Arizona, for a volleyball match over the fence separating the two countries.

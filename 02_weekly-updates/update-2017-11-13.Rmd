@@ -27,3 +27,26 @@ output:
 - Arguably better results with a simple neural network model (MLP with 5 hidden layers, no regularization).
 
 <img src="images/Current P vs R.png" width=500>
+
+# Martin
+
+## Axis for a Shoeprint found with Linear Regression
+
+<tr>
+<td> <img src="images/img1_axis.png" width=190> </td>
+<td> <img src="images/img2_axis.png" width=190> </td>
+</tr>
+
+## Rough Alligment Based on Two Points
+
+<tr>
+<td> <img src="images/img1_axis.png" width=190> </td>
+<td> <img src="images/img2_axis.png" width=190> </td>
+<td> <img src="images/imgt_show.png" width=190> </td>
+</tr>
+
+## Components of the Transformation
+
+<tr>
+<td> <img src="images/equations.png" width=400> </td>
+</tr>

@@ -17,3 +17,13 @@ output:
 - As of 2015, indigenous people make up 21.5% of Mexico's population (25 million people).
 - 8 out of the 52 U.S. states exist on the land that used to belong to Mexico.
 - Each year, residents of Naco, Mexico, join those of Naco, Arizona, for a volleyball match over the fence separating the two countries.
+
+# Jason
+
+## Bullet Matching Models
+
+- Changing the classification score cutoff drastically changes confusion matrices and model performance.
+- Ideal cutoff for current random forest model seems to be somewhere around 0.85.
+- Arguably better results with a simple neural network model (MLP with 5 hidden layers, no regularization).
+
+<img src="images/Current P vs R" width=400>

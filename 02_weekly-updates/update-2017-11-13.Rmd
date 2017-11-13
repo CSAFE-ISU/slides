@@ -50,17 +50,6 @@ output:
 
 <img src="images/noise4.png" width=800>
 
-
-
-# Sample Speaker
-
-## Some facts
-
-- The Aztecs sacrificed about 250,000 people, or about 1% of their population, each year.
-- As of 2015, indigenous people make up 21.5% of Mexico's population (25 million people).
-- 8 out of the 52 U.S. states exist on the land that used to belong to Mexico.
-- Each year, residents of Naco, Mexico, join those of Naco, Arizona, for a volleyball match over the fence separating the two countries.
-
 # Jason
 
 ## Bullet Matching Models
@@ -95,3 +84,13 @@ output:
 <tr>
 <td> <img src="images/equations.png" width=400> </td>
 </tr>
+
+
+# Sample Speaker
+
+## Some facts
+
+- The Aztecs sacrificed about 250,000 people, or about 1% of their population, each year.
+- As of 2015, indigenous people make up 21.5% of Mexico's population (25 million people).
+- 8 out of the 52 U.S. states exist on the land that used to belong to Mexico.
+- Each year, residents of Naco, Mexico, join those of Naco, Arizona, for a volleyball match over the fence separating the two countries.

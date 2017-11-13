@@ -59,3 +59,13 @@ Providing a numeric level of certainty is not allowed for fingerprint evidence: 
 <tr>
 <td> <img src="images/matlab.png" width=750> </td>
 </tr>
+
+
+
+# Amy
+
+## Outreach
+Sessions for Middle School Teachers  
+- Case Studies?  
+
+Workshop at NOBCChE Conference

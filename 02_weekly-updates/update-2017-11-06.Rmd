@@ -1,0 +1,111 @@
+---
+title: "Weekly Update for November 6"
+date: "November 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> November 6
+
+
+# Sample Speaker
+
+## South Dakota
+
+- Clark, South Dakota is home to the world famous Mashed Potato Wrestling Contest.
+- Mitchell is the home of the world's only Corn Palace, which is made of 3500 bushels of corn.
+- Pierre, South Dakota is the only combination of state and capital in the U.S. that doesn't share any letters.
+- Mount Rushmore took 14 years and only 1 million dollars to build.
+- In Deadwood a permit is required to mix one alcoholic beverage with another. But you can mix all the beer you want.
+- It is also illegal there for casinos to hang a sign saying "Casino".
+
+
+
+
+# Soyoung
+
+## 3 circle matching - all edge points
+- 100 KM & 117 KNM
+
+<img src="images/RF.PNG" width=500>
+
+## Rough alignment from corner points 
+- 500 of strong corners are detected by Harris-Stephens algorithm
+
+<img src="images/corner.PNG" width=400>
+
+## Apply the alignment to all of edge points
+
+<img src="images/apply_alignment.PNG" width=400>
+
+## corner matching results
+
+<img src="images/corner_boxplot.PNG" width=400>
+
+## Same outsole pattern but different shoes
+
+<img src="images/same_shoe_corner.PNG" width=400>
+
+## Same outsole pattern but different shoes
+
+<img src="images/same_pattern.PNG" width=400>
+
+# Sam
+
+## My defense is tomorrow
+
+<img alt="leslie is my spirit animal" src="https://media.giphy.com/media/K6WNEiu0sqk12/giphy.gif" width=400>
+
+## But after that
+
+<img alt="drunk ron is my spirit animal" src="https://media.giphy.com/media/lfmLzyIbqgCI0/giphy.gif" width=600>
+
+Then all human factors research all the time! 😍
+
+# Amy
+
+## Outreach
+NOBCChE Conference in Minneapolis  
+
+- Interative workshop (2 hours)
+- 25(ish) participants
+    - Mostly undergraduate and graduate students.
+    - DEA chemist
+- Handwriting
+- Inked fingerprints
+- Bullet matching algrorithm \& machine learning introduction
+
+## Handwriting
+Data!  
+
+- Designing a study
+    - Day to day variability of writers
+- Participants of all ages \& writing style
+- Incentives
+- IRB materials
+
+
+# Kiegan
+
+## This is important.
+
+Baking the best possible pumpkin dessert that has ever, and will ever exist on this earth.
+
+# Nick
+
+## Graphemes Are Separated.
+
+<img src="images/NickGraphemesTestDoc.PNG" width=500>
+
+## What I'm working on:
+
+Needs to be better:
+
+1. Reading in and binarizing original image.
+2. There may be something weird with one of the path finding algorithms. See L-E connection in previous London.
+3. Write thinning algorithm in C++ to make it faster.
+
+## Because everyone loves london:
+
+<img src="images/NickLondonGraphemes.gif" width=500>

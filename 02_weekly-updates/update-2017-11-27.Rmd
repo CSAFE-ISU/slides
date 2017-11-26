@@ -1,0 +1,18 @@
+---
+title: "Weekly Update for November 27"
+date: "November 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> November 27
+
+# Sample Speaker
+
+## Sample Slide
+
+- An image from [this article](https://www.nytimes.com/2016/10/04/well/eat/low-point-weight-wireless-scales.html) in the NYT (from 2016).
+
+<img src="images/weight.png" width=550>
+

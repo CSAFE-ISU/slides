@@ -70,4 +70,28 @@ output:
 
 <img src="images/corner_edge_6plots.png" width=500>
 
+# Nick
 
+## Image Cleaning (Base Image)
+
+<img src="images/Nick_LondonLetter_Unger.pdf" width=400>
+
+## Image Cleaning (Base Image)
+
+<img src="images/Nick_Unger_Scan.png" width=600>
+
+## Image Cleaning (Base Image)
+
+<img src="images/Nick_Unger_ReadIn.png" width=600>
+
+## Image Cleaning (Base Image)
+
+<img src="images/Nick_Unger_Processed.png" width=600>
+
+## Image Cleaning (Base Image)
+
+<img src="images/Nick_Lindsay.png" width=650>
+
+## Image Cleaning (Base Image)
+
+<img src="images/Nick_LindsayProcessed.pdf" width=700>

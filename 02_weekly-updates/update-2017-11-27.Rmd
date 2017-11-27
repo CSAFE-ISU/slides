@@ -57,17 +57,17 @@ output:
 ## Shoe matching - all edge points
 - 100 KM & 117 KNM
 
-<img src="edge_6plots.png" width=500>
+<img src="images/edge_6plots.png" width=500>
 
 
 ## Shoe matching - corner matching
 - 444 KM & 438 KNM
 
-<img src="corner_edge_input_overlap.png" width=500>
+<img src="images/corner_edge_input_overlap.png" width=500>
 
 ## Shoe matching - corner matching
 - 444 KM & 438 KNM
 
-<img src="corner_edge_6plots.png" width=500>
+<img src="images/corner_edge_6plots.png" width=500>
 
 

@@ -16,3 +16,34 @@ output:
 
 <img src="images/weight.png" width=550>
 
+## Update on Houston FSI
+
+- three kits (groups G1, G2, G3) with fifteen test fires each (from five barrels) amd eight questioned bullets
+- all three groups are open sets, i.e. not all questioned bullets match one of the known test fires
+
+
+## Known bullets
+
+<img src="images/houston.png" width=550>
+
+## Questioned bullets
+
+<img src="images/houston-questioned.png" width=750>
+
+## Scores other than Sequence Average Matching
+
+- Algorithmically: 36 Land-to-land comparisons for each pair of bullets
+- Sequence Average Matching uses maximum of consecutive land matches
+- Other scores?
+
+## Scores other than Sequence Average Matching
+
+<img src="images/houston-scores.png" width=750>
+
+## Scores to Decision
+
+- random forest based on knowns, applied to questioned
+
+<img src="images/houston-rf2.png" width=350>
+
+<img src="images/houston-questioned-rf.png" width=550>

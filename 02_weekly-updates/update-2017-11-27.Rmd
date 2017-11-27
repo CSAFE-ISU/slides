@@ -47,3 +47,27 @@ output:
 <img src="images/houston-rf2.png" width=350>
 
 <img src="images/houston-questioned-rf.png" width=550>
+
+
+
+
+
+# Soyoung
+
+## Shoe matching - all edge points
+- 100 KM & 117 KNM
+
+<img src="edge_6plots.png" width=500>
+
+
+## Shoe matching - corner matching
+- 444 KM & 438 KNM
+
+<img src="corner_edge_input_overlap.png" width=500>
+
+## Shoe matching - corner matching
+- 444 KM & 438 KNM
+
+<img src="corner_edge_6plots.png" width=500>
+
+

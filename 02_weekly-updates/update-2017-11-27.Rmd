@@ -48,8 +48,13 @@ output:
 
 <img src="images/houston-questioned-rf.png" width=550>
 
+# Amy
 
+## 9 writers, 4 documents each (exept writer 4)
 
+- Scaled by count of 1 vertex graphemes
+
+<img src="images/FourDocWriterCorrelations.png" width=600>
 
 
 # Soyoung

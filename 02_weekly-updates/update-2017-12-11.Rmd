@@ -8,13 +8,6 @@ output:
 
 # Show and Tell <br> December 11
 
-# Sample Speaker
-
-## Sample Slide
-
-- a
-- b
-
 # Jason
 
 ## NIPS 2017
@@ -85,3 +78,15 @@ output:
 
 ## Results of *Authorship* Analysis
 <img src="images/Amy_10Graph_W5VarPlot.png" width=750>
+
+# Sam
+
+## Judge training 
+
+- [Current draft version](images/judge-training.pdf): be completed by December 22nd.
+- Current concepts: independence, sampling, conditional probabilities
+
+## Topic Contributed Session JSM
+
+- No one else volunteered to chair, so I'll reach out to CMU people. 
+- From there, I'll just harang some participation. 

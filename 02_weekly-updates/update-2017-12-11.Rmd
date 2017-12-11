@@ -14,3 +14,18 @@ output:
 
 - a
 - b
+
+# Jason
+
+## NIPS 2017
+
+- Arguably the most important conference in AI.
+- Over 6000 people, including all the big tech companies.
+- Videos for many of the sessions at https://www.facebook.com/NIPSlive/
+- This was a conference devoted to *applications of statistics*. We are a large *applied statistics department*. Why was I the only one there?
+
+<img src="images/thinking-face.png" width=100>
+
+## NIPS 2017
+
+<img src="images/nips-registration.png" width=500>

@@ -39,12 +39,12 @@ output:
 ## Consider the 10 Most Frequent Graph Types
 - 2_192
 - 3_224
-- 4_112
+- **4_112**
 - 4_120
 - 4_98
 - 5_120
 - 5_225
-- 6_112
+- **6_112**
 - 7_120
 - 8_112
 
@@ -54,14 +54,14 @@ output:
 - 6 documents per writer
 - Data:
 
-<img src="images/Amy_10GraphData.png" width=800>
+<img src="images/Amy_10GraphData.png" width=875>
 
 ## Hierarchical Model
-<img src="images/Amy_10Graph_HModel.png" width=800>
+<img src="images/Amy_10Graph_HModel.png" width=1200>
 
 
 ## Estimates of Posterior Distn. for $\pi_w$ vectors
-<img src="images/Amy_PosteriorPiSamples.png" width=675>
+<img src="images/Amy_PosteriorPiSamples.png" width=700>
 
 ## Writing Samples
 - Writing samples from writer #4 (top) and writer #8 (bottom).
@@ -70,10 +70,10 @@ output:
 
 
 ## Questioned Writer #1
-<img src="images/Amy_10Graph_QDW3.png" width=850>
+<img src="images/Amy_10Graph_QDW3.png" width=875>
 
 ## Questioned Writer #2
-<img src="images/Amy_10Graph_QDW5.png" width=850>
+<img src="images/Amy_10Graph_QDW5.png" width=875>
 
 
 ## Analysis of two new questioned writings

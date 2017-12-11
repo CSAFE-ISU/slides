@@ -34,7 +34,7 @@ output:
 # Amy
 
 ## Graph Type Importance and Frequencies
-<img src="images/Amy_varimp_varfreq.png" width=650>
+<img src="images/Amy_varimp_varfreq.png" width=750>
 
 ## Consider the 10 Most Frequent Graph Types
 - 2_192

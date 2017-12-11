@@ -20,7 +20,7 @@ output:
 ## NIPS 2017
 
 - Arguably the most important conference in AI.
-- > 6000 people, including all the big tech companies.
+- Over 6000 people, including all the big tech companies.
 - Videos for many of the sessions at https://www.facebook.com/NIPSlive/
 - This was a conference devoted to *applications of statistics*. We are a large *applied statistics department*. Why was I the only one there?
 

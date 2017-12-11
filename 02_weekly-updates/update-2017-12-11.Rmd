@@ -1,0 +1,16 @@
+---
+title: "Weekly Update for December 11"
+date: "December 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> December 11
+
+# Sample Speaker
+
+## Sample Slide
+
+- a
+- b

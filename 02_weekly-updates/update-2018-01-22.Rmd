@@ -84,3 +84,13 @@ plot_3d_land(bullet=test)
 ## Shoe print matching - Method 2 (Corners & Edges)
 <img src="images/aligned_partial.png" width="35%">
 
+# Ganesh
+
+## 
+<div style="position:absolute; TOP:35px; LEFT:25px;"><img src="images/typeII_profile-sig_with-coarseness-1.png" width="100%">
+<!-- ![](images/typeII_profile-sig_with-coarseness-1.png) -->
+
+## 
+<div style="position:absolute; TOP:35px; LEFT:170px;"><img src="images/typeII_profile-sig_with-wv.png" width="75%" height=""75%>
+
+<!-- ![](images/typeII_profile-sig_with-wv.png) -->

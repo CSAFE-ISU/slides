@@ -1,0 +1,92 @@
+---
+title: "Weekly Update for December 11"
+date: "December 2017"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> December 11
+
+# Jason
+
+## NIPS 2017
+
+- Arguably the most important conference in AI.
+- Over 6000 people, including all the big tech companies.
+- Videos for many of the sessions at https://www.facebook.com/NIPSlive/
+- This was a conference devoted to *applications of statistics*. We are a large *applied statistics department*. Why was I the only one there?
+
+<img src="images/thinking-face.png" width=100>
+
+## NIPS 2017
+
+<img src="images/nips-registration.png" width=500>
+
+
+# Amy
+
+## Graph Type Importance and Frequencies
+<img src="images/Amy_varimp_varfreq.png" width=750>
+
+## Consider the 10 Most Frequent Graph Types
+- 2_192
+- 3_224
+- **4_112**
+- 4_120
+- 4_98
+- 5_120
+- 5_225
+- **6_112**
+- 7_120
+- 8_112
+
+
+## A Fully Bayesian Approach
+- 9 writers
+- 6 documents per writer
+- Data:
+
+<img src="images/Amy_10GraphData.png" width=875>
+
+## Hierarchical Model
+<img src="images/Amy_10Graph_HModel.png" width=1200>
+
+
+## Estimates of Posterior Distn. for $\pi_w$ vectors
+<img src="images/Amy_PosteriorPiSamples.png" width=700>
+
+## Writing Samples
+- Writing samples from writer #4 (top) and writer #8 (bottom).
+
+<img src="images/Amy_w4w8_WritingSamples.png" width=650>
+
+
+## Questioned Writer #1
+<img src="images/Amy_10Graph_QDW3.png" width=875>
+
+## Questioned Writer #2
+<img src="images/Amy_10Graph_QDW5.png" width=875>
+
+
+## Analysis of two new questioned writings
+<img src="images/Amy_10Graph_HModel2.png" width=870>
+
+
+## Results of *Authorship* Analysis
+<img src="images/Amy_10Graph_AuthorResults.png" width=450>
+
+## Results of *Authorship* Analysis
+<img src="images/Amy_10Graph_W5VarPlot.png" width=750>
+
+# Sam
+
+## Judge training 
+
+- [Current draft version](images/judge-training.pdf): be completed by December 22nd.
+- Current concepts: independence, sampling, conditional probabilities
+
+## Topic Contributed Session JSM
+
+- No one else volunteered to chair, so I'll reach out to CMU people. 
+- From there, I'll just harang some participation. 

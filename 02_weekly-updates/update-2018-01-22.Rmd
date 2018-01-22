@@ -63,13 +63,13 @@ plot_3d_land(bullet=test)
 - Problem : Takes long time!! 
 - Confine area for candidate circles in K (1 hour -> 10 mins)
 
-<img src="images/edge_confine.png" width="40%">
+<img src="images/edge_confine.PNG" width="40%">
 
 ## Shoe matching - Method 1 (Edges)
 - KM ; Compare Li1 vs. Li2, KNM ; Li1 vs. Lj1, Partial vs. full ; partial Li1 vs. Li2
 - Same pattern but different shoe ; Li1 vs. Ri1
 
-<img src="images/comp_L_R.png" width="40%">
+<img src="images/comp_L_R.PNG" width="40%">
 
 
 ## Shoe matching - Method 2 (Corners & Edges)

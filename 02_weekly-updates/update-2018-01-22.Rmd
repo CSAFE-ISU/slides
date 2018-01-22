@@ -56,7 +56,7 @@ plot_3d_land(bullet=test)
 
 
 
-#Soyoung
+# Soyoung
 
 ## Shoe matching - Method 1 (Edges)
 - Fix circles in Q and find best matching circles in K
@@ -65,22 +65,22 @@ plot_3d_land(bullet=test)
 
 <img src="images/edge_confine.PNG" width="40%">
 
-## Shoe matching - Method 1 (Edges)
+## Shoe print matching - Method 1 (Edges)
 - KM ; Compare Li1 vs. Li2, KNM ; Li1 vs. Lj1, Partial vs. full ; partial Li1 vs. Li2
 - Same pattern but different shoe ; Li1 vs. Ri1
 
 <img src="images/comp_L_R.PNG" width="70%">
 
 
-## Shoe matching - Method 2 (Corners & Edges)
+## Shoe print matching - Method 2 (Corners & Edges)
 - Fast alignment using 500 of strong corners
 - After the alignment, fix circles in Q and find corresponding area in K to find best matching circles
 - KM, KNM, same pattern diff shoe (L vs. R)
 - Most challenging : partial vs. full comparison
 
-## Shoe matching - Method 2 (Corners & Edges)
+## Shoe print matching - Method 2 (Corners & Edges)
 <img src="images/not_aligned_partial.png" width="35%">
 
-## Shoe matching - Method 2 (Corners & Edges)
+## Shoe print matching - Method 2 (Corners & Edges)
 <img src="images/aligned_partial.png" width="35%">
 

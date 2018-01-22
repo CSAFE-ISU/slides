@@ -67,12 +67,13 @@ plot_3d_land(bullet=test)
 
 
 ## Shoe matching - Method 2 (Corners & Edges)
--Fast alignment using 500 of strong corners
--After the alignment, fix circles in Q and find corresponding area in K to find best matching circles
--KM, KNM, same pattern diff shoe, partial vs. full comparisons are planned.
+- Fast alignment using 500 of strong corners
+- After the alignment, fix circles in Q and find corresponding area in K to find best matching circles
+- KM, KNM, same pattern diff shoe (L vs. R)
+- Most challenging : partial vs. full comparison
 
 ## Shoe matching - Method 2 (Corners & Edges)
-<img src="images/not_aligned_partial.png" width=500>
+<img src="images/not_aligned_partial.png" width=400>
 
-<img src="images/aligned_partial.png" width=500>
+<img src="images/aligned_partial.png" width=400>
 

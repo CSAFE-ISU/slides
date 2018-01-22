@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: "Weekly Update for January 22"
 date: "January 2019"
+=======
+title: "Weekly Update for December 11"
+date: "December 2017"
+>>>>>>> 7d7f76122923b8453a059460a267501b48174990
 output: 
     rmdshower::shower_presentation:
         ratio: 4x3

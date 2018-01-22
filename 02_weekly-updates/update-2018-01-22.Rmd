@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: "Weekly Update for January 22"
 date: "January 2019"
-=======
-title: "Weekly Update for December 11"
-date: "December 2017"
->>>>>>> 7d7f76122923b8453a059460a267501b48174990
 output: 
     rmdshower::shower_presentation:
         ratio: 4x3
@@ -20,3 +15,26 @@ output:
 - Very 
 - Stable
 - Genius
+
+# Bullet project
+
+## Lot's of news!
+
+- FTE workshop Dec 7/8 was great, thanks everybody for their help
+- **CSAFE-Persistence**: Over the break we went out to the Story County shooting range and collected bullets from ten new Sig Sauer handguns.
+
+## CSAFE persistence
+
+![](images/HH_alicia.png)
+![](images/HH_no1.png)
+![](images/HH_bullet.png)
+![](images/HH_collection.png)
+
+## CSAFE persistence
+
+![](images/HH_cleaning.png)
+![](images/HH_tube.png)
+
+Next outing: tomorrow 12-4pm, please send email if you want to help
+
+

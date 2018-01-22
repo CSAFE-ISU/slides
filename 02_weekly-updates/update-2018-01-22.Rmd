@@ -53,3 +53,26 @@ library(bulletr)
 test <- read_x3p(path=system.file("", "csafe-logo.x3p", package = "bulletr"))
 plot_3d_land(bullet=test)
 ```
+
+
+
+#Soyoung
+
+## Shoe matching - Method 1 (Edges)
+- Fix circles in Q and find best matching circles in K
+- Confine area for candidate circles in K
+- KM ; Compare Li1 vs. Li2, KNM ; Li1 vs. Lj1 
+- Same pattern but different shoe ; Li1 vs. Ri1
+- Partial vs. full ; partial Li1 vs. Li2
+
+
+## Shoe matching - Method 2 (Corners & Edges)
+-Fast alignment using 500 of strong corners
+-After the alignment, fix circles in Q and find corresponding area in K to find best matching circles
+-KM, KNM, same pattern diff shoe, partial vs. full comparisons are planned.
+
+## Shoe matching - Method 2 (Corners & Edges)
+<img src="images/not_aligned_partial.png" width=500>
+
+<img src="images/aligned_partial.png" width=500>
+

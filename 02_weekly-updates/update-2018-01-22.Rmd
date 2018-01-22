@@ -37,4 +37,19 @@ output:
 
 Next outing: tomorrow 12-4pm, please send email if you want to help
 
+## bulletr
 
+- x3p IS0 standard was updated in late 2017. 
+- `read_x3p` and `write_x3p` are adjusted in bulletr.
+- we've made a test image ... it's supposed to be wildly distributed:
+
+![](images/csafe-x3p.png)
+
+## csafe logo as x3p
+
+```{r, message=FALSE}
+devtools::install_github("csafe-isu/bulletr")
+library(bulletr)
+test <- read_x3p(path=system.file("", "csafe-logo.x3p", package = "bulletr"))
+plot_3d_land(bullet=test)
+```

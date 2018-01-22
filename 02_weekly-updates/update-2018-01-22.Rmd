@@ -73,7 +73,7 @@ plot_3d_land(bullet=test)
 - Most challenging : partial vs. full comparison
 
 ## Shoe matching - Method 2 (Corners & Edges)
-<img src="images/not_aligned_partial.png" width=400>
+<img src="images/not_aligned_partial.png" width="70%">
 
-<img src="images/aligned_partial.png" width=400>
+<img src="images/aligned_partial.png" width="70%">
 

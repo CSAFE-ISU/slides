@@ -1,0 +1,19 @@
+---
+title: "Weekly Update for January 29"
+date: "January 2019"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> January 29
+
+# Sample Speaker
+
+## Sample Slide
+
+- Attempted
+- Firing
+- Will 
+- Backfire
+

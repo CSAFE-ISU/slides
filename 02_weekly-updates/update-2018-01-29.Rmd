@@ -152,10 +152,15 @@ Still TBD:
 
 <img src="images/Amy_50graphplot.png" width=700>
 
+## Next
+
+- Working on coding up a finite mixture model
+- Latent variable for writing type
 
 
 
-=======
+
+
 
 # Kiegan  
 

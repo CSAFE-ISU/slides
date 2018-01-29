@@ -79,3 +79,44 @@ Pick out the window which gives the best correlation between the two markings.
 <!-- <div style="position:absolute; TOP:35px; LEFT:170px;"><img src="images/slide1-gk-jan29.png" width="75%" height=""75%> -->
 
 <!-- ![](images/typeII_profile-sig_with-wv.png) -->
+
+# Sam 
+
+## Bullet project
+
+- File tracking for large files $\Rightarrow$ [Git LFS](https://git-lfs.github.com/)
+- Works with private repos
+- Really fast with Git version 2.11.0
+
+<img src="https://git-lfs.github.com/images/facebook-promo.png" style="width:75%"/>
+
+## Training for Judges
+
+- 3 case studies, 3 statistical concepts
+
+1. Sampling - US v. Shonubi (1997) (drug smuggling)
+2. Independence - Sally Clark case in UK (1999) (2 SIDS deaths in 1 family)
+3. Conditional Probability - People v. Collins (1968) (supposed rarity of interracial couple)
+
+## Training (cont.)
+
+General idea: 
+
+- judges only have time to care about what's relevant to them
+- present literal case studies where a statistical concept was relevant
+- explain how the statistics played a role
+- generally explain some statistics concepts
+- glossary and formula definition appendices 
+
+Still TBD: 
+
+- Likelihood ratio
+- Quantifying and understanding variability
+- Relevant populations (?) (can be pushed into LR)
+- Others? Maybe something about assumptions when modeling? 
+
+## Writing
+
+- Aim to submit paper on the mock juror study to *Law, Probability, and Risk* by end of February 
+
+- ROpenSci Fellowship...waiting to hear more

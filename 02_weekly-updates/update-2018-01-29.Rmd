@@ -123,7 +123,7 @@ Still TBD:
 - Divide residuals by relative height and take range of wherever the non-positive residuals are
 
 ## Comparing difference in grooves to residuals  
-<img src="images/4timesmedian.png">
+<img src="images/4timesmedian.png" width = "75%">
 
 ## Comparing difference in grooves to residuals
-<img src = "images/pos_residuals.png">
+<img src = "images/pos_residuals.png" width = "75%">

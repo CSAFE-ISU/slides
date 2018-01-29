@@ -92,8 +92,11 @@ Pick out the window which gives the best correlation between the two markings.
 
 General idea: 
 
-- judges only have time to care about what's relevant to them: present literal case studies where a statistical concept was relevant
-- explain how the statistics played a role & generally explain some statistics concepts
+- judges only have time to care about what's relevant to them
+- present literal case studies where a statistical concept was relevant
+- explain how the statistics played a role
+- generally explain some statistics concepts
+- glossary and formula definition appendices 
 
 Still TBD: 
 
@@ -105,4 +108,22 @@ Still TBD:
 ## Writing
 
 - Aim to submit paper on the mock juror study to *Law, Probability, and Risk* by end of February 
+
 - ROpenSci Fellowship...waiting to hear more
+
+
+
+# Kiegan  
+
+## Different methods for finding 'cutoff' values  
+- Using robust linear models to fit the curve of the bullet 
+- Get residuals 
+- How do we decide where to cut off the residuals? (i.e., where are the grooves?)
+- 4 times median value of the residuals 
+- Divide residuals by relative height and take range of wherever the non-positive residuals are
+
+## Comparing difference in grooves to residuals  
+<img src="images/4timesmedian.png">
+
+## Comparing difference in grooves to residuals
+<img src = "images/pos_residuals.png">

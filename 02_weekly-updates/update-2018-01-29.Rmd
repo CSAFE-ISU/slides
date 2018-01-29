@@ -106,3 +106,48 @@ Still TBD:
 
 - Aim to submit paper on the mock juror study to *Law, Probability, and Risk* by end of February 
 - ROpenSci Fellowship...waiting to hear more
+
+
+# Amy
+
+## A Fully Bayesian Approach
+- 9 writers
+- 8 documents per writer
+- Data:
+
+<img src="images/Amy_10GraphData.png" width=875>
+
+
+## Hierarchical Model
+<img src="images/Amy_10Graph_HModel.png" width=1200>
+
+## Questioned Writer
+<img src="images/Amy_10Graph_QDW3.png" width=875>
+
+## Analysis of new questioned writing
+<img src="images/Amy_10Graph_HModel2.png" width=870>
+
+
+## Results
+
+4 Graphs
+
+<img src="images/Amy_4graphplot.png" width=700>
+
+
+## Results
+
+10 Graphs
+
+<img src="images/Amy_10graphplot.png" width=700>
+
+
+## Results
+
+50 Graphs
+
+<img src="images/Amy_50graphplot.png" width=700>
+
+
+
+

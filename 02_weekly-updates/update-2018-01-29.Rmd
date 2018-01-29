@@ -45,3 +45,37 @@ output:
 
 ## Shoe print matching - Method 2 (Corners & Edges)
 <img src="images/aligned_partial.png" width="35%">
+
+# Ganesh
+
+## Adapting the chumbley score to bullets
+
+## Optimization Window (Signatures)
+<div style="position:absolute; TOP:235px; LEFT:25px;"><img src="images/slide1-gk-jan29.png" width="100%">
+
+## Validation Window (Signatures + Profiles)
+<div style="position:absolute; TOP:235px; LEFT:25px;"><img src="images/slide2-gk-jan29.png" width="100%">
+
+## Coarseness (Profiles)
+<div style="position:absolute; TOP:235px; LEFT:25px;"><img src="images/slide3-gk-jan29.png" width="100%">
+
+## Modification of Algorithm
+
+1.Instead of using static same distance windows in the validation step, allowing for wiggle room.
+Pick out the window which gives the best correlation between the two markings.
+
+2.Current modification keeps the Validation window size the same, but moves it a bit to the left and right on the second (of the two markings)
+
+3.Results are slightly better than the original hadler-morris-chumbley algorithm. A 1 pixel (0.645 micron) movement of WV, reduces both the number of False Positives and False Negatives
+
+4.Needs to be tested for different "delta parameter values" (how much window movement is good enough?)
+
+<!-- ## Alternative modificiations to be tested  -->
+<!-- -Move windows on both markings -->
+<!-- -Extend the window for wiggle room on both markings -->
+
+
+
+<!-- <div style="position:absolute; TOP:35px; LEFT:170px;"><img src="images/slide1-gk-jan29.png" width="75%" height=""75%> -->
+
+<!-- ![](images/typeII_profile-sig_with-wv.png) -->

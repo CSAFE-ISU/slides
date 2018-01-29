@@ -92,11 +92,8 @@ Pick out the window which gives the best correlation between the two markings.
 
 General idea: 
 
-- judges only have time to care about what's relevant to them
-- present literal case studies where a statistical concept was relevant
-- explain how the statistics played a role
-- generally explain some statistics concepts
-- glossary and formula definition appendices 
+- judges only have time to care about what's relevant to them: present literal case studies where a statistical concept was relevant
+- explain how the statistics played a role & generally explain some statistics concepts
 
 Still TBD: 
 
@@ -108,5 +105,4 @@ Still TBD:
 ## Writing
 
 - Aim to submit paper on the mock juror study to *Law, Probability, and Risk* by end of February 
-
 - ROpenSci Fellowship...waiting to hear more

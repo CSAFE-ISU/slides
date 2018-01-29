@@ -8,16 +8,6 @@ output:
 
 # Show and Tell <br> January 29
 
-# Sample Speaker
-
-## Sample Slide
-
-- Attempted
-- Firing
-- Will 
-- Backfire
-
-
 # Soyoung
 
 ## Shoe matching - Method 1 (Edges)

@@ -91,3 +91,33 @@ Color schemes: CSAFE has it's own color scheme!
 - Re-framing Sam's judge training
 - Searching for real-world case studies  
 
+# Amy
+
+## REU Results - Hierarchical Model
+
+<img src="images/REU_9writer_hierarchical_probs.gif" width = 600 height = 550> 
+
+## REU Results - Hierarchical Model
+
+<img src="images/Amy_REU_w2allprobsbygraphs.png" width = 850 height = 525> 
+
+## REU Results - Hierarchical Model
+
+<img src="images/Amy_REU_w4allprobsbygraphs.png" width = 850 height = 525> 
+
+## REU Results - Hierarchical Model
+
+<img src="images/Amy_REU_authorprobsbygraphs.png" width = 900 height = 525> 
+
+
+## Data
+
+- Re-install an updated version of Flash ID
+- Re-construct and re-export all reference sets (**old**: REU data, **new**: CVL database)
+
+<img src="images/Amy_cvldatabase.png" width = 600 height = 500> 
+
+
+
+
+

@@ -31,15 +31,27 @@ output:
 
 - On Friday we finished collecting bullets from the ten new Sig Sauer hand guns.
 - 1,270 bullets and cartridge cases from ten different barrels
-
 - start collecting for ten Smith & Wessons (confiscated by DCI Ankeny)
 - scanning
 
 ## Results from first couple of scans
 
+Bullet lands don't have very deep marks, but scans look OK
+
+![](images/bullet901-1.png)
+
+## Matching? - not so much
+
 Barrel 1:
 
 ![](images/csafe-barrel1.png)
+
+
+## On a different note ...
+
+Color schemes: CSAFE has it's own color scheme!
+
+![](images/csafe-colors.png)
 
 
 # Kiegan

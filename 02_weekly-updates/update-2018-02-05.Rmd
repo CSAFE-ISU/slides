@@ -17,3 +17,31 @@ output:
 - trust
 - the
 - groundhog
+
+
+# Kiegan
+
+## Groove ID  
+
+- RLM method is performing better than `rollapply` method  
+- Reduces extremity of really bad `rollapply` examples  
+
+<img src="images/assess-fit-plot.png" width = 550 height = 300>  
+
+## Groove ID  
+
+- RLM method is performing better than `rollapply` method  
+- Reduces extremity of really bad `rollapply` examples  
+
+<img src="images/assess-fit-plot.png" width = 550 height = 300>  
+
+## Groove ID  
+- Also going to try iteratively fitting `loess` model  
+- Main problem is always 'how far is too far' - the cutoff problem  
+
+
+## Statistics and Society Book  
+
+- Meeting w/Hal via Zoom, then leadership team (outline)  
+- Re-framing Sam's judge training
+- Searching for real-world case studies  

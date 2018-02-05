@@ -54,6 +54,16 @@ Color schemes: CSAFE has it's own color scheme!
 ![](images/csafe-colors.png)
 
 
+# Guillermo
+
+## On shoes...
+
+- Study is going well for the most part (looking at you, 3D scanner)
+- Planning on extending the period participants will be using the shoes
+- Thinking of a follow-up study for the Summer (maybe NIST too)
+- Extracting matrices from pressure sensing mat
+- Testing ICP algorithm
+
 # Kiegan
 
 ## Groove ID  

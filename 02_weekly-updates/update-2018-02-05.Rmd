@@ -33,7 +33,7 @@ output:
 - RLM method is performing better than `rollapply` method  
 - Reduces extremity of really bad `rollapply` examples  
 
-<img src="images/assess-fit-plot.png" width = 550 height = 300>  
+<img src="images/compare-boxplots.png" width = 550 height = 300>  
 
 ## Groove ID  
 - Also going to try iteratively fitting `loess` model  

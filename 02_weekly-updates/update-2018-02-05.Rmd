@@ -19,6 +19,29 @@ output:
 - groundhog
 
 
+# Heike
+
+##  {.white}
+
+<img class="cover" src="images/done.jpg" alt="" width=2000>
+
+<span style="color:white"><p align="center" ><font size="64">!! We are done !!</font></span></p>
+
+## Bullet collection
+
+- On Friday we finished collecting bullets from the ten new Sig Sauer hand guns.
+- 1,270 bullets and cartridge cases from ten different barrels
+
+- start collecting for ten Smith & Wessons (confiscated by DCI Ankeny)
+- scanning
+
+## Results from first couple of scans
+
+Barrel 1:
+
+![](images/csafe-barrel1.png)
+
+
 # Kiegan
 
 ## Groove ID  
@@ -45,3 +68,4 @@ output:
 - Meeting w/Hal via Zoom, then leadership team (outline)  
 - Re-framing Sam's judge training
 - Searching for real-world case studies  
+

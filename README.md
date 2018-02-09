@@ -7,6 +7,7 @@ In this repository, you will find brief weekly updates of some of the worked dev
 January 22: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-01-22.html)<br>
 January 29: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-01-29.html)<br>
 February 5: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-02-05.html)<br>
+February 12: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-02-12.html)<br>
 
 
 ## Fall 2017 Slides

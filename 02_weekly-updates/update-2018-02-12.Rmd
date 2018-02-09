@@ -1,0 +1,19 @@
+---
+title: "Weekly Update for February 12"
+date: "February 2018"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> February 12
+
+# Sample Speaker
+
+## Sample Slide
+
+- The 
+- groundhog
+- was 
+- right
+- :'(

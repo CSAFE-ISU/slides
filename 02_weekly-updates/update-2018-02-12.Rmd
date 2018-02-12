@@ -48,3 +48,22 @@ output:
 ## Shoe matching on edges
 
 <img src="images/slide7.PNG" width="60%">
+
+# Martin
+
+## Shoeprint registration update
+
+* What is working?
+     + Given two shoeprint images, we can do a initial rough alignment using an axis found with SLR
+     + After this is done, we apply the MATLAB function 'imregister' to get a better alignment
+
+<img src="images/matlab.png" width="40%">
+
+## Currently working on...
+
+* Writing my version of 'imregister' in Rcpp
+     + The algorithm is based on minimizing the difference of the pixel intensities after a given affine transformation is applied
+     + The optimization algorithm is based on gradient descent
+     + The more interesting part is the use of the pyramid representation
+     
+<img src="images/pyramid.png" width="35%">

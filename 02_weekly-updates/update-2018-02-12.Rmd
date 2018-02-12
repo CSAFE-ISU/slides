@@ -48,3 +48,10 @@ output:
 ## Shoe matching on edges
 
 <img src="images/slide7.PNG" width="60%">
+
+# Nick
+
+## Coding things up
+ - Just coding things up. Thinning algorithm can take up to a minute for full documents.
+ - When we start processing documents, this adds up. Would like to decrease this time.
+ - Converting R code to Rcpp.

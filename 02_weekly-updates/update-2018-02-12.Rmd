@@ -67,7 +67,7 @@ output:
      + The more interesting part is the use of the pyramid representation
      
 <img src="images/pyramid.png" width="35%">
-=======
+
 # Nick
 
 ## Coding things up

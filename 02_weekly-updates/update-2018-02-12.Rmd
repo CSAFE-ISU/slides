@@ -23,31 +23,31 @@ output:
 
 ## Shoe matching on edges
 
-<img src="images/slide1.PNG" width="60%">
+<img src="images/slide1.PNG" width="110%">
 
 ## Shoe matching on edges
 
-<img src="images/slide2.PNG" width="60%">
+<img src="images/slide2.PNG" width="110%">
 
 ## Shoe matching on edges
 
-<img src="images/slide3.PNG" width="60%">
+<img src="images/slide3.PNG" width="110%">
 
 ## Shoe matching on edges
 
-<img src="images/slide4.PNG" width="60%">
+<img src="images/slide4.PNG" width="110%">
 
 ## Shoe matching on edges
 
-<img src="images/slide5.PNG" width="60%">
+<img src="images/slide5.PNG" width="110%">
 
 ## Shoe matching on edges
 
-<img src="images/slide6.PNG" width="60%">
+<img src="images/slide6.PNG" width="110%">
 
 ## Shoe matching on edges
 
-<img src="images/slide7.PNG" width="60%">
+<img src="images/slide7.PNG" width="110%">
 
 # Martin
 

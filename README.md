@@ -8,6 +8,8 @@ January 22: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates
 January 29: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-01-29.html)<br>
 February 5: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-02-05.html)<br>
 February 12: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-02-12.html)<br>
+February 19: [AAFS](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-02-12.html) meeting week <br>
+February 26: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-02-26.html)<br>
 
 
 ## Fall 2017 Slides

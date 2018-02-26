@@ -53,3 +53,14 @@ output:
 - Comparing bullets by combining lands
 - Running for the in-house Hamby data
 - Window wiggle adaptation fix
+
+# Nick
+
+## Re-writing Thinning Algorithm
+ - I'm now on the lookout for other things that I can do faster
+<img src="images/ThinningSpeedup.png" width = 800>
+
+## Shiny App
+ - Speedups in thinning allowed us to make the shiny app better. All processing now done in app, so an image can be uploaded rather than an RDS object that was pre-processed.
+  - <https://berryni.shinyapps.io/ViewHW>
+  

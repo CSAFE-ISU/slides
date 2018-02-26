@@ -8,14 +8,6 @@ output:
 
 # Show and Tell <br> February 26
 
-# Sample Speaker
-
-## Sample Slide
-
-- a
-- b
-- c
-
 # Jason
 
 ## Feature Distributions on Hamby and Phonix Sets
@@ -42,6 +34,26 @@ output:
 
 - Sending section on pattern evidence/fingerprints to editor  
 - Sending to John Kimmel by end of the week  
+
+# Guillermo
+
+## Pressure Sensing Mat
+
+- Two CSV files
+    + Single frame
+    + 300 frames (that create a video)
+- Text in CSV: text and matrix or matrices
+- Rows of text are variable
+
+## Raw Low Resolution
+
+<img src="images/matscan_raw.png" width = 800 height = 600>
+
+## Interpolated
+
+<img src="images/matscan_interpolated.png" width = 800 height = 600>
+
+
 
 # Ganesh
 
@@ -91,7 +103,7 @@ output:
 
 ## Finally, color schemes
 
-```{r, fig.width=4, fig.height=4, message=FALSE, warning=FALSE}
+```{r, fig.width=4, fig.height=4, message=FALSE, warning=FALSE, eval = FALSE}
 # devtools::install_github("heike/gretchenalbrecht")
 library(gretchenalbrecht)
 csafe <- make_palette("https://forensicstats.org/wp-content/uploads/2017/01/csafe-logo-90.png")

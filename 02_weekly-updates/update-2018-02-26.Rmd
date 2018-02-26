@@ -114,7 +114,7 @@ output:
 
 ## Finally, color schemes
 
-```{r, fig.width=4, fig.height=4, message=FALSE, warning=FALSE, eval = FALSE}
+```{r, fig.width=4, fig.height=4, message=FALSE, warning=FALSE}
 # devtools::install_github("heike/gretchenalbrecht")
 library(gretchenalbrecht)
 csafe <- make_palette("https://forensicstats.org/wp-content/uploads/2017/01/csafe-logo-90.png")

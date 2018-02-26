@@ -1,0 +1,66 @@
+---
+title: "Weekly Update for February 26"
+date: "February 2018"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> February 26
+
+# Sample Speaker
+
+## Sample Slide
+
+- a
+- b
+- c
+
+# Jason
+
+## Feature Distributions on Hamby and Phonix Sets
+<img src="images/feature_distributions_D.png">
+
+## Feature Distributions on Hamby and Phonix Sets
+<img src="images/feature_distributions_Mismatches.png">
+
+## Interval Lengths on Phoenix Set
+<img src="images/test2_set_interval_lengths.png">
+
+## Interval Lengths by `rtrees` Predicted Scores
+<img src="images/interval_lengths_by_predicted_scores.png">
+
+
+# Kiegan
+
+## AAFS in Seattle  
+- Gave talk on automated groove ID in 3D bullet land scans
+- Worked the booth!  
+<img src="images/aafs_booth.png" width = 500 height = 300>
+
+## Statistics and Forensics book
+
+- Sending section on pattern evidence/fingerprints to editor  
+- Sending to John Kimmel by end of the week  
+
+# Ganesh
+
+## Writing
+- Working on the writeup for the Chumbley score adaptation
+## Shiny
+- In the process of updating shiny app for reading writing to be in sync with x3ptools
+## Chumbley score
+- Comparing bullets by combining lands
+- Running for the in-house Hamby data
+- Window wiggle adaptation fix
+
+# Nick
+
+## Re-writing Thinning Algorithm
+ - I'm now on the lookout for other things that I can do faster
+<img src="images/ThinningSpeedup.png" width = 800>
+
+## Shiny App
+ - Speedups in thinning allowed us to make the shiny app better. All processing now done in app, so an image can be uploaded rather than an RDS object that was pre-processed.
+  - <https://berryni.shinyapps.io/ViewHW>
+  

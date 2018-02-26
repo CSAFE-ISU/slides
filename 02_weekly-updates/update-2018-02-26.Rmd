@@ -36,7 +36,7 @@ output:
 ## AAFS in Seattle  
 - Gave talk on automated groove ID in 3D bullet land scans
 - Worked the booth!  
-<img src="images/aafs_booth.png" width = 550 height = 300>
+<img src="images/aafs_booth.png" width = 500 height = 300>
 
 ## Statistics and Forensics book
 

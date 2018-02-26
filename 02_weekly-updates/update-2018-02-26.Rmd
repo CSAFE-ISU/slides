@@ -43,4 +43,13 @@ output:
 - Sending section on pattern evidence/fingerprints to editor  
 - Sending to John Kimmel by end of the week  
 
+# Ganesh
 
+## Writing
+- Working on the writeup for the Chumbley score adaptation
+## Shiny
+- In the process of updating shiny app for reading writing to be in sync with x3ptools
+## Chumbley score
+- Comparing bullets by combining lands
+- Running for the in-house Hamby data
+- Window wiggle adaptation fix

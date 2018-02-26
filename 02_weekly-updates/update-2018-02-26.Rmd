@@ -29,3 +29,18 @@ output:
 
 ## Interval Lengths by `rtrees` Predicted Scores
 <img src="images/interval_lengths_by_predicted_scores.png">
+
+
+# Kiegan
+
+## AAFS in Seattle  
+- Gave talk on automated groove ID in 3D bullet land scans
+- Worked the booth!  
+<img src="images/aafs_booth.png" width = 550 height = 300>
+
+## Statistics and Forensics book
+
+- Sending section on pattern evidence/fingerprints to editor  
+- Sending to John Kimmel by end of the week  
+
+

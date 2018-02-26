@@ -64,3 +64,14 @@ output:
  - Speedups in thinning allowed us to make the shiny app better. All processing now done in app, so an image can be uploaded rather than an RDS object that was pre-processed.
   - <https://berryni.shinyapps.io/ViewHW>
   
+# Martin
+
+## AAFS (Seattle)
+- Presented a poster talking about the CSAFE shoeprint project, including the shoeprints study, database in construction and current progress to analyze the 2d scanner images
+- Ran the booth at the exhibition  
+- Attended some talkes and poster presentations from 'Engineering Sciences' and 'Digital & Multimedia Sciences' sections
+
+## Shoeprint images alignment
+
+- Still working on my version of 'imregister' (mostly debugging)
+- Currently working on obtaining the distribution of the differences between the first reading (baseline) and second reading for the nike shoes (male size 10.5)

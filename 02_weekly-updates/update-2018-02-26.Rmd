@@ -76,7 +76,6 @@ output:
  - Speedups in thinning allowed us to make the shiny app better. All processing now done in app, so an image can be uploaded rather than an RDS object that was pre-processed.
   - <https://berryni.shinyapps.io/ViewHW>
   
-<<<<<<< HEAD
 # Martin
 
 ## AAFS (Seattle)
@@ -128,4 +127,3 @@ dframe %>% ggplot(aes(x = x, y=y, colour=factor(col))) + geom_point(size=3) +
   theme(legend.position="none") +
   scale_colour_manual(values=cols10$col[-1])
 ```
->>>>>>> f770a80d7b522fd05bd0b194277e90e92cc297c4

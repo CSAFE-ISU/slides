@@ -108,7 +108,7 @@ output:
 
 <img src="images/17_adidas_vinyl.png" width = 300 />
 
-## Other Considerations
+# Other Considerations
 
 ## Other Considerations
 

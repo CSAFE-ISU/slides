@@ -70,8 +70,8 @@ output:
 - Modes: Detailed and quick
 - 2 per shoe per mode
 
-<img src="images/07_adidas_everos_detailed.tiff" width = 150 align = "left" />
-<img src="images/08_adidas_everos_quick.tiff" width = 150 align = "left" />
+<img src="images/07_adidas_everos_detailed.png" width = 150 align = "left" />
+<img src="images/08_adidas_everos_quick.png" width = 150 align = "left" />
 
 
 ## High Resolution Picture

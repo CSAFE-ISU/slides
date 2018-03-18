@@ -1,0 +1,17 @@
+---
+title: "Weekly Update for March 19"
+date: "March 2018"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> March 19
+
+# Sample User
+
+## Sample Slide
+
+- a
+- b
+- c

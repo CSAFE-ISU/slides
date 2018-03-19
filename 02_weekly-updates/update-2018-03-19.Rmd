@@ -48,10 +48,10 @@ output:
 ## Reasonable model
 - Kolmogorov-Smirnov test, Cremer-von Mises test, Anderson-Darling test, and so on..
 
- - 1. Start with Beta distribution, Beta(s1, s2).
- - 2. Get MLE of s1 and s2 and make some variations in each parameter.
- - 3. Test K-S test and find the reasonable shape parameters that pass the test.
- - 4. Get density of KM score and KNM score and take the ratio (SLR) at desired score. 
+ 1. Start with Beta distribution, Beta(s1, s2).
+ 2. Get MLE of s1 and s2 and make some variations in each parameter.
+ 3. Test K-S test and find the reasonable shape parameters that pass the test.
+ 4. Get density of KM score and KNM score and take the ratio (SLR) at desired score. 
 
 - KM score : 559 reasonable sets of parameters passed K-S test out of 1005.
 - KNM score : 2162 reasonable sets of parameters passed K-S test out of 4221.

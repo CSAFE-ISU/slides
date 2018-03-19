@@ -24,3 +24,13 @@ output:
 - **Judge training:** draft waiting for feedback from Hal & Alicia, then will be sent to judges for feedback
 - **REU:** phone interviews nearly complete! Project planning - data science focus, glass data & mock jury study data. Lecture/event/activity ideas welcome! 
 - **ROpenSci Fellowship:** [CRAN task view](https://github.com/sctyner/ctv-forsci) draft complete. Feedback welcome! Going to be "rotating" on projects for 4-6 weeks, starting with glass. 
+
+
+# Kiegan  
+
+## Updates  
+
+- **Chapman and Hall book:**  'Officially' happening! Positive reviews.  
+    - Finishing chapter on analysis of evidence by end of March
+- **NIJ Graduate Fellowship:** Submitted over break. :) 
+- **Groove Identification:** Looking into median absolute devation, iterative robust linear model fits  

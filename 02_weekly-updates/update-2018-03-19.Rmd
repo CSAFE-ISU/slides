@@ -119,6 +119,7 @@ output:
     - Nov. 2017 Vastrick et al. handwritten numerals (Gary was involved)
     - Jan. 2017 Johnson et al. handwriting and hand printing (NIJ funded - unavailable)
  
+ 
   
 
 # Martin

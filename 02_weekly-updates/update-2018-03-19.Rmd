@@ -106,3 +106,18 @@ output:
 
 ## Distribution of SLR
 <img src="images/SLRs.png" width="80%">
+
+# Amy
+
+## Updates
+- **NIJ Graduate Fellowship**  
+    - Submitted last week!
+- **STEMversity** 
+    - ~ mid-June (13 - 18)
+    - Middle and high school students
+    - Evidence collection/lab work - a few ideas!
+- **Handwriting**
+    - IRB application for data collection
+    - Modeled after the Vastrick et al. handwritten numerals data collection (Gary was involved)
+    
+

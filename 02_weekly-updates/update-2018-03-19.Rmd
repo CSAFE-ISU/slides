@@ -105,20 +105,22 @@ output:
 ## Distribution of SLR
 <img src="images/SLRs.png" width="80%">
 
+
 # Amy
 
 ## Updates
-- **NIJ Graduate Fellowship**  
-    - Submitted last week!
+- **NIJ Graduate Fellowship** (submitted last week!!) 
 - **STEMversity** 
     - ~ mid-June (13 - 18)
     - Middle and high school students
     - Evidence collection/lab work - a few ideas!
 - **Handwriting**
     - IRB application for data collection
-    - Modeled after the Vastrick et al. handwritten numerals data collection (Gary was involved)
-    
-
+    - Nov. 2017 Vastrick et al. handwritten numerals (Gary was involved)
+    - Jan. 2017 Johnson et al. handwriting and hand printing (NIJ funded - unavailable)
+ 
+ 
+  
 
 # Martin
 
@@ -129,3 +131,12 @@ output:
 - However, for larger images it's not clear, since it takes so long
 - This is not surprising, since each iteration computes pixel difference for almost 7 million pixels
 - Working on techniques to accelerate this process, specifically, parallelization in C++
+
+# Jason
+
+## Bullet Matching Intervals
+
+- BART intervals are still crazy, even after basing the intervals on predictions from 100 models rather than posterior predictive intervals from a single fit.
+- High variability in the training algorithm, which is scary.
+- This is probably due to insufficient burn-in time.
+- Extended hyperparameter optimization work planned for this week.

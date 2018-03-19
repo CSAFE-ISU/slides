@@ -63,3 +63,35 @@ output:
 ## New Plots
 
 <img src="images/Nick_newplot.png" width = 800>
+
+
+# Soyoung
+
+## Shoe matching score
+- Mated score and Non-mated score
+
+<img src="images/hist_KM_KNM.png" width="80%">
+
+## Reasonable model
+- Kolmogorov-Smirnov test, Cremer-von Mises test, Anderson-Darling test, and so on..
+
+ 1. Start with Beta distribution, Beta(s1, s2).
+ 2. Get MLE of s1 and s2 and make some variations in each parameter.
+ 3. Test K-S test and find the reasonable shape parameters that pass the test.
+ 4. Get density of KM score and KNM score and take the ratio (SLR) at desired score. 
+
+- KM score : 559 reasonable sets of parameters passed K-S test out of 1005.
+- KNM score : 2162 reasonable sets of parameters passed K-S test out of 4221.
+
+
+## Beta distribution with K-S test
+- example model
+<img src="images/ecdf_table.PNG" width="80%">
+
+
+## Distribution of SLR
+<img src="images/SLRs.png" width="80%">
+
+
+
+>>>>>>> 43b1e227c724da6b90a191dac9926d44fa6dee32

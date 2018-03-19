@@ -131,3 +131,12 @@ output:
 - However, for larger images it's not clear, since it takes so long
 - This is not surprising, since each iteration computes pixel difference for almost 7 million pixels
 - Working on techniques to accelerate this process, specifically, parallelization in C++
+
+# Jason
+
+## Bullet Matching Intervals
+
+- BART intervals are still crazy, even after basing the intervals on predictions from 100 models rather than posterior predictive intervals from a single fit.
+- High variability in the training algorithm, which is scary.
+- This is probably due to insufficient burn-in time.
+- Extended hyperparameter optimization work planned for this week.

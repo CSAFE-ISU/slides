@@ -36,3 +36,30 @@ output:
     - DNA case studies (non-mixture)  
 - **NIJ Graduate Fellowship:** Submitted over break. :) 
 - **Groove Identification:** Looking into median absolute devation, iterative robust linear model fits  
+
+
+# Nick
+
+## Updates
+
+ - Removed dependency on "imager"
+ - Cleaned up image to fill holes that shouldn't be there
+ - Redid plotting to make it a little faster and changed little red circles.
+
+## Cleaning Effects
+<img src="images/Nick_bad_d.png" height = 500>
+<img src="images/Nick_good_d.png" height = 500>
+
+## Cleaning Effects
+<img src="images/Nick_bad_e.png" height = 400>
+<img src="images/Nick_good_e.png" height = 400>
+
+## Cleaning Effects
+
+<img src="images/Nick_bad_daughters.png" height = 250>
+<br>
+<img src="images/Nick_good_daughters.png" height = 250>
+
+## New Plots
+
+<img src="images/Nick_newplot.png" width = 800>

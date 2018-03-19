@@ -106,3 +106,13 @@ output:
 
 ## Distribution of SLR
 <img src="images/SLRs.png" width="80%">
+
+# Martin
+
+## My C++ version of Matlab's "imregister"
+
+- Objective is to align images got with the EverOS 2D scanner
+- Function works well for small images (around 1/8 of the actual dimensions)
+- However, for larger images it's not clear, since it takes so long
+- This is not surprising, since each iteration computes pixel difference for almost 7 million pixels
+- Working on techniques to accelerate this process, specifically, paralelization in C++

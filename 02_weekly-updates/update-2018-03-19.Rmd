@@ -32,5 +32,7 @@ output:
 
 - **Chapman and Hall book:**  'Officially' happening! Positive reviews.  
     - Finishing chapter on analysis of evidence by end of March
+    - Trace evidence case studies  
+    - DNA case studies (non-mixture)  
 - **NIJ Graduate Fellowship:** Submitted over break. :) 
 - **Groove Identification:** Looking into median absolute devation, iterative robust linear model fits  

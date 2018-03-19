@@ -105,19 +105,7 @@ output:
 ## Distribution of SLR
 <img src="images/SLRs.png" width="80%">
 
-# Amy
-
-## Updates
-- **NIJ Graduate Fellowship** (submitted last week!!) 
-- **STEMversity** 
-    - ~ mid-June (13 - 18)
-    - Middle and high school students
-    - Evidence collection/lab work - a few ideas!
-- **Handwriting**
-    - IRB application for data collection
-    - Nov. 2017 Vastrick et al. handwritten numerals (Gary was involved)
-    - Jan. 2017 Johnson et al. handwriting and hand printing (NIJ funded - unavailable)
-    
+   
 
 
 # Martin

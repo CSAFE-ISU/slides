@@ -8,15 +8,6 @@ output:
 
 # Show and Tell <br> March 19
 
-# Sample User
-
-## Sample Slide
-
-- a
-- b
-- c
-
-
 # Sam
 
 ## Projects
@@ -29,7 +20,7 @@ output:
 # Ganesh
 
 ## Nist Scans: Observed Type I error rate
-<div style="position:absolute; TOP:165px; LEFT:25px;"><img src="images/gk-type-I-error-rates.png" width="90%" height = "90%">
+<div style="position:absolute; TOP:165px; LEFT:25px;"><img src="images/gk-type-I-error-rates.PNG" width="90%" height = "90%">
 
 ## Nist Scans: Type II Error rate and Failed Tests
 <div style="position:absolute; TOP:235px; LEFT:25px;"><img src="images/slide1-gk-jan29.png" width="100%">
@@ -62,7 +53,7 @@ output:
  - Redid plotting to make it a little faster and changed little red circles.
 
 ## Cleaning Effects
-<img src="images/Nick_bad_d.png" height = 500>
+<img src="images/Nick_Bad_d.png" height = 500>
 <img src="images/Nick_good_d.png" height = 500>
 
 ## Cleaning Effects
@@ -78,6 +69,13 @@ output:
 ## New Plots
 
 <img src="images/Nick_newplot.png" width = 800>
+
+
+# Guillermo
+
+## Renaming files
+
+<img src="images/guillermo_screenshot_app.png" width = 900>
 
 
 # Soyoung
@@ -108,3 +106,12 @@ output:
 <img src="images/SLRs.png" width="80%">
 
 
+# Martin
+
+## My C++ version of Matlab's "imregister"
+
+- Objective is to align images got with the EverOS 2D scanner
+- Function works well for small images (around 1/8 of the actual dimensions)
+- However, for larger images it's not clear, since it takes so long
+- This is not surprising, since each iteration computes pixel difference for almost 7 million pixels
+- Working on techniques to accelerate this process, specifically, parallelization in C++

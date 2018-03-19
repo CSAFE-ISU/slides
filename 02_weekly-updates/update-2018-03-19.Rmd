@@ -26,6 +26,21 @@ output:
 - **ROpenSci Fellowship:** [CRAN task view](https://github.com/sctyner/ctv-forsci) draft complete. Feedback welcome! Going to be "rotating" on projects for 4-6 weeks, starting with glass. 
 
 
+# Ganesh
+
+## Nist Scans: Observed Type I error rate
+<div style="position:absolute; TOP:165px; LEFT:25px;"><img src="images/gk-type-I-error-rates.png" width="90%" height = "90%">
+
+## Nist Scans: Type II Error rate and Failed Tests
+<div style="position:absolute; TOP:235px; LEFT:25px;"><img src="images/slide1-gk-jan29.png" width="100%">
+
+## Updates
+- **CSAFE scans:** Testing setup ready
+- Results are not much better at the moment than NIST scans, in terms of FP and FN error rates. 
+- Investigating, possible problems of missing values in signature, smoothing and excessive failing of different shift comparisons
+
+
+
 # Kiegan  
 
 ## Updates  

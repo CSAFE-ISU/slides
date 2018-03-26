@@ -56,6 +56,12 @@ Steps: Flatten to 8 shades, remove label, remove background, remove borders, rem
     
 - Project overview for Secret Service
 
+# Ganesh
+## Updates
+- NIST scans: Comparing Profiles across all $w_o$ and $w_v$ sizes
+- Poster 
+[I dont know if this is going to open](images/csafe-poster-ganesh-final.pdf)
+
 # Nate 
 
 ## SLR's

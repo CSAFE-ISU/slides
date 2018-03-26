@@ -50,10 +50,17 @@ Steps: Flatten to 8 shades, remove label, remove background, remove borders, rem
 # Amy
 
 ## Updates
- 
+
+- Slow Week $-$ Take home exam in progress!  
 - Handwriting Data Collection
-    - Interested groups?
-    
+    - Target groups of participants ~1500 
+    - Low cost - send packets, primary communication with a group "leader''
+    - Ask local participants to provide signatures
+    - **Process:**
+        - Write prompt in sequence 3 times and simulate signatures
+        - Tuesday/Tuesday one week apart (for example)
+        - Repeat procedure 3 months later
+    - Can you think of any interested groups?
 - Project overview for Secret Service
 
 # Nate 

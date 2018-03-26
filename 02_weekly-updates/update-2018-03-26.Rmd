@@ -25,3 +25,23 @@ Original | Cleaned Up
 <img src="images/susan-cleanup-original.png" width="50%"/> | <img src="images/susan-cleanup-final.png" width="50%"/> 
 
 Steps: Flatten to 8 shades, remove label, remove background, remove borders, remove straight lines, rotate, crop to lightest columns/rows
+
+# Sam 
+
+## REU planning
+
+- 6 offers out. __ accepted
+- Working on setting up a site with [`blogdown`](https://bookdown.org/yihui/blogdown/)
+- Lecture & Lunches on Fridays 
+- "Working Wednesdays" - spend some time with the students improving their professional skills (e.g. CV/resume, cover letter, workplace communication)
+- Writing skills - blogposts, Sarah will advise
+- Coding skills - weekly R lectures and assignments 
+- Statistics skills - weekly lectures and assigments corresponding to their projects
+- Deliverables: poster session at the end of summer, website with their writing
+- Ideas for fun events welcome! 
+
+## Glass data
+
+- Still just playing around. Get into more this week. 
+
+<img src="images/2mfrdists.png" width="110%"/>

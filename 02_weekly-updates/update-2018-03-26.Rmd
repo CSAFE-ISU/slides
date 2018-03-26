@@ -45,3 +45,21 @@ Steps: Flatten to 8 shades, remove label, remove background, remove borders, rem
 - Still just playing around. Get into more this week. 
 
 <img src="images/2mfrdists.png" width="110%"/>
+
+# Nate 
+
+## SLR's
+
+- Trying to understand what goes into the construction of an SLR
+    - Choosing relevant populations under the prosecution and defense hypotheses
+        - Different "anchorings" can result in very different SLR's (Hepler et al. 2012)
+    - Choosing score function
+        - Including measure of typicality of the unknown source in the score function itself may be necessary (Morrison and Enzinger 2018)
+    - Choosing how to model score distributions
+        - Well-known tail problems
+
+## SLR's (cont.)
+- Questions
+    - What choices are amenable to general guidelines/rules? 
+    - How can we make SLR's behave more similarly to LR's or to each other?
+    - Do the above choices depend on each other? For example, could differences in SLR's be ameliorated by incorporating measures of typicality?

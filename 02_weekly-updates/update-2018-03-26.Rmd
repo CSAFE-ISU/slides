@@ -63,6 +63,12 @@ Steps: Flatten to 8 shades, remove label, remove background, remove borders, rem
     - Can you think of any interested groups?
 - Project overview for Secret Service
 
+# Ganesh
+## Updates
+- NIST scans: Comparing Profiles across all $w_o$ and $w_v$ sizes
+- Poster 
+[I dont know if this is going to open](images/csafe-poster-ganesh-final.pdf)
+
 # Nate 
 
 ## SLR's
@@ -80,3 +86,29 @@ Steps: Flatten to 8 shades, remove label, remove background, remove borders, rem
     - What choices are amenable to general guidelines/rules? 
     - How can we make SLR's behave more similarly to LR's or to each other?
     - Do the above choices depend on each other? For example, could differences in SLR's be ameliorated by incorporating measures of typicality?
+    
+# Martin
+
+## Tests of Matlab's "imregister" for large images
+
+<img src="images/martin_example1.png" width="80%"/>
+
+## Tests of Matlab's "imregister" for large images
+
+<img src="images/martin_example2.png" width="80%"/>
+
+# Jason
+
+## Updates
+- Temporarily ditching BART
+- Adding extremely randomized trees and random rotation forest algorithms
+- Should be able to combine extensions to random forests as well
+- Image renamer program in CSAFE GitHub organization
+
+# Soyoung
+
+## Updates
+- Working on papers for shoe matching method
+- Also working on the efficient number of corners for matching 
+- Will find other frequently used features for outsole impressions in the imaging analysis
+- (Sam and me) Collaboration work with Lund and Iyer on R-package for uncertainty pyramid

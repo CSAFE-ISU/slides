@@ -26,6 +26,7 @@ Original | Cleaned Up
 
 Steps: Flatten to 8 shades, remove label, remove background, remove borders, remove straight lines, rotate, crop to lightest columns/rows
 
+
 # Sam 
 
 ## REU planning
@@ -45,6 +46,15 @@ Steps: Flatten to 8 shades, remove label, remove background, remove borders, rem
 - Still just playing around. Get into more this week. 
 
 <img src="images/2mfrdists.png" width="110%"/>
+
+# Amy
+
+## Updates
+ 
+- Handwriting Data Collection
+    - Interested groups?
+    
+- Project overview for Secret Service
 
 # Nate 
 

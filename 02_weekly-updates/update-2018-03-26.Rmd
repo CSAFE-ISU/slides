@@ -95,7 +95,7 @@ Steps: Flatten to 8 shades, remove label, remove background, remove borders, rem
 
 ## Tests of Matlab's "imregister" for large images
 
-<img src="images/martin_example2.png" width="80%"/>
+<img src="images/martin_example3.png" width="80%"/>
 
 # Jason
 

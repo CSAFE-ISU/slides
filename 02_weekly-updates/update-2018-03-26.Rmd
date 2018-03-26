@@ -89,3 +89,11 @@ Steps: Flatten to 8 shades, remove label, remove background, remove borders, rem
 ## Tests of Matlab's "imregister" for large images
 
 <img src="images/martin_example2.png" width="80%"/>
+
+# Jason
+
+## Updates
+- Temporarily ditching BART
+- Adding extremely randomized trees and random rotation forest algorithms
+- Should be able to combine extensions to random forests as well
+- Image renamer program in CSAFE GitHub organization

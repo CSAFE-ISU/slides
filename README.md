@@ -13,6 +13,7 @@ February 26: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-update
 March 05: We had visitors<br>
 March 12: Spring Break<br>
 March 19: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-03-19.html)<br>
+March 26: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-03-26.html)<br>
 
 
 ## Fall 2017 Slides

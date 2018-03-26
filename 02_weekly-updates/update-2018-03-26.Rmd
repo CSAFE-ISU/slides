@@ -8,14 +8,6 @@ output:
 
 # Show and Tell <br> March 26
 
-# Sample Speaker
-
-## Sample Slide
-
-- a
-- b
-- c
-
 # Susan
 
 ## Automatically cleaning up shoeprint images

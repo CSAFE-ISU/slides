@@ -73,3 +73,13 @@ Steps: Flatten to 8 shades, remove label, remove background, remove borders, rem
     - What choices are amenable to general guidelines/rules? 
     - How can we make SLR's behave more similarly to LR's or to each other?
     - Do the above choices depend on each other? For example, could differences in SLR's be ameliorated by incorporating measures of typicality?
+    
+# Martin
+
+## Tests of Matlab's "imregister" for large images
+
+<img src="images/martin_example1.png" width="80%"/>
+
+## Tests of Matlab's "imregister" for large images
+
+<img src="images/martin_example2.png" width="80%"/>

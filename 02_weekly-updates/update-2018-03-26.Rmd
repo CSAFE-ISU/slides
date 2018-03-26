@@ -97,3 +97,11 @@ Steps: Flatten to 8 shades, remove label, remove background, remove borders, rem
 - Adding extremely randomized trees and random rotation forest algorithms
 - Should be able to combine extensions to random forests as well
 - Image renamer program in CSAFE GitHub organization
+
+# Soyoung
+
+## Updates
+- Working on papers for shoe matching method
+- Also working on the efficient number of corners for matching 
+- Will find other frequently used features for outsole impressions in the imaging analysis
+- (Sam and me) Collaboration work with Lund and Iyer on R-package for uncertainty pyramid

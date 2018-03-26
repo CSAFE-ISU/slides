@@ -16,3 +16,12 @@ output:
 - b
 - c
 
+# Susan
+
+## Automatically cleaning up shoeprint images
+
+Original | Cleaned Up
+-------- | ----------
+<img src="images/susan-cleanup-original.png" width="50%"/> | <img src="images/susan-cleanup-final.png" width="50%"/> 
+
+Steps: Flatten to 8 shades, remove label, remove background, remove borders, remove straight lines, rotate, crop to lightest columns/rows

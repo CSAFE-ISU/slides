@@ -1,0 +1,19 @@
+---
+title: "Weekly Update for April 2"
+date: "April 2018"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> April 4
+
+# Sample User
+
+## Sample Slide
+
+- High
+- profile
+- departures:
+- 24
+

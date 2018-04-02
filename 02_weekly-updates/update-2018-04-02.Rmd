@@ -125,7 +125,7 @@ yess <- subset(apps, accepted)
 ## Renaming
 
 - Happy undergrad renaming files
-<img src="images/guillermo_screenshot_renamer.png" width="75%"/>
+<img src="images/guillermo_screenshot_renamer.png" width="90%"/>
 
 
 ## Renaming

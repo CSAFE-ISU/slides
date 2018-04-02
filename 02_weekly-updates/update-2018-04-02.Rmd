@@ -1,0 +1,140 @@
+---
+title: "Weekly Update for April 2"
+date: "April 2018"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> April 4
+
+# Sample User
+
+## Sample Slide
+
+- High
+- profile
+- departures:
+- 24
+
+# Heike
+
+## package `x3ptools`
+
+- sorry I can't be here in person ... surprising soccer duty
+- package `x3ptools` allows us to work with x3p files (topographic measurements in 3d):
+read, write, visualize, rotate, sample, interpolate, ...
+- see https://heike.github.io/x3ptools/
+- the package is very close to be on CRAN
+- we can successfully write x3p files for NIST
+
+## Progress on uploading files to NIST
+
+- for bullet lands NIST wants to have files smaller than 5 MB
+- at 20x magnification we are at 5.5 MB in x3p format
+- therefore we down sample to a resolution of 1.29 microns per pixel
+- next step: upload files to NIST
+- problem: upload is one land at a time 
+
+## Progress on DFSC
+
+- protocol for individual cartridge case capture complete
+- protocol for automated multi-cartridge case capture in the testing phase
+- first set of cartridge cases scanned 
+- using private git LFS (large file storage) repository to (a) keep track of file versions and (b) exchange files with CMU
+
+# Susan
+
+## Literature Search
+
+- 3D shoeprints, photogrammetry, 3D scanning tech
+- I have killed approximately 1/20th of a tree in the last week.
+
+# Jason
+
+## Updates
+- Draft of paper for intervals for random forest + extensions coming soon.
+- Handwriting generation program on GitHub organization page.
+
+# Sam 
+
+## REU 
+
+**All 6 students we made offers to accepted! Here's some info on them:** 
+```{r, echo=FALSE}
+gpas <- c(3.94, 3.91, 3.78, 3.71, 3.58, 3.53, 3.49, 3.48, 3.37, 3.35, 3.34, 3.22, 3.20, 3.09, 2.96, 2.75)
+accepted <- c(T,T,F,F,F,T,T,rep(F,5), T,T,F,F)
+names <- c("Badiah", "Yolonda", "Azure", "Makyah", "Fahren", "Carley", "Da'Monie", "Jessie", "Tanesha", "Hailey", "Jessica", "Francesca", "Malisha", "Alese", "John", "Morane")
+schools <- c("FSU", "FSU", "FSU", "ASU", "ASU", "ISU", "ASU", "FSU", "ASU", "ISU", "FSU", "UIa", "ASU", "ASU", "ISU", "FSU")
+apps <- data.frame(name = names, accepted = accepted, gpa = gpas, school = schools)
+yess <- subset(apps, accepted)
+```
+
+- All women: 1 ISU, 3 [Albany State](https://en.wikipedia.org/wiki/Albany_State_University), 2 [Fayetteville State](https://en.wikipedia.org/wiki/Fayetteville_State_University)
+- Mean GPA is `r round(mean(yess$gpa),2)`
+- 5 of 6 wrote in their cover letter about interest in graduate degrees
+- Majors: FS w/Bio. conc.; FS; Chem., minor in crim. just.; FS & Chem. double major; FS, minors in chem., crim. just.; FS, minor in Chem. 
+
+**Application stats for comparison:** 
+
+- 6 from ASU, 6 from FSU, 3 from ISU, 1 from Univ. Iowa. 
+- Mean GPA is `r round(mean(apps$gpa), 2)` and median `r round(median(apps$gpa),2)`
+- 13 female, 1 male. 
+
+## Glass data
+
+- Can discriminate between manufacturers with only 1 element. 
+- Is this element always different between manufacturers? 
+- Potential for easy ID of manufacturer of glass. 
+- Will start writing up what I learned this week. 
+
+
+
+# Kiegan  
+
+## Updates  
+
+**Outreach**  
+- Working on rounding out the first chapter of the book!  
+- To editor by early next week  
+
+**Groove Identification** 
+- Starting a write-up of methods used already  
+- Linking currently running code with GitHub!  
+- Identifying characteristics that predict whether there are grooves on each side
+- Iteratively trimming based on that indicator 
+    - Compare robust linear model to rollapply based on trimmed values  
+- Submitting abstract to present at AFTE - thinking poster!  
+    
+# Guillermo
+
+## Updates
+
+- Keep working on NIJ proposal with Martin, Soyoung and Alicia
+- Adapt general renamer program in python by Jason to a very specific type of files
+- Run another script that checks if the all the names are correct
+
+## Renaming
+
+- Happy undergrad renaming files
+<img src="images/guillermo_renamer1.jpg" width="60%"/>
+
+# Ganesh
+
+## Updates
+
+**Chumbley Score**
+
+- Running Simulations for all window sizes for Profiles New level of Coarseness 0.3 (default suggestion 0.25)
+- Reason :: Profiles seem to be giving slightly lower error rates compared to signatures.
+- Working on the write up.
+
+# Soyoung
+
+## Updates
+
+- Working on two papers on shoe print matching algorithm
+- In addition to corners, also working on features called SURF ( Speeded-up Robust Features).
+
+
+

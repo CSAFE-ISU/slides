@@ -1,0 +1,106 @@
+---
+title: "Weekly Update for March 26"
+date: "March 2018"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> March 26
+
+# Susan
+
+## Automatically cleaning up shoeprint images
+
+Original | Cleaned Up
+-------- | ----------
+<img src="images/susan-cleanup-original.png" width="50%"/> | <img src="images/susan-cleanup-final.png" width="50%"/> 
+
+Steps: Flatten to 8 shades, remove label, remove background, remove borders, remove straight lines, rotate, crop to lightest columns/rows
+
+
+# Sam 
+
+## REU planning
+
+- 6 offers out. __ accepted
+- Working on setting up a site with [`blogdown`](https://bookdown.org/yihui/blogdown/)
+- Lecture & Lunches on Fridays 
+- "Working Wednesdays" - spend some time with the students improving their professional skills (e.g. CV/resume, cover letter, workplace communication)
+- Writing skills - blogposts, Sarah will advise
+- Coding skills - weekly R lectures and assignments 
+- Statistics skills - weekly lectures and assigments corresponding to their projects
+- Deliverables: poster session at the end of summer, website with their writing
+- Ideas for fun events welcome! 
+
+## Glass data
+
+- Still just playing around. Get into more this week. 
+
+<img src="images/2mfrdists.png" width="110%"/>
+
+# Amy
+
+## Updates
+
+- Slow Week $-$ Take home exam in progress!  
+- Handwriting Data Collection
+    - Target groups of participants ~1500 
+    - Low cost - send packets, primary communication with a group "leader''
+    - Ask local participants to provide signatures
+    - **Process:**
+        - Write prompt in sequence 3 times and simulate signatures
+        - Tuesday/Tuesday one week apart (for example)
+        - Repeat procedure 3 months later
+    - Can you think of any interested groups?
+- Project overview for Secret Service
+
+# Ganesh
+## Updates
+- NIST scans: Comparing Profiles across all $w_o$ and $w_v$ sizes
+- Poster 
+[I dont know if this is going to open](images/csafe-poster-ganesh-final.pdf)
+
+# Nate 
+
+## SLR's
+
+- Trying to understand what goes into the construction of an SLR
+    - Choosing relevant populations under the prosecution and defense hypotheses
+        - Different "anchorings" can result in very different SLR's (Hepler et al. 2012)
+    - Choosing score function
+        - Including measure of typicality of the unknown source in the score function itself may be necessary (Morrison and Enzinger 2018)
+    - Choosing how to model score distributions
+        - Well-known tail problems
+
+## SLR's (cont.)
+- Questions
+    - What choices are amenable to general guidelines/rules? 
+    - How can we make SLR's behave more similarly to LR's or to each other?
+    - Do the above choices depend on each other? For example, could differences in SLR's be ameliorated by incorporating measures of typicality?
+    
+# Martin
+
+## Tests of Matlab's "imregister" for large images
+
+<img src="images/martin_example1.png" width="80%"/>
+
+## Tests of Matlab's "imregister" for large images
+
+<img src="images/martin_example3.png" width="80%"/>
+
+# Jason
+
+## Updates
+- Temporarily ditching BART
+- Adding extremely randomized trees and random rotation forest algorithms
+- Should be able to combine extensions to random forests as well
+- Image renamer program in CSAFE GitHub organization
+
+# Soyoung
+
+## Updates
+- Working on papers for shoe matching method
+- Also working on the efficient number of corners for matching 
+- Will find other frequently used features for outsole impressions in the imaging analysis
+- (Sam and me) Collaboration work with Lund and Iyer on R-package for uncertainty pyramid

@@ -107,4 +107,12 @@ yess <- subset(apps, accepted)
 - Submitting abstract to present at AFTE - thinking poster!  
     
 
+# Ganesh
 
+## Updates
+
+**Chumbley Score**
+
+- Running Simulations for all window sizes for Profiles New level of Coarseness 0.3 (default suggestion 0.25)
+- Reason :: Profiles seem to be giving slightly lower error rates compared to signatures.
+- Working on the write up.

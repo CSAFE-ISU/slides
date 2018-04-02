@@ -49,3 +49,9 @@ read, write, visualize, rotate, sample, interpolate, ...
 
 - 3D shoeprints, photogrammetry, 3D scanning tech
 - I have killed approximately 1/20th of a tree in the last week.
+
+# Jason
+
+## Updates
+- Draft of paper for intervals for random forest + extensions coming soon.
+- Handwriting generation program on GitHub organization page.

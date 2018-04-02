@@ -43,3 +43,9 @@ read, write, visualize, rotate, sample, interpolate, ...
 - first set of cartridge cases scanned 
 - using private git LFS (large file storage) repository to (a) keep track of file versions and (b) exchange files with CMU
 
+# Susan
+
+## Literature Search
+
+- 3D shoeprints, photogrammetry, 3D scanning tech
+- I have killed approximately 1/20th of a tree in the last week.

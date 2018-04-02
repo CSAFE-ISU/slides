@@ -17,3 +17,29 @@ output:
 - departures:
 - 24
 
+# Heike
+
+## package `x3ptools`
+
+- sorry I can't be here in person ... surprising soccer duty
+- package `x3ptools` allows us to work with x3p files (topographic measurements in 3d):
+read, write, visualize, rotate, sample, interpolate, ...
+- see https://heike.github.io/x3ptools/
+- the package is very close to be on CRAN
+- we can successfully write x3p files for NIST
+
+## Progress on uploading files to NIST
+
+- for bullet lands NIST wants to have files smaller than 5 MB
+- at 20x magnification we are at 5.5 MB in x3p format
+- therefore we down sample to a resolution of 1.29 microns per pixel
+- next step: upload files to NIST
+- problem: upload is one land at a time 
+
+## Progress on DFSC
+
+- protocol for individual cartridge case capture complete
+- protocol for automated multi-cartridge case capture in the testing phase
+- first set of cartridge cases scanned 
+- using private git LFS (large file storage) repository to (a) keep track of file versions and (b) exchange files with CMU
+

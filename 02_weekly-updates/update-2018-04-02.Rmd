@@ -145,5 +145,15 @@ yess <- subset(apps, accepted)
 - Working on two papers on shoe print matching algorithm
 - In addition to corners, also working on features called SURF ( Speeded-up Robust Features).
 
+# Nate 
 
+## Updates 
 
+**SLR = dissimilarity + rarity**
+
+- Is there a generally applicable way of incorporating a measure of trace rarity into a SLR?
+- Consider a bivariate score: (dissimilarity score, trace rarity)
+- What happens in the case where data is univariate and normal?
+
+## Simple SLR/Bivariate SLR/LR comparison 
+<img src = "images/bivariate_slr.jpeg" width="60%"/>

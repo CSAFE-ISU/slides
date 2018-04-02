@@ -55,3 +55,35 @@ read, write, visualize, rotate, sample, interpolate, ...
 ## Updates
 - Draft of paper for intervals for random forest + extensions coming soon.
 - Handwriting generation program on GitHub organization page.
+
+# Sam 
+
+## REU 
+
+**All 6 students we made offers to accepted! Here's some info on them:** 
+```{r, echo=FALSE}
+gpas <- c(3.94, 3.91, 3.78, 3.71, 3.58, 3.53, 3.49, 3.48, 3.37, 3.35, 3.34, 3.22, 3.20, 3.09, 2.96, 2.75)
+accepted <- c(T,T,F,F,F,T,T,rep(F,5), T,T,F,F)
+names <- c("Badiah", "Yolonda", "Azure", "Makyah", "Fahren", "Carley", "Da'Monie", "Jessie", "Tanesha", "Hailey", "Jessica", "Francesca", "Malisha", "Alese", "John", "Morane")
+schools <- c("FSU", "FSU", "FSU", "ASU", "ASU", "ISU", "ASU", "FSU", "ASU", "ISU", "FSU", "UIa", "ASU", "ASU", "ISU", "FSU")
+apps <- data.frame(name = names, accepted = accepted, gpa = gpas, school = schools)
+yess <- subset(apps, accepted)
+```
+
+- All women: 1 ISU, 3 [Albany State](https://en.wikipedia.org/wiki/Albany_State_University), 2 [Fayetteville State](https://en.wikipedia.org/wiki/Fayetteville_State_University)
+- Mean GPA is `r round(mean(yess$gpa),2)`
+- 5 of 6 wrote in their cover letter about interest in graduate degrees
+- Majors: FS w/Bio. conc.; FS; Chem., minor in crim. just.; FS & Chem. double major; FS, minors in chem., crim. just.; FS, minor in Chem. 
+
+**Application stats for comparison:** 
+
+- 6 from ASU, 6 from FSU, 3 from ISU, 1 from Univ. Iowa. 
+- Mean GPA is `r round(mean(apps$gpa), 2)` and median `r round(median(apps$gpa),2)`
+- 13 female, 1 male. 
+
+## Glass data
+
+- Can discriminate between manufacturers with only 1 element. 
+- Is this element always different between manufacturers? 
+- Potential for easy ID of manufacturer of glass. 
+- Will start writing up what I learned this week. 

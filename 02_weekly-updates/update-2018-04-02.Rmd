@@ -87,3 +87,23 @@ yess <- subset(apps, accepted)
 - Is this element always different between manufacturers? 
 - Potential for easy ID of manufacturer of glass. 
 - Will start writing up what I learned this week. 
+
+
+
+# Kiegan  
+
+## Updates  
+
+**Outreach**  
+- Working on rounding out the first chapter of the book!  
+- To editor by early next week  
+
+**Groove Identification** 
+- Starting a write-up of methods used already  
+- Linking currently running code with GitHub!  
+- Identifying characteristics that predict whether there are grooves on each side
+- Iteratively trimming based on that indicator 
+    - Compare robust linear model to rollapply based on trimmed values  
+    
+
+

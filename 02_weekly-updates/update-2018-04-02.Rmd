@@ -105,6 +105,15 @@ yess <- subset(apps, accepted)
 - Iteratively trimming based on that indicator 
     - Compare robust linear model to rollapply based on trimmed values  
 - Submitting abstract to present at AFTE - thinking poster!  
+
+
+# Amy
+
+## Updates  
+- Working on updating current hierarchical model to add *clusters*:
+<img src="images/Amy_clustermodel.png" height = 300>
+
+
     
 # Guillermo
 

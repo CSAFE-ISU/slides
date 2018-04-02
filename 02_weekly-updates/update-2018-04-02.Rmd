@@ -128,3 +128,16 @@ yess <- subset(apps, accepted)
 - Running Simulations for all window sizes for Profiles New level of Coarseness 0.3 (default suggestion 0.25)
 - Reason :: Profiles seem to be giving slightly lower error rates compared to signatures.
 - Working on the write up.
+
+# Nate 
+
+## Updates 
+
+**SLR = dissimilarity + rarity**
+
+- Is there a generally applicable way of incorporating a measure of trace rarity into a SLR?
+- Consider a bivariate score: (dissimilarity score, trace rarity)
+- What happens in the case where data is univariate and normal?
+
+## Simple SLR/Bivariate SLR/LR comparison 
+<img src = "images/bivariate_slr.jpeg" width="60%"/>

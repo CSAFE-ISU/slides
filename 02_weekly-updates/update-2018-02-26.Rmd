@@ -66,6 +66,9 @@ output:
 - Running for the in-house Hamby data
 - Window wiggle adaptation fix
 
+
+
+
 # Nick
 
 ## Re-writing Thinning Algorithm
@@ -87,7 +90,31 @@ output:
 
 - Still working on my version of 'imregister' (mostly debugging)
 - Currently working on obtaining the distribution of the differences between the first reading (baseline) and second reading for the nike shoes (male size 10.5)
-=======
+
+# Amy
+
+## AAFS Conference in Seattle
+<img src="images/AmyPosterAAFS_Feb2018.pdf" width = 725 height = 550>
+
+## Example #1 - Poster
+<img src="images/amyHierarchicalModel_qdacrossgraphs_poster.png" width = 800 height = 550>
+
+## Example #2
+<img src="images/amyHierarchicalModel_qdacrossgraphs1.png" width = 800 height = 550>
+
+## Example #2 - 15 graphemes
+<img src="images/amyHierarchicalModel_qdbyauthor1_slice15.png" width = 800 height = 550>
+
+## Example #3
+<img src="images/amyHierarchicalModel_qdacrossgraphs2.png" width = 800 height = 550>
+
+## Example #3 - 25 graphemes
+<img src="images/amyHierarchicalModel_qdbyauthor2_slice25.png" width = 800 height = 550>
+
+## Example #3 - Writing samples 
+### (w0023 top, w0024 bottom)
+<img src="images/amyCvlW23.png" width = 600 height = 200>
+<img src="images/amyCvlW24.png" width = 600 height = 200>
 
 # Heike
 
@@ -115,7 +142,7 @@ output:
 
 ## Finally, color schemes
 
-```{r, fig.width=4, fig.height=4, message=FALSE, warning=FALSE, eval = FALSE}
+```{r, fig.width=4, fig.height=4, message=FALSE, warning=FALSE}
 # devtools::install_github("heike/gretchenalbrecht")
 library(gretchenalbrecht)
 csafe <- make_palette("https://forensicstats.org/wp-content/uploads/2017/01/csafe-logo-90.png")

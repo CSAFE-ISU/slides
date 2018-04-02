@@ -113,7 +113,6 @@ yess <- subset(apps, accepted)
 - Working on updating current hierarchical model to add *clusters*:
 <img src="images/Amy_clustermodel.png" height = 300>
 
-
     
 # Guillermo
 

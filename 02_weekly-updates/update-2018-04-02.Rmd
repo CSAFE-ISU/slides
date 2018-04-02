@@ -128,3 +128,13 @@ yess <- subset(apps, accepted)
 - Running Simulations for all window sizes for Profiles New level of Coarseness 0.3 (default suggestion 0.25)
 - Reason :: Profiles seem to be giving slightly lower error rates compared to signatures.
 - Working on the write up.
+
+# Soyoung
+
+## Updates
+
+- Working on two papers on shoe print matching algorithm
+- In addition to corners, also working on features called SURF ( Speeded-up Robust Features).
+
+
+

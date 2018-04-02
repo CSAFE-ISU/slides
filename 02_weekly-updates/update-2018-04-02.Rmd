@@ -104,6 +104,7 @@ yess <- subset(apps, accepted)
 - Identifying characteristics that predict whether there are grooves on each side
 - Iteratively trimming based on that indicator 
     - Compare robust linear model to rollapply based on trimmed values  
+- Submitting abstract to present at AFTE - thinking poster!  
     
 
 

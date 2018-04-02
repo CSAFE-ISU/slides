@@ -154,3 +154,18 @@ yess <- subset(apps, accepted)
 
 ## Simple SLR/Bivariate SLR/LR comparison 
 <img src = "images/bivariate_slr.jpeg" width="60%"/>
+
+
+# Nick 
+
+## Updates 
+
+ -We do about 1500 path searches per document.
+ 
+ -Takes about 60 seconds per document - ish
+ 
+ -Working on 2 different paths to speed increase:
+ 
+     1. Being careful about how many searches we have use.
+     
+     2. Limit area we have to search in (change order of processing).

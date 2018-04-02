@@ -106,5 +106,17 @@ yess <- subset(apps, accepted)
     - Compare robust linear model to rollapply based on trimmed values  
 - Submitting abstract to present at AFTE - thinking poster!  
     
+# Guillermo
+
+## Updates
+
+- Keep working on NIJ proposal with Martin, Soyoung and Alicia
+- Adapt general renamer program in python by Jason to a very specific type of files
+- Run another script that checks if the all the names are correct
+
+## Renaming
+
+- Happy undergrad renaming files
+<img src="images/guillermo_renamer1.jpg" width="60%"/>
 
 

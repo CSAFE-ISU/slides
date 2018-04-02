@@ -119,4 +119,12 @@ yess <- subset(apps, accepted)
 - Happy undergrad renaming files
 <img src="images/guillermo_renamer1.jpg" width="60%"/>
 
+# Ganesh
 
+## Updates
+
+**Chumbley Score**
+
+- Running Simulations for all window sizes for Profiles New level of Coarseness 0.3 (default suggestion 0.25)
+- Reason :: Profiles seem to be giving slightly lower error rates compared to signatures.
+- Working on the write up.

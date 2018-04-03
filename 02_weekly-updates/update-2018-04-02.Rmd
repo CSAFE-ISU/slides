@@ -136,6 +136,18 @@ yess <- subset(apps, accepted)
 - Working on two papers on shoe print matching algorithm
 - In addition to corners, also working on features called SURF ( Speeded-up Robust Features).
 
+# Martin
 
+## Updates
+
+- The automatic axis detection works well for the Adidas shoes, for the Nike not so much.
+- Two problems: 1. The pattern is not even or close to symmetric. 2. The baseline images does not have a main edge at all.
+- Looking for a more robust method to find this axis.
+- Specifically, looking for a way to find the edge of the shoeprint, and get rid of the internal patter.
+
+## Updates
+
+<img src="images/nike_axis_1.png" width="25%">
+<img src="images/nike_axis_2.png" width="25%">
 
 

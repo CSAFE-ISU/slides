@@ -150,4 +150,17 @@ yess <- subset(apps, accepted)
 <img src="images/nike_axis_1.png" width="25%">
 <img src="images/nike_axis_2.png" width="25%">
 
+# Nate 
+ 
+ ## Updates 
+ 
+ **SLR = dissimilarity + rarity**
+ 
+ - Is there a generally applicable way of incorporating a measure of trace rarity into a SLR?
+ - Consider a bivariate score: (dissimilarity score, trace rarity)
+ - What happens in the case where data is univariate and normal?
+ 
+ ## Simple SLR/Bivariate SLR/LR comparison 
+ <img src = "images/bivariate_slr.jpeg" width="60%"/>
+
 

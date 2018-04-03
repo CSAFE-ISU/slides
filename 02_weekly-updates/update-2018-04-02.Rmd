@@ -152,7 +152,7 @@ yess <- subset(apps, accepted)
 
 # Nate 
  
- ## Updates 
+## Updates 
  
  **SLR = dissimilarity + rarity**
  
@@ -160,7 +160,7 @@ yess <- subset(apps, accepted)
  - Consider a bivariate score: (dissimilarity score, trace rarity)
  - What happens in the case where data is univariate and normal?
  
- ## Simple SLR/Bivariate SLR/LR comparison 
+## Simple SLR/Bivariate SLR/LR comparison 
  <img src = "images/bivariate_slr.jpeg" width="60%"/>
 
 

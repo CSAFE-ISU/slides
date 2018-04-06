@@ -140,6 +140,37 @@ How did I decide on my research questions?
 - Some interest in 'relevant populations', and doing comparisons with representative data to back it up.  
 
 
+## Background & Literature  
+
+- Comparison of bullet striations  
+- Issues with lack of foundational validity  
+- NRC, PCAST reports  
+- Some initial models (Chu et. al. at NIST, and CSAFE)  
+    - Cross-Correlation Functions, QCMS, Random Forest  
+- Initial persistence studies (Bachrach) 
+    - Data unavailable  
+    
+
+## Research Needs  
+
+- Effects of environmental factors on pattern evidence 
+    - Time, scanning process  
+- Support for standards development and validation of methods  
+- Whether QCMS withstands the transfer from 2D to 3D  
+
+
+## Research Questions  
+
+1. How comprehensive and conclusive are currently available data on persistence of striae, and what additional data need to be collected to fill informational gaps?  
+2. What amount and sources of variability are introduced by the 3D scanning process; in particular, how are 3D scans of bullet lands affected by differences in microscope and operator for different brands and calibers of gun?  
+3. What is the impact of variability in the 3D scanning process and differing brand-caliber combinations on accuracy and precision of proposed methods for automated comparison of bullets?  
+
+
+## Proposed Studies (Data Collection)  
+
+## Proposed Studies (Data Analysis)  
+
+
 
 
   

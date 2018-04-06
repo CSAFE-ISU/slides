@@ -1,0 +1,141 @@
+---
+title: "NIJ Fellowship Applications"
+author: "Amy Crawford, NatenGarton, and Kiegan Rice"
+date: "April 11, 2018"
+output: beamer_presentation
+---
+
+# Application Process  
+
+## Description of Solicitation  
+
+**Title**:  Graduate Research Fellowship in Science, Technology, Engineering, and Mathematics  
+
+- Work must have demonstrable implications for addressing the implications of preventing or controlling crime, and/or the fair and impartial administration of criminal justice in the U.S.  
+- Areas of interest:  
+    - Reducing crime (particularly violent) 
+    - Protecting police officers and other peeps 
+    - Issues concerning the opioid abuse epidemic 
+    - Victimization (human trafficking) 
+    - "Supporting prosecutors in their efforts to meet their mission"
+    - Illegal immigration issues  
+- Those considering forensic evidence research should look at:  
+    - OSAC Research Needs 
+    - NIJ Technology Working Group list of research areas  
+    - NIJ Core Science and Technology Research Objectives  
+
+
+## Why we were chosen to apply (student status)  
+
+- Up to 3 years of funding for a dissertation  
+- Eligibility: Enrolled in a doctoral STEM program, proposal of dissertation that is relevant  
+- Why us?  
+    - Literally, WHY US?  
+- Early in the process of dissertation research  
+    - Doesn't help to apply if you're almost done  
+    - All had a vague idea of a dissertation that seemed to fit the solicitation  
+
+
+
+## How Amy's research fits in  
+
+**Title**: Handwriting and stuff 
+
+
+## How Nate's research fits in  
+
+**Title**:  Spatio-temporal point processes for crime (STOPPR)  
+
+- Crime modeling and prediction
+- Bayesian spatio-temporal point process models 
+- Provide a framework and hopefully a tool for others (criminologists, law enforcement) to make predictions or test hypotheses  
+
+## How Kiegan's research fits in  
+
+**Title**:  Strengthening foundational validity of 3D imaging in bullet examinations: persistence and variability of scans  
+
+- Secondary Analysis of Striation Persistence Data  
+- High-Resolution Microscopy Variability Study 
+- Comparison of several currently proposed methods for analysis  
+- Adding more information to the world of 3D bullet imaging 
+- Testing out sensitivity of methods on new/different data!  
+
+
+## The Process  
+- Many documents that needed to be prepared:  
+    - Budget detail / narrative (Marc and Stacy prepared these)
+    - Conflict of interest form (template)
+    - Project Abstract (400 words)
+    - Statement of Support from Committee Chair (thanks everyone!)  
+    - Undergraduate Transcripts (WHY...?)
+    - Graduate Transcripts
+    - Enrollment Verification  
+    - **Research Narrative AND APPENDICES** 
+        - Bibliography/References (supposed to be fairly comprehensive)  
+        - Curriculum Vitae/Resumes (of student and advisors)  
+        - Personal Statement (2 pages, including career goals)
+        - List of dissertation committee (template)
+        - Proposed timeline/milestones (we honestly have no idea)
+        - Privacy Certificate (weird form)
+        - Letters of Cooperation from outside collaborators (Thanks Gary and Vic!)  
+
+ 
+## Research Narrative   
+- Structure:  
+    - 12 pages max (minus title page, contents)
+    - Title page (surprisingly complicated) 
+    - Table of contents (easy enough)
+    - Statement of Problem and Research Questions  
+    - Project Design and Implementation  
+    - Capabilities and Competencies  
+- Things to remember:  
+    - Research need in area of study 
+    - Current gaps in data, research, and knowledge  
+    - Discuss previous research relevant to the problem 
+    - Data acquisition methods (in detail)
+    - Demonstrate validity and relevance of data to be collected  
+    - Justify methods of data analysis 
+    - Address feasibility and speculate potential challenges, plans to mitigate them  
+    - Plans to make results available to interested parties 
+    - Capabilities of the student and the advisor
+    - Academic environment and supporting resources 
+    - Project management plan  
+    
+
+## Pros of the Process
+Pros  
+
+- We had a lot of help!! (Thanks Stacy, Sarah, Marc, and Harlie!)
+- Forced us to form a research plan  
+    - What the research questions are  
+    - How we are going to address the questions we have  
+- Gave us each a semi?-comprehensive lit review (base for going forward)  
+- Now we all have these materials ready to work off of moving forward  
+- Know what the process looks like  
+- Would be really good for CSAFE as an organization  
+    - Expanding on current research 
+    - Adding a cool new type of research to the pot  
+    
+
+## Cons of the Process  
+Cons  
+
+- HUGE amount of time and energy - developing research narrative
+- HUGE amount of time and energy - all the appendices/documents  
+    - Big organizational challenge  
+    - Large group of people involved - gets messy!
+- Short notice  
+- Lack of familiarity with the process  
+  
+  
+# Outline of Research Narratives  
+
+## Kiegan: Bullet Data  
+
+How did I decide on my research questions?  
+- Have been working with bullet data  
+- Automated methods for groove identification in 3D bullet land scans  
+
+
+
+  

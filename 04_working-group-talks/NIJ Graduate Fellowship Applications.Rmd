@@ -168,7 +168,32 @@ How did I decide on my research questions?
 
 ## Proposed Studies (Data Collection)  
 
+1. Groove Identification (they are getting this paper for "free")  
+2. Secondary Analysis of Striation Persistence Data  
+    - Identify gaps in data that need to be filled  
+    - Differences in persistence across different types of gun?  
+3. High-Resolution Microscopy Variability Study  
+    - Gauge Reproducibility and Reliability (Gauge R&R) 
+    - Repetition of scans for operator, machine, day  
+    
+
 ## Proposed Studies (Data Analysis)  
+
+4. Sensitivity of Automated Methods  
+    - Taking collected data "grid"  
+    - Running through several proposed algorithms  
+        - Eric's Random Forest  
+        - Chu (NIST) Cross-correlation function  
+        - Chu (NIST) Quantitative Consecutively Matching Striae  
+    - Testing whether accuracy changes based on differences in bullet  
+    
+## Dissemination of Research  
+
+- Journal of Forensic Sciences, Annals of Applied Statistics  
+- AFTE, AAFS Meetings 
+- All collected data made publicly available through NIST  
+
+- Proposed timeline is semester-by-semester  
 
 
 

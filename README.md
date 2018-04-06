@@ -44,3 +44,13 @@ May 22: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/upd
 May 30: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-05-29.html)<br>
 June 20: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-06-20.html) 
 
+
+
+
+
+# Working Group Talks  
+
+Below, you can find slides from talks given at the CSAFE Working/Reading Group  
+
+April 11, 2018: [NIJ Graduate Fellowship Applications (Amy, Nate, and Kiegan)](https://csafe-isu.github.io/slides/04_working-group-talks/NIJ_Graduate_Fellowship_Applications.pdf)
+

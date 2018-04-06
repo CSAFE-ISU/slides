@@ -1,0 +1,21 @@
+---
+title: "Weekly Update for April 9"
+date: "April 2018"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> April 9
+
+# Sample User
+
+## Sample Slide
+
+A sample list:
+
+1. ~~O-Ren Ishii~~
+1. ~~Vernita Green~~
+1. Budd
+1. Elle Driver
+1. Bill

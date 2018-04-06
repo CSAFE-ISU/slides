@@ -136,6 +136,9 @@ Cons
 How did I decide on my research questions?  
 - Have been working with bullet data  
 - Automated methods for groove identification in 3D bullet land scans  
+- Learning more about the current state of research at conferences, etc.  
+- Some interest in 'relevant populations', and doing comparisons with representative data to back it up.  
+
 
 
 

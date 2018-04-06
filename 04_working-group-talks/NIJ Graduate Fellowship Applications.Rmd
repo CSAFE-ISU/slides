@@ -2,7 +2,8 @@
 title: "NIJ Fellowship Applications"
 author: "Amy Crawford, Nate Garton, and Kiegan Rice"
 date: "April 11, 2018"
-output: beamer_presentation
+output:
+  beamer_presentation: default
 ---
 
 # Application Process  

@@ -43,3 +43,12 @@ A sample list:
 ## Bivariate SLR Weirdness cont.
 
 <img src = "images/bivariate_density_slice.jpeg" width="90%"/ height="90%"/>
+
+# Sam
+
+## Writing away
+
+- Glass chapter
+- Thompson redo
+- Judge training
+- REU plans, lectures, assignments, etc. 

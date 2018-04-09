@@ -74,3 +74,13 @@ Stentiford, Fred and R. G. Mortimer. “Some new heuristics for thinning binary 
 - Goals: Remove "spurrious projections", fill "noise holes", limit "necking effect", eliminate "acute angle tails"
      - Current processing fills "noise holes" only
 - All of this is done with the goal of making processing more robust so differences in thinned writing come from writing, not processing.
+
+
+# Amy
+
+## Handwriting
+
+- Latent Dirichlet Allocation (LDA) - Thanks Danica! :)  
+- Results from modeling next week!  
+<img src="images/Amy_LDA.png" width="70%"/>  
+- **Next:** Nick's graph counts \& next level data!

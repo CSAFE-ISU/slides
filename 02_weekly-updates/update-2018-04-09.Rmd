@@ -55,6 +55,18 @@ A sample list:
 - Judge training
 - REU plans, lectures, assignments, etc. 
 
+# Martin
+
+## Shoeprint registration in MATLAB
+
+- Made it work after changing affine transformation to rigid transformation (translation and rotation only)
+- The alignment is good enough to make comparisons. Not perfect just due to differences in the images
+- Working right now on writing a script to align all images to date  images per size and model
+
+## Example
+
+<img src="images/registration0409.png" width="100%">
+
 # Nick
 
 ## Cleaning

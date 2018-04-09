@@ -20,6 +20,14 @@ A sample list:
 1. Elle Driver
 1. Bill
 
+# Ganesh
+## Nist Scans: Type II Error rate and Failed Tests
+<!-- <div style="position:absolute; TOP:235px; LEFT:25px;"> -->
+<img src="images/profiles-type_2-gk.png"  style = "float;left;" width="50%", margin-right: "1%;" margin-bottom: "0.5em;"><img src="images/type2-sigs-gk.png"  style = "float;left;" width="50%", margin-right: "1%;" margin-bottom: "0.5em;">
+<img src="images/profiles-failedtests_gk.png"  style = "float;left;" width="50%", margin-right: "1%;" margin-bottom: "0.5em;"><img src="images/sigs-failedtests_gk.png"  style = "float;left;" width="50%", margin-right: "1%;" margin-bottom: "0.5em;">
+<!-- <img src="images/type2-sigs-gk.png" style = "float;right; width="30%", margin-right: 1%; margin-bottom: 0.5em;"> -->
+<!-- <div style="position:absolute; TOP:235px; LEFT:25px;"><img src="images/type2-sigs-gk.png" width="30%", margin-left: 1%; margin-bottom: 0.5em;"> -->
+<p style="clear: both;">
 
 
 

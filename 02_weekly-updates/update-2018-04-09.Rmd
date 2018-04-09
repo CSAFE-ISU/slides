@@ -54,3 +54,15 @@ A sample list:
 - Thompson redo
 - Judge training
 - REU plans, lectures, assignments, etc. 
+
+# Nick
+
+## Cleaning
+
+Stentiford, Fred and R. G. Mortimer. “Some new heuristics for thinning binary handprinted characters for OCR.” IEEE Transactions on Systems, Man, and Cybernetics SMC-13 (1983): 81-84.
+
+- Implement pre-processing from the paper above.
+- 13 steps based on masks
+- Goals: Remove "spurrious projections", fill "noise holes", limit "necking effect", eliminate "acute angle tails"
+     - Current processing fills "noise holes" only
+- All of this is done with the goal of making processing more robust so differences in thinned writing come from writing, not processing.

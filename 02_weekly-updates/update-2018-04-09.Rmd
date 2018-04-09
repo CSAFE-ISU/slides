@@ -32,4 +32,14 @@ A sample list:
 3. **Modeling**: Trying out a new method. First predicting whether a groove is there or not!  
 4. Plots coming next week... :) 
 
+# Nate 
 
+## Bivariate SLR Weirdness
+  - score(x,y) = (|x - y|, |y|)
+  - x is the known source measurement
+  - y is the unknown trace measurement
+<img src = "images/log_SLR_slice.jpeg" width="60%"/>
+
+## Bivariate SLR Weirdness cont.
+
+<img src = "images/bivariate_density_slice.jpeg" width="90%"/ height="90%"/>

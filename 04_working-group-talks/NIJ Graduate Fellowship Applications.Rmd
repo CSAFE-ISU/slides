@@ -40,8 +40,12 @@ output:
 
 ## How Amy's research fits in  
 
-**Title**: Handwriting and stuff 
-
+**Title**: A Novel Application of Machine Learning Methods: Writership and Complexity in Forensic Handwriting
+- Handwriting feature extraction and selection
+- Inter- vs intra-writer variability analysis
+- Complexity analysis (unsupervised learning)
+- Similarity score and construction of reference distributions (supervised learning)
+- Provide an online tool for interested parties
 
 ## How Nate's research fits in  
 
@@ -195,7 +199,30 @@ How did I decide on my research questions?
 
 - Proposed timeline is semester-by-semester  
 
+## Amy: Handwriting
+There is a need for research like this.
+
+- *NIJ's TWG*: quantitative assessment of intra- and inter-person handwriting and hand printing variability
+- *OSAC and NIJ's TWG*: national database of handwriting (to include frequency of occurrence of characteristics) for use as a reference distribution
+- PCAST, etc. 
+
+## Objectives
+1. Following construction of a **handwriting dataset** that will be publicly available and will support both research and case work, **extract and identify a set of features** that have high discriminating power.
 
 
+## Objectives
+2. Conduct a statistical analysis of **complexity and comparability** of written samples.
 
-  
+## Objectives
+3. Develop a statistical modeling approach to **combine features into a single similarity score** that can be used to compare two handwriting samples.  
+- Once we have chosen a method with potential, we will validate the algorithm to the extent possible with the writing samples available.
+
+## Objectives
+4. **Assemble distributions of similarity scores** among writing samples known to have been produced by the same individual and writing samples known to have been produced by different individuals.
+
+## Objectives
+Along the way...  
+- Assess importance of features (individualizing characteristics), writing complexity, and the
+relationship between the two.
+- Characterize statistical inter- and intra-writer variability at the level of individual features and also at the level of similarity scores.  
+- Quantify error rates.

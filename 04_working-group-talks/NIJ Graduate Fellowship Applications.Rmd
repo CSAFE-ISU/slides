@@ -200,11 +200,40 @@ How did I decide on my research questions?
 - Proposed timeline is semester-by-semester  
 
 ## Amy: Handwriting
-There is a need for research like this.
+![](images/Amy_TOC.png)\  
 
-- *NIJ's TWG*: quantitative assessment of intra- and inter-person handwriting and hand printing variability
-- *OSAC and NIJ's TWG*: national database of handwriting (to include frequency of occurrence of characteristics) for use as a reference distribution
-- PCAST, etc. 
+
+
+## Current Gaps/Research Needs
+Research needs identified by the NIJ TWG  
+\vspace{7mm}
+![](images/Amy_NIJTWG1.png)\  
+
+
+## Current Gaps/Research Needs
+Research needs identified by the NIJ TWG  
+\vspace{7mm}
+![](images/Amy_NIJTWG2.png)\  
+
+## Current Gaps/Research Needs
+Research needs identified by the OSAC:   
+\vspace{5mm}
+![](images/Amy_OSAC3.png){width=350px}\    
+
+
+## Current Gaps/Research Needs
+Research needs identified by the OSAC:   
+\vspace{15mm}
+![](images/Amy_OSAC4.png){width=350px}\     
+
+
+## Current Gaps/Research Needs
+Research needs identified by the OSAC 
+\vspace{2mm}
+![](images/Amy_OSAC1.png){width=350px}\   
+[...background information, references, etc. ...]
+![](images/Amy_OSAC2.png){width=350px}\ 
+
 
 ## Objectives
 1. Following construction of a **handwriting dataset** that will be publicly available and will support both research and case work, **extract and identify a set of features** that have high discriminating power.
@@ -221,10 +250,16 @@ There is a need for research like this.
 
 ## Objectives
 As part of the development we will...  
+
 - Assess importance of features (individualizing characteristics), writing complexity, and the
 relationship between the two.
 - Characterize statistical inter- and intra-writer variability at the level of individual features and also at the level of similarity scores.  
 - Quantify error rates.
+
+## On to Project Design
+![](images/Amy_TOC.png)\  
+
+
 
 ## Feature Extraction and Selection
 - Based in the *graphical structure* of the writing

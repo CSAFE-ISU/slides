@@ -1,0 +1,99 @@
+---
+title: "Weekly Update for April 9"
+date: "April 2018"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> April 9
+
+# Sample User
+
+## Sample Slide
+
+A sample list:
+
+1. ~~O-Ren Ishii~~
+1. ~~Vernita Green~~
+1. Budd
+1. Elle Driver
+1. Bill
+
+# Ganesh
+
+## Nist Scans: Type II Error rate and Failed Tests
+<!-- <div style="position:absolute; TOP:235px; LEFT:25px;"> -->
+<img src="images/profiles-type_2-gk.png"  style = "float;left;" width="50%", margin-right: "1%;" margin-bottom: "0.5em;"><img src="images/type2-sigs-gk.PNG"  style = "float;left;" width="50%", margin-right: "1%;" margin-bottom: "0.5em;">
+<img src="images/profiles-failedtests_gk.png"  style = "float;left;" width="50%", margin-right: "1%;" margin-bottom: "0.5em;"><img src="images/sigs-failedtests_gk.PNG"  style = "float;left;" width="50%", margin-right: "1%;" margin-bottom: "0.5em;">
+<!-- <img src="images/type2-sigs-gk.png" style = "float;right; width="30%", margin-right: 1%; margin-bottom: 0.5em;"> -->
+<!-- <div style="position:absolute; TOP:235px; LEFT:25px;"><img src="images/type2-sigs-gk.png" width="30%", margin-left: 1%; margin-bottom: 0.5em;"> -->
+<p style="clear: both;">
+
+
+
+# Kiegan  
+
+## Book Progress & Modeling & Writeups, Oh My!  
+
+1. **Chapman and Hall book**: Progress! Did a lot of research and some writing. Rounding out the chapter this week.  
+2. **Grooves Writeup**:  Started a write-up of methods we are trying for groove identification  
+3. **Modeling**: Trying out a new method. First predicting whether a groove is there or not!  
+4. **Hands-On Stuff**: Going through and identifying where there are grooves/where there are not for test set.  
+5. **Reading Group Talk!**: On NIJ Fellowships. Get excited!   
+6. Plots coming next week... :)  
+
+# Nate 
+
+## Bivariate SLR Weirdness
+  - score(x,y) = (|x - y|, |y|)
+  - x is the known source measurement
+  - y is the unknown trace measurement
+<img src = "images/log_SLR_slice.jpeg" width="60%"/>
+
+## Bivariate SLR Weirdness cont.
+
+<img src = "images/bivariate_density_slice.jpeg" width="90%"/ height="90%"/>
+
+# Sam
+
+## Writing away
+
+- Glass chapter
+- Thompson redo
+- Judge training
+- REU plans, lectures, assignments, etc. 
+
+# Martin
+
+## Shoeprint registration in MATLAB
+
+- Made it work after changing affine transformation to rigid transformation (translation and rotation only)
+- The alignment is good enough to make comparisons. Not perfect just due to differences in the images
+- Working right now on writing a script to align all images to date  images per size and model
+
+## Example
+
+<img src="images/registration0409.png" width="100%">
+
+# Nick
+
+## Cleaning
+
+Stentiford, Fred and R. G. Mortimer. "Some new heuristics for thinning binary handprinted characters for OCR" IEEE Transactions on Systems, Man, and Cybernetics SMC-13 (1983): 81-84.
+
+- Implement pre-processing from the paper above.
+- 13 steps based on masks
+- Goals: Remove "spurrious projections", fill "noise holes", limit "necking effect", eliminate "acute angle tails"
+     - Current processing fills "noise holes" only
+- All of this is done with the goal of making processing more robust so differences in thinned writing come from writing, not processing.
+
+
+# Amy
+
+## Handwriting
+
+- Latent Dirichlet Allocation (LDA) - Thanks Danica! :)  
+- Results from modeling next week!  
+<img src="images/Amy_LDA.png" width="70%"/>  
+- **Next:** Nick's graph counts \& next level data!

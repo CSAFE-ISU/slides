@@ -40,8 +40,12 @@ output:
 
 ## How Amy's research fits in  
 
-**Title**: Handwriting and stuff 
-
+**Title**: A Novel Application of Machine Learning Methods: Writership and Complexity in Forensic Handwriting
+- Handwriting feature extraction and selection
+- Inter- vs intra-writer variability analysis
+- Complexity analysis (unsupervised learning)
+- Similarity score and construction of reference distributions (supervised learning)
+- Provide an online tool for interested parties
 
 ## How Nate's research fits in  
 
@@ -152,10 +156,15 @@ How did I decide on my research questions?
     
 
 ## Research Needs  
+**NIJ Technology Working Group**  
 
-- Effects of environmental factors on pattern evidence 
+- Fundamental understanding of how environmental factors can affect evidence   
     - Time, scanning process  
+- Scientific foundations for the evaluation of evidence in support of qualified and definitive conclusions  
 - Support for standards development and validation of methods  
+
+**OSAC**  
+
 - Whether QCMS withstands the transfer from 2D to 3D  
 
 
@@ -195,7 +204,99 @@ How did I decide on my research questions?
 
 - Proposed timeline is semester-by-semester  
 
+## Amy: Handwriting
+![](images/Amy_TOC.png)\  
 
 
 
-  
+## Current Gaps/Research Needs
+Research needs identified by the NIJ TWG  
+\vspace{7mm}
+![](images/Amy_NIJTWG1.png)\  
+
+
+## Current Gaps/Research Needs
+Research needs identified by the NIJ TWG  
+\vspace{7mm}
+![](images/Amy_NIJTWG2.png)\  
+
+## Current Gaps/Research Needs
+Research needs identified by the OSAC:   
+\vspace{5mm}
+![](images/Amy_OSAC3.png){width=350px}\    
+
+
+## Current Gaps/Research Needs
+Research needs identified by the OSAC:   
+\vspace{15mm}
+![](images/Amy_OSAC4.png){width=350px}\     
+
+
+## Current Gaps/Research Needs
+Research needs identified by the OSAC 
+\vspace{2mm}
+![](images/Amy_OSAC1.png){width=350px}\   
+[...background information, references, etc. ...]
+![](images/Amy_OSAC2.png){width=350px}\ 
+
+
+## Objectives
+1. Following construction of a **handwriting dataset** that will be publicly available and will support both research and case work, **extract and identify a set of features** that have high discriminating power.
+
+## Objectives
+2. Conduct a statistical analysis of **complexity and comparability** of written samples.
+
+## Objectives
+3. Develop a statistical modeling approach to **combine features into a single similarity score** that can be used to compare two handwriting samples.  
+- Once we have chosen a method with potential, we will validate the algorithm to the extent possible with the writing samples available.
+
+## Objectives
+4. **Assemble distributions of similarity scores** among writing samples known to have been produced by the same individual and writing samples known to have been produced by different individuals.
+
+## Objectives
+As part of the development we will...  
+
+- Assess importance of features (individualizing characteristics), writing complexity, and the
+relationship between the two.
+- Characterize statistical inter- and intra-writer variability at the level of individual features and also at the level of similarity scores.  
+- Quantify error rates.
+
+## On to Project Design
+![](images/Amy_TOC.png)\  
+
+
+
+## Feature Extraction and Selection
+- Based in the *graphical structure* of the writing
+- Other features will be introduced
+    - Gradient, Structural, and Concavity (GSC) feature vectors
+    - Character recognition
+    - Vertical and horizontal projections
+- Features for complexity analysis
+- **In the end:** combine to a single feature vector for two documents
+- Feature selection: parsimony - can we be accurate *enough* while remaining simple *enough* to be approachable and interpretable?
+
+## Bayesian Analysis of Writership (not focused on in the narrative)
+- What I'm up to now
+- Addresses questions of writership in a closed set and, hopefully at some point, an open set
+
+## Complexity Analysis
+- (small)
+- Examiners have large amounts of variability when assessing the complexity of a peice of writing/signature (Hal)
+- **Features**: characterize the complexity of a writing sample
+- Unsupervised learning methods
+
+## Similarity Scores
+- **Features**: characterize the similarities and differences between **two** writing samples
+- Supervised learning methods (expand?)
+
+## Create Reference Distributions
+- Produce pairwise scores from mated and non-mated documents
+- Investigate distributions of the scores from mated and non-mated documents
+
+## Deliverables
+- Papers
+- Conferences presentations (AAFS, The American Society of Questioned Document Examiners - ASQDE, others)
+- Data
+- (Ideal) Software tool to process documents, compute score, and location wrt the mated and non-mated distributions.
+

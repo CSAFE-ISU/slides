@@ -156,10 +156,13 @@ How did I decide on my research questions?
     
 
 ## Research Needs  
-
-- Effects of environmental factors on pattern evidence 
+**NIJ Technology Working Group**  
+- Fundamental understanding of how environmental factors can affect evidence   
     - Time, scanning process  
+- Scientific foundations for the evaluation of evidence in support of qualified and definitive conclusions  
 - Support for standards development and validation of methods  
+
+**OSAC**
 - Whether QCMS withstands the transfer from 2D to 3D  
 
 

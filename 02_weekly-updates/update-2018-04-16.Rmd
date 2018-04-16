@@ -105,26 +105,31 @@ A sample list:
 
 ## SURF
 -Speeded-Up Robust Features (SURF) by Bay et al. (2008)
+
 <img src="images/sy_im1.PNG" width="30%">
 
 
 ## SURF
 -Random 500 edge vs. 500 strong SURF 
+
 <img src="images/sy_im2.PNG" width="30%">
 
 
 ## SURF
 -100 strong SURF vs. 500 strong SURF 
+
 <img src="images/sy_im3.PNG" width="80%">
 
 ## SURF
 - Before and after alignment of SURF and edges
+
 <img src="images/sy_im0.PNG" width="80%">
 
 
 ## SURF
 - Similarity features and RF score
-<img src="images/sy_im4.png" width="30%">
+
+<img src="images/sy_im4.PNG" width="50%">
 
 
 

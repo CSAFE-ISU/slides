@@ -76,5 +76,5 @@ A sample list:
 
 ## Predicting Groove Sides  
 
-<img src="images/Kiegan_grooves_predict.png" width = 500 height = 300>  
+<img src="images/Kiegan_groove_predict.png" width = 500 height = 300>  
 

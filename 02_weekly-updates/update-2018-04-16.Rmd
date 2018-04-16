@@ -1,0 +1,21 @@
+---
+title: "Weekly Update for April 16"
+date: "April 2018"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> April 16
+
+# Sample User
+
+## Sample Slide
+
+A sample list:
+
+1. Where 
+1. is 
+1. the 
+1. ~~love~~ Spring?
+1. \>:-(

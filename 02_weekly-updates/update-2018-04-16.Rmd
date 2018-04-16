@@ -55,3 +55,26 @@ A sample list:
 - Diagnose random freezes<br>
 - Hardware benchmarking
 </p>
+
+
+
+
+
+# Kiegan  
+
+## Predicting Groove Sides  
+
+<img src="images/Kiegan_groove_locations_hist.png" width = 500>  
+
+## Predicting Groove Sides  
+
+<img src="images/Kiegan_highlight_sides.png" width = 500>  
+
+## Predicting Groove Sides  
+
+<img src="images/Kiegan_highlight_sides_resid.png" width = 500>  
+
+## Predicting Groove Sides  
+
+<img src="images/Kiegan_grooves_predict.png" width = 500 height = 300>  
+

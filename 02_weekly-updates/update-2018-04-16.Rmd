@@ -57,7 +57,13 @@ A sample list:
 </p>
 
 
+# Martin
 
+## Updates
+
+- Shoeprint alignment script on MATLAB working well for one of the cases (Adidas Size 8 Left)
+- Test made with 10 shoes
+- Working now on organizing the 4000-5000 images we currently have to apply the script to each of the eight cases (2 brand x 4 sizes)
 
 
 # Kiegan  

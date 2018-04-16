@@ -94,8 +94,8 @@ A sample list:
 
 ## Hierarchical Results - MCMC in STAN
 
-<img src="images/Amy_stan.png" width = 700 height = 400>  
+<img src="images/Amy_stan.png" width = 700 height = 550>  
 
 ## Hierarchical Results - MCMC in JAGS
 
-<img src="images/Amy_jags.png" width = 600 height = 400>  
+<img src="images/Amy_jags.png" width = 700 height = 550>  

@@ -84,3 +84,18 @@ A sample list:
 
 <img src="images/Kiegan_groove_predict.png" width = 500 height = 300>  
 
+# Amy
+
+## Updates
+
+- rStan does not support discrete parameters  
+- Not an issue for situations like random binomial sample size (marginalize)  
+- Is an issue for discrete latent variables that are of statistical interest  
+
+## Hierarchical Results - MCMC in STAN
+
+<img src="images/Amy_stan.png" width = 700 height = 400>  
+
+## Hierarchical Results - MCMC in JAGS
+
+<img src="images/Amy_jags.png" width = 600 height = 400>  

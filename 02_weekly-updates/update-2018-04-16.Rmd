@@ -19,3 +19,12 @@ A sample list:
 1. the 
 1. ~~love~~ Spring?
 1. \>:-(
+
+# Nate 
+
+## Updates 
+
+- Rarity and SLR's
+    - Trying to look at some of Morrison's references from speech recognition
+- Considering returning to monotone SLR problem
+- Dead Idea Documentation

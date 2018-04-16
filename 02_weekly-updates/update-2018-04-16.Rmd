@@ -28,3 +28,30 @@ A sample list:
     - Trying to look at some of Morrison's references from speech recognition
 - Considering returning to monotone SLR problem
 - Dead Idea Documentation
+
+
+# Susan
+
+## Grant Writing
+
+- 3D shoeprint proposal: almost complete
+    - list of proposed staff, affiliations, and roles
+    - potential problems, risk mitigation, etc.
+    - proofreading, revisions, etc.
+- 2D shoeprint proposal:
+    - waiting on engineering stuff - designs, rendering of scanner
+    - planned scholarly products
+    - criminal justice significance
+    - project timeline/milestones
+    - IRB paperwork
+    
+## Meet Bigfoot!
+
+<p class="double">
+<img src="images/bigfoot.jpg" width="90%" class="one-col-image"/>    
+<br><br><br>
+- 24 cores (48 int cores)<br>&nbsp;&nbsp;&nbsp;128 GB of RAM<br>
+- Install OS (Ubuntu 16.04)<br>
+- Diagnose random freezes<br>
+- Hardware benchmarking
+</p>

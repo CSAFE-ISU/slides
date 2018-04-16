@@ -110,7 +110,7 @@ A sample list:
 
 ## SURF
 -Random 500 edge vs. 500 strong SURF 
-<img src="images/sy_im2.PNG" width="80%">
+<img src="images/sy_im2.PNG" width="50%">
 
 
 ## SURF

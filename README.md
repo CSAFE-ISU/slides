@@ -2,6 +2,11 @@
 
 In this repository, you will find brief weekly updates of some of the worked developed at CSAFE in Iowa State University.
 
+## Summer 2018 Slides
+
+June 6: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-06-04.html)<br>
+
+
 ## Spring 2018 Slides
 
 January 22: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-01-22.html)<br>

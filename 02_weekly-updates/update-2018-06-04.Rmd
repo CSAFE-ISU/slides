@@ -132,10 +132,10 @@ class: primary
 * It needs a reference image and a bunch of images to be aligned with the reference image 
 * It takes around 1 minute to align an image on its full size (4243 x 1645 pixels)
 * It saves a copy of each of the aligned images on TIFF format
+
 ---
 class: secondary
-
-## How good is the alignmnt?
+## How good is the alignment?
 
  <img src = "images/Martin_Not_Aligned.gif" width="15%"/>
  <img src = "images/Martin_Aligned.gif" width="15%"/>
@@ -171,6 +171,30 @@ class: primary
     - $E[SLR/LR|H_a] = E[SLR|H_0]$
     - $E[(SLR/LR)^{-1}|H_0] = E[SLR|H_a]$
 - Are there ways to understand the relationship of an SLR to an LR through these expectations (or similar quantities) which can be computed without knowing the true LR values?
+
+
+---
+class: inverse
+# Guillermo
+
+
+---
+class: secondary
+## 3D registration
+
+## Recall:
+
+ <img src = "images/guillermo_3d_before.png" width="45%"/>
+ <img src = "images/guillermo_3d_after.png" width="45%"/>
+
+---
+class: primary
+# 3D scans
+
+* Functions available for C++
+* ...with wrappers for Matlab
+* Apparently, there is something in R (mesheR + plotly)
+* Compare worn of shoes
 
 ---
 class: inverse

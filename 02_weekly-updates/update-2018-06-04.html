@@ -127,6 +127,36 @@ class: primary
 
 ---
 class: inverse
+# Martin
+
+---
+class: primary
+# MATLAB Automatic Alignment
+
+## What the program does?
+
+* It needs a reference image and a bunch of images to be aligned with the reference image 
+* It takes around 1 minute to align an image on its full size (4243 x 1645 pixels)
+* It saves a copy of each of the aligned images on TIFF format
+
+---
+class: secondary
+## How good is the alignment?
+
+ &lt;img src = "images/Martin_Not_Aligned.gif" width="15%"/&gt;
+ &lt;img src = "images/Martin_Aligned.gif" width="15%"/&gt;
+     
+---
+class: secondary
+## Currently working on...
+
+* We have 16 different shoeprint configurations: 2 brands x 4 sizes x Left and Right
+* For each configuration we need to place the reference shoeprint at the same position
+* Then we will be able to fairly identify the same region across all the images (for intance the 400 pixels horizontal line 300 pixels above the origin)
+* Also working on organizing all the images, separating them in the 16 different configurations and keep track of the missing prints
+
+---
+class: inverse
 # Nate 
 
 ---
@@ -147,6 +177,30 @@ class: primary
     - `\(E[SLR/LR|H_a] = E[SLR|H_0]\)`
     - `\(E[(SLR/LR)^{-1}|H_0] = E[SLR|H_a]\)`
 - Are there ways to understand the relationship of an SLR to an LR through these expectations (or similar quantities) which can be computed without knowing the true LR values?
+
+
+---
+class: inverse
+# Guillermo
+
+
+---
+class: secondary
+## 3D registration
+
+## Recall:
+
+ &lt;img src = "images/guillermo_3d_before.png" width="45%"/&gt;
+ &lt;img src = "images/guillermo_3d_after.png" width="45%"/&gt;
+
+---
+class: primary
+# 3D scans
+
+* Functions available for C++
+* ...with wrappers for Matlab
+* Apparently, there is something in R (mesheR + plotly)
+* Compare worn of shoes
 
 ---
 class: inverse
@@ -222,23 +276,12 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   d.head.appendChild(s);
 })();</script>
 
-<script>
-(function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
   }
-})();
+});
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

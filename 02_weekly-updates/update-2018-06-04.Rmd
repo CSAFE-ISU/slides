@@ -67,4 +67,34 @@ output:
 
            
 
+# Susan
 
+## Classifying Shoe Tread Patterns
+
+- Script to pull images of shoe tread off of Zappos (1920x1440)
+    - Runs daily at 3am and 9pm
+- Another script to 
+    1. Crop the picture
+    2. Edge detect
+    3. Flip the picture (sometimes)
+    4. Slice the picture up into 64x64, 128x128, 256x256 chunks
+    5. Remove any images that are mostly white pixels
+
+## Classifying Shoe Tread Patterns
+
+- 1392 large photos
+- 5668 images to slice (edge detect + flip combinations)
+- 1788438 image slices
+- MySQL database to manage tracking the images
+
+## Shiny app - ShoeSortR
+
+![Shiny application screenshot](images/shoe_sortr.png)
+Link: https://bigfoot.csafe.iastate.edu/shiny/srvander/ShoeSortR
+
+## Coming Up
+
+- Establish better threshold for images with too many white pixels
+- Filter images so that there aren't so many
+- Establish whether 64x64 is too small to be useful
+- Use the Shiny app to rate a LOT of pictures

@@ -1,16 +1,22 @@
 ---
-title: "Weekly Update for April 16"
-date: "April 2018"
-output: 
-    rmdshower::shower_presentation:
-        ratio: 4x3
+title: "Weekly Update for June 4"
+date: "2018/06/04"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 ---
 
-# Show and Tell <br> April 16
-
+class: inverse
 # Sample User
 
-## Sample Slide
+---
+class: primary
+# Sample Slide
 
 [IMDB](https://www.imdb.com/chart/top) top rated movies on 2018-06-01 (Sample table):
 
@@ -25,12 +31,17 @@ output:
 |7 | The Lord of the Rings: The Return of the King (2003) |	8.9 |		
 |8 | Pulp Fiction (1994) |	8.9	 |
 
-
+---
+class: inverse
 # Jimmy 
 
-## Longitudinal Data Collection: Final Collection 
+---
+class: primary
+# Longitudinal Data Collection
 
-###**So Far....**
+## Final Collection 
+
+**So Far....**
 
 * Scanning and Photography 
     + Completed 
@@ -41,9 +52,10 @@ output:
     + Paper Prints on Standby 
     + Reviewing Errors (in the thousands)
 
-##Longitudinal Data Collection: Final Collection (Continued)
+---
+class: secondary
 
-### **Challenges**
+## **Challenges**
 * Women's Shoes and films 
 * Errors (In the Thousands):
      + Pressure Mat Files 
@@ -52,9 +64,9 @@ output:
 * 2D Scanner malfunction 
      + Procedure and Practice Changed 
      
-## Longitudinal Data Collection
-
-###**This Week**
+---
+class: primary 
+# This Week
 
 * Meeting to Discuss methods
      + DCI Methods 
@@ -65,11 +77,13 @@ output:
      + Build Lesson Plans
 * Review Papers on Shoe Impressions
 
-           
-
+---
+class: inverse 
 # Susan
 
-## Classifying Shoe Tread Patterns
+---
+class: primary
+# Classifying Shoe Tread Patterns
 
 - Script to pull images of shoe tread off of Zappos (1920x1440)
     - Runs daily at 3am and 9pm
@@ -80,38 +94,100 @@ output:
     4. Slice the picture up into 64x64, 128x128, 256x256 chunks
     5. Remove any images that are mostly white pixels
 
-## Classifying Shoe Tread Patterns
+---
+class: primary
+# Classifying Shoe Tread Patterns
 
 - 1392 large photos
 - 5668 images to slice (edge detect + flip combinations)
 - 1788438 image slices
 - MySQL database to manage tracking the images
 
-## Shiny app - ShoeSortR
+---
+class: primary
+# Shiny app - ShoeSortR
 
 ![Shiny application screenshot](images/shoe_sortr.png)
 Link: https://bigfoot.csafe.iastate.edu/shiny/srvander/ShoeSortR
 
-## Coming Up
+---
+class: primary 
+# Coming Up
 
 - Establish better threshold for images with too many white pixels
 - Filter images so that there aren't so many
 - Establish whether 64x64 is too small to be useful
 - Use the Shiny app to rate a LOT of pictures
 
+---
+class: inverse
 # Nate 
 
-## Comparing SLRs to LRs
+---
+class: primary
+# Comparing SLRs to LRs
 
 - Do SLRs approximate LRs? If so, why?
     - Might not be because individual score densities are good approximations to actual densities.
     - Even in simple cases, the ratio of an SLR to an LR may be high (> 100).
     - Can we find lower and upper bounds on $P(SLR/LR > k| H_0)$ or $P(SLR/LR < k|H_a)$?
     - Useful inequalities are turning out to be hard to find.
-  
-## Comparing SLRs to LRs cont.
+
+---
+class: primary  
+# Comparing SLRs to LRs cont.
 
 - Some interesting things...
     - $E[SLR/LR|H_a] = E[SLR|H_0]$
     - $E[(SLR/LR)^{-1}|H_0] = E[SLR|H_a]$
 - Are there ways to understand the relationship of an SLR to an LR through these expectations (or similar quantities) which can be computed without knowing the true LR values?
+
+---
+class: inverse
+# Sam 
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+---
+class: inverse
+# Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: primary
+# REU Students! 
+
+Website: https://csafe-isu.github.io/reu18/
+
+![New students!](images/reustudents18.png)

@@ -28,3 +28,109 @@ A sample list:
     - Trying to look at some of Morrison's references from speech recognition
 - Considering returning to monotone SLR problem
 - Dead Idea Documentation
+
+
+# Susan
+
+## Grant Writing
+
+- 3D shoeprint proposal: almost complete
+    - list of proposed staff, affiliations, and roles
+    - potential problems, risk mitigation, etc.
+    - proofreading, revisions, etc.
+- 2D shoeprint proposal:
+    - waiting on engineering stuff - designs, rendering of scanner
+    - planned scholarly products
+    - criminal justice significance
+    - project timeline/milestones
+    - IRB paperwork
+    
+## Meet Bigfoot!
+
+<p class="double">
+<img src="images/bigfoot.jpg" width="90%" class="one-col-image"/>    
+<br><br><br>
+- 24 cores (48 int cores)<br>&nbsp;&nbsp;&nbsp;128 GB of RAM<br>
+- Install OS (Ubuntu 16.04)<br>
+- Diagnose random freezes<br>
+- Hardware benchmarking
+</p>
+
+
+# Martin
+
+## Updates
+
+- Shoeprint alignment script on MATLAB working well for one of the cases (Adidas Size 8 Left)
+- Test made with 10 shoes
+- Working now on organizing the 4000-5000 images we currently have to apply the script to each of the eight cases (2 brand x 4 sizes)
+
+
+# Kiegan  
+
+## Predicting Groove Sides  
+
+<img src="images/Kiegan_groove_locations_hist.png" width = 500>  
+
+## Predicting Groove Sides  
+
+<img src="images/Kiegan_highlight_sides.png" width = 500>  
+
+## Predicting Groove Sides  
+
+<img src="images/Kiegan_highlight_sides_resid.png" width = 500>  
+
+## Predicting Groove Sides  
+
+<img src="images/Kiegan_groove_predict.png" width = 500 height = 300>  
+
+# Amy
+
+## Updates
+
+- rStan does not support discrete parameters  
+- Not an issue for situations like random binomial sample size (marginalize)  
+- Is an issue for discrete latent variables that are of statistical interest  
+
+## Hierarchical Results - MCMC in STAN
+
+<img src="images/Amy_stan.png" width = 700 height = 550>  
+
+## Hierarchical Results - MCMC in JAGS
+
+<img src="images/Amy_jags.png" width = 700 height = 550>  
+
+
+# Soyoung
+
+## SURF
+-Speeded-Up Robust Features (SURF) by Bay et al. (2008)
+
+<img src="images/sy_im1.PNG" width="50%">
+
+
+## SURF
+-Random 500 edge vs. 500 strong SURF 
+
+<img src="images/sy_im2.PNG" width="50%">
+
+
+## SURF
+-100 strong SURF vs. 500 strong SURF 
+
+<img src="images/sy_im3.PNG" width="80%">
+
+## SURF
+- Before and after alignment of SURF and edges
+
+<img src="images/sy_im0.PNG" width="80%">
+
+
+## SURF
+- Similarity features and RF score
+
+<img src="images/sy_im4.PNG" width="70%">
+
+
+
+

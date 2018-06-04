@@ -1,0 +1,100 @@
+---
+title: "Weekly Update for April 16"
+date: "April 2018"
+output: 
+    rmdshower::shower_presentation:
+        ratio: 4x3
+---
+
+# Show and Tell <br> April 16
+
+# Sample User
+
+## Sample Slide
+
+[IMDB](https://www.imdb.com/chart/top) top rated movies on 2018-06-01 (Sample table):
+
+| Rank | Title | Rating |
+| :--- | :---- | :----- |
+|1 | The Shawshank Redemption (1994) |	9.2 |		
+|2 | The Godfather (1972) |	9.2 |		
+|3 | The Godfather: Part II (1974) |	9.0	 |	
+|4 | The Dark Knight (2008) |	9.0 |		
+|5 | 12 Angry Men (1957) |	8.9 |		
+|6 | Schindler's List (1993) |	8.9	 |	
+|7 | The Lord of the Rings: The Return of the King (2003) |	8.9 |		
+|8 | Pulp Fiction (1994) |	8.9	 |
+
+
+# Jimmy 
+
+## Longitudinal Data Collection: Final Collection 
+
+###**So Far....**
+
+* Scanning and Photography 
+    + Completed 
+* Powder Prints and Impressions 
+    + 1 Pair Remaining
+* Database Preparation 
+    + Preparing Films for Shipment 
+    + Paper Prints on Standby 
+    + Reviewing Errors (in the thousands)
+
+##Longitudinal Data Collection: Final Collection (Continued)
+
+### **Challenges**
+* Women's Shoes and films 
+* Errors (In the Thousands):
+     + Pressure Mat Files 
+     + Incorrect Naming 
+     + Location/Size
+* 2D Scanner malfunction 
+     + Procedure and Practice Changed 
+     
+## Longitudinal Data Collection
+
+###**This Week**
+
+* Meeting to Discuss methods
+     + DCI Methods 
+     + Continue Collections with a subset. 
+* Elementary Schoolers
+     + Little Shoe Scientists 
+* High Schoolers 
+     + Build Lesson Plans
+* Review Papers on Shoe Impressions
+
+           
+
+# Susan
+
+## Classifying Shoe Tread Patterns
+
+- Script to pull images of shoe tread off of Zappos (1920x1440)
+    - Runs daily at 3am and 9pm
+- Another script to 
+    1. Crop the picture
+    2. Edge detect
+    3. Flip the picture (sometimes)
+    4. Slice the picture up into 64x64, 128x128, 256x256 chunks
+    5. Remove any images that are mostly white pixels
+
+## Classifying Shoe Tread Patterns
+
+- 1392 large photos
+- 5668 images to slice (edge detect + flip combinations)
+- 1788438 image slices
+- MySQL database to manage tracking the images
+
+## Shiny app - ShoeSortR
+
+![Shiny application screenshot](images/shoe_sortr.png)
+Link: https://bigfoot.csafe.iastate.edu/shiny/srvander/ShoeSortR
+
+## Coming Up
+
+- Establish better threshold for images with too many white pixels
+- Filter images so that there aren't so many
+- Establish whether 64x64 is too small to be useful
+- Use the Shiny app to rate a LOT of pictures

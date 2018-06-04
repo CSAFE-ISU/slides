@@ -2,6 +2,11 @@
 
 In this repository, you will find brief weekly updates of some of the worked developed at CSAFE in Iowa State University.
 
+## Summer 2018 Slides
+
+June 6: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-06-04.html)<br>
+
+
 ## Spring 2018 Slides
 
 January 22: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-01-22.html)<br>
@@ -54,5 +59,5 @@ June 20: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/up
 
 Below, you can find slides from talks given at the CSAFE Working/Reading Group  
 
-April 11, 2018: [NIJ Graduate Fellowship Applications (Amy, Nate, and Kiegan)](https://csafe-isu.github.io/slides/04_working-group-talks/NIJ_Graduate_Fellowship_Applications.pdf)
+April 11, 2018: [NIJ Graduate Fellowship Applications (Amy, Nate, and Kiegan)](https://csafe-isu.github.io/slides/04_working-group-talks/NIJ_Graduate_Fellowship_Applications.pdf)<br>
 

@@ -98,3 +98,20 @@ Link: https://bigfoot.csafe.iastate.edu/shiny/srvander/ShoeSortR
 - Filter images so that there aren't so many
 - Establish whether 64x64 is too small to be useful
 - Use the Shiny app to rate a LOT of pictures
+
+# Nate 
+
+## Comparing SLRs to LRs
+
+- Do SLRs approximate LRs? If so, why?
+    - Might not be because individual score densities are good approximations to actual densities.
+    - Even in simple cases, the ratio of an SLR to an LR may be high (> 100).
+    - Can we find lower and upper bounds on $P(SLR/LR > k| H_0)$ or $P(SLR/LR < k|H_a)$?
+    - Useful inequalities are turning out to be hard to find.
+  
+## Comparing SLRs to LRs cont.
+
+- Some interesting things...
+    - $E[SLR/LR|H_a] = E[SLR|H_0]$
+    - $E[(SLR/LR)^{-1}|H_0] = E[SLR|H_a]$
+- Are there ways to understand the relationship of an SLR to an LR through these expectations (or similar quantities) which can be computed without knowing the true LR values?

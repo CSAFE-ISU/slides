@@ -121,6 +121,36 @@ class: primary
 
 ---
 class: inverse
+# Martin
+
+---
+class: primary
+# MATLAB Automatic Alignment
+
+## What the program does?
+
+* It needs a reference image and a bunch of images to be aligned with the reference image 
+* It takes around 1 minute to align an image on its full size (4243 x 1645 pixels)
+* It saves a copy of each of the aligned images on TIFF format
+---
+class: secondary
+
+## How good is the alignmnt?
+
+ <img src = "images/Martin_Not_Aligned.gif" width="15%"/>
+ <img src = "images/Martin_Aligned.gif" width="15%"/>
+     
+---
+class: secondary
+## Currently working on...
+
+* We have 16 different shoeprint configurations: 2 brands x 4 sizes x Left and Right
+* For each configuration we need to place the reference shoeprint at the same position
+* Then we will be able to fairly identify the same region across all the images (for intance the 400 pixels horizontal line 300 pixels above the origin)
+* Also working on organizing all the images, separating them in the 16 different configurations and keep track of the missing prints
+
+---
+class: inverse
 # Nate 
 
 ---

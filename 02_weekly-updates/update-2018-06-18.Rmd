@@ -181,6 +181,17 @@ class: primary
 - Change point analysis on the residuals from robust LOESS? 
     - Nate  
 
+class: inverse
+# Ganesh
+---
+class: primary
+
+- Poster sessions!
+- Paper complete!! Submitting!! 
+ (Thanks everyone and Dr. Hofmann for the huge help and support)
+- Possible Next steps: 
+  - Setting up a Nosql database for the ever expanding bullet data (local storage)
+  - Application development for using the bullet database for comparisons, images, summary etc
 
 ---
 class: inverse

@@ -69,3 +69,14 @@ class: primary
 | Mexico   | F     | 1   | 0   | 1   |
 | Sweden   | F     | 0   | 0   | 0   |
 | S. Korea | F     | 0   | 0   | 0   |
+
+
+---
+class: secondary
+
+- Add your name at the beginning of every image you add to the presentation, e.g., __"images/guillermo_sample_image.JPG"__
+
+ <img src = "images/guillermo_sample_image.JPG" width="35%"/>
+
+
+

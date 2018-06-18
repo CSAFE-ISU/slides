@@ -136,3 +136,35 @@ class: primary
     - SLRs can behave arbitrarily poorly due to atypical anchored evidence, original dimension of data, etc. (but...)
     - Use of approximate Bayesian computation to explore computationally intractable LRs (?)
 --- 
+
+
+---
+class: inverse
+# Kiegan 
+
+
+---
+class: primary
+# AFTE/STEMversity
+
+- Poster session went well!  
+- Lots of interest in work  
+- Amy did a fabulous job in Milledgeville!  
+
+---
+class: primary
+# Grooves update
+
+- A lot of exciting progress! 
+    - Using robust LOESS to fit the global structure
+    - Using a residual cutoff
+    
+
+--- 
+class: primary
+# Next steps: grooves
+
+- Logistic regression with several covariates
+- Change point analysis on the residuals from robust LOESS? -
+    - Nate!
+--- 

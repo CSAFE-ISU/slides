@@ -256,6 +256,8 @@ class: inverse
 
 ---
 class: primary
-# Shooooooes
+# "Shoe Stuff"
 
-- stuff
+- Working with Susan on shoe project
+- Training convolutional neural nets on shoeprint images to identify class characteristcs
+- Learning to share the 48 cores of the Bigfoot server with Susan

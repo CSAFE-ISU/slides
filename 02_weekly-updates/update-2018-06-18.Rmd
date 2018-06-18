@@ -106,8 +106,8 @@ class: secondary
 * Errors (5438):
      + Unnamed Vinyl Photos
      + Mat Scanner Files
-     + Errors in Finle Files
-* Womens Shoes
+     + Errors in Final Files
+* Women's Shoes
      + 2D Scans
      
 ---
@@ -115,9 +115,9 @@ class: primary
 # This Week
 
 * Get Paper Prints Scanned 
-* Get 2D Scans compleated
+* Get 2D Scans completed
 * Get Downloads onto the shoe desktop and laptop to fix errors
 
-* Note: Data collection was receaved well at the All Hands Meeting
+* Note: Data collection was received well at the All Hands Meeting
 
 

@@ -184,6 +184,26 @@ class: primary
     
 ---
 class: inverse
+# Martin
+
+---
+class: primary
+# All Hands Meeting and Alignment Update
+
+- Presented a poster and got some valuable feedback
+- Kept working on somehow align shoeprints of two different brands/pattern
+- A problem I encountered is finding the optimal threshold to get rid of noise
+- I am working on finding a reasoable threshold that works well for most of the prints
+
+
+---
+class: secondary
+
+ <img src = "images/Martin_threshold.png" width="55%"/>
+     
+---
+
+class: inverse
 # Miranda 
 
 ---

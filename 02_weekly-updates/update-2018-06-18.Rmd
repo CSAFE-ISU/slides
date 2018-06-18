@@ -66,9 +66,9 @@ class: primary
 | Team     | Group | W   | D   | L   |
 | : ------ | :---- | :-- | :-- | :-- |
 | Germany  | F     | 0   | 0   | 1   |
-| Mexico   | F     | 1   | 0   | 1   |
-| Sweden   | F     | 0   | 0   | 0   |
-| S. Korea | F     | 0   | 0   | 0   |
+| Mexico   | F     | 1   | 0   | 0   |
+| Sweden   | F     | 1   | 0   | 0   |
+| S. Korea | F     | 0   | 0   | 1   |
 
 
 ---

@@ -78,5 +78,46 @@ class: secondary
 
  <img src = "images/guillermo_sample_image.JPG" width="35%"/>
 
+---
+class: inverse
+# Jimmy 
+
+---
+class: primary
+# Longitudinal Data Collection
+
+## Final Collection 
+
+**So Far....**
+
+* Scanning 
+    + 1360 Paper prints to be scanned
+    + 480 Paper Prints Scanned in a day
+    + Cleaning up Storage
+* Powder Prints and Impressions 
+    + 1 Pair Remaining (Just Got in.)
+* "Z" Drive 
+    + Reviewing Errors (5438)
+
+---
+class: secondary
+
+## **Challenges**
+* Errors (5438):
+     + Unnamed Vinyl Photos
+     + Mat Scanner Files
+     + Errors in Finle Files
+* Womens Shoes
+     + 2D Scans
+     
+---
+class: primary 
+# This Week
+
+* Get Paper Prints Scanned 
+* Get 2D Scans compleated
+* Get Downloads onto the shoe desktop and laptop to fix errors
+
+* Note: Data collection was receaved well at the All Hands Meeting
 
 

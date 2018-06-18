@@ -134,14 +134,12 @@ class: primary
 - Thoughts from conversations with Chris Saunders at the All Hands Meeting:
     - Is this worth doing for common source propositions?
     - SLRs can behave arbitrarily poorly due to atypical anchored evidence, original dimension of data, etc. (but...)
-    - Use of approximate Bayesian computation to explore computationally intractable LRs (?)
---- 
+    - Use of approximate Bayesian computation to explore computationally intractable LRs (?)  
 
 
 ---
 class: inverse
 # Kiegan 
-
 
 ---
 class: primary
@@ -170,7 +168,7 @@ class: primary
     - Using robust LOESS to fit the global structure
     - Using a residual cutoff  
 
-<img src = "images/Kiegan_afte_results.png" width="35%"/> <img src = "images/Kiegan_afte_results_zoom.png" width="35%"/> 
+<img src = "images/Kiegan_afte_results.png" width="35%"/> <img src = "images/Kiegan_afte_results_zoom.png" width="35%"/>   
 
 --- 
 class: primary

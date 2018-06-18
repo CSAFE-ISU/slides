@@ -158,8 +158,7 @@ class: primary
 - A lot of exciting progress! 
     - Using robust LOESS to fit the global structure
     - Using a residual cutoff
-<img src = "images/Kiegan_LinearvRLM.png" width="35%"/> 
-<img src = "images/Kiegan_LOESSvRLOESS.png" width="35%"/> 
+<img src = "images/Kiegan_LinearvRLM.png" width="35%"/> <img src = "images/Kiegan_LOESSvRLOESS.png" width="35%"/> 
 
 ---
 class: primary
@@ -168,8 +167,7 @@ class: primary
 - A lot of exciting progress! 
     - Using robust LOESS to fit the global structure
     - Using a residual cutoff
-<img src = "images/Kiegan_afte_results.png" width="35%"/> 
-<img src = "images/Kiegan_afte_results_zoom.png" width="35%"/> 
+<img src = "images/Kiegan_afte_results.png" width="35%"/> <img src = "images/Kiegan_afte_results_zoom.png" width="35%"/> 
 
 --- 
 class: primary

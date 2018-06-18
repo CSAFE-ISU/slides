@@ -152,6 +152,7 @@ class: primary
 - Amy did a fabulous job in Milledgeville!  
 - https://www.instagram.com/stemversity_forensic_academy/
 
+
 ---
 class: primary
 # Grooves update
@@ -162,6 +163,7 @@ class: primary
 
 <img src = "images/Kiegan_LinearvRLM.png" width="35%"/> <img src = "images/Kiegan_LOESSvRLOESS.png" width="35%"/> 
 
+
 ---
 class: primary
 # Grooves update
@@ -170,13 +172,24 @@ class: primary
     - Using robust LOESS to fit the global structure
     - Using a residual cutoff  
 
-<img src = "images/Kiegan_afte_results.png" width="35%"/> <img src = "images/Kiegan_afte_results_zoom.png" width="35%"/> 
+<img src = "images/Kiegan_afte_results.png" width="35%"/> <img src = "images/Kiegan_afte_results_zoom.png" width="35%"/>  
 
---- 
+
+---
 class: primary
-# Next steps: grooves
+# Next steps  
 
-- Logistic regression with several covariates
-- Change point analysis on the residuals from robust LOESS? -
-    - Nate!
---- 
+- Logistic regression with several covariates  
+- Change point analysis on the residuals from robust LOESS? 
+    - Nate  
+
+    
+---
+class: inverse
+# Miranda 
+
+---
+class: primary
+# Shooooooes
+
+- stuff

@@ -150,6 +150,7 @@ class: primary
 - Poster session went well!  
 - Lots of interest in work  
 - Amy did a fabulous job in Milledgeville!  
+- https://www.instagram.com/stemversity_forensic_academy/
 
 ---
 class: primary

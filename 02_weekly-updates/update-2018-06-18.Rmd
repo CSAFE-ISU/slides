@@ -180,6 +180,32 @@ class: primary
 - Logistic regression with several covariates  
 - Change point analysis on the residuals from robust LOESS? 
     - Nate  
+    
+
+
+---
+class: inverse
+# Amy 
+
+---
+class: primary
+# What I've been up to:
+      
+- May 31 (talk): The ABA's Ninth Annual Prescription for Criminal Justice Forensics Program in New York
+- June 5 (outreach): 4th and 5th graders for a STEM camp (thanks Jimmy!)
+- June 7 and 8 (outreach): STEMversity with middle school students in Milledgeville, GA
+- June 11-12 (meetings and poster): All Hands. Handwriting pre-meeting with the Israei team and Dr. Stern went well.
+      
+---
+class: primary
+# Next:
+      
+- Prelim study (next 3 weeks)
+- Handwriting!! (again finally)
+- July 31 (talk - handwriting): JSM
+- August 19-23 (poster? maybe?): The American Society of Questioned Document Examiners (ASQDE)
+       
+    
 
 class: inverse
 # Ganesh
@@ -230,6 +256,8 @@ class: inverse
 
 ---
 class: primary
-# Shooooooes
+# "Shoe Stuff"
 
-- stuff
+- Working with Susan on shoe project
+- Training convolutional neural nets on shoeprint images to identify class characteristcs
+- Learning to share the 48 cores of the Bigfoot server with Susan

@@ -115,4 +115,15 @@ class: primary
 - Reading about changepoint detection
 - Possible approach similar to some examples given in "Bayesian Retrospective Multiple-Changepoint Identification" (Stephens 1994) in JRSSc. 
     - Doesn't seem fundamentally tied to time series data
+
 ---
+class: inverse  
+# Kiegan  
+
+---
+class: primary  
+# What I'm Working On  
+
+- I have been banned from working on my paper and the book until after the prelim  
+- Prelim is in two weeks!  
+

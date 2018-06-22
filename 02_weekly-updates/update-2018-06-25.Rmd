@@ -77,4 +77,42 @@ class: secondary
 - If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
 
  <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+--- 
 
+---
+
+class: inverse 
+# Nate 
+---
+
+class: primary
+
+# SLRs
+
+- Reading about ABC to be able to understand the papers Chris recommended to me. 
+- Assuming no mistakes, $e^{E[log(SLR)|H_0]} \leq E\left[\frac{SLR}{LR} | H_0 \right]$.
+    - left side is computable
+    - right side is some measure of the average quality of the LR under $H_0$ 
+    - still not that useful for bounding probabilities
+
+---
+class: secondary
+
+$$
+\begin{aligned}
+E\left[\frac{SLR}{LR}|H_0\right] &= e^{log\left( E\left[\frac{SLR}{LR} | H_0 \right] \right)} \\
+& \geq e^{E\left[ log\left(\frac{SLR}{LR} \right) |H_0 \right]} \\
+& = e^{E\left[ log(SLR) |H_0 \right] - E\left[ log(LR) |H_0 \right]} \\
+& \geq e^{E\left[ log(SLR) |H_0 \right] - log\left(E\left[ LR |H_0 \right] \right)} \\
+& = e^{E\left[ log(SLR) |H_0 \right]}
+\end{aligned}
+$$
+---
+class: primary
+
+# Groove ID
+
+- Reading about changepoint detection
+- Possible approach similar to some examples given in "Bayesian Retrospective Multiple-Changepoint Identification" (Stephens 1994) in JRSSc. 
+    - Doesn't seem fundamentally tied to time series data
+---

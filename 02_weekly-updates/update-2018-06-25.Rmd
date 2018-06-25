@@ -262,6 +262,19 @@ class:primary
 
 ---
 class:inverse
+# Miranda
+
+---
+class:primary
+# Updates
+
+-2D shoe scanning
+-Starting neural network training soon with labeled images
+  -Thanks, Jenny and Ben!
+-Brainstorming facts for truthiness
+
+---
+class:inverse
 # Heike
 
 ---

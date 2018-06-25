@@ -155,3 +155,65 @@ class: primary
 
      
 
+---
+class:inverse
+# Ben and Jenny
+
+---
+class:primary
+# Working on
+
+## Shoe Tread Classification
+
+* 668 shoes partially/fully classified as of 10am
+
+## Longitudinal shoe project
+
+* Helped Miranda scan shoes Thursday/Friday
+
+---
+class:inverse
+# Susan
+
+---
+class:primary
+# Shoe Tread
+
+* (2 weeks ago) set up LabelMe docker container to classify shoes
+
+![LabelMe Interface](images/susan/LabelMe.png)
+
+---
+class:primary
+# Shoe Tread
+* (Last week) Code to "carve up" tread annotations into useful pictures (using Matlab toolbox from LabelMe)
+
+<img src="images/susan/circle-1.jpg" width = 30%/>
+<img src="images/susan/circle-2.jpg" width = 30%/>
+<img src="images/susan/circle-3.jpg" width = 30%/>
+
+* Pictures tend to look better if the regions are square-ish
+    
+<img src="images/susan/line-1.jpg" width = 30%/>
+
+---
+class:primary
+# Truthiness
+
+* "When making rapid judgments about the truth of a claim, nonprobative images lead people to believe the claim"
+    - Want to know if this holds for charts and graphs
+    - Some evidence that brain images cause the person presenting the images to appear more credible in court
+
+* Finding claims that are data-driven and can be made into a chart is hard. 
+
+---
+class:primary
+# Truthiness
+* First step - pilot study with ~ 10 claims
+    - Claim alone
+    - Claim with nonprobative, related image
+    - Claim with probative data display where information is harder to pick out or lacks context (data may be encoded by color alone)
+    - Claim with probative chart of explicitly numerical information
+    - Claim with nonprobative, unrelated image (from a different claim)
+    - Claim with nonprobative, unrelated chart (from a different claim)
+

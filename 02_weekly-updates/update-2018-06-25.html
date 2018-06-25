@@ -291,6 +291,18 @@ class:primary
 
 * Background: NIST has two sets of Hamby bullets 44 and 252
 * ... or that's what we thought ...
+
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Happy Birthday! 
+
+Happy Birthday Malisha!!! 
+
+![](images/sam/malishaAllHands.png)
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
@@ -308,12 +320,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   d.head.appendChild(s);
 })();</script>
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
   }
-});
+})();
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -286,3 +286,14 @@ class:primary
 * Background: NIST has two sets of Hamby bullets 44 and 252
 * ... or that's what we thought ...
 
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Happy Birthday! 
+
+Happy Birthday Malisha!!! 
+
+![](images/sam/malishaAllHands.png)

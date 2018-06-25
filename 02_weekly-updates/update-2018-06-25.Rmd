@@ -243,14 +243,18 @@ class:primary
 ---
 class:primary
 # Truthiness
-* First step - pilot study with ~ 10 claims
-    - Claim alone
-    - Claim with nonprobative, related image
-    - Claim with probative data display where information is harder to pick out or lacks context (data may be encoded by color alone)
-    - Claim with probative chart of explicitly numerical information
-    - Claim with nonprobative, unrelated image (from a different claim)
-    - Claim with nonprobative, unrelated chart (from a different claim)
+* First step - pilot study with ~ 10 claims    
+Variables: 
+    - Related/Not Related to claim
+    - Probative/Non-probative
+    - Level of Abstraction
+        - High: statistical/data chart
+        - Low: map/"infographic" that uses "common knowledge" as a baseline
+        - Image (no data at all)
+        
+Prediction: more abstraction = lower familiarity, so non-probative abstract images will produce less of an effect.
 
+    
 ---
 class:inverse
 # Heike

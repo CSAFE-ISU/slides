@@ -65,10 +65,10 @@ class: primary
 
 | Team     | Group | W   | D   | L   |
 | : ------ | :---- | :-- | :-- | :-- |
-| Germany  | F     | 0   | 0   | 1   |
-| Mexico   | F     | 1   | 0   | 0   |
-| Sweden   | F     | 1   | 0   | 0   |
-| S. Korea | F     | 0   | 0   | 1   |
+| Germany  | F     | 1   | 0   | 1   |
+| Mexico   | F     | 2   | 0   | 0   |
+| Sweden   | F     | 1   | 0   | 1   |
+| S. Korea | F     | 0   | 0   | 2   |
 
 
 ---
@@ -109,15 +109,13 @@ class: primary
 ---
 class: secondary
 
-$$
-\begin{aligned}
+$$\begin{aligned}
 E\left[\frac{SLR}{LR}|H_0\right] &= e^{log\left( E\left[\frac{SLR}{LR} | H_0 \right] \right)} \\
 & \geq e^{E\left[ log\left(\frac{SLR}{LR} \right) |H_0 \right]} \\
 & = e^{E\left[ log(SLR) |H_0 \right] - E\left[ log(LR) |H_0 \right]} \\
 & \geq e^{E\left[ log(SLR) |H_0 \right] - log\left(E\left[ LR |H_0 \right] \right)} \\
 & = e^{E\left[ log(SLR) |H_0 \right]}
-\end{aligned}
-$$
+\end{aligned}$$
 ---
 class: primary
 

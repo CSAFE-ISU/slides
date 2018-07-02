@@ -4,8 +4,8 @@
     <title>Weekly Update for June 25</title>
     <meta charset="utf-8">
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
-    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -83,6 +83,81 @@ class: secondary
 - If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
 
  &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
+--- 
+
+---
+
+class: inverse 
+# Nate 
+---
+
+class: primary
+
+# SLRs
+
+- Reading about ABC to be able to understand the papers Chris recommended to me. 
+- Assuming no mistakes, `\(e^{E[log(SLR)|H_0]} \leq E\left[\frac{SLR}{LR} | H_0 \right]\)`.
+    - left side is computable
+    - right side is some measure of the average quality of the LR under `\(H_0\)` 
+    - still not that useful for bounding probabilities
+
+---
+class: secondary
+
+$$
+`\begin{aligned}
+E\left[\frac{SLR}{LR}|H_0\right] &amp;= e^{log\left( E\left[\frac{SLR}{LR} | H_0 \right] \right)} \\
+&amp; \geq e^{E\left[ log\left(\frac{SLR}{LR} \right) |H_0 \right]} \\
+&amp; = e^{E\left[ log(SLR) |H_0 \right] - E\left[ log(LR) |H_0 \right]} \\
+&amp; \geq e^{E\left[ log(SLR) |H_0 \right] - log\left(E\left[ LR |H_0 \right] \right)} \\
+&amp; = e^{E\left[ log(SLR) |H_0 \right]}
+\end{aligned}`
+$$
+---
+class: primary
+
+# Groove ID
+
+- Reading about changepoint detection
+- Possible approach similar to some examples given in "Bayesian Retrospective Multiple-Changepoint Identification" (Stephens 1994) in JRSSc. 
+    - Doesn't seem fundamentally tied to time series data
+
+---
+class: inverse  
+# Kiegan  
+
+---
+class: primary  
+# What I'm Working On  
+
+- I have been banned from working on my paper and the book until after the prelim  
+- Prelim is in two weeks!  
+
+---
+class: inverse
+# Jimmy 
+
+---
+class: primary
+# Longitudinal Data Collection
+## Final Collection 
+* Issues with the 2D Scanner 
+    + Phantom Images
+    + Theoretically, wont take long
+* Possible Causes
+    + Past cleaning Procedures
+    + Shoes (from being cleaned)
+    + Finger Print Powder
+* "Z" Drive 
+    + Reviewing Errors (5438)
+
+---
+class: primary
+# This Week
+## **Moving Forward**
+* Adapt to the Problem
+     + Continue Cleaning and figure it out
+     + Finish Data Collection
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({

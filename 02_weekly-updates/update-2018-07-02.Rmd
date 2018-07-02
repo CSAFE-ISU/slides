@@ -182,7 +182,7 @@ class: primary
     - ~ 500 images in each class, plus augmentation 
         -50% training, 25% validation, 25% test
     
-<img src="images/miranda/augmented_circles.png" width = "80%">
+<img src="images/miranda/augmented_circles.PNG" width = "80%">
 ---
 class:primary
 # Expected fitting accuracy

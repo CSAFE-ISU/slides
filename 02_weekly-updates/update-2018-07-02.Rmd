@@ -109,6 +109,30 @@ class: primary
 
 ---
 class: inverse
+# Heike
+
+---
+class: primary
+# Bullet WhoIsIt ... 
+
+- Hamby Set on NIST database turned out to be Hamby Set 173
+
+- artefact on NIST LEA scan:
+
+<img src="images/heike/nist1_1_land3.png" width="70%">
+
+---
+class: primary
+# Individual artefacts 
+
+<img src="images/heike/csafe1_1_land6.png" width="80%">
+<img src="images/heike/abrasion.png" width="50%">
+
+- artefact on CSAFE LEA scan:
+
+
+---
+class: inverse
 # Susan
 
 ---

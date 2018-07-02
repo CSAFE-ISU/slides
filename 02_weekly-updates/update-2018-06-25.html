@@ -4,8 +4,8 @@
     <title>Weekly Update for June 25</title>
     <meta charset="utf-8">
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
-    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -71,21 +71,10 @@ class: primary
 
 | Team     | Group | W   | D   | L   |
 | : ------ | :---- | :-- | :-- | :-- |
-| Germany  | F     | 1   | 0   | 1   |
-| Mexico   | F     | 2   | 0   | 0   |
-| Sweden   | F     | 1   | 0   | 1   |
-| S. Korea | F     | 0   | 0   | 2   |
-
-
----
-class: primary
-# Sample Slide
-
-- Sample Graphic:
-
-&lt;img src="images/heike/sweden-germany.png" width = "70%"&gt;
-
-
+| Germany  | F     | 0   | 0   | 1   |
+| Mexico   | F     | 1   | 0   | 0   |
+| Sweden   | F     | 1   | 0   | 0   |
+| S. Korea | F     | 0   | 0   | 1   |
 
 
 ---
@@ -115,13 +104,15 @@ class: primary
 ---
 class: secondary
 
-`$$\begin{aligned}
+$$
+`\begin{aligned}
 E\left[\frac{SLR}{LR}|H_0\right] &amp;= e^{log\left( E\left[\frac{SLR}{LR} | H_0 \right] \right)} \\
 &amp; \geq e^{E\left[ log\left(\frac{SLR}{LR} \right) |H_0 \right]} \\
 &amp; = e^{E\left[ log(SLR) |H_0 \right] - E\left[ log(LR) |H_0 \right]} \\
 &amp; \geq e^{E\left[ log(SLR) |H_0 \right] - log\left(E\left[ LR |H_0 \right] \right)} \\
 &amp; = e^{E\left[ log(SLR) |H_0 \right]}
-\end{aligned}$$`
+\end{aligned}`
+$$
 ---
 class: primary
 
@@ -142,38 +133,6 @@ class: primary
 - I have been banned from working on my paper and the book until after the prelim  
 - Prelim is in two weeks!  
 
----
-class: inverse
-# Amy 
-
----
-class: primary
-# What I've been up to:
-      
-- May 31 (talk): The ABA's Ninth Annual Prescription for Criminal Justice Forensics Program in New York  
-
-- June 5 (outreach): 4th and 5th graders for a STEM camp (thanks Jimmy!)  
-
-- June 7 and 8 (outreach): STEMversity with middle school students in Milledgeville, GA  
-
-- June 11-12 (meetings and poster): All Hands. Handwriting pre-meeting with the Israei team and Dr. Stern went well.
-      
----
-class: primary
-# Next:  
-      
-&lt;br /&gt;  
-&lt;br /&gt;  
-
-
-- Prelim study (next 2 weeks)  
-
-- Handwriting after that (finally)  
-
-- July 31 (talk - handwriting): JSM
-- August 19-23 (poster? talk? maybe?): The American Society of Questioned Document Examiners (ASQDE)
- 
- 
 ---
 class: inverse
 # Jimmy 
@@ -199,110 +158,6 @@ class: primary
 * Adapt to the Problem
      + Continue Cleaning and figure it out
      + Finish Data Collection
-
-     
-
----
-class:inverse
-# Ben and Jenny
-
----
-class:primary
-# Working on
-
-## Shoe Tread Classification
-
-* 668 shoes partially/fully classified as of 10am
-
-## Longitudinal shoe project
-
-* Helped Miranda scan shoes Thursday/Friday
-
----
-class:inverse
-# Susan
-
----
-class:primary
-# Shoe Tread
-
-* (2 weeks ago) set up LabelMe docker container to classify shoes
-
-![LabelMe Interface](images/susan/LabelMe.png)
-
----
-class:primary
-# Shoe Tread
-* (Last week) Code to "carve up" tread annotations into useful pictures (using Matlab toolbox from LabelMe)
-
-&lt;img src="images/susan/circle-1.jpg" width = 30%/&gt;
-&lt;img src="images/susan/circle-2.jpg" width = 30%/&gt;
-&lt;img src="images/susan/circle-3.jpg" width = 30%/&gt;
-
-* Pictures tend to look better if the regions are square-ish
-    
-&lt;img src="images/susan/line-1.jpg" width = 30%/&gt;
-
----
-class:primary
-# Truthiness
-
-* "When making rapid judgments about the truth of a claim, nonprobative images lead people to believe the claim"
-    - Want to know if this holds for charts and graphs
-    - Some evidence that brain images cause the person presenting the images to appear more credible in court
-
-* Finding claims that are data-driven and can be made into a chart is hard. 
-
----
-class:primary
-# Truthiness
-* First step - pilot study with ~ 10 claims    
-Variables: 
-    - Related/Not Related to claim
-    - Probative/Non-probative
-    - Level of Abstraction
-        - High: statistical/data chart
-        - Low: map/"infographic" that uses "common knowledge" as a baseline
-        - Image (no data at all)
-        
-Prediction: more abstraction = lower familiarity, so non-probative abstract images will produce less of an effect.
-
-    
----
-class:inverse
-# Miranda
-
----
-class:primary
-# Updates
-
-- 2D shoe scanning
-- Starting neural network training soon with labeled images
-  - Thanks, Jenny and Ben!
-- Brainstorming facts for truthiness
-
----
-class:inverse
-# Heike
-
----
-class:primary
-# The Hamby Set that wasn't
-
-* Background: NIST has two sets of Hamby bullets 44 and 252
-* ... or that's what we thought ...
-
----
-class: inverse
-# Sam
-
----
-class: primary
-# Happy Birthday! 
-
-Happy Birthday Malisha!!! 
-
-![](images/sam/malishaAllHands.png)
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
@@ -320,23 +175,12 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   d.head.appendChild(s);
 })();</script>
 
-<script>
-(function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
   }
-})();
+});
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

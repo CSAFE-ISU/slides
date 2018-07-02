@@ -132,3 +132,18 @@ class: inverse
 - Creating materials for realistic crime-scene prints
     - Vinyl flooring sample
     - Wood flooring sample
+    
+---
+class: inverse 
+# Nate 
+---
+class: primary
+# Groove Identification
+
+- Time last week spent getting a feel for the bullet data
+- Thinking about modeling the residuals from robust loess using piecewise Gaussian processes
+    - major computational issues to this approach
+        - demands modification to approach taken in the JRSSc paper 
+        - I think there are a couple of reasonable remedies for this issue, but I've heard of more in the literature.
+    - Going to try a proof of concept on bullet data with sampled subsets of residuals.
+---

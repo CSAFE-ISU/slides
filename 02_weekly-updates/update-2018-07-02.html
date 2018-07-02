@@ -177,6 +177,34 @@ class: primary
         - I think there are a couple of reasonable remedies for this issue, but I've heard of more in the literature.
     - Going to try a proof of concept on bullet data with sampled subsets of residuals.
 ---
+
+class: inverse 
+# Miranda 
+---
+class: primary
+# Neural Networks
+- Preliminary models to classify triangles vs. circles
+    - Modified from cat vs. dog examples in "Deep Learning with R"
+    - ~ 500 images in each class, plus augmentation 
+        -50% training, 25% validation, 25% test
+    
+&lt;img src="images/miranda/augmented_circles.png" width = "80%"&gt;
+---
+class:primary
+# Expected fitting accuracy
+- Training a convnet from scratch (1st example from book)
+- Expected about 70% accuracy on test set
+
+&lt;img src="images/miranda/circlesandtriangles_model1.png"&gt;
+---
+class:primary
+# Unexpected results
+- After training classifier on pre-trained VGG16 base, ran fine-tuning step
+- Should have increased accuracy from 90% to 96%
+- In reality, test set accuracy was ~40%
+
+&lt;img src="images/miranda/circlesandtriangles_model4_finetuning.png" width = "80%"&gt;
+---
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({

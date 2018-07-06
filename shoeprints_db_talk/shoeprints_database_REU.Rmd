@@ -1,0 +1,159 @@
+---
+title: "Shoeprints Presentation"
+author: Guillermo Basulto-Elias
+output:
+  rmdshower::shower_presentation:
+    ratio: 4x3
+---
+
+# Shoeprints Data Collection
+
+# Introduction
+
+## A Question of Interest
+
+- Footwear impressions are common in crime scenes
+- Was this shoeprint left by this particular shoeprint?
+
+<img src="images/sample_image.JPG" width = "28%">
+<img src="images/nike_pic.jpg" width = "26%">
+
+## Questions About the Crime Scene Print
+
+- Can we determine brand, model or size? These are **class characteristics**
+- Can we find scratches, cuts or other marks? These are **individual characteristics**
+- The individual characteristics are also known as randomly acquired characteristics (**RACs**)
+
+<img src="images/shoe characteristics.png" width = "60%">
+
+## Some challenges
+
+- Overlayed prints
+- Obstacles created by the substrate
+- Potential problems while casting (e.g., on dirt or snow) or lifting shoeprints evidence
+
+# Data Collection
+
+## Why do we need a shoeprints database?
+
+- What are reliable and accurate methods to quantify the similarity between two outsole prints?
+- How robust are those methods to degradation of the crime scene print?
+- What is the best instrument to measure outsole images? (We are using at least five different instruments).
+- What is the persistence of outsole patterns over time? Or, can we identify the source of a print even after the shoe has been used for period of weeks or months?
+
+## Details
+
+- Provide a pair of shoes to 160 persons (ISU students, staff, faculty and external)
+- Roughly half men and half women
+- Half one shoe pattern and half the other
+- Take measurements every six weeks (baseline + four times)
+
+## Shoe models
+
+- Contrained to: 
+    - current and future availability
+    - One athletic and one more casual
+- Nike Winflow 4 ([left](https://store.nike.com/us/en_us/pd/zoom-wio-4-mens-running-shoe/pid-11597324/pgid-11839265))
+- Adidas Seeley ([right](http://www.zappos.com/p/adidas-skateboarding-seeley-collegiate-navy-core-black-footwear-white/product/8123308/color/678550))
+
+<img src="images/02_nike.jpg" width = 250 align="left" />
+<img src="images/01_adidas.jpg" width = 250 align="left" />
+
+
+## Restrictions for impressions
+
+- Time it takes to take each impression
+- Adapt to schoolyear dates
+- Tidiness of the space
+
+# Impressions
+
+## Pressure Heatmat
+
+- Obtain pressure map with Matscan pressure sensing mat by [Tekscan](https://www.tekscan.com/products-solutions/systems/matscan)
+- Only at the beginning of the study
+- 4 files per foot: JPEG, AVI, CSV (single frame), CSV (300 frames)
+
+<img src="images/04_nike_matscan.jpg" width = 270 align="left" />
+<img src="images/04_adidas_matscan.jpg" width = 270 align="left" />
+<img src="images/03_foot.jpg" width = 270 align="left" />
+
+
+## 3D Scans
+
+- Taken with [EinScan Pro+ 3D scanner](https://www.einscan.com/einscan-pro-plus?gclid=Cj0KCQjwxdPNBRDmARIsAAw-TUnNdmaEc6Lk2M6xjYmkg006DyZJesvKD0_2vuy2f4DWCqJsAKDctUEaAkDTEALw_wcB))
+- Format: STL
+- 2 scans per shoe
+
+<img src="images/05_adidas_1.png" width = 400 align="left" />
+<img src="images/06_adidas_2.png" width = 400 align="left" />
+
+## 2D Scans
+
+- Taken with [EverOS footwear scanner](http://www.footprintmatcher.com/products/products_03.htm)
+- Format: TIFF
+- Modes: Detailed and quick
+- 2 per shoe per mode
+
+<img src="images/07_adidas_everos_detailed.png" width = 150 align = "left" />
+<img src="images/08_adidas_everos_quick.png" width = 150 align = "left" />
+
+
+## High Resolution Picture
+
+- Modes: 2 (different lighting)
+- Format: TIFF
+
+<img src="images/15_nike_picture_1.jpg" width = 250 align="left" />
+<img src="images/16_nike_picture_2.jpg" width = 250 align="left" />
+
+## Film Prints
+
+- Procedure from Israeli Police
+- Modes: two per shoe
+- 1 film per shoe per mode
+
+<img src="images/10_adidas_film_detailed.jpg" width = 200 align="left" />
+<img src="images/09_adidas_film_quick.jpg" width = 200 align="left" />
+
+## Paper Prints
+
+- Stepping on paper after applying fingerprints powder
+- Modes: Detailed, walking, stomping, twisting
+- 1 impression per mode
+
+<img src="images/11_adidas_detailed.jpg" width = 200 align="left" />
+<img src="images/12_adidas_walk.jpg" width = 200 align="left" />
+<img src="images/13_adidas_stomp.jpg" width = 200 align="left" />
+<img src="images/14_adidas_twist.jpg" width = 200 align="left" />
+
+## Vinyl Impression
+
+- Done right after paper prints
+
+<img src="images/17_adidas_vinyl.png" width = 300 />
+
+## Other Considerations
+
+- No way to measure within subject variability (only one pair of shoes was asssigned to each subject)
+- Two different patterns are being considered
+- Two shoe sizes are being considered for every gender
+- Weather might affect the experiment
+- The person who takes the impression could be another factor
+
+# Research and Extensions
+
+## Ongoing Research
+
+- Collaborators from the Israeli police: Distribution and shapes of RACs
+- Souyoung Park: Semi-automated method to compare shoeprints
+- Martin Silerio: Side-by-side analysis of cross-sections
+
+## Possible Extensions
+
+- Create crime-scene-like prints in such way that:
+  + Lift wet and dry surfaces
+  + Cast on difficult surfaces
+
+
+

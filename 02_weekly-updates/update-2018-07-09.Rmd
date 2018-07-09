@@ -93,6 +93,67 @@ class: primary
    + Mat Scanner Files
    + These should be all remaining errors
 
+---
+class:inverse
+# Miranda
+
+---
+class:primary
+# Neural Networks
+
+- Most recent model (classifying circles vs. triangles) using VGG16 has **94.8% accuracy** on test set!
+- Next questions
+    - Is VGG19 (more layers) better than VGG16?
+    - Effect of different classes on accuracy? (e.g., quadrilateral, text)
+    - How to handle multi-class images? 
+        - Binary encoding/classification for each shape
+        - Multi-label neural network
+    
+---
+class: primary
+# Architecture
+
+- **Convolutional layers** learn local patterns by analyzing the image through a sliding window
+- **Max-Pooling layers** combine patterns learned in single windows, downsampling huge feature maps and creating feature hierarchies of importance
+
+ <img src = "images/miranda/imagenet_vgg16.png" width="80%"/>
+
+---
+class:primary
+# Visualizing Filters
+
+ <img src = "images/miranda/aerosoles-pin-down-black-leather_product_9010211_color_72_crop2.png" width="70%"/>
+ 
+---
+class:secondary
+
+1st Convolutional Layer
+ <img src = "images/miranda/activations/1_conv2d_17.png" width="80%"/>
+ 
+2nd Convolutional Layer
+ <img src = "images/miranda/activations/3_conv2d_18.png" width="80%"/>
+
+*A blank square means the filter's pattern is not found in the image
+
+---
+class:secondary
+
+3rd Convolutional Layer
+ <img src = "images/miranda/activations/5_conv2d_19.png" width="80%"/>
+ 
+---
+class:secondary
+
+4th Convolutional Layer
+ <img src = "images/miranda/activations/7_conv2d_20.png" width="80%"/>
+ 
+
+
+
+
+
+
+
 
 
 

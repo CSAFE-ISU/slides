@@ -223,3 +223,15 @@ class: secondary
 ---
 class: inverse
 # REU Students 
+
+---
+class: primary
+# Yolonda
+
+- 10/54 documents completed
+- Problems with telling letters apart
+
+![](images/0026_4.png)
+![](images/0026_4 edit.png)
+Author 26, document 4
+---

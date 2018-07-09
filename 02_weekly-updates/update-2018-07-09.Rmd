@@ -94,5 +94,16 @@ class: primary
    + These should be all remaining errors
 
 
+---
+class: inverse  
+# Kiegan  
+
+---
+class: primary
+# Sorry I can't be there!  
+
+ <img src = "images/kiegan/this-is-fine.0.jpg" width="50%"/>  
+ 
+ 
 
 

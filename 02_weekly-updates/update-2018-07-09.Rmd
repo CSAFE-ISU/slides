@@ -275,6 +275,26 @@ class: inverse
 
 ---
 class: primary
+# Da'Monie
+Handwriting
+- Assigned a total of 54 documents from 9 different writers to classify handwritten letters.
+- In a week, I have completed 8/54 documents.
+
+Errors: 
+- Can only select a "square" region.
+- Some letters overlap with the next letter in the word.
+
+<img src = "images/0002_1a.png">
+
+---
+class: primary
+# Alese
+Making models and graphs using mock jury survey data.
+
+<img src = "images/Age vs. Understood Evidence.png">
+
+---
+class: primary
 # Badiah 
 - Jury project
   + Initial Verdict
@@ -295,11 +315,4 @@ class: primary
   a
   <img src = "images/Carley_letter u.png" width="25%" height="25%"/>
   u
-  
-
-
-
-
-
-
 

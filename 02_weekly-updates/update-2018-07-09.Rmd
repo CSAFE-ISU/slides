@@ -223,3 +223,10 @@ class: secondary
 ---
 class: inverse
 # REU Students 
+
+---
+class: primary
+# Malisha Jones
+
+![My Colorful Plot](images/MalishaPlot.png)
+- Goal: To Create The Best Possible Graph! :)

@@ -231,3 +231,26 @@ Making models and graphs using mock jury survey data.
 
 <img src = "images/Age vs. Understood Evidence.png">
 
+---
+class: primary
+# Badiah 
+- Jury project
+  + Initial Verdict
+- Fitting different models
+- Changing ordinal data to numerical data
+
+---
+class: primary
+# Carley
+- Taking images of letters to train computer to classify letters
+- Completed 12 out of 54 of my documents
+- Issues
+  - Letters that look the same
+  
+  <img src = "images/Carley_letter n.png" width="25%" height="25%"/>
+  n
+  <img src = "images/Carley_letter a.png" width="25%" height="25%"/>
+  a
+  <img src = "images/Carley_letter u.png" width="25%" height="25%"/>
+  u
+  

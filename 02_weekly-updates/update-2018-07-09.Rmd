@@ -223,3 +223,12 @@ class: secondary
 ---
 class: inverse
 # REU Students 
+
+---
+class: primary
+# Badiah 
+- Jury project
+  + Initial Verdict
+- Fitting different models
+- Changing ordinal data to numerical data
+

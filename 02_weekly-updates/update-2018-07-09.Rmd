@@ -223,3 +223,11 @@ class: secondary
 ---
 class: inverse
 # REU Students 
+
+---
+class: primary
+# Alese
+Making models and graphs using mock jury survey data.
+
+<img src = "images/Age vs. Understood Evidence.png">
+

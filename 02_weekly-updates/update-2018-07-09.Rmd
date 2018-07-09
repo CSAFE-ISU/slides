@@ -221,10 +221,10 @@ class: primary
    + Mat Scanner Files
    + These should be all remaining errors
 
-
---- 
+---
 class: inverse
-# Nate 
+# Nate
+
 ---
 class: primary
 # Bullet Changepoint
@@ -268,6 +268,19 @@ class: secondary
 
 
 <img src = "images/Nate/hamby6_cp_bad_svals_high_var.PNG" width="75%" height="75%"/> 
+
+---
+class: inverse
+# Guillermo
+
+---
+class: secondary
+
+- Automating extraction of data from MatScan files with AutoIt
+  + Make different windows active 
+  + Need to come up with a way to move already processed files
+- Set the right name for every file with R
+- Fixing renamed vinyl pictures
 
 ---
 class: inverse

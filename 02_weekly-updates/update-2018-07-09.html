@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for July 9</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for July 9
+### 2018/07/09
+
+---
+
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+---
+class: inverse
+# Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table:
+
+| Team     | Probability | 
+| : ------ | :---------- | 
+| France   | 29%         |  
+| England  | 27%         | 
+| Belgium  | 26%         | 
+| Croatia  | 18%         | 
+
+
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
+
+
+
+---
+class:inverse
+# Miranda
+
+---
+class:primary
+# Neural Networks
+
+- Most recent model (classifying circles vs. triangles) using VGG16 has **94.8% accuracy** on test set!
+- Next questions
+    - Is VGG19 (more layers) better than VGG16?
+    - Effect of different classes on accuracy? (e.g., quadrilateral, text)
+    - How to handle multi-class images? 
+        - Binary encoding/classification for each shape
+        - Multi-label neural network
+    
+---
+class: primary
+# Architecture
+
+- **Convolutional layers** learn local patterns by analyzing the image through a sliding window
+- **Max-Pooling layers** combine patterns learned in single windows, downsampling huge feature maps and creating feature hierarchies of importance
+
+ &lt;img src = "images/miranda/imagenet_vgg16.png" width="80%"/&gt;
+
+---
+class:primary
+# Visualizing Filters
+
+ &lt;img src = "images/miranda/aerosoles-pin-down-black-leather_product_9010211_color_72_crop2.png" width="70%"/&gt;
+ 
+---
+class:secondary
+
+1st Convolutional Layer
+ &lt;img src = "images/miranda/activations/1_conv2d_17.png" width="80%"/&gt;
+ 
+2nd Convolutional Layer
+ &lt;img src = "images/miranda/activations/3_conv2d_18.png" width="80%"/&gt;
+
+*A blank square means the filter's pattern is not found in the image
+
+---
+class:secondary
+
+3rd Convolutional Layer
+ &lt;img src = "images/miranda/activations/5_conv2d_19.png" width="80%"/&gt;
+ 
+---
+class:secondary
+
+4th Convolutional Layer
+ &lt;img src = "images/miranda/activations/7_conv2d_20.png" width="80%"/&gt;
+
+---
+class: inverse  
+# Jenny and Ben  
+
+---
+class: primary
+# Shoe tread classifications
+
+- 1645 classifications total
+
+---
+class: primary
+# Realistic Print Experimental Setup
+
+![3d](images/susan/IMG_20180703_083851.jpg)
+  
+
+---
+class: primary
+# Realistic Print Experimental Setup
+
+![2d](images/susan/IMG_20180703_112534.jpg)
+
+
+---
+class: inverse  
+# Susan
+
+---
+class: primary
+# Realistic Print Experimental Setup
+
+!["Stolen" Dirt](images/susan/IMG_20180704_084458.jpg)
+---
+class: primary
+# Realistic Print Experimental Setup
+
+!["Stolen" Dirt](images/susan/IMG_20180704_093237.jpg)
+
+---
+class:primary
+# Truthiness
+
+- 6 facts down, 6 more to go
+- 10 pictures/plots per fact
+- Formalized the experimental design
+
+It's surprisingly hard to find specific bits of data, such as the length of a border with a body of water. :-/
+
+---
+class: inverse  
+# Kiegan  
+
+---
+class: primary
+# Sorry I can't be there!  
+
+ &lt;img src = "images/kiegan/this-is-fine.0.jpg" width="50%"/&gt;  
+ 
+ 
+---
+class: inverse  
+# Martin  
+
+---
+class: primary
+# Brief update
+
+- Working on alignment of two different pattern shoeprints
+- Still struggling with the speed of processing the 4243x1645 pixels full size image
+- Currently working on doing the processing using RCpp
+- I also filtered and preprocessed some EverOS images from the database that Soyoung needs
+ 
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Summer activities thus far
+
+- REU https://csafe-isu.github.io/reu18/
+- Judge/lawyer training for ABA annual meeting in Chicago in August
+- Working on submitting paper to JCGS before JSM 
+
+---
+class: inverse
+# Jimmy 
+
+---
+class: primary
+# Longitudinal Data Collection
+* Document Development
+   + Detailed outline of all changes made during collection
+   + Updates on all procedure manuals
+* Automated File development
+   + Mat Scanner Files
+   + These should be all remaining errors
+
+---
+class: inverse
+# Nate
+
+---
+class: primary
+# Bullet Changepoint
+ - Changepoint analysis with Gibbs is currently running
+    - Currently the samples is a two step, random walk Metropolis within Gibbs.
+ - Preliminary results on next few slides
+---
+class: secondary
+- Vertical lines show posterior means of the changepoints
+- So far, so good.
+
+
+&lt;img src = "images/Nate/hamby1_cp.PNG" width="75%" height="75%"/&gt; 
+---
+class: secondary
+- This is what happens when only one shoulder(?) is present.
+
+
+&lt;img src = "images/Nate/hamby3_cp.PNG" width="75%" height="75%"/&gt;
+---
+class: secondary
+- The case when there is little data after a shoulder might be challenging.
+
+
+&lt;img src = "images/Nate/hamby5_cp.PNG" width="75%" height="75%"/&gt;
+---
+class: secondary
+- This looks fine so far. Starting values are dashed lines.
+
+
+&lt;img src = "images/Nate/hamby6_cp.PNG" width="75%" height="75%"/&gt;
+---
+class: secondary
+- When bad starting values are used.
+
+
+&lt;img src = "images/Nate/hamby6_cp_bad_svals.PNG" width="75%" height="75%"/&gt; 
+---
+class: secondary
+- When bad starting values are used but a high proposal variance is used.
+
+
+&lt;img src = "images/Nate/hamby6_cp_bad_svals_high_var.PNG" width="75%" height="75%"/&gt; 
+
+---
+class: inverse
+# Guillermo
+
+---
+class: secondary
+
+- Automating extraction of data from MatScan files with AutoIt
+  + Make different windows active 
+  + Need to come up with a way to move already processed files
+- Set the right name for every file with R
+- Fixing renamed vinyl pictures
+
+---
+class: inverse
+# REU Students 
+
+---
+class: primary
+# Yolonda
+
+- 10/54 documents completed
+- Problems with telling letters apart
+
+![](images/0026_4.png)
+![](images/0026_4 edit.png)
+Author 26, document 4
+
+---
+class: primary
+# Da'Monie
+Handwriting
+- Assigned a total of 54 documents from 9 different writers to classify handwritten letters.
+- In a week, I have completed 8/54 documents.
+
+Errors: 
+- Can only select a "square" region.
+- Some letters overlap with the next letter in the word.
+
+&lt;img src = "images/0002_1a.png"&gt;
+
+---
+class: primary
+# Alese
+Making models and graphs using mock jury survey data.
+
+&lt;img src = "images/Age vs. Understood Evidence.png"&gt;
+
+---
+class: primary
+# Badiah 
+- Jury project
+  + Initial Verdict
+- Fitting different models
+- Changing ordinal data to numerical data
+
+---
+class: primary
+# Carley
+- Taking images of letters to train computer to classify letters
+- Completed 12 out of 54 of my documents
+- Issues
+  - Letters that look the same
+  
+  &lt;img src = "images/Carley_letter n.png" width="25%" height="25%"/&gt;
+  n
+  &lt;img src = "images/Carley_letter a.png" width="25%" height="25%"/&gt;
+  a
+  &lt;img src = "images/Carley_letter u.png" width="25%" height="25%"/&gt;
+  u
+
+---
+class: primary
+# Mark Lancaster
+
+Mind map regarding the evaluation of evidence
+
+![mindmap](images/markjlancaster/mindmap.png)
+
+https://mm.tt/1119875312?t=Z5g2sHX4AO
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

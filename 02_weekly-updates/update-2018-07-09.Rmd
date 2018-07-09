@@ -333,6 +333,6 @@ class: primary
 
 Mind map regarding the evaluation of evidence
 
-![mindmap](/images/markjlancaster/mindmap.png)
+![mindmap](images/markjlancaster/mindmap.png)
 
 https://mm.tt/1119875312?t=Z5g2sHX4AO

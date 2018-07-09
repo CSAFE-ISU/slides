@@ -137,6 +137,55 @@ class:secondary
 
 ---
 class: inverse  
+# Jenny and Ben  
+
+---
+class: primary
+# Shoe tread classifications
+
+- 1645 classifications total
+
+---
+class: primary
+# Realistic Print Experimental Setup
+
+![3d](images/susan/IMG_20180703_083851.jpg)
+  
+
+---
+class: primary
+# Realistic Print Experimental Setup
+
+![2d](images/susan/IMG_20180703_112534.jpg)
+
+
+---
+class: inverse  
+# Susan
+
+---
+class: primary
+# Realistic Print Experimental Setup
+
+!["Stolen" Dirt](images/susan/IMG_20180704_084458.jpg)
+---
+class: primary
+# Realistic Print Experimental Setup
+
+!["Stolen" Dirt](images/susan/IMG_20180704_093237.jpg)
+
+---
+class:primary
+# Truthiness
+
+- 6 facts down, 6 more to go
+- 10 pictures/plots per fact
+- Formalized the experimental design
+
+It's surprisingly hard to find specific bits of data, such as the length of a border with a body of water. :-/
+
+---
+class: inverse  
 # Kiegan  
 
 ---
@@ -230,3 +279,57 @@ class: primary
 
 ![My Colorful Plot](images/MalishaPlot.png)
 - Goal: To Create The Best Possible Graph! :)
+
+---
+class: primary
+# Yolonda
+
+- 10/54 documents completed
+- Problems with telling letters apart
+
+![](images/0026_4.png)
+![](images/0026_4 edit.png)
+Author 26, document 4
+
+---
+class: primary
+# Da'Monie
+Handwriting
+- Assigned a total of 54 documents from 9 different writers to classify handwritten letters.
+- In a week, I have completed 8/54 documents.
+
+Errors: 
+- Can only select a "square" region.
+- Some letters overlap with the next letter in the word.
+
+<img src = "images/0002_1a.png">
+
+---
+class: primary
+# Alese
+Making models and graphs using mock jury survey data.
+
+<img src = "images/Age vs. Understood Evidence.png">
+
+---
+class: primary
+# Badiah 
+- Jury project
+  + Initial Verdict
+- Fitting different models
+- Changing ordinal data to numerical data
+
+---
+class: primary
+# Carley
+- Taking images of letters to train computer to classify letters
+- Completed 12 out of 54 of my documents
+- Issues
+  - Letters that look the same
+  
+  <img src = "images/Carley_letter n.png" width="25%" height="25%"/>
+  n
+  <img src = "images/Carley_letter a.png" width="25%" height="25%"/>
+  a
+  <img src = "images/Carley_letter u.png" width="25%" height="25%"/>
+  u

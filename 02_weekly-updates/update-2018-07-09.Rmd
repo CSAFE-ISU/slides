@@ -146,14 +146,6 @@ class:secondary
 
 4th Convolutional Layer
  <img src = "images/miranda/activations/7_conv2d_20.png" width="80%"/>
- 
-
-
-
-
-
-
-
 
 ---
 class: inverse  
@@ -166,5 +158,15 @@ class: primary
  <img src = "images/kiegan/this-is-fine.0.jpg" width="50%"/>  
  
  
+---
+class: inverse
+# Sam
 
+---
+class: primary
+# Summer activities thus far
+
+- REU https://csafe-isu.github.io/reu18/
+- Judge/lawyer training for ABA annual meeting in Chicago in August
+- Working on submitting paper to JCGS before JSM 
 

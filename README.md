@@ -9,6 +9,7 @@ June 13: CSAFE All Hands Meeting <br>
 June 18: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-06-18.html)<br>
 June 25: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-06-25.html)<br>
 July 02: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-07-02.html)<br>
+July 09: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-07-09.html)<br>
 
 
 ## Spring 2018 Slides

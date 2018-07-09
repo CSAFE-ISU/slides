@@ -196,6 +196,19 @@ class: primary
  
  
 ---
+class: inverse  
+# Martin  
+
+---
+class: primary
+# Brief update
+
+- Working on alignment of two different pattern shoeprints
+- Still struggling with the speed of processing the 4243x1645 pixels full size image
+- Currently working on doing the processing using RCpp
+- I also filtered and preprocessed some EverOS images from the database that Soyoung needs
+ 
+---
 class: inverse
 # Sam
 

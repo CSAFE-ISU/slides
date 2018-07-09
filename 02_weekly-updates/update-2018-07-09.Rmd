@@ -67,8 +67,8 @@ class: primary
 | : ------ | :---------- | 
 | France   | 29%         |  
 | England  | 27%         | 
-| Belgium  | 26          | 
-| Croatia  | 18          | 
+| Belgium  | 26%         | 
+| Croatia  | 18%         | 
 
 
 

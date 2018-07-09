@@ -171,3 +171,51 @@ class: primary
 * Automated File development
    + Mat Scanner Files
    + These should be all remaining errors
+
+
+--- 
+class: inverse
+# Nate 
+---
+class: primary
+# Bullet Changepoint
+ - Changepoint analysis with Gibbs is currently running
+    - Currently the samples is a two step, random walk Metropolis within Gibbs.
+ - Preliminary results on next few slides
+---
+class: secondary
+- Vertical lines show posterior means of the changepoints
+- So far, so good.
+
+
+<img src = "images/Nate/hamby1_cp.PNG" width="75%" height="75%"/> 
+---
+class: secondary
+- This is what happens when only one shoulder(?) is present.
+
+
+<img src = "images/Nate/hamby3_cp.PNG" width="75%" height="75%"/>
+---
+class: secondary
+- The case when there is little data after a shoulder might be challenging.
+
+
+<img src = "images/Nate/hamby5_cp.PNG" width="75%" height="75%"/>
+---
+class: secondary
+- This looks fine so far. Starting values are dashed lines.
+
+
+<img src = "images/Nate/hamby6_cp.PNG" width="75%" height="75%"/>
+---
+class: secondary
+- When bad starting values are used.
+
+
+<img src = "images/Nate/hamby6_cp_bad_svals.PNG" width="75%" height="75%"/> 
+---
+class: secondary
+- When bad starting values are used but a high proposal variance is used.
+
+
+<img src = "images/Nate/hamby6_cp_bad_svals_high_var.PNG" width="75%" height="75%"/> 

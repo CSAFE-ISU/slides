@@ -79,19 +79,7 @@ class: secondary
 
  <img src = "images/guillermo/sample_image.JPG" width="35%"/>
 
----
-class: inverse
-# Jimmy 
 
----
-class: primary
-# Longitudinal Data Collection
-* Document Development
-   + Detailed outline of all changes made during collection
-   + Updates on all procedure manuals
-* Automated File development
-   + Mat Scanner Files
-   + These should be all remaining errors
 
 ---
 class:inverse
@@ -170,3 +158,16 @@ class: primary
 - Judge/lawyer training for ABA annual meeting in Chicago in August
 - Working on submitting paper to JCGS before JSM 
 
+---
+class: inverse
+# Jimmy 
+
+---
+class: primary
+# Longitudinal Data Collection
+* Document Development
+   + Detailed outline of all changes made during collection
+   + Updates on all procedure manuals
+* Automated File development
+   + Mat Scanner Files
+   + These should be all remaining errors

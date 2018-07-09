@@ -275,13 +275,6 @@ class: inverse
 
 ---
 class: primary
-# Malisha Jones
-
-![My Colorful Plot](images/MalishaPlot.png)
-- Goal: To Create The Best Possible Graph! :)
-
----
-class: primary
 # Yolonda
 
 - 10/54 documents completed
@@ -333,3 +326,13 @@ class: primary
   a
   <img src = "images/Carley_letter u.png" width="25%" height="25%"/>
   u
+
+---
+class: primary
+# Mark Lancaster
+
+Mind map regarding the evaluation of evidence
+
+![mindmap](/images/mindmap.png)
+
+https://mm.tt/1119875312?t=Z5g2sHX4AO

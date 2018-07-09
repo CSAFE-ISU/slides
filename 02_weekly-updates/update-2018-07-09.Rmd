@@ -137,6 +137,55 @@ class:secondary
 
 ---
 class: inverse  
+# Jenny and Ben  
+
+---
+class: primary
+# Shoe tread classifications
+
+- 1645 classifications total
+
+---
+class: primary
+# Realistic Print Experimental Setup
+
+![3d](images/susan/IMG_20180703_083851.jpg)
+  
+
+---
+class: primary
+# Realistic Print Experimental Setup
+
+![2d](images/susan/IMG_20180703_112534.jpg)
+
+
+---
+class: inverse  
+# Susan
+
+---
+class: primary
+# Realistic Print Experimental Setup
+
+!["Stolen" Dirt](images/susan/IMG_20180704_084458.jpg)
+---
+class: primary
+# Realistic Print Experimental Setup
+
+!["Stolen" Dirt](images/susan/IMG_20180704_093237.jpg)
+
+---
+class:primary
+# Truthiness
+
+- 6 facts down, 6 more to go
+- 10 pictures/plots per fact
+- Formalized the experimental design
+
+It's surprisingly hard to find specific bits of data, such as the length of a border with a body of water. :-/
+
+---
+class: inverse  
 # Kiegan  
 
 ---

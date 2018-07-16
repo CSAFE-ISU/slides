@@ -1,0 +1,82 @@
+---
+title: "Weekly Update for July 9"
+date: "2018/07/09"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+---
+class: inverse
+# Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table:
+
+| Team     | Probability | 
+| : ------ | :---------- | 
+| France   | 29%         |  
+| England  | 27%         | 
+| Belgium  | 26%         | 
+| Croatia  | 18%         | 
+
+
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+ <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+
+

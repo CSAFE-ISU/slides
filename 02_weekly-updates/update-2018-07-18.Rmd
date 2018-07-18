@@ -1,6 +1,6 @@
 ---
-title: "Weekly Update for July 9"
-date: "2018/07/09"
+title: "Weekly Update for July 18"
+date: "2018/07/18"
 output:
   xaringan::moon_reader:
     css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
@@ -136,8 +136,8 @@ class: inverse
 # Jim
 
 ---
-class:secondary
-#Longitudinal Data Collection: Part 1
+class: primary
+# Data Collection (Shoes): Part 1 
 
 * All Data collection -> compleated
 * 19,200 files (Before replicates)
@@ -146,14 +146,54 @@ class:secondary
 * Manual on procedures and subsaquent changes -> Done
 
 ---
-class:secondary
+class: primary
+# Data Collection (Shoes): Part 2
 
-.center[<img src="images/susan/IMG_20180713_111121.jpg" width = "75%" style = "margin-top:-50px"/>]
+* Continue with a subset of the 160 shoes
+* Realistic Shoe outsole impressions
+* Prints will be lifted/cast using realistic methods
+   + Some older methods may carry over to this collection (ie. 3D scanning, 2D scanning)
+* Currently in the development stage
+
+<img src = "images/Jim/Test_Mud_1_2.JPG" width="50%"/>
 
 ---
-class:secondary
+class: inverse
+# Kiegan  
 
-.center[<img src="images/susan/20180717_160641.jpg" width = "75%" style = "margin-top:-50px"/>]
+---
+class: primary
+# Groove ID  
+
+- Writing up paper for AFTE Journal
+    - Submitting by end of summer  
+- Getting slides ready for JSM  
+    - On robust approach, logistic regression (if time!)  
+
+---
+class: primary
+# C&H Book  
+
+- Meeting with publisher at JSM 
+    - Hoping to get contract signed soon
+- On pause until paper submitted to AFTE Journal
+- Good progress! 
+    - 1 of the 3 main chapters almost ready
+    - 2nd in development 
+    
+
+---
+class: inverse
+# Heike  
+
+---
+class: primary
+# Refactoring software
+
+- Taking package `bulletr` apart and piecing it (better) together
+- new package `bulletxtrctr` 
+- follow along: https://github.com/heike/bulletxtrctr
+
 ---
 class: inverse
 # Nate 

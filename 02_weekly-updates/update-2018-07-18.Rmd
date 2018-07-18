@@ -1,6 +1,6 @@
 ---
-title: "Weekly Update for July 9"
-date: "2018/07/09"
+title: "Weekly Update for July 18"
+date: "2018/07/18"
 output:
   xaringan::moon_reader:
     css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
@@ -182,3 +182,14 @@ class: primary
     - 2nd in development 
     
 
+---
+class: inverse
+# Heike  
+
+---
+class: primary
+# Refactoring software
+
+- Taking package `bulletr` apart and piecing it (better) together
+- new package `bulletxtrctr` 
+- follow along: https://github.com/heike/bulletxtrctr

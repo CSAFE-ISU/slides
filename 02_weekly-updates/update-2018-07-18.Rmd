@@ -221,7 +221,7 @@ class: inverse
 # Guillermo
 
 ---
-class: Secondary
+class:secondary
 
 - Automate file extraction from MatScan files
   - 160 participants

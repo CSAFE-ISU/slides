@@ -133,6 +133,20 @@ class:secondary
 
 ---
 class: inverse
+# Miranda
+
+---
+class: primary
+
+# Neural Networks
+
+- Waiting on IT for a singularity image that will run Keras in R to train new models
+- Researching multi-class multi-label networks for shoe images
+- General recommendation to "one-hot encode" for multi-label images (i.e., use indicator variables) doesn't mesh with directory procedures for feeding images into neural network
+
+
+---
+class: inverse
 # Jim
 
 ---
@@ -156,6 +170,8 @@ class: primary
 * Currently in the development stage
 
 <img src = "images/Jim/Test_Mud_1_2.JPG" width="50%"/>
+
+
 
 ---
 class: inverse

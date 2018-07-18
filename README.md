@@ -1,6 +1,6 @@
 # Show-and-Tell Slides 
 
-In this repository, you will find brief weekly updates of some of the worked developed at CSAFE in Iowa State University[.](https://csafe-isu.github.io/slides/shoeprints_db_talk/shoeprints_database_REU.html)
+In this repository, you will find brief weekly updates of some of the worked developed at CSAFE in Iowa State University.
 
 ## Summer 2018 Slides
 
@@ -10,6 +10,7 @@ June 18: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/up
 June 25: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-06-25.html)<br>
 July 02: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-07-02.html)<br>
 July 09: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-07-09.html)<br>
+July 18: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-07-18.html)<br>
 
 
 ## Spring 2018 Slides

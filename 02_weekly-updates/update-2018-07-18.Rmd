@@ -154,3 +154,24 @@ class:secondary
 class:secondary
 
 .center[<img src="images/susan/20180717_160641.jpg" width = "75%" style = "margin-top:-50px"/>]
+---
+class: inverse
+# Nate 
+
+---
+class: primary
+# SLRs
+
+- "Lack of Confidence in ABC Model Choice" (Robert et al. 2011)
+    - Not always a relationship between an LR and an SLR. 
+    - Not obvious that same issues will arise in the forensic context
+- What is the worst case scenario for an SLR under some mild assumptions (i.e. model identifiability, finite second moments)?
+    - Information loss based on insufficient statistic is maximized when the data distribution has maximum entropy (?)
+    - With finite second moments I *think* this means the data are independent Normal. 
+    - Given a mean and variance, we could get a distribution for the difference in the log(LR) - log(SLR) (or log(SLR) - log(LR))
+    
+---
+class: primary
+# Groove ID
+- Fixed minor bug in the algorithm (it didn't change any results)
+- Implement adjustment to deal with 1 or 0 grooves.

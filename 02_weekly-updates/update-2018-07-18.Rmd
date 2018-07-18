@@ -234,6 +234,19 @@ class: primary
 
 ---
 class: inverse
+# Martin
+
+---
+class: primary
+# Shoeprint alignment 
+
+- Alignemnt of the 16 references images is done
+- I have in hand the 4987 EverOS images
+- Preparing the MATLAB script to align them to each of the 16 reference images
+- Guillermo and I just started working on a Shiny App to visualize and extract cross sections from the EverOS images
+    
+---
+class: inverse
 
 # Sam 
 

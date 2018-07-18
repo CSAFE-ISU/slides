@@ -80,3 +80,53 @@ class: secondary
  <img src = "images/guillermo/sample_image.JPG" width="35%"/>
 
 
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Feeding the Neural Network
+
+.left-column[
+<img src="images/susan/pentagon_triangle.jpg" width = "100%"/>
+<img src="images/susan/quad(R)_circle.jpg" width = "100%"/>
+]
+.right-column[
+- Processing annotated images in R (greater control)
+- Adding multi-class labels to use for one-hot encoding
+- Adding attributes (rounded, elongated) and textures as labels
+- Resizing images to 256x256
+- Splitting up images that are more than 384x384 into multiple images with the same labels
+]
+
+---
+class:primary
+# `bulletxtrctr`
+
+- Writing tests for the new processing sub-package of what is now `bulletr`
+    - Structure of output (e.g. function returns a data frame with the right number of columns)
+    - Numerical correctness of output (function returns the "correct" result when given the same input)
+- Goal: Make it easier to detect downstream effects of small changes to parameters in the processing algorithms
+
+
+
+---
+class: inverse
+# Ben and Jenny
+
+---
+class:secondary
+
+.center[<img src="images/susan/20180713_091755.jpg" width = "75%" style = "margin-top:-50px"/>]
+
+---
+class:secondary
+
+.center[<img src="images/susan/IMG_20180713_111121.jpg" width = "75%" style = "margin-top:-50px"/>]
+
+---
+class:secondary
+
+.center[<img src="images/susan/20180717_160641.jpg" width = "75%" style = "margin-top:-50px"/>]

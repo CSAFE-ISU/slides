@@ -130,3 +130,27 @@ class:secondary
 class:secondary
 
 .center[<img src="images/susan/20180717_160641.jpg" width = "75%" style = "margin-top:-50px"/>]
+
+---
+class: inverse
+# Jim
+
+---
+class:secondary
+#Longitudinal Data Collection: Part 1
+
+* All Data collection -> compleated
+* 19,200 files (Before replicates)
+* Working with IT: Archiver 
+* Under 100 errors
+* Manual on procedures and subsaquent changes -> Done
+
+---
+class:secondary
+
+.center[<img src="images/susan/IMG_20180713_111121.jpg" width = "75%" style = "margin-top:-50px"/>]
+
+---
+class:secondary
+
+.center[<img src="images/susan/20180717_160641.jpg" width = "75%" style = "margin-top:-50px"/>]

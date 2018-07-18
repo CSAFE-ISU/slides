@@ -136,8 +136,8 @@ class: inverse
 # Jim
 
 ---
-class:secondary
-#Longitudinal Data Collection: Part 1
+class: primary
+# Data Collection (Shoes): Part 1 
 
 * All Data collection -> compleated
 * 19,200 files (Before replicates)
@@ -146,11 +146,15 @@ class:secondary
 * Manual on procedures and subsaquent changes -> Done
 
 ---
-class:secondary
+class: primary
+# Data Collection (Shoes): Part 2
 
-.center[<img src="images/susan/IMG_20180713_111121.jpg" width = "75%" style = "margin-top:-50px"/>]
+* Continue with a subset of the 160 shoes
+* Realistic Shoe outsole impressions
+* Prints will be lifted/cast using realistic methods
+   + Some older methods may carry over to this collection (ie. 3D scanning, 2D scanning)
+* Currently in the development stage
 
----
-class:secondary
+<img src = "images/Jim/Test_Mud_1_2.JPG" width="50%"/>
 
-.center[<img src="images/susan/20180717_160641.jpg" width = "75%" style = "margin-top:-50px"/>]
+

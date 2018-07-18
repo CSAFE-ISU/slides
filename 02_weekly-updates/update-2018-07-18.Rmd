@@ -157,4 +157,17 @@ class: primary
 
 <img src = "images/Jim/Test_Mud_1_2.JPG" width="50%"/>
 
+---
+class: inverse
+# Kiegan  
+
+---
+class: primary
+# Groove ID  
+
+- Writing up paper for AFTE Journal
+    - Submitting by end of summer  
+- Getting slides ready for JSM  
+    - On robust approach, logistic regression (if time!)  
+
 

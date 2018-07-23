@@ -1,15 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for July 23</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for July 23
+### 2018/07/23
+
 ---
-title: "Weekly Update for July 23"
-date: "2018/07/23"
-output:
-  xaringan::moon_reader:
-    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
----
+
 
 
 class: inverse
@@ -79,7 +85,7 @@ class: secondary
 
 - If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
 
 ---
 class: inverse
@@ -89,8 +95,8 @@ class: inverse
 class: primary
 # Three GIFs from MatScan
 
- <img src = "images/guillermo/rep1.gif" width="30%"/>
- <img src = "images/guillermo/rep2.gif" width="30%"/>
+ &lt;img src = "images/guillermo/rep1.gif" width="30%"/&gt;
+ &lt;img src = "images/guillermo/rep2.gif" width="30%"/&gt;
 
 ---
 class: primary
@@ -107,12 +113,13 @@ class: primary
 # Badiah 
  This is what I did
 
-```{r, eval=FALSE, echo=TRUE} 
-  modelbest <- glm(InitialVerdict ~ Age + UnderstoodEvidence + KnowSciMeth.y + KnowForSci.y +
+
+```r
+  modelbest &lt;- glm(InitialVerdict ~ Age + UnderstoodEvidence + KnowSciMeth.y + KnowForSci.y +
   PoliticalSpectrum.y + SupportDP + NativeEnglish, family = "binomial", data = results_clean3)
 ```
 
- <img src = "images/Capture.PNG" width="50%" length="50%"/>
+ &lt;img src = "images/Capture.PNG" width="50%" length="50%"/&gt;
 
 ---
 class: inverse
@@ -138,14 +145,14 @@ class: primary
 class: secondary
 
 
-<img src = "images/miranda/filters/block1_conv1.png" width="49%"/>
-<img src = "images/miranda/filters/block2_conv1.png" width="49%"/>
+&lt;img src = "images/miranda/filters/block1_conv1.png" width="49%"/&gt;
+&lt;img src = "images/miranda/filters/block2_conv1.png" width="49%"/&gt;
   
 ---
 class: secondary
 
-<img src = "images/miranda/filters/block3_conv1.png" width="49%"/>
-<img src = "images/miranda/filters/block4_conv1.png" width="49%"/>
+&lt;img src = "images/miranda/filters/block3_conv1.png" width="49%"/&gt;
+&lt;img src = "images/miranda/filters/block4_conv1.png" width="49%"/&gt;
 
 
 ---
@@ -154,8 +161,9 @@ class: primary
 
 Creating Models
 
-```{r, eval=FALSE, echo=TRUE}
-sig <- glm(data = res, SecondaryVerdict~ 
+
+```r
+sig &lt;- glm(data = res, SecondaryVerdict~ 
              EvidenceType*Strength+ Age+ 
              RMPEstimate +ErrorEstimate+ KnowForSci+ 
              maxmath+ stats, family = binomial)
@@ -163,7 +171,7 @@ sig <- glm(data = res, SecondaryVerdict~
 
 And If You Like Bright Colors Check Out Theme Malisha
 
-<img src = "images/Malisha/ThemeMalisha.png" width="70%"/>
+&lt;img src = "images/Malisha/ThemeMalisha.png" width="70%"/&gt;
 
 ---
 class: primary
@@ -174,14 +182,15 @@ class: primary
 * Working on classification models
 
   + KNN
-```{r, eval=FALSE, echo=TRUE}
-knn_errors <- NULL
+
+```r
+knn_errors &lt;- NULL
 for (i in 1:30){
-  digits_KNN <- knn3(as.factor(label) ~ ., data = train, k = i)
-  pred_KNN <- predict(digits_KNN, newdata = test, type = "class")
-  error_rate <- mean(as.factor(test$label) != pred_KNN)
-  score <- c(k = i, error = error_rate)
-  knn_errors <- rbind(knn_errors, score)
+  digits_KNN &lt;- knn3(as.factor(label) ~ ., data = train, k = i)
+  pred_KNN &lt;- predict(digits_KNN, newdata = test, type = "class")
+  error_rate &lt;- mean(as.factor(test$label) != pred_KNN)
+  score &lt;- c(k = i, error = error_rate)
+  knn_errors &lt;- rbind(knn_errors, score)
 }
 ```
 * Problems with test$label
@@ -217,14 +226,59 @@ class: primary
 class: primary
 # Alese
 - Mock Jury GLM's
-- Smallest p value & AIC model
-```{r, eval=FALSE}
-glm_KML <- glm(ChangeVerdict ~ KellyMoreLikely, 
+- Smallest p value &amp; AIC model
+
+```r
+glm_KML &lt;- glm(ChangeVerdict ~ KellyMoreLikely, 
                family = binomial(link = "logit"), data = resultmodel1)
 
 summary(glm_KML)
-
-
 ```
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
-
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -106,11 +106,12 @@ class: primary
 ---
 class: primary
 # Badiah 
- *This is what I did
- 
+ This is what I did
+
+```{r, eval=FALSE, echo=TRUE} 
   modelbest <- glm(InitialVerdict ~ Age + UnderstoodEvidence + KnowSciMeth.y + KnowForSci.y +
   PoliticalSpectrum.y + SupportDP + NativeEnglish, family = "binomial", data = results_clean3)
-                 
+```
+
  <img src = "images/Capture.PNG" width="50%" length="50%"/>
 
----

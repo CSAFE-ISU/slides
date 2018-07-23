@@ -120,3 +120,66 @@ And If You Like Bright Colors Check Out Theme Malisha
 
 <img src = "images/Malisha/ThemeMalisha.png" width="70%"/>
 
+---
+class: primary
+# Yolonda
+
+* PCA analysis on training data completed
+
+* Working on classification models
+
+  + KNN
+```{r, eval=FALSE, echo=TRUE}
+knn_errors <- NULL
+for (i in 1:30){
+  digits_KNN <- knn3(as.factor(label) ~ ., data = train, k = i)
+  pred_KNN <- predict(digits_KNN, newdata = test, type = "class")
+  error_rate <- mean(as.factor(test$label) != pred_KNN)
+  score <- c(k = i, error = error_rate)
+  knn_errors <- rbind(knn_errors, score)
+}
+```
+* Problems with test$label
+
+---
+class: Primary
+# Da'Monie
+
+Handwriting Project
+
+-Separated testing data and training data
+-Using PCA analysis to reduce the data set
+-Trying different methods such as random forests
+
+---
+class: inverse
+# Nate 
+
+---
+class: primary
+# Groove ID
+
+- Mistake in changepoint model
+  - Current fix requires reducing the data by averaging points in small intervals
+- Assuming this fix is roughly satisfactory, next step is testing the full algorithm on the Hamby data set.
+
+---
+class: primary
+# SLR
+- Task for this week is to sketch out the math for the new conservative error approximation approach and to examine the basics of its behavior.
+
+---
+class: primary
+# Alese
+- Mock Jury GLM's
+- Smallest p value & AIC model
+```{r}
+glm_KML <- glm(ChangeVerdict ~ KellyMoreLikely, 
+               family = binomial(link = "logit"), data = resultmodel1)
+
+summary(glm_KML)
+
+
+```
+
+

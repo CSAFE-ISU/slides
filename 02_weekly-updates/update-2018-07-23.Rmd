@@ -103,4 +103,20 @@ class: primary
 | Color Palette | Spectral | 
 | Blank frames | Keep |
 
+---
+class: inverse
+# Carley
+
+---
+class: primary
+# Progress on handwriting project
+- Exploring random forest models to classify letters
+  - Getting very large errors for most letters
+  - So far lower case e has the lowest error rate
+
+---
+class: primary
+# Random forest results
+  <img src = "images/Carley/Carley_randomforest1.png" width="65%"  height="50%"/>
+
 

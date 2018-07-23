@@ -81,6 +81,17 @@ class: secondary
 
  <img src = "images/guillermo/sample_image.JPG" width="35%"/>
 
+---
+class: inverse
+#Guillermo
+
+---
+class: secondary
+
+
+ <img src = "images/guillermo/rep1.gif" width="30%"/>
+ <img src = "images/guillermo/rep2.gif" width="30%"/>
+ <img src = "images/guillermo/rep3.gif" width="30%"/>
 
 
 

@@ -138,5 +138,4 @@ class: primary
 ```{r}
 glm_KML <- glm(ChangeVerdict ~ KellyMoreLikely, 
                family = binomial(link = "logit"), data = resultmodel1)
-summary(glm_KML)
 ```

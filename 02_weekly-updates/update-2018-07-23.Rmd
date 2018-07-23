@@ -120,3 +120,12 @@ class: primary
 class: primary
 # SLR
 - Task for this week is to sketch out the math for the new conservative error approximation approach and to examine the basics of its behavior.
+
+---
+class: primary
+# Alese
+-Mock Jury GLM's
+-Smallest p value & AIC model
+-glm_KML <- glm(ChangeVerdict ~ KellyMoreLikely, 
+               family = binomial(link = "logit"), data = resultmodel1)
+summary(glm_KML)

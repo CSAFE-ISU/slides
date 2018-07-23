@@ -135,7 +135,7 @@ class: primary
 # Alese
 - Mock Jury GLM's
 - Smallest p value & AIC model
-```{r}
+```{r, eval=FALSE}
 glm_KML <- glm(ChangeVerdict ~ KellyMoreLikely, 
                family = binomial(link = "logit"), data = resultmodel1)
 ```

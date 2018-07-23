@@ -103,4 +103,24 @@ class: primary
 | Color Palette | Spectral | 
 | Blank frames | Keep |
 
+---
+class: primary
+#Yolonda
 
+* PCA analysis on training data completed
+
+* Working on classification models
+
+  + KNN
+```{r, eval=FALSE, echo=TRUE}
+knn_errors <- NULL
+for (i in 1:30){
+  digits_KNN <- knn3(as.factor(label) ~ ., data = train, k = i)
+  pred_KNN <- predict(digits_KNN, newdata = test, type = "class")
+  error_rate <- mean(as.factor(test$label) != pred_KNN)
+  score <- c(k = i, error = error_rate)
+  knn_errors <- rbind(knn_errors, score)
+}
+```
+* Problems with test$label
+---

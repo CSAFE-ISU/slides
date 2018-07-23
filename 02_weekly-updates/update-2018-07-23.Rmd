@@ -105,6 +105,90 @@ class: primary
 
 ---
 class: primary
+# Badiah 
+ This is what I did
+
+```{r, eval=FALSE, echo=TRUE} 
+  modelbest <- glm(InitialVerdict ~ Age + UnderstoodEvidence + KnowSciMeth.y + KnowForSci.y +
+  PoliticalSpectrum.y + SupportDP + NativeEnglish, family = "binomial", data = results_clean3)
+```
+
+ <img src = "images/Capture.PNG" width="50%" length="50%"/>
+
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Neural Networks
+
+- Singularity image and access to GPU server to train networks!
+- Working on scripts for multi-class and multi-label models
+
+---
+class: primary
+# VGG16
+
+- a deep convolutional network (16 layers) for object recognition developed and trained by Oxford's Visual Geometry Group
+- Trained on ImageNet database and can classify over 1,000 types of images
+- Using VGG16's visual ability and retraining the classifier is a lot like asking an adult to only classify "cat" or "dog", when we're trained to identify a lot more than that
+- gradient ascent in input shows each filter's optimal pattern
+
+---
+class: secondary
+
+
+<img src = "images/miranda/filters/block1_conv1.png" width="49%"/>
+<img src = "images/miranda/filters/block2_conv1.png" width="49%"/>
+  
+---
+class: secondary
+
+<img src = "images/miranda/filters/block3_conv1.png" width="49%"/>
+<img src = "images/miranda/filters/block4_conv1.png" width="49%"/>
+
+
+---
+class: primary
+# Malisha Jones
+
+Creating Models
+
+```{r, eval=FALSE, echo=TRUE}
+sig <- glm(data = res, SecondaryVerdict~ 
+             EvidenceType*Strength+ Age+ 
+             RMPEstimate +ErrorEstimate+ KnowForSci+ 
+             maxmath+ stats, family = binomial)
+```
+
+And If You Like Bright Colors Check Out Theme Malisha
+
+<img src = "images/Malisha/ThemeMalisha.png" width="70%"/>
+
+---
+class: primary
+# Yolonda
+
+* PCA analysis on training data completed
+
+* Working on classification models
+
+  + KNN
+```{r, eval=FALSE, echo=TRUE}
+knn_errors <- NULL
+for (i in 1:30){
+  digits_KNN <- knn3(as.factor(label) ~ ., data = train, k = i)
+  pred_KNN <- predict(digits_KNN, newdata = test, type = "class")
+  error_rate <- mean(as.factor(test$label) != pred_KNN)
+  score <- c(k = i, error = error_rate)
+  knn_errors <- rbind(knn_errors, score)
+}
+```
+* Problems with test$label
+
+---
+class: Primary
 # Da'Monie
 
 Handwriting Project
@@ -138,4 +222,10 @@ class: primary
 ```{r, eval=FALSE}
 glm_KML <- glm(ChangeVerdict ~ KellyMoreLikely, 
                family = binomial(link = "logit"), data = resultmodel1)
+
+summary(glm_KML)
+
+
 ```
+
+

@@ -103,4 +103,20 @@ class: primary
 | Color Palette | Spectral | 
 | Blank frames | Keep |
 
+---
+class: primary
+# Malisha Jones
+
+Creating Models
+
+```{r, eval=FALSE, echo=TRUE}
+sig <- glm(data = res, SecondaryVerdict~ 
+             EvidenceType*Strength+ Age+ 
+             RMPEstimate +ErrorEstimate+ KnowForSci+ 
+             maxmath+ stats, family = binomial)
+```
+
+And If You Like Bright Colors Check Out Theme Malisha
+
+<img src = "images/Malisha/ThemeMalisha.png" width="70%"/>
 

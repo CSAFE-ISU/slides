@@ -113,3 +113,19 @@ Handwriting Project
 -Using PCA analysis to reduce the data set
 -Trying different methods such as random forests
 
+---
+class: inverse
+# Nate 
+
+---
+class: primary
+# Groove ID
+
+- Mistake in changepoint model
+  - Current fix requires reducing the data by averaging points in small intervals
+- Assuming this fix is roughly satisfactory, next step is testing the full algorithm on the Hamby data set.
+
+---
+class: primary
+# SLR
+- Task for this week is to sketch out the math for the new conservative error approximation approach and to examine the basics of its behavior.

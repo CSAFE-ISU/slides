@@ -103,4 +103,13 @@ class: primary
 | Color Palette | Spectral | 
 | Blank frames | Keep |
 
+---
+class: primary
+# Da'Monie
+
+Handwriting Project
+
+-Separated testing data and training data
+-Using PCA analysis to reduce the data set
+-Trying different methods such as random forests
 

@@ -86,12 +86,21 @@ class: inverse
 #Guillermo
 
 ---
-class: secondary
-
+class: primary
+# Three GIFs from MatScan
 
  <img src = "images/guillermo/rep1.gif" width="30%"/>
  <img src = "images/guillermo/rep2.gif" width="30%"/>
  <img src = "images/guillermo/rep3.gif" width="30%"/>
 
+---
+class: primary
+# Notes on MatScan Files
+
+| Matter | Current Decision   |
+| :-- | :-- |
+| Format of the animation | GIF |
+| Color Palette | Spectral | 
+| Blank frames | Keep |
 
 

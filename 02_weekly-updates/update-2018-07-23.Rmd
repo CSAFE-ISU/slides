@@ -103,6 +103,41 @@ class: primary
 | Color Palette | Spectral | 
 | Blank frames | Keep |
 
+
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Neural Networks
+
+- Singularity image and access to GPU server to train networks!
+- Working on scripts for multi-class and multi-label models
+
+---
+class: primary
+# VGG16
+
+- a deep convolutional network (16 layers) for object recognition developed and trained by Oxford's Visual Geometry Group
+- Trained on ImageNet database and can classify over 1,000 types of images
+- Using VGG16's visual ability and retraining the classifier is a lot like asking an adult to only classify "cat" or "dog", when we're trained to identify a lot more than that
+- gradient ascent in input shows each filter's optimal pattern
+
+---
+class: secondary
+
+
+<img src = "images/miranda/filters/block1_conv1.png" width="49%"/>
+<img src = "images/miranda/filters/block2_conv1.png" width="49%"/>
+  
+---
+class: secondary
+
+<img src = "images/miranda/filters/block3_conv1.png" width="49%"/>
+<img src = "images/miranda/filters/block4_conv1.png" width="49%"/>
+
+
 ---
 class: primary
 # Malisha Jones

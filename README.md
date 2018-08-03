@@ -12,6 +12,8 @@ July 02: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/up
 July 09: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-07-09.html)<br>
 July 18: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-07-18.html)<br>
 July 23: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-07-23.html)<br>
+July 30: [JSM week](http://ww2.amstat.org/meetings/jsm/2018/)<br>
+July 06: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-08-06.html)<br>
 
 
 ## Spring 2018 Slides

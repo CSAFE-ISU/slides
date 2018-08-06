@@ -1,6 +1,6 @@
 ---
-title: "Weekly Update for July 9"
-date: "2018/07/09"
+title: "Weekly Update for July 18"
+date: "2018/07/18"
 output:
   xaringan::moon_reader:
     css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
@@ -133,6 +133,20 @@ class:secondary
 
 ---
 class: inverse
+# Miranda
+
+---
+class: primary
+
+# Neural Networks
+
+- Waiting on IT for a singularity image that will run Keras in R to train new models
+- Researching multi-class multi-label networks for shoe images
+- General recommendation to "one-hot encode" for multi-label images (i.e., use indicator variables) doesn't mesh with directory procedures for feeding images into neural network
+
+
+---
+class: inverse
 # Jim
 
 ---
@@ -156,5 +170,167 @@ class: primary
 * Currently in the development stage
 
 <img src = "images/Jim/Test_Mud_1_2.JPG" width="50%"/>
+
+
+
+---
+class: inverse
+# Kiegan  
+
+---
+class: primary
+# Groove ID  
+
+- Writing up paper for AFTE Journal
+    - Submitting by end of summer  
+- Getting slides ready for JSM  
+    - On robust approach, logistic regression (if time!)  
+
+---
+class: primary
+# C&H Book  
+
+- Meeting with publisher at JSM 
+    - Hoping to get contract signed soon
+- On pause until paper submitted to AFTE Journal
+- Good progress! 
+    - 1 of the 3 main chapters almost ready
+    - 2nd in development 
+    
+
+---
+class: inverse
+# Heike  
+
+---
+class: primary
+# Refactoring software
+
+- Taking package `bulletr` apart and piecing it (better) together
+- new package `bulletxtrctr` 
+- follow along: https://github.com/heike/bulletxtrctr
+
+---
+class: inverse
+# Nate 
+
+---
+class: primary
+# SLRs
+
+- "Lack of Confidence in ABC Model Choice" (Robert et al. 2011)
+    - Not always a relationship between an LR and an SLR. 
+    - Not obvious that same issues will arise in the forensic context
+- What is the worst case scenario for an SLR under some mild assumptions (i.e. model identifiability, finite second moments)?
+    - Information loss based on insufficient statistic is maximized when the data distribution has maximum entropy (?)
+    - With finite second moments I *think* this means the data are independent Normal. 
+    - Given a mean and variance, we could get a distribution for the difference in the log(LR) - log(SLR) (or log(SLR) - log(LR))
+    
+---
+class: primary
+# Groove ID
+- Fixed minor bug in the algorithm (it didn't change any results)
+- Implement adjustment to deal with 1 or 0 grooves.
+
+---
+class: inverse
+# Martin
+
+---
+class: primary
+# Shoeprint alignment 
+
+- Alignemnt of the 16 references images is done
+- I have in hand the 4987 EverOS images
+- Preparing the MATLAB script to align them to each of the 16 reference images
+- Guillermo and I just started working on a Shiny App to visualize and extract cross sections from the EverOS images
+    
+---
+class: inverse
+
+# Sam 
+
+---
+class: primary
+# Judge training
+
+Working on a presentation for Hal, Alicia, Judges Stephanie & Sam for the ABA conference in Chicago on Aug. 4th
+
+- summary of 5 cases where statistics and/or scientific validity played an important role or went wrong 
+- US v. Shonubi, Dukes v. WalMart, People v. Collins, US v. Glynn, NC v. McPhaul
+- 10:30 AM 12:00 PM on August 4th, Judicial Division, "Gatekeepers of Statistical Scientific Evidence: Legal, Ethical and Educational Responsibilities of Judges and Lawyers"
+
+---
+class: primary
+# Project proposal
+
+Training videos:
+
+- online 
+- different audiences
+- different lengths (short v. longer)
+- ideas welcome! 
+
+Some ideas are: 
+
+- likelihood ratio explainer
+- role of statistics in forensic science
+- automatic bullet matching with bulletr
+
+---
+class: primary
+# JSM
+
+- Presenting on my thesis research
+    * Working on a paper to submit to publication ASAP
+    * 15 minute talk on Thursday, Aug. 2 in the 10:30-12p session on network analysis
+- Chair & organizer of session on the SAFE of CSAFE. 
+    * Maria Cuellar, Chris Galbraith, Amy Crawford, Amanda Luby, Xiao Hui Tai
+    * Themed session! #LeadWithStatistics 
+    
+---
+class: primary
+# REUs 
+
+- All done with the database creation!! 
+- Now lives on csafe server (las/research/csafe) in the handwritten-letters-db folder
+- one csv with all in one (letterdatabase.csv)
+- one csv per document (letters_document_x.csv) where x is a document ID in the CVL database
+- 7 authors per document
+- Structured similarly to the MNIST data: 28 x 28 pixel grayscale images. 
+
+e.g. Imagine:  
+
+![](images/sam/imagine.png)
+
+---
+class: inverse
+# Guillermo
+
+---
+class:secondary
+
+- Automate file extraction from MatScan files
+  - 160 participants
+  - 12 MatScan files per participant
+  - 4 files per MAtScan file 
+    + CSV (2): single frame matrix, list of 300 frame matrices
+    + JPEG: Single frame image
+    + AVI: Video of approx 400MB
+- Getting rid of ringle frame image?
+- Getting rid of AVI
+
+  
+---
+class: primary
+# Getting Rid of Single Frame Image?
+
+<img src = "images/guillermo/single_frame.png" width="60%"/>
+
+---
+class: primary
+# Getting Rid of Video
+
+<img src = "images/guillermo/multiple_frames.png" width="80%"/>
 
 

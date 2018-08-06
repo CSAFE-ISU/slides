@@ -154,6 +154,36 @@ class: primary
 * Meeting with Eric tomorrow
 
 
+---
+  class:inverse
+#Miranda
+
+---
+  class:primary
+# Model Predictions
+
+* With new GPU server, training goes from 28 hours to 1.5
+* Trained 3-class model with single label
+* Pictured: images of "triangles", but model detects other shapes in images
+
+<img src = "images/Miranda/3class_predictions.png" width="100%"/>
+
+
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Currently working on...
+
+- bulletxtrctr tests
+  - style checks
+  - adding s3 classes?
+- Checking shoe annotations for accuracy/completeness
+- Working through zotero setup - CSAFE citation/pdf library
+
 
 
 ---

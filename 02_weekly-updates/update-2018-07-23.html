@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for July 23</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for July 23
+### 2018/07/23
+
+---
+
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+---
+class: inverse
+# Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table (top press freedom index):
+
+| Country      | 2018 Press Freedom Index |
+| :----------- | :----------------------- |
+| Norway       | 7.63   |
+| Sweden       | 8.31   |
+| Netherlands  | 10.01  |
+| Finland      | 10.26  |
+| Switzerland  | 11.27  |
+| Jamaica      | 11.33  |                 
+
+
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
+
+---
+class: inverse
+#Guillermo
+
+---
+class: primary
+# Three GIFs from MatScan
+
+ &lt;img src = "images/guillermo/rep1.gif" width="30%"/&gt;
+ &lt;img src = "images/guillermo/rep2.gif" width="30%"/&gt;
+
+---
+class: primary
+# Notes on MatScan Files
+
+| Matter | Current Decision   |
+| :-- | :-- |
+| Format of the animation | GIF |
+| Color Palette | Spectral | 
+| Blank frames | Keep |
+
+---
+class: primary
+# Badiah 
+ This is what I did
+
+
+```r
+  modelbest &lt;- glm(InitialVerdict ~ Age + UnderstoodEvidence + KnowSciMeth.y + KnowForSci.y +
+  PoliticalSpectrum.y + SupportDP + NativeEnglish, family = "binomial", data = results_clean3)
+```
+
+ &lt;img src = "images/Capture.PNG" width="50%" length="50%"/&gt;
+
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Neural Networks
+
+- Singularity image and access to GPU server to train networks!
+- Working on scripts for multi-class and multi-label models
+
+---
+class: primary
+# VGG16
+
+- a deep convolutional network (16 layers) for object recognition developed and trained by Oxford's Visual Geometry Group
+- Trained on ImageNet database and can classify over 1,000 types of images
+- Using VGG16's visual ability and retraining the classifier is a lot like asking an adult to only classify "cat" or "dog", when we're trained to identify a lot more than that
+- gradient ascent in input shows each filter's optimal pattern
+
+---
+class: secondary
+
+
+&lt;img src = "images/miranda/filters/block1_conv1.png" width="49%"/&gt;
+&lt;img src = "images/miranda/filters/block2_conv1.png" width="49%"/&gt;
+  
+---
+class: secondary
+
+&lt;img src = "images/miranda/filters/block3_conv1.png" width="49%"/&gt;
+&lt;img src = "images/miranda/filters/block4_conv1.png" width="49%"/&gt;
+
+
+---
+class: primary
+# Malisha Jones
+
+Creating Models
+
+
+```r
+sig &lt;- glm(data = res, SecondaryVerdict~ 
+             EvidenceType*Strength+ Age+ 
+             RMPEstimate +ErrorEstimate+ KnowForSci+ 
+             maxmath+ stats, family = binomial)
+```
+
+And If You Like Bright Colors Check Out Theme Malisha
+
+&lt;img src = "images/Malisha/ThemeMalisha.png" width="70%"/&gt;
+
+---
+class: primary
+# Yolonda
+
+* PCA analysis on training data completed
+
+* Working on classification models
+
+  + KNN
+
+```r
+knn_errors &lt;- NULL
+for (i in 1:30){
+  digits_KNN &lt;- knn3(as.factor(label) ~ ., data = train, k = i)
+  pred_KNN &lt;- predict(digits_KNN, newdata = test, type = "class")
+  error_rate &lt;- mean(as.factor(test$label) != pred_KNN)
+  score &lt;- c(k = i, error = error_rate)
+  knn_errors &lt;- rbind(knn_errors, score)
+}
+```
+* Problems with test$label
+
+---
+class: primary
+# Da'Monie
+
+Handwriting Project
+
+-Separated testing data and training data
+-Using PCA analysis to reduce the data set
+-Trying different methods such as random forests
+
+---
+class: inverse
+# Nate 
+
+---
+class: primary
+# Groove ID
+
+- Mistake in changepoint model
+  - Current fix requires reducing the data by averaging points in small intervals
+- Assuming this fix is roughly satisfactory, next step is testing the full algorithm on the Hamby data set.
+
+---
+class: primary
+# SLR
+- Task for this week is to sketch out the math for the new conservative error approximation approach and to examine the basics of its behavior.
+
+---
+class: primary
+# Alese
+- Mock Jury GLM's
+- Smallest p value &amp; AIC model
+
+```r
+glm_KML &lt;- glm(ChangeVerdict ~ KellyMoreLikely, 
+               family = binomial(link = "logit"), data = resultmodel1)
+
+summary(glm_KML)
+```
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

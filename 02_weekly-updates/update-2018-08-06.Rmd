@@ -109,7 +109,7 @@ class: primary
 ---
 class: inverse
 # Amy
-````
+---
 
 ---
 class: primary

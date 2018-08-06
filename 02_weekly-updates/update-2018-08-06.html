@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for August 6</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for August 6
+### 2018/08/06
+
+---
+
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+---
+class: inverse
+# Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table (top press freedom index):
+
+| Country      | 2018 Press Freedom Index |
+| :----------- | :----------------------- |
+| Norway       | 7.63   |
+| Sweden       | 8.31   |
+| Netherlands  | 10.01  |
+| Finland      | 10.26  |
+| Switzerland  | 11.27  |
+| Jamaica      | 11.33  |                 
+
+
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
+ 
+---
+class: inverse 
+# Nate
+---
+class: primary
+# Groove ID
+
+- Checked the results of the changepoint algorithm on about 40 lands 
+- Takeaways so far: 
+    - seems to work well when there are two shoulders in an image
+    - multimodal posterior is still an issue
+    - it can be easy to fool the method to think there are shoulders when none exist
+- Would like to try adding a linear function of the location to the mean of the GPs assigned to the shoulders
+
+---
+class: primary
+# SLR
+
+- Working on simulations to verify the legitimacy of some simple derivations
+- May be some justifcation based on CLT for assuming that the difference between log(LR) and log(SLR) is approximately normal if:
+    - original data is truly high dimensional
+    - the score function is a kind of distance
+- If original data is Gaussian, the bias of the log(SLR) is a function of the ratio of the variances of source and trace data
+
+
+---
+class: inverse
+# Amy
+
+
+---
+class: primary
+# Updates from MN
+
+Hi all! I'm working from MN on the following:
+1. Handling 'sticky sampling' issues with latent variables in an extension of the handwriting model
+2. Formal model selection methods for the number of graphemes to include in modeling (DIC is giving trouble)
+3. Incorporating a parameter that captures document to document variability within writer
+4. Data collection: IRB submission by August 21
+
+---
+class: inverse
+# Jimmy
+
+---
+class: primary
+# Last Few Weeks
+
+* 2 procedure types created (YES students)
+
+* IAI
+  + Great response about CSAFE
+  + Interest in the Webinars 
+  + FBI is interested in creating a shoe data base
+  + Talks on 3D Scanning, latent print analysis, and a case study  
+
+
+
+&lt;img src = "images/Jim/star.png" width="50%"/&gt;
+---
+class: primary
+# Surveys and This Week
+
+* Roughly 480 surveys
+
+* Re-entering and reviewing (Missing Surveys???)
+
+* Cleaning and attempting to make the data uniform. 
+
+* Meeting with Eric tomorrow
+
+
+---
+  class:inverse
+#Miranda
+
+---
+  class:primary
+# Model Predictions
+
+* With new GPU server, training goes from 28 hours to 1.5
+* Trained 3-class model with single label
+* Pictured: images of "triangles", but model detects other shapes in images
+
+&lt;img src = "images/Miranda/3class_predictions.png" width="100%"/&gt;
+
+
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Currently working on...
+
+- bulletxtrctr tests
+  - style checks
+  - adding s3 classes?
+- Checking shoe annotations for accuracy/completeness
+- Working through zotero setup - CSAFE citation/pdf library
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

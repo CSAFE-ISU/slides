@@ -154,5 +154,19 @@ class: primary
 * Meeting with Eric tomorrow
 
 
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Currently working on...
+
+- bulletxtrctr tests
+  - style checks
+  - adding s3 classes?
+- Checking shoe annotations for accuracy/completeness
+- Working through zotero setup - CSAFE citation/pdf library
+
 
 

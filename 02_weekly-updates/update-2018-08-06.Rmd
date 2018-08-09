@@ -124,7 +124,7 @@ Hi all! I'm working from MN on the following:
 
 ---
 class: inverse
-# Jimmy
+# James
 
 ---
 class: primary

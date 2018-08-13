@@ -171,3 +171,26 @@ class: primary
 
 
 
+---
+class: inverse
+# Kiegan
+
+
+---
+class: primary
+# Groove ID 
+
+* AFTE Journal draft complete! 
+* Submission in next week (or two depending on feedback) 
+* Moving on to more modeling
+
+---
+class: primary
+# Groove ID 
+
+* Two-class classification using LASSO
+
+
+
+
+

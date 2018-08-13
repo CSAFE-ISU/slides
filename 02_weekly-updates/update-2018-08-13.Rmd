@@ -232,3 +232,39 @@ class: primary
 * Could we do a "summer update"/"fall goals" overview Show & Tell at the beginning of the semester? 
 
 
+
+---
+class: inverse
+# Susan
+
+
+---
+class: primary
+# bullets
+
+## bulletxtrctr
+
+* rewriting tests to work with `covr` test coverage package
+* Use setup.R and teardown.R files to set up data for tests and clean up the environment afterwards
+* Only compare results from current algorithm to results from previous versions of the algorithm on Bigfoot (not on CRAN or Travis)
+* This week: tests for the separate features functions
+
+---
+class: primary
+# bullets
+
+## x3ptools
+
+* starting to write tests for x3ptools
+* goal: > 90% coverage
+
+---
+class:primary
+# Truthiness
+
+* Separate image files (outside of the Rmd files) for each of 11 image types x 12 claims
+    * consistent size, style (as much as map aspect ratio issues allow)
+    * minimize the number of packages required
+* This week: shiny app to present the survey - too complicated to do with Qualtrics
+
+

@@ -219,5 +219,6 @@ class: primary
 * Update "grooves" GitHub so it actually has some information about our project 
 * Clean up!  
 
+* Could we do a "summer update"/"fall goals" overview Show & Tell at the beginning of the semester? 
 
 

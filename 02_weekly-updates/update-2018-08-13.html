@@ -4,8 +4,8 @@
     <title>Weekly Update for August 13</title>
     <meta charset="utf-8">
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
-    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -119,6 +119,16 @@ class: primary
 &lt;img src = "images/James/RStudio-Logo-Blue-Gradient.png" width="20%"/&gt;
 
 ---
+class: inverse
+#Guillermo
+
+---
+class: secondary
+- Extracted all MatScan files (including those already extracted, for consistency) and renamed them
+
+- Almost done processing survey data
+
+- Database paper looking at Journal of Forensic Sciences... It requires some data analysis
 
 ---
 class: inverse
@@ -171,6 +181,97 @@ class: primary
 * new version needs some testing (impact on scans?)
 
 * supports native x3p (also needs testing)
+
+
+* DFSC cartridge cases are scanned ... need to be processed next
+
+
+
+---
+class: inverse
+# Kiegan
+
+
+---
+class: primary
+# Groove ID 
+
+* AFTE Journal draft complete! 
+* Submission in next week (or two depending on feedback) 
+* Moving on to more modeling
+
+---
+class: primary
+# Groove ID 
+
+* Two-class classification using LASSO
+
+ &lt;img src = "images/kiegan/logistic_examples1.png" width="50%"/&gt;
+ 
+ ---
+class: primary
+# Groove ID 
+
+* Two-class classification using LASSO
+
+ &lt;img src = "images/kiegan/logistic_examples2.png" width="50%"/&gt;
+
+ ---
+class: primary
+# Groove ID 
+
+* Two-class classification using LASSO
+* Things to consider: 
+    * Very unbalanced response
+    * May consider adding additional features
+    * Training/test sets: keep bullets grouped together? 
+    * May add a random component for bullet
+
+---
+class: primary
+# Groove ID  
+
+* Going to work on metadata sheet for notes on bullets Nate and I work with 
+* Update `grooves` GitHub so it actually has some information about our project 
+* Clean up!  
+
+* Could we do a "summer update"/"fall goals" overview Show &amp; Tell at the beginning of the semester? 
+
+
+
+---
+class: inverse
+# Susan
+
+
+---
+class: primary
+# bullets
+
+## bulletxtrctr
+
+* rewriting tests to work with `covr` test coverage package
+* Use setup.R and teardown.R files to set up data for tests and clean up the environment afterwards
+* Only compare results from current algorithm to results from previous versions of the algorithm on Bigfoot (not on CRAN or Travis)
+* This week: tests for the separate features functions
+
+---
+class: primary
+# bullets
+
+## x3ptools
+
+* starting to write tests for x3ptools
+* goal: &gt; 90% coverage
+
+---
+class:primary
+# Truthiness
+
+* Separate image files (outside of the Rmd files) for each of 11 image types x 12 claims
+    * consistent size, style (as much as map aspect ratio issues allow)
+    * minimize the number of packages required
+* This week: shiny app to present the survey - too complicated to do with Qualtrics
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({

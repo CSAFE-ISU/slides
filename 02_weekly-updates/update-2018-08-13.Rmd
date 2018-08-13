@@ -113,6 +113,16 @@ class: primary
 <img src = "images/James/RStudio-Logo-Blue-Gradient.png" width="20%"/>
 
 ---
+class: inverse
+#Guillermo
+
+---
+class: secondary
+- Extracted all MatScan files (including those already extracted, for consistency) and renamed them
+
+- Almost done processing survey data
+
+- Database paper looking at Journal of Forensic Sciences... It requires some data analysis
 
 ---
 class: inverse

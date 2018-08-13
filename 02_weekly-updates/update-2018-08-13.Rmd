@@ -90,7 +90,7 @@ class: inverse
 class: primary
 # Files and Metadata
 
-* Successful Meeting with Eric: < 5 errors
+* Successful meeting with Eric: < 5 errors
 
 * Currently working on cleaning metadata
          + Most participants responded with values out of 100
@@ -108,7 +108,7 @@ class: primary
 
 * I am working on R Software/R Studio skills. 
 
-<img src = "images/James/RStudio-Logo-Blue-Gradient.png" width="50%"/>
+<img src = "images/James/RStudio-Logo-Blue-Gradient.png" width="30%"/>
 
 ---
 

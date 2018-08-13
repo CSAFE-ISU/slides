@@ -82,3 +82,34 @@ class: secondary
 
  <img src = "images/guillermo/sample_image.JPG" width="35%"/>
  
+---
+class: inverse
+# James
+
+---
+class: primary
+# Files and Metadata
+
+* Successful Meeting with Eric: < 5 errors
+
+* Currently working on cleaning metadata
+         + Most participants responded with values out of 100
+         + Some did not: values out of 60, most/least, Yes/No, Etc. 
+
+* Most participant responses can be turned into:
+         + value out of 100
+         + Yes/No
+
+* Guillermo is working on a script
+
+---
+class: primary
+# meanwhile 
+
+* I am working on R Software/R Studio skills. 
+
+<img src = "images/James/RStudio-Logo-Blue-Gradient.png" width="50%"/>
+
+---
+
+

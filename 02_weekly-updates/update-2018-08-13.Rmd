@@ -114,4 +114,28 @@ class: primary
 
 ---
 
+---
+class: inverse
+# Earo
 
+---
+class: primary
+# $whoami
+
+* third-year Ph.D. @ Monash Uni
+
+
+* R developer, authoring `tsibble`, `sugrrants`, `hts`, and etc.
+
+
+<img src = "images/earo/tsibble.png" height=200px/>
+<img src = "images/earo/sugrrants.png" height=200px/>
+<img src = "images/earo/hts.png" height=200px/>
+
+
+* more? <https://earo.me>
+
+---
+class: secondary
+
+ <img src = "images/earo/tree-bg.png"/>

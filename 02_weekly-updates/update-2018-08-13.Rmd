@@ -104,11 +104,11 @@ class: primary
 
 ---
 class: primary
-# meanwhile 
+# Meanwhile 
 
 * I am working on R Software/R Studio skills. 
 
-<img src = "images/James/RStudio-Logo-Blue-Gradient.png" width="30%"/>
+<img src = "images/James/RStudio-Logo-Blue-Gradient.png" width="20%"/>
 
 ---
 

@@ -207,7 +207,7 @@ class: primary
 
  <img src = "images/kiegan/logistic_examples2.png" width="50%"/>
 
- ---
+---
 class: primary
 # Groove ID 
 

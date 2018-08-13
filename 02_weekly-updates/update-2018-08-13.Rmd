@@ -108,6 +108,8 @@ class: primary
 
 * I am working on R Software/R Studio skills. 
 
+* Doing research into papers and webinars that I have been refered too. 
+
 <img src = "images/James/RStudio-Logo-Blue-Gradient.png" width="20%"/>
 
 ---

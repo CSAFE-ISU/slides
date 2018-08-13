@@ -139,3 +139,35 @@ class: primary
 class: secondary
 
  <img src = "images/earo/tree-bg.png"/>
+
+
+---
+class: inverse
+# Heike
+
+
+---
+class: primary
+# bulletxtrctr and x3ptools
+
+* `x3ptools` can now read from URL
+
+* `bulletxtrctr` is getting a set of feature extraction functions (plus documentation for each)
+
+---
+class: primary
+# news from the lab
+
+* Sensofar representative was here ... 
+  * pro: and installed the new software
+  * con: without asking
+  
+* new version needs some testing (impact on scans?)
+
+* supports native x3p (also needs testing)
+
+
+* DFSC cartridge cases are scanned ... need to be processed next
+
+
+

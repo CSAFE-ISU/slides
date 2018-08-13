@@ -10,6 +10,8 @@ June 18: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/up
 June 25: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-06-25.html)<br>
 July 02: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-07-02.html)<br>
 July 09: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-07-09.html)<br>
+August 06: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-08-06.html)<br>
+August 13: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-08-13.html)<br>
 
 
 ## Spring 2018 Slides

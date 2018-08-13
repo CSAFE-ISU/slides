@@ -225,8 +225,8 @@ class: primary
 class: primary
 # Groove ID  
 
-* Going to work on "metadata" sheet for notes on bullets Nate and I work with 
-* Update "grooves" GitHub so it actually has some information about our project 
+* Going to work on metadata sheet for notes on bullets Nate and I work with 
+* Update `grooves` GitHub so it actually has some information about our project 
 * Clean up!  
 
 * Could we do a "summer update"/"fall goals" overview Show & Tell at the beginning of the semester? 

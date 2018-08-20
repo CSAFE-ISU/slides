@@ -1,8 +1,50 @@
 # Show-and-Tell Slides 
 
-In this repository, you will find brief weekly updates of some of the worked developed at CSAFE in Iowa State University[.](https://csafe-isu.github.io/slides/shoeprints_db_talk/shoeprints_database_REU.html)
+In this repository, you will find brief weekly updates of some of the worked developed at CSAFE in Iowa State University.
 
-## Summer 2018 Slides
+### Before adding your slides
+
+1. Make sure that you have a Github account and it is connected to RStudio. If you have not done so, please follow [this instructions](http://happygitwithr.com/rstudio-git-github.html). RStudio is not required to add your slides, but it might make the process easier.
+
+2. If you are not a collaborator for the [slides repository](https://github.com/CSAFE-ISU/slides/), ask Guillermo or any other CSAFE member to add you to the list.
+
+3. Clone the repo in your local machine with RStudio by creating an RStudio project. See [Section 13.3](http://happygitwithr.com/rstudio-git-github.html). 
+
+### Upload your slides
+
+You are expected to add your slides at least 20 minutes before every Show-and-Tell
+
+1. *Pull* Open the RStudio project of the slides repo and click "Pull" in the Git panel within RStudio.
+
+2. *Open slides* Open the RMarkdown file (Rmd) that corresponds to the date within the folder called "02_weekly-updates". For example, "update-2018-08-22.Rmd".
+
+3. *Add images* All the images and attached files should be in a folder with your name within "02_weekly-updates/images". Create your own folder if you have not done it so.
+
+4. *Check packages* Verify that you have installed the following R packages:
+  - [`rmarkdown`](https://rmarkdown.rstudio.com/lesson-1.html)
+  - [`devtools`](https://www.r-project.org/nosvn/pandoc/devtools.html)
+  - [`xaringan`](https://github.com/yihui/xaringan)
+
+5. *Add slides* The first four slides of every Show-and-Tell have instructions, e.g., [on this slides from Aug. 13, 2018](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-08-13.html#1). Basics of RMarkdowns can be found [here](https://rmarkdown.rstudio.com/authoring_basics.html).
+
+6. *Upload changes* 
+  - Save the document. 
+  - Click "Knit" to verify that your slides are being properly rendered. This is going to create an HTML file with the same name as the RMarkdown (Rmd), please delete it either within RStudio or directly on your local folder.
+  - Go to the Git section within Rstudio and click "Diff", select the Rmd and images that you are adding to the presentation. Do not upload the any HTML file.
+  - Type a "Commit message". 
+  - Click "Commit" -> "Pull" -> "Push". See Section 15 [from this website](http://happygitwithr.com/troubleshooting.html#rstudio-is-not-making-certain-files-available-for-stagingcommitting) to solve some of the most common error messages.
+
+### *Important remarks about adding slides*
+
+- Add your slides at least 20 minutes before the presentation
+- Do not add any HTML file
+- The process to upload is Pull -> Add Slides -> Commit -> Pull -> Push. Note that you must pull the repo twice.
+
+### Fall 2018 Slides
+
+August 22: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-08-22.html)<br>
+
+### Summer 2018 Slides
 
 June 06: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-06-04.html)<br>
 June 13: CSAFE All Hands Meeting <br>
@@ -14,7 +56,7 @@ August 06: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/
 August 13: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-08-13.html)<br>
 
 
-## Spring 2018 Slides
+### Spring 2018 Slides
 
 January 22: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-01-22.html)<br>
 January 29: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-01-29.html)<br>
@@ -31,7 +73,7 @@ April 9: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/up
 April 16: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-04-16.html)<br>
 
 
-## Fall 2017 Slides
+### Fall 2017 Slides
 
 August 29: [Tech Tools](https://csafe-isu.github.io/slides/03_tech_tools/techtools-slides.html)<br>
 September 03: Most of CSAFE members attended [ICFIS 2017](http://www.cvent.com/events/icfis-2017-international-conference-on-forensic-inference-and-statistics/event-summary-6d357a9583224144866d64f44de367a2.aspx). <br>
@@ -51,7 +93,7 @@ December 04: CSAFE open house! <br>
 December 11: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-12-11.html)<br>
 
 
-## Summer 2017 Slides
+### Summer 2017 Slides
 
 May 15: [Intro to working with scans](https://csafe-isu.github.io/slides/01_intro-to-scans/intro-x3p.html): working together, file formats and file access<br>
 May 22: [Weekly update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2017-05-22.html)<br>

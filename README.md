@@ -34,12 +34,13 @@ You are expected to add your slides **at least** 20 minutes before every Show-an
   - Type a "Commit message". 
   - Click "Commit" -> "Pull" -> "Push". See Section 15 [of *Happy Git with R*](http://happygitwithr.com/troubleshooting.html#rstudio-is-not-making-certain-files-available-for-stagingcommitting) to solve some of the most common error messages.
  
-7. **Creating Github Issues**
+7. **Creating Github Issues for getting feedback**
   - If there is a topic you'd like feedback on during or after show and tell, create a Github issue on this repo. 
   - If you want to provide feedback outside of the show and tell, comment on the issue. 
   - This is a great way to keep track of everything you've tried so that you don't repeat yourself. 
   - This also allows for greater collaboration opportunities within the group. 
   - Tags also allow for tracking: what project is the issue for? what topics are covered?
+  - Use the issue template. 
 
 ### **Important remarks about adding slides**
 

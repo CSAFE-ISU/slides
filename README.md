@@ -14,27 +14,27 @@ In this repository, you will find brief weekly updates of some of the worked dev
 
 You are expected to add your slides at least 20 minutes before every Show-and-Tell
 
-1. *Pull* Open the RStudio project of the slides repo and click "Pull" in the Git panel within RStudio.
+1. **Pull** Open the RStudio project of the slides repo and click "Pull" in the Git panel within RStudio.
 
-2. *Open slides* Open the RMarkdown file (Rmd) that corresponds to the date within the folder called "02_weekly-updates". For example, "update-2018-08-22.Rmd".
+2. **Open slides** Open the RMarkdown file (Rmd) that corresponds to the date within the folder called "02_weekly-updates". For example, "update-2018-08-22.Rmd".
 
-3. *Add images* All the images and attached files should be in a folder with your name within "02_weekly-updates/images". Create your own folder if you have not done it so.
+3. **Add images** All the images and attached files should be in a folder with your name within "02_weekly-updates/images". Create your own folder if you have not done it so.
 
-4. *Check packages* Verify that you have installed the following R packages:
+4. **Check packages** Verify that you have installed the following R packages:
   - [`rmarkdown`](https://rmarkdown.rstudio.com/lesson-1.html)
   - [`devtools`](https://www.r-project.org/nosvn/pandoc/devtools.html)
   - [`xaringan`](https://github.com/yihui/xaringan)
 
-5. *Add slides* The first four slides of every Show-and-Tell have instructions, e.g., [on this slides from Aug. 13, 2018](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-08-13.html#1). Basics of RMarkdowns can be found [here](https://rmarkdown.rstudio.com/authoring_basics.html).
+5. **Add slides** The first four slides of every Show-and-Tell have instructions, e.g., [on this slides from Aug. 13, 2018](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-08-13.html#1). Basics of RMarkdowns can be found [here](https://rmarkdown.rstudio.com/authoring_basics.html).
 
-6. *Upload changes* 
+6. **Upload changes** 
   - Save the document. 
   - Click "Knit" to verify that your slides are being properly rendered. This is going to create an HTML file with the same name as the RMarkdown (Rmd), please delete it either within RStudio or directly on your local folder.
   - Go to the Git section within Rstudio and click "Diff", select the Rmd and images that you are adding to the presentation. Do not upload the any HTML file.
   - Type a "Commit message". 
   - Click "Commit" -> "Pull" -> "Push". See Section 15 [from this website](http://happygitwithr.com/troubleshooting.html#rstudio-is-not-making-certain-files-available-for-stagingcommitting) to solve some of the most common error messages.
 
-### *Important remarks about adding slides*
+### **Important remarks about adding slides**
 
 - Add your slides at least 20 minutes before the presentation
 - Do not add any HTML file

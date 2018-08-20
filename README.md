@@ -4,15 +4,15 @@ In this repository, you will find brief weekly updates of some of the worked dev
 
 ### Before adding your slides
 
-1. Make sure that you have a Github account and it is connected to RStudio. If you have not done so, please follow [this instructions](http://happygitwithr.com/rstudio-git-github.html). RStudio is not required to add your slides, but it might make the process easier.
+1. Make sure that you have a Github account and it is connected to RStudio. If you have not done so, please follow [these excellent instructions](http://happygitwithr.com/rstudio-git-github.html) from Jenny Bryan. RStudio is not required to add your slides, but it might make the process easier.
 
 2. If you are not a collaborator for the [slides repository](https://github.com/CSAFE-ISU/slides/), ask Guillermo or any other CSAFE member to add you to the list.
 
-3. Clone the repo in your local machine with RStudio by creating an RStudio project. See [Section 13.3](http://happygitwithr.com/rstudio-git-github.html). 
+3. Clone the repo in your local machine with RStudio by creating an RStudio project. See [Section 13.3](http://happygitwithr.com/rstudio-git-github.html) of *Happy Git with R*. 
 
 ### Upload your slides
 
-You are expected to add your slides at least 20 minutes before every Show-and-Tell
+You are expected to add your slides **at least** 20 minutes before every Show-and-Tell.
 
 1. **Pull** Open the RStudio project of the slides repo and click "Pull" in the Git panel within RStudio.
 
@@ -32,13 +32,20 @@ You are expected to add your slides at least 20 minutes before every Show-and-Te
   - Click "Knit" to verify that your slides are being properly rendered. This is going to create an HTML file with the same name as the RMarkdown (Rmd), please delete it either within RStudio or directly on your local folder.
   - Go to the Git section within Rstudio and click "Diff", select the Rmd and images that you are adding to the presentation. Do not upload the any HTML file.
   - Type a "Commit message". 
-  - Click "Commit" -> "Pull" -> "Push". See Section 15 [from this website](http://happygitwithr.com/troubleshooting.html#rstudio-is-not-making-certain-files-available-for-stagingcommitting) to solve some of the most common error messages.
+  - Click "Commit" -> "Pull" -> "Push". See Section 15 [of *Happy Git with R*](http://happygitwithr.com/troubleshooting.html#rstudio-is-not-making-certain-files-available-for-stagingcommitting) to solve some of the most common error messages.
+ 
+7. **Creating Github Issues**
+  - If there is a topic you'd like feedback on during or after show and tell, create a Github issue on this repo. 
+  - If you want to provide feedback outside of the show and tell, comment on the issue. 
+  - This is a great way to keep track of everything you've tried so that you don't repeat yourself. 
+  - This also allows for greater collaboration opportunities within the group. 
+  - Tags also allow for tracking: what project is the issue for? what topics are covered?
 
 ### **Important remarks about adding slides**
 
-- Add your slides at least 20 minutes before the presentation
-- Do not add any HTML file
-- The process to upload is Pull -> Add Slides -> Commit -> Pull -> Push. Note that you must pull the repo twice.
+- Add your slides **at least** 20 minutes before the presentation
+- Do not add any HTML file created by compiling the slides.
+- The process to upload is Pull -> Add Slides -> Commit -> Pull -> Push. Note that you must pull the repo twice: once to get the slides for the current week and the second time to get any material that others have pushed in the meantime. When in doubt, always do: commit, PULL, push. 
 
 ### Fall 2018 Slides
 

@@ -84,7 +84,8 @@ class: secondary
  
 ---
 class: inverse
-# Ben
+# Ben  
+
 ---
 class: primary
 # Summer
@@ -93,7 +94,9 @@ class: primary
 - Pharmaceutical company part of UHG
 - Fullstack / Database development in team of 5
 - ~2,000,000$ saved
-- Linux Club challenges / content
+- Linux Club challenges / content  
+
+
 ---
 class: primary
 # Semester Intentions
@@ -101,4 +104,38 @@ class: primary
 - Collaborate w/Nic & Amy to improve handwriting project
 - Develop improvements / features part of algorithm
 - Eventually port algorithm through an application portal
-- Improve file structure of project
+- Improve file structure of project   
+
+
+---
+class: inverse
+# Kiegan  
+
+---
+class: primary  
+# Summer Work  
+
+- Presented at AFTE  
+- Helped Amy run STEMversity in GA  
+- Took the Stat written prelim  
+- Wrote draft of grooves ID paper for AFTE journal  
+- Started using more sophisticated techniques on grooves  
+    - Coming soon to a show-and-tell near you! ;)  
+
+---
+class: primary   
+# Fall Semester Goals  
+
+- Submit to AFTE journal  
+- Complete writing of Chapman & Hall book  
+    - Working on this from home T/Th  
+- Write a joint paper with Nate on grooves project  
+    - Probably aim for Journal of Forensic Sciences  
+    - Compare/contrast of methodologies
+    - Downstream impact on the algorithm!  
+- Taking one class (Stat 643) and research credits  
+
+
+
+
+

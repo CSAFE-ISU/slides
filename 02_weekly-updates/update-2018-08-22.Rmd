@@ -115,12 +115,14 @@ class: inverse
 class: primary  
 # Summer Work  
 
-- Presented at AFTE  
+- Presented grooves poster at AFTE  
 - Helped Amy run STEMversity in GA  
-- Took the Stat written prelim  
+- Took the PhD written prelim   
+    - Took a nap after  
+- Presented grooves work (talk) at JSM  
 - Wrote draft of grooves ID paper for AFTE journal  
 - Started using more sophisticated techniques on grooves  
-    - Coming soon to a show-and-tell near you! ;)  
+    - Results coming soon to a show-and-tell near you! ;)  
 
 ---
 class: primary   

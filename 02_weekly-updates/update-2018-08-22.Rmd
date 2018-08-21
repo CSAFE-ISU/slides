@@ -82,3 +82,23 @@ class: secondary
 
  <img src = "images/guillermo/sample_image.JPG" width="35%"/>
  
+---
+class: inverse
+# Ben
+---
+class: primary
+# Summer
+<img src = "images/ben/intern_pic.png" width="35%"/>
+- Internship at OptumRx in Schaumburg IL
+- Pharmaceutical company part of UHG
+- Fullstack / Database development in team of 5
+- ~2,000,000$ saved
+- Linux Club challenges / content
+---
+class: primary
+# Semester Intentions
+<img src = "images/ben/stack.jpg" width="35%"/>
+- Collaborate w/Nic & Amy to improve handwriting project
+- Develop improvements / features part of algorithm
+- Eventually port algorithm through an application portal
+- Improve file structure of project

@@ -219,6 +219,29 @@ one-hot Convolutional NN for shoeprint feature recognition
 - Longitudinal Shoeprint Database
     - Functioning well enough to present at AAFS in Feb
     
+    
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Summer Work
+
+- Helped Jimmy with data collection for longitudinal shoe study
+- Attended AFTE to help with booth and learn about pattern evidence analysis from the examiner's perspective
+- Learned about convolutional neural networks and trained them on shoe images
+    - So far, single-label
+- Helped Susan design Truthiness study
+
+---
+class: primary
+# Fall Semester Goals
+
+- Develop methods to train "one-hot" neural networks for multi-label classification
+- Write paper on network training and results (ideally also a Creative Component)
+- Continue to help with truthiness data collection
+    
 ---
 class: inverse
 # Nate

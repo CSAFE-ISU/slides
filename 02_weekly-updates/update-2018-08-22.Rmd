@@ -106,6 +106,27 @@ class: primary
 - Eventually port algorithm through an application portal
 - Improve file structure of project   
 
+---
+ class: inverse
+# Ganesh  
+
+---
+class: primary  
+# Summer Work  
+
+- Presented Adapting the Chumbley Score poster at AFTE  
+- Finished writing the Chumbley paper  (along with Dr. Hofmann)
+- Submitted to the Journal of Forensic Sciences  (JFS)
+- Got reviewer comments, addressed them and submitting back the responses today 
+- Started reviewing basic building blocks for developing an interactive User Interface and Front end for reviewing bullet and land-to-land comparisons.
+---
+class: primary   
+# Fall Semester Goals  
+
+- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
+- Continue with the development of the User Interface
+- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
+- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
 
 ---
 class: inverse
@@ -276,3 +297,38 @@ class: primary
 - Write paper of the database which must include some data analysis
 
 - Write paper on speaker recognition (w/Vianey Leos)
+=======
+    
+---
+class: inverse
+# James
+---
+
+class: primary
+# Summer work
+
+* Completed the final round of data collection on the 160 shoes
+   + Poster at the All Hands Meeting
+* Reviewed all files (20,000) for naming and type errors
+   + over 5,300 errors
+   + 5 left (have been passed to Guillermo)
+* Reviewed and cleaned the survey data from the Longitudinal Study
+* Developed drafts of new data collection procedures
+   + HS Inters Ben and Jenny wrote initial procedures
+   + Discussion, testing, and further research  
+* IAI with Harlie - Booth
+   
+---
+
+class: primary
+# This Fall
+
+* Phase 2 of Data Collection for the shoe database 
+   + Currently waiting on feedback from the DCI
+   + Further tuning of our new procedures
+   + Develop a strict outline for how data collection will be done
+* Beginning my masters work
+   + GDCB 510 (Transmission Genetics)
+   + Soc. 590 (Independent Study Research)
+   + Gen. 409 (Molecular Genetics)
+   + Possible independent paper into Stationary Serial Homicide

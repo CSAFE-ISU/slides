@@ -318,7 +318,7 @@ class: primary
    + Discussion, testing, and further research  
 * IAI with Harlie - Booth
 
-<img src = "images/James/Cast2_Nike_Left_Mud_Image2.JPG" rotate="90" width="20%"/>
+<img src = "images/James/Cast2_Nike_Left_Mud_Image2.JPG" width="20%"/>
    
 ---
 

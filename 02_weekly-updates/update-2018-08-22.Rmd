@@ -317,6 +317,8 @@ class: primary
    + HS Inters Ben and Jenny wrote initial procedures
    + Discussion, testing, and further research  
 * IAI with Harlie - Booth
+
+<img src = "images/James/Cast2_Nike_Left_Mud_Image2.JPG" rotate="90" width="20%"/>
    
 ---
 
@@ -332,3 +334,5 @@ class: primary
    + Soc. 590 (Independent Study Research)
    + Gen. 409 (Molecular Genetics)
    + Possible independent paper into Stationary Serial Homicide
+   
+

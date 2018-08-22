@@ -218,7 +218,17 @@ class: primary
 one-hot Convolutional NN for shoeprint feature recognition
 - Longitudinal Shoeprint Database
     - Functioning well enough to present at AAFS in Feb
-    
+
+---
+class: primary
+# Other Stuff
+
+<img src="https://www.zotero.org/support/_media/logo/zotero_256x256x32.png" width = '25%' style = "margin-left:auto;margin-right:auto;position:absolute;top:240px;right:0"/>
+
+- CSAFE has a [zotero](https://www.zotero.org/) library with useful references
+- Interested? Email me (srvander@iastate.edu) and I will invite you.
+
+<img src="images/susan/zotero-screenshot.png" width = "75%"  style = "margin-left:auto;margin-right:auto;display:block;"/>
     
 ---
 class: inverse

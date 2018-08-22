@@ -106,6 +106,27 @@ class: primary
 - Eventually port algorithm through an application portal
 - Improve file structure of project   
 
+---
+ class: inverse
+# Ganesh  
+
+---
+class: primary  
+# Summer Work  
+
+- Presented Adapting the Chumbley Score poster at AFTE  
+- Finished writing the Chumbley paper  (along with Dr. Hofmann)
+- Submitted to the Journal of Forensic Sciences  (JFS)
+- Got reviewer comments, addressed them and submitting back the responses today 
+- Started reviewing basic building blocks for developing an interactive User Interface and Front end for reviewing bullet and land-to-land comparisons.
+---
+class: primary   
+# Fall Semester Goals  
+
+- Taking 2 or 3 classes (Time Series, Optimization in Machine Learning, Cognitive Psychology for Human Computer Interaction)
+- Continue with the development of the User Interface
+- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
+- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
 
 ---
 class: inverse

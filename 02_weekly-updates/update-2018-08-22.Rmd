@@ -248,3 +248,31 @@ class: primary
     + statisticians doing forensic science
     + forensic scientists doing statistics
     + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+
+---
+class: inverse
+# Guillermo
+
+---
+class: primary
+# This Summer
+
+- Processing and cleaning Shoeprints Database
+  + Vinyl pictures: Modified Python program to rename them and created R program to check that name is correct.
+  + MatScan files: wrote AutoIt script to automatically extract files and made R program to name them accordingly (plus I wrote some programs to generate our own images and GIFs that will not be included in the database).
+  
+- Make changes to IRB (and there are still some pending changes)
+
+- Registration of 3D scans of shoeprints
+
+---
+class: primary
+# Plans for this Fall
+
+- Complete adaptation of registration of 3D scans in R and perform analysis
+
+- Complete shiny app for 2D outsole scans registration
+
+- Write paper of the database which must include some data analysis
+
+- Write paper on speaker recognition (w/Vianey Leos)

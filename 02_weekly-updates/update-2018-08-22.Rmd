@@ -216,3 +216,35 @@ class: primary
 - Finish groove changepoint detection algorithm version 2 and test on all available data
 - Write paper with Kiegan on groove results
 
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Summer work
+
+- Led the REU: 6 students, 2 groups: one on handwriting, one on human factors
+- Co-wrote presentation for Alicia, Hal & others for a presentation to the ABA 
+- Chaired a SAFE session at JSM 
+- Presented thesis work @ JSM 
+- Started writing book funded by ROpenSci Fellowship
+
+![](https://pbs.twimg.com/media/DhwoqrvV4AUp-yy.jpg)
+
+
+---
+class: primary
+# Fall semester plans: 
+
+- publish papers from thesis 
+- writing R packages with SP
+    + glass 
+    + shoes
+    + "uncertainty pyramid" stuff with SL & HI
+- working on book funded by ROpenSci Fellowship 
+- narrowing down topics & formats for new CSAFE training materials 
+- writing "Ten Simple Rules for..." articles with DO
+    + statisticians doing forensic science
+    + forensic scientists doing statistics
+    + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)

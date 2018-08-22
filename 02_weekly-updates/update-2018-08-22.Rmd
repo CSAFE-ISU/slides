@@ -138,6 +138,34 @@ class: primary
 - Taking one class (Stat 643) and research credits  
 
 
+---
+class: inverse
+# Danica  
+
+---
+class: primary  
+# Summer Work  
+
+- Published a paper in LPR on the difference between common source and specific source  
+- Completed a draft paper on the difference between the BF and LR
+- Presented my dissertation work at ISBA in Scotland  
+- Presented my work on Fiducial Factors at JSM in Vancouver  
+- Started experimental design for NIJ Handwriting grant with UCSD & SDSU  
+    - Explored algorithms in OpenCV (C++) for feature detection of handwritten images
+    - Refined the OpenCV algorithms, including SIFT, to get a score to compare two documents
+
+---
+class: primary   
+# Fall Semester Goals  
+
+- Submit draft BF vs. LR paper to AOS  
+    - Write a follow-up paper to LPR  
+- Continue NIJ grant to validate FDE conclusions  
+- Work with Amy on the CSAFE Handwriting project  
+- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
+- Write a paper for LPR on approximations to BFs
+- Write a paper on Fiducial Factors with UNC
+
 
 
 

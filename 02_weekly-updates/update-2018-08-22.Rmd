@@ -169,4 +169,22 @@ class: primary
 one-hot Convolutional NN for shoeprint feature recognition
 - Longitudinal Shoeprint Database
     - Functioning well enough to present at AAFS in Feb
+    
+---
+class: inverse
+# Nate
+---
+
+class: primary
+# Summer Work
+- Defended MS/prepared CC for journal submission
+- Ran preliminary analyses for dissertation/predictive policing
+- Pivoted goals on SLR project and began research/work related to said goals
+- Wrote code for groove changepoint detection algorithm
+---
+class: primary
+# Fall Semester Goals
+- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
+- Finish groove changepoint detection algorithm version 2 and test on all available data
+- Write paper with Kiegan on groove results
 

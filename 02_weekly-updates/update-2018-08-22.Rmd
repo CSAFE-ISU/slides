@@ -248,3 +248,37 @@ class: primary
     + statisticians doing forensic science
     + forensic scientists doing statistics
     + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+    
+---
+class: inverse
+# James
+---
+
+class: primary
+# Summer work
+
+* Completed the final round of data collection on the 160 shoes
+   + Poster at the All Hands Meeting
+* Reviewed all files (20,000) for naming and type errors
+   + over 5,300 errors
+   + 5 left (have been passed to Guillermo)
+* Reviewed and cleaned the survey data from the Longitudinal Study
+* Developed drafts of new data collection procedures
+   + HS Inters Ben and Jenny wrote initial procedures
+   + Discussion, testing, and further research  
+* IAI with Harlie - Booth
+   
+---
+
+class: primary
+# This Fall
+
+* Phase 2 of Data Collection for the shoe database 
+   + Currently waiting on feedback from the DCI
+   + Further tuning of our new procedures
+   + Develop a strict outline for how data collection will be done
+* Beginning my masters work
+   + GDCB 510 (Transmission Genetics)
+   + Soc. 590 (Independent Study Research)
+   + Gen. 409 (Molecular Genetics)
+   + Possible independent paper into Stationary Serial Homicide

@@ -1,6 +1,30 @@
 # [Show-and-Tell Slides](https://csafe-isu.github.io/slides/README.html)
 
-In this repository, you will find brief weekly updates of some of the worked developed at CSAFE in Iowa State University.
+This page contains the links to the weekly updates from students and faculty associated with CSAFE at Iowa State University. Among the purposes of this meeting are:
+
+- Communicate research results.
+- Updating group on what you are doing. 
+- Roadblocks you have hit.
+- Solicit help from colleagues - [Put an issue on Github first](https://help.github.com/articles/creating-an-issue/)! 
+- Bring interesting papers to group - Add it to the [Zotero library](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-08-22.html#23)! 
+- Talk about upcoming conferences and deadlines, as well as conferences attended and what the group needs to know about them.
+- Share the ideas of a paper you have read.
+
+
+### Guidelines for discussion
+
+1. **Timeliness**. Be concise and be self-aware. DRY. Stay on Topic. If you know you're going to need more time, tell Guillermo ahead of time. Be willing to give 50-minute seminars on your work if the group is interested. Try to keep your Show-and-Tell slides under 3 minutes. 
+2. **Keep each other on task**. Call people out for diverting or having side convos
+3. **Pictures over text**. A picture is worth 1,000 words
+4. **Remember the 3 Cs**: 
+    + **Context**: why are you doing what you're doing? "I'm working on the X project in order to Y" 
+    + **Content**: what are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" 
+    + **Conclusion**: what did you learn? "This will help me because it..." or "This important because it get us to..."
+8. **Be an active participant and listener**! This means:
+    + Speaking up (see 2) - Stop being so midwestern
+    + Asking questions when something doesn't make sense
+
+
 
 ### Before adding your slides
 

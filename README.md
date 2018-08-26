@@ -1,4 +1,4 @@
-# Show-and-Tell Slides 
+# [Show-and-Tell Slides](https://csafe-isu.github.io/slides/README.html)
 
 In this repository, you will find brief weekly updates of some of the worked developed at CSAFE in Iowa State University.
 

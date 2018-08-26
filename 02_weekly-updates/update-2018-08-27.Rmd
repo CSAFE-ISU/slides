@@ -61,16 +61,15 @@ class: inverse
 class: primary
 # Sample Slide
 
-- Sample Table (top press freedom index):
+- Sample Table. Sam Tyner talked about the three must-haves of your summary:
 
-| Country      | 2018 Press Freedom Index |
-| :----------- | :----------------------- |
-| Norway       | 7.63   |
-| Sweden       | 8.31   |
-| Netherlands  | 10.01  |
-| Finland      | 10.26  |
-| Switzerland  | 11.27  |
-| Jamaica      | 11.33  |                 
+
+
+| Must-have | It means |
+| :------   | :------- |
+| Context | Why are you doing what you're doing? "I'm working on the X project in order to Y" |
+| Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
+| Conclusion | What did you learn? "This will help me because it..." or "This important because it get us to..." |
 
 
 

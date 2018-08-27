@@ -306,11 +306,21 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Preliminary multi-label model "trained"
+    - Still need to figure out how to view predictions...
+- Next steps: add classes, implement augmentation (to prevent over-fitting)
+
+---
+class:primary
+# Dog-Sitting
+
+Eddie has two personalities: precious angel and kangaroo
+
+<img src = "images/miranda/Eddie1.jpg" width="40%"/> 
+<img src = "images/miranda/Eddie2.jpg" width="40%"/> 
+
 
 ---
 class: inverse

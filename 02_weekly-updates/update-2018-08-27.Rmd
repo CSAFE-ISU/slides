@@ -378,3 +378,14 @@ class: primary
   - Prototyping w/ Numba & Python
   - Testing performance relative to Cpp
   - Hope to expedite development
+
+---
+class: inverse
+# Nick
+---
+class: primary
+# Adding Missed nodes
+ - Added catch to verify that if a 2x2 block is left in skeleton that it gets a node - it's always a connection of some sort.
+
+![](images/Nick/ThinningMistake2by2.png)
+![](images/Nick/ThinningFixed2by2.png)

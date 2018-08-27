@@ -348,3 +348,12 @@ class: primary
 - Reading through a few papers on ABC
     - Currently reading a paper on how to select summary statistics based on minimizing the entropy in the distribution of the data given the summary statistics.
     - Also have a paper on necessary and sufficient condition on the summary statistics for convergence of Bayes factor to the true model. 
+---
+class: inverse
+# Ben
+---
+class: primary
+- Working on preprocessing binary image
+  - Prototyping w/ Numba & Python
+  - Testing performance relative to Cpp
+  - Hope to expedite development

@@ -67,9 +67,9 @@ class: primary
 
 | Must-have | It means |
 | :------   | :------- |
-| Context | Why are you doing what you're doing? "I'm working on the X project in order to Y" |
+| Context | Why are you doing what you're doing? "I'm working on X project in order to Y" |
 | Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
-| Conclusion | What did you learn? "This will help me because it..." or "This important because it get us to..." |
+| Conclusion | What did you learn? "This will help me because it..." or "This important because it gets us to..." |
 
 
 
@@ -121,7 +121,7 @@ class: primary
 class: primary
 # Fall semester plans: 
 
-- publish papers from thesis 
+- submit papers from thesis for publication
 - writing R packages with SP
     + glass 
     + shoes
@@ -132,6 +132,23 @@ class: primary
     + statisticians doing forensic science
     + forensic scientists doing statistics
     + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+
+---
+class: primary
+# Since last meeting:
+
+- Training:
+    * Creating new training materials for website
+    * What do practitioners want? ⬅️ constructing a survey
+    * With that knowledge, can start material development
+- Contacted potential coauthors of book chapters
+    * ROpenSci [Fellowship](https://ropensci.org/blog/2018/02/14/announcing-2018-ropensci-fellows/): follow progress on [my blog](https://sctyner.github.io/blog.html)
+    * Need several co-authors on chapters ⬅️ sent lots of emails
+    * Once all collaborators are found, will find "case studies" 
+    * Now organized in SmartSheet! (Thanks Stacy, Harlie & Rachael!)
+- Spent all day Friday at the "Emerging Leaders Academy" (once a month for whole school year)
+    * Applied in April 2018 (Thanks Alicia!)
+    * Professional development: fostering communication & leadership skills
 
 ---
 class: inverse

@@ -231,16 +231,36 @@ class: inverse
 
 ---
 class: primary   
-# Fall Semester Goals  
+# New Modeling Progress   
 
-- Submit to AFTE journal  
-- Complete writing of Chapman & Hall book  
-    - Working on this from home T/Th  
-- Write a joint paper with Nate on grooves project  
-    - Probably aim for Journal of Forensic Sciences  
-    - Compare/contrast of methodologies
-    - Downstream impact on the algorithm!  
-- Taking one class (Stat 643) and research credits  
+
+- Predicting location of grooves  
+<img src = "images/kiegan/logistic_examples1.png" width = "75%"/>
+
+
+---  
+class: primary
+# New Modeling Progress  
+
+- Logistic regression (data-point-centric)  
+- Predicting "part of LEA" vs. "part of GEA"  
+    - robust LOESS residual value  
+    - robust LOESS residual value squared  
+    - side  
+    - depth from center  
+    - number of NA's in 50  
+    - range of residual values in 50   
+    - number of positive residuals in 50  
+    - indicator: >= 2*median abs. deviation  
+    - predicted x-intercept on left side  
+    - predicted x-intercept on right side  
+
+---
+class: primary  
+# New Modeling Results  
+<img src = "images/kiegan/logistic4_results.png" width="75%"/>  
+
+
 
 
 ---

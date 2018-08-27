@@ -290,4 +290,21 @@ class: primary
 - Develop methods to train "one-hot" neural networks for multi-label classification
 - Write paper on network training and results (ideally also a Creative Component)
 - Continue to help with truthiness data collection
+---
+class: inverse
+# Nate
+---
+class: primary
+# Groove ID
 
+- Writing version 2 of changepoint algorithm
+    - Things seem to be working for the two changepoint case.
+    - working on 1 changepoint case.
+
+---
+class: primary
+# SLR
+
+- Reading through a few papers on ABC
+    - Currently reading a paper on how to select summary statistics based on minimizing the entropy in the distribution of the data given the summary statistics.
+    - Also have a paper on necessary and sufficient condition on the summary statistics for convergence of Bayes factor to the true model. 

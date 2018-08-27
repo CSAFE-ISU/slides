@@ -310,6 +310,25 @@ class: primary
 - Develop methods to train "one-hot" neural networks for multi-label classification
 - Write paper on network training and results (ideally also a Creative Component)
 - Continue to help with truthiness data collection
+
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Fall Semester Goals
+
+- Data Collection
+- Expand Bayesian hierarchical model
+    - Formal Model Selection
+    - Tests and Intervals
+    - Validation
+- Write and submit a paper on that modeling.
+- Exploritory analysis of 'next level' features (AAFS)
+    - Work with Ben and Nick
+    
+
 ---
 class: inverse
 # Nate

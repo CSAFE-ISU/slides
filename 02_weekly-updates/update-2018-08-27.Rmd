@@ -288,17 +288,28 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Useful Things
 
-- `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
+- `bulletxtrctr` is at 98% test coverage and also has more descriptive variable names
+
+- Tried and failed to get Shiny to record audio for the truthiness study talk-aloud pilot
+    - Audio drivers + Javascript = sadness.
+    - We'll just collect audio data the old fashioned way.
+
+<img src = "https://media.giphy.com/media/a9xhxAxaqOfQs/giphy.gif" width = "50%" style="margin-left:auto;margin-right:auto;display:block;" />
+
+---
+class: primary
+# Useful Things
+
+Read a paper: 
+> Gwo, C.-Y., & Wei, C.-H. (2016). Shoeprint retrieval: Core point alignment for pattern comparison. Science & Justice, 56(5), 341-350. https://doi.org/10.1016/j.scijus.2016.06.004    
+
+- Partially implemented in R - goal is to align + impose coordinate system on a shoeprint
+- Combine with identified features to get a spatial feature "map" that can identify a type of shoe
+
+<img src = "images/susan/ShoeAlignment-PaperImage.png" width = "25%" style = "margin-left:auto;margin-right:auto;position:absolute;top:240px;right:0"/>
+
 
 ---
 class: inverse

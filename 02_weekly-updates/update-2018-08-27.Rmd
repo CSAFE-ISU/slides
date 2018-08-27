@@ -304,7 +304,7 @@ class: primary
     - Formal Model Selection
     - Tests and Intervals
     - Validation
-- Paper on the modeling mentioned above.
+- Submit a paper on ^.
 - Exploritory analysis of 'next level' features (AAFS)
     - Work with Ben and Nick
     

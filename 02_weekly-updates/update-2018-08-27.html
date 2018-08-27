@@ -4,8 +4,8 @@
     <title>Weekly Update for August 22</title>
     <meta charset="utf-8">
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
-    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -222,20 +222,6 @@ class: primary
    + Gen. 409 (Molecular Genetics)
    + Possible independent paper into Stationary Serial Homicide
    
-
----
-class: inverse
-# Ganesh  
-
----
-class: primary   
-# Fall Semester Goals  
-
-- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
-- Continue with the development of the User Interface
-- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
-- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
-
 ---
 class: inverse
 # Kiegan  
@@ -413,6 +399,47 @@ class: primary
 
 ![](images/Nick/ThinningMistake2by2.png)
 ![](images/Nick/ThinningFixed2by2.png)
+
+---
+class: inverse
+# Ganesh  
+
+---
+class: primary   
+# Reinforcement Learning Trees
+
+Paper: https://www.tandfonline.com/doi/abs/10.1080/01621459.2015.1036994
+R package : https://cran.r-project.org/web/packages/RLT/index.html
+- This method implements reinforcement learning at each selection of a splitting variable during the tree construction processes
+
+Issues in RF being addressed by RLT (The following excerpts are directly from the paper)
+- Consistency and Convergence rates for random forests rely heavily on the particular implemented splitting rule.
+- The "large p small n" problem (few data points and many features) is caused by random feature selection, which is the most important ârandomâ component of random forests.
+
+---
+class: primary 
+
+- Using only a small number of randomly sampled features means less opportunity to consider a strong variable as the splitting rule and leads to possible bias in variable importance measures.
+- Using large number of predictors causes overfitting toward terminal nodes where the sample size is small and prevents the effect of strong variables from being fully explored.
+- Proposed method: Improves the performance of random forests in high-dimensional sparse settings which boil down to the fact that in a high-dimensional setup, a tree-based model with good performance should split only on the X number of strong variables.
+
+---
+class: primary 
+
+What does the method do?
+An important characteristic of reinforcement learning is the âlookaheadâ notion, which benefits the long-term performance rather than short-term performance. 
+The main features of the proposed method are: 
+- first, to choose variable(s) for each split that will bring the largest return from future branching splits rather than only focusing on the immediate consequences of the split via marginal effects. Splitting mechanism can break any hidden structure and avoid inconsistency by forcing splits on strong variables even if they do not show any marginal effect.
+
+---
+class: primary 
+
+- Meaning by splitting on the variable that brings the greatest future improvement in later splits, rather than choosing the one with largest marginal effect from the immediate split, the constructed tree uses the available samples in a more efficient way. 
+- a variable muting procedure that progressively eliminates noise variables during the construction of each individual tree. The muting procedure also takes advantage of reinforcement learning and prevents noise variables from being considered in the search for splitting rules, so that toward terminal nodes, where the sample size is small, the splitting rules are still constructed from only strong variables.
+
+Questions on applicability of RLT: benefit vs disadvantage for CSAFE projects
+
+---
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({

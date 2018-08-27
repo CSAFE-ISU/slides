@@ -188,10 +188,11 @@ class: primary
 class: primary
 # This Fall
 
-* Phase 2 of Data Collection for the shoe database 
-   + Currently waiting on feedback from the DCI
+* Possible Phase 2 of Data Collection for the shoe database 
+   + Just received feedback from the DCI
    + Further tuning of our new procedures
    + Develop a strict outline for how data collection will be done
+* New 3D Scanner Techniques
 * Beginning my masters work
    + GDCB 510 (Transmission Genetics)
    + Soc. 590 (Independent Study Research)

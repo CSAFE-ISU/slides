@@ -106,6 +106,27 @@ class: primary
 - Eventually port algorithm through an application portal
 - Improve file structure of project   
 
+---
+class: inverse
+# Ganesh  
+
+---
+class: primary  
+# Summer Work  
+
+- Presented Adapting the Chumbley Score poster at AFTE  
+- Finished writing the Chumbley paper  (along with Dr. Hofmann)
+- Submitted to the Journal of Forensic Sciences  (JFS)
+- Got reviewer comments, addressed them and submitting back the responses today 
+- Started reviewing basic building blocks for developing an interactive User Interface and Front end for reviewing bullet and land-to-land comparisons.
+---
+class: primary   
+# Fall Semester Goals  
+
+- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
+- Continue with the development of the User Interface
+- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
+- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
 
 ---
 class: inverse
@@ -197,6 +218,39 @@ class: primary
 one-hot Convolutional NN for shoeprint feature recognition
 - Longitudinal Shoeprint Database
     - Functioning well enough to present at AAFS in Feb
+
+---
+class: primary
+# Other Stuff
+
+<img src="https://www.zotero.org/support/_media/logo/zotero_256x256x32.png" width = '25%' style = "margin-left:auto;margin-right:auto;position:absolute;top:240px;right:0"/>
+
+- CSAFE has a [zotero](https://www.zotero.org/) library with useful references
+- Interested? Email me (srvander@iastate.edu) and I will invite you.
+
+<img src="images/susan/zotero-screenshot.png" width = "75%"  style = "margin-left:auto;margin-right:auto;display:block;"/>
+    
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Summer Work
+
+- Helped Jimmy with data collection for longitudinal shoe study
+- Attended AFTE to help with booth and learn about pattern evidence analysis from the examiner's perspective
+- Learned about convolutional neural networks and trained them on shoe images
+    - So far, single-label
+- Helped Susan design Truthiness study
+
+---
+class: primary
+# Fall Semester Goals
+
+- Develop methods to train "one-hot" neural networks for multi-label classification
+- Write paper on network training and results (ideally also a Creative Component)
+- Continue to help with truthiness data collection
     
 ---
 class: inverse
@@ -215,4 +269,103 @@ class: primary
 - Verify theoretical basis for current SLR goals and begin experiments on simulated data 
 - Finish groove changepoint detection algorithm version 2 and test on all available data
 - Write paper with Kiegan on groove results
+
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Summer work
+
+- Led the REU: 6 students, 2 groups: one on handwriting, one on human factors
+- Co-wrote presentation for Alicia, Hal & others for a presentation to the ABA 
+- Chaired a SAFE session at JSM 
+- Presented thesis work @ JSM 
+- Started writing book funded by ROpenSci Fellowship
+
+![](https://pbs.twimg.com/media/DhwoqrvV4AUp-yy.jpg)
+
+
+---
+class: primary
+# Fall semester plans: 
+
+- publish papers from thesis 
+- writing R packages with SP
+    + glass 
+    + shoes
+    + "uncertainty pyramid" stuff with SL & HI
+- working on book funded by ROpenSci Fellowship 
+- narrowing down topics & formats for new CSAFE training materials 
+- writing "Ten Simple Rules for..." articles with DO
+    + statisticians doing forensic science
+    + forensic scientists doing statistics
+    + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+
+---
+class: inverse
+# Guillermo
+
+---
+class: primary
+# This Summer
+
+- Processing and cleaning Shoeprints Database
+  + Vinyl pictures: Modified Python program to rename them and created R program to check that name is correct.
+  + MatScan files: wrote AutoIt script to automatically extract files and made R program to name them accordingly (plus I wrote some programs to generate our own images and GIFs that will not be included in the database).
+  + Surveys: wrote R code to 'clean' code, e.g., `"20% to 40%"` to `"30"`.
+  
+- Make changes to IRB (and there are still some pending changes)
+
+- Registration of 3D scans of shoeprints
+
+---
+class: primary
+# Plans for this Fall
+
+- Complete adaptation of registration of 3D scans in R and perform analysis
+
+- Complete shiny app for 2D outsole scans registration
+
+- Write paper of the database which must include some data analysis
+
+- Write paper on speaker recognition (w/Vianey Leos)
+
+---
+class: inverse
+# James
+---
+
+class: primary
+# Summer work
+
+* Completed the final round of data collection on the 160 shoes
+   + Poster at the All Hands Meeting
+* Reviewed all files (20,000) for naming and type errors
+   + over 5,300 errors
+   + 5 left (have been passed to Guillermo)
+* Reviewed and cleaned the survey data from the Longitudinal Study
+* Developed drafts of new data collection procedures
+   + HS Inters Ben and Jenny wrote initial procedures
+   + Discussion, testing, and further research  
+* IAI with Harlie - Booth
+
+<img src = "images/James/Cast2_Nike_Left_Mud_Image2.JPG" width="20%"/>
+   
+---
+
+class: primary
+# This Fall
+
+* Phase 2 of Data Collection for the shoe database 
+   + Currently waiting on feedback from the DCI
+   + Further tuning of our new procedures
+   + Develop a strict outline for how data collection will be done
+* Beginning my masters work
+   + GDCB 510 (Transmission Genetics)
+   + Soc. 590 (Independent Study Research)
+   + Gen. 409 (Molecular Genetics)
+   + Possible independent paper into Stationary Serial Homicide
+   
 

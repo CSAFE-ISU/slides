@@ -336,3 +336,9 @@ class: primary
 
 - [x3ptools](https://heike.github.io/x3ptools/) and 
 [bulletxtrctr](https://heike.github.io/bulletxtrctr/)
+
+
+---
+class: secondary
+
+[Issues!!](https://github.com/CSAFE-ISU/slides/issues)

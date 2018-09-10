@@ -105,9 +105,9 @@ class: inverse
 class: primary
 # Fall Semester Goals
 
-- Data Collection
+- **Data Collection** <span style="color:red">IRB Routing!</span>
 - Expand Bayesian hierarchical model
-    - Formal Model Selection
+    - **Formal Model Selection** <span style="color:red">Deviance Information Criterion (DIC)!</span>
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.

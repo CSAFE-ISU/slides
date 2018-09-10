@@ -82,20 +82,6 @@ class: secondary
  <img src = "images/guillermo/sample_image.JPG" width="35%"/>
  
 
----
-class: primary
-# Testing Issues on Github?
-
-
-```{r, eval = FALSE}
-presenter <- c("Amy", "Ben", "Nick", "Ganesh", "Nate", 
-               "Sam", "Guillermo", "James", "Kiegan", 
-               "Danica", "Susan", "Miranda", "Heike")
-sample(presenter)
-
-```
-
-
 
 ---
 class: inverse

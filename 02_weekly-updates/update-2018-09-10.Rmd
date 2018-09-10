@@ -1,0 +1,321 @@
+---
+title: "Weekly Update for September 10"
+date: "2018/09/10"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+---
+class: inverse
+# Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table. Sam Tyner talked about the three must-haves of your summary:
+
+
+
+| Must-have | It means |
+| :------   | :------- |
+| Context | Why are you doing what you're doing? "I'm working on X project in order to Y" |
+| Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
+| Conclusion | What did you learn? "This will help me because it..." or "This important because it gets us to..." |
+
+
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+
+ <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ 
+
+
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Fall Semester Goals
+
+- Data Collection
+- Expand Bayesian hierarchical model
+    - Formal Model Selection
+    - Tests and Intervals
+    - Validation
+- Write and submit a paper on that modeling.
+- Exploritory analysis of 'next level' features (AAFS)
+    - Work with Ben and Nick
+    
+---
+class: inverse
+# Ben
+
+---
+class: primary
+# Semester Intentions
+<img src = "images/ben/stack.jpg" width="35%"/>
+- Collaborate w/Nic & Amy to improve handwriting project
+- Develop improvements / features part of algorithm
+- Eventually port algorithm through an application portal
+- Improve file structure of project
+- Working on preprocessing binary image
+  - Prototyping w/ Numba & Python
+  - Testing performance relative to Cpp
+  - Hope to expedite development
+
+---
+class: inverse
+# Nick
+
+---
+class: secondary
+
+- Working on preprocessing binary image
+  - Prototyping w/ Numba & Python
+  - Testing performance relative to Cpp
+  - Hope to expedite development
+
+
+---
+class: inverse
+# Ganesh  
+
+---
+class: primary   
+# UI Development
+
+- Fixed click events for Layered Graphics display in Shiny using some sample datasets.
+- Discovered after lots of pain that some shiny render events, by default, delete all the files in use!!
+
+- Implementing the framework for a small sample bullet dataset
+- Overview of the app layout
+  - First Layer: bullet-to-bullet comparisons, Second Layer: land-to-land comparisons, then Visual comparisons of images, signatures, and so on.
+
+
+
+    
+---
+class: inverse
+# Nate
+
+
+---
+class: primary
+# Fall Semester Goals
+- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
+- Finish groove changepoint detection algorithm version 2 and test on all available data
+- Write paper with Kiegan on groove results
+
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Fall semester plans: 
+
+- submit papers from thesis for publication
+- writing R packages with SP
+    + glass 
+    + shoes
+    + "uncertainty pyramid" stuff with SL & HI
+- working on book funded by ROpenSci Fellowship 
+- narrowing down topics & formats for new CSAFE training materials 
+- writing "Ten Simple Rules for..." articles with DO
+    + statisticians doing forensic science
+    + forensic scientists doing statistics
+    + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+
+---
+class: inverse
+# Guillermo
+
+---
+class: primary
+# Plans for this Fall
+
+- Complete adaptation of registration of 3D scans in R and perform analysis
+
+- Complete shiny app for 2D outsole scans registration
+
+- Write paper of the database which must include some data analysis
+
+- Write paper on speaker recognition (w/Vianey Leos)
+
+---
+class: inverse
+# James
+
+---
+class: primary
+# This Fall
+
+* New Data Collection Procedures on Select Shoe Pairs 
+   + 107 Full Sets of Data - No Problems
+   + Casting, Flour Impressions, High Resolution 3D Scanning
+   + Develop a strict outline for data collection
+<img src = "images/James/Old_Scan.PNG" width="24%"/>
+<img src = "images/James/New_Scan.PNG" width="30%"/>
+<img src = "images/James/New_Scan2.PNG" width="40%"/>
+   
+---
+class: inverse
+# Kiegan  
+
+
+---
+class: primary   
+# Fall Semester Goals  
+
+- *Submit to AFTE journal* - 1 advisor down, 1 to go!    
+- *Complete writing of Chapman & Hall book*    
+    - Finishing Chapter 3 draft this week  
+- `get_grooves_logistic` in `bulletxtrctr`  
+- Ran into an issue with robust LOESS on Houston set  
+    - Reworking functions to iterate how we want.  
+
+
+---
+class: inverse
+# Danica  
+
+---
+class: primary   
+# Update  
+
+- Submit draft BF vs. LR paper to AOS ->  should be done this week!  
+    - Write a follow-up paper to LPR  ->  have a nice draft
+- Continue NIJ grant to validate FDE conclusions
+    - Started work on the second phase
+    - Trying to determine a good way to combine kinematic measures
+- Working on my Top 10 lists
+    - Things statisticians should know before working in forensics -> have a nice draft
+    - Things forensic practioners should know before working with statistics -> have a rough draft
+
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Bullets
+
+- Hamby 36 analysis
+    - Use `bulletxtrctr` with legacy featurees
+    - Intelligent re-calculation of results - only recalculate if the inputs have changed
+    - smarter parallel processing - memory issues
+- Hamby 44 analysis
+    - Goal is to compare Hamby 36 to Hamby 44
+
+---
+class: primary
+# Shoes
+
+- Image alignment/shoe coordinate system algorithm
+    - [`ShoeAlignR` package](https://github.com/srvanderplas/ShoeAlignR)
+    - Still to do: See how consistent the coordinates are from image to image (same shoe)
+    - May also apply to chemistry/fingerprint image alignment
+    
+<img src = "images/susan/ShoeCoordinates.png" width = "20%" style="position:absolute;top:200px;right:0" />
+---
+class: primary
+# Shoes
+
+- Shoe NN Images:
+    - Better labeling - quality control
+    - Add "context" - for non-rectangular polygons, use minimum bounding rectangle
+        - less distortion
+        - ensures NN isn't recognizing cutout shape instead of actual image features
+    - Fill in white pixels with median non-white pixel value - lower background contrast
+
+Before | After
+------ | -----
+<img src = "images/susan/Before_Shoe_Image1.jpg" width = "33%"/> <img src = "images/susan/Before_Shoe_Image2.jpg" width = "33%"/> <img src = "images/susan/Before_Shoe_Image3.jpg" width = "33%"/>| <img src = "images/susan/After_Shoe_Image1.jpg" width = "33%" /> <img src = "images/susan/After_Shoe_Image2.jpg" width = "33%" /> <img src = "images/susan/After_Shoe_Image3.jpg" width = "33%" />
+
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+<<<<<<< HEAD
+# Multi-class Neural Networks
+
+- Trained multi-label neural networks
+- Created shiny app for viewing prediction probabilities
+- https://bigfoot.csafe.iastate.edu/shiny/tiltonm/NNPreview/
+=======
+# Fall Semester Goals
+
+- Develop methods to train "one-hot" neural networks for multi-label classification
+- Write paper on network training and results (ideally also a Creative Component)
+- Continue to help with truthiness data collection
+
+---
+class: inverse
+# Ben
+
+---
+class: primary
+# Last week
+
+-Interviewed at Capital One
+-Got the internship! Living in DC this summer
+-Finished all but 1 step of Preprocessing Alg
+>>>>>>> 538f97f61b7673f0cb1df74308202b6b4847f344
+

@@ -200,16 +200,11 @@ class: inverse
 class: primary
 # This Fall
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
+* New Data Collection Procedures on Select Shoe Pairs 
+   + 107 Full Sets of Data - No Problems
+   + Casting, Flour Impressions, High Resolution 3D Scanning
    + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
+<img src = "images/James/Negative_New Balance_Right_Left Light Ground.JPG" width="20%"/>
    
 ---
 class: inverse

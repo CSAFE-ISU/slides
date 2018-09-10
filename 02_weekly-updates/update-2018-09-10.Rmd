@@ -124,10 +124,8 @@ class: inverse
 ---
 class: secondary
 
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
+- Working on getting node counts.
+- Paying penalty for oversights made first time around.
 
 
 ---

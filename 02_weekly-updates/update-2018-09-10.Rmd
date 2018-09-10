@@ -136,12 +136,16 @@ class: inverse
 
 ---
 class: primary   
-# Fall Semester Goals  
+# UI Development
 
-- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
-- Continue with the development of the User Interface
-- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
-- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
+- Fixed click events for Layered Graphics display in Shiny using some sample datasets.
+- Discovered after lots of pain that some shiny render events, by default, delete all the files in use!!
+
+- Implementing the framework for a small sample bullet dataset
+- Overview of the app layout
+  - First Layer: bullet-to-bullet comparisons, Second Layer: land-to-land comparisons, then Visual comparisons of images, signatures, and so on.
+
+
 
     
 ---

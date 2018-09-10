@@ -299,5 +299,15 @@ class: primary
 - Write paper on network training and results (ideally also a Creative Component)
 - Continue to help with truthiness data collection
 
+---
+class: inverse
+# Ben
 
+---
+class: primary
+# Last week
+
+-Interviewed at Capital One
+-Got the internship! Living in DC this summer
+-Finished all but 1 step of Preprocessing Alg
 

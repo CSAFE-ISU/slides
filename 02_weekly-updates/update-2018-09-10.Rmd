@@ -231,15 +231,16 @@ class: inverse
 
 ---
 class: primary   
-# Fall Semester Goals  
+# Update  
 
-- Submit draft BF vs. LR paper to AOS  
-    - Write a follow-up paper to LPR  
-- Continue NIJ grant to validate FDE conclusions  
-- Work with Amy on the CSAFE Handwriting project  
-- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
-- Write a paper for LPR on approximations to BFs
-- Write a paper on Fiducial Factors with UNC
+- Submit draft BF vs. LR paper to AOS ->  should be done this week!  
+    - Write a follow-up paper to LPR  ->  have a nice draft
+- Continue NIJ grant to validate FDE conclusions
+    - Started work on the second phase
+    - Trying to determine a good way to combine kinematic measures
+- Working on my Top 10 lists
+    - Things statisticians should know before working in forensics -> have a nice draft
+    - Things forensic practioners should know before working with statistics -> have a rough draft
 
 
 ---

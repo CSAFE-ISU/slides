@@ -293,11 +293,9 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Multi-class Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
-
-
+- Trained multi-label neural networks
+- Created shiny app for viewing prediction probabilities
+- https://bigfoot.csafe.iastate.edu/shiny/tiltonm/NNPreview/
 

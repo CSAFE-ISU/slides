@@ -185,16 +185,14 @@ class: inverse
 # Guillermo
 
 ---
-class: primary
-# Plans for this Fall
+class: secondary
 
-- Complete adaptation of registration of 3D scans in R and perform analysis
+- Getting familiar with forensic genetics
+    + Some papers with Thore Egeland
+    + Development of theory and software (R packages)
+    
+- Some time spent on reviewing names of shoeprints database and changes to IRB
 
-- Complete shiny app for 2D outsole scans registration
-
-- Write paper of the database which must include some data analysis
-
-- Write paper on speaker recognition (w/Vianey Leos)
 
 ---
 class: inverse

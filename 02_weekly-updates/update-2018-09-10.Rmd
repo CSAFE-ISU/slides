@@ -251,17 +251,39 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Bullets
 
-- `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
+- Hamby 36 analysis
+    - Use `bulletxtrctr` with legacy featurees
+    - Intelligent re-calculation of results - only recalculate if the inputs have changed
+    - smarter parallel processing - memory issues
+- Hamby 44 analysis
+    - Goal is to compare Hamby 36 to Hamby 44
+
+---
+class: primary
+# Shoes
+
+- Image alignment/shoe coordinate system algorithm
+    - [`ShoeAlignR` package](https://github.com/srvanderplas/ShoeAlignR)
+    - Still to do: See how consistent the coordinates are from image to image (same shoe)
+    - May also apply to chemistry/fingerprint image alignment
+    
+<img src = "images/susan/ShoeCoordinates.png" width = "20%" style="position:absolute;top:200px;right:0" />
+---
+class: primary
+# Shoes
+
+- Shoe NN Images:
+    - Better labeling - quality control
+    - Add "context" - for non-rectangular polygons, use minimum bounding rectangle
+        - less distortion
+        - ensures NN isn't recognizing cutout shape instead of actual image features
+    - Fill in white pixels with median non-white pixel value - lower background contrast
+
+Before | After
+------ | -----
+<img src = "images/susan/Before_Shoe_Image1.jpg" width = "33%"/> <img src = "images/susan/Before_Shoe_Image2.jpg" width = "33%"/> <img src = "images/susan/Before_Shoe_Image3.jpg" width = "33%"/>| <img src = "images/susan/After_Shoe_Image1.jpg" width = "33%" /> <img src = "images/susan/After_Shoe_Image2.jpg" width = "33%" /> <img src = "images/susan/After_Shoe_Image3.jpg" width = "33%" />
 
 ---
 class: inverse

@@ -220,14 +220,12 @@ class: inverse
 class: primary   
 # Fall Semester Goals  
 
-- Submit to AFTE journal  
-- Complete writing of Chapman & Hall book  
-    - Working on this from home T/Th  
-- Write a joint paper with Nate on grooves project  
-    - Probably aim for Journal of Forensic Sciences  
-    - Compare/contrast of methodologies
-    - Downstream impact on the algorithm!  
-- Taking one class (Stat 643) and research credits  
+- *Submit to AFTE journal* - 1 advisor down, 1 to go!    
+- *Complete writing of Chapman & Hall book*    
+    - Finishing Chapter 3 draft this week  
+- `get_grooves_logistic` in `bulletxtrctr`  
+- Ran into an issue with robust LOESS on Houston set  
+    - Reworking functions to iterate how we want.  
 
 
 ---

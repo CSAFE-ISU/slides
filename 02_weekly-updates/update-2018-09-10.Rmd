@@ -291,18 +291,12 @@ class: inverse
 
 ---
 class: primary
-<<<<<<< HEAD
 # Multi-class Neural Networks
 
 - Trained multi-label neural networks
 - Created shiny app for viewing prediction probabilities
 - https://bigfoot.csafe.iastate.edu/shiny/tiltonm/NNPreview/
-=======
-# Fall Semester Goals
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
 
 ---
 class: inverse
@@ -315,5 +309,5 @@ class: primary
 -Interviewed at Capital One
 -Got the internship! Living in DC this summer
 -Finished all but 1 step of Preprocessing Alg
->>>>>>> 538f97f61b7673f0cb1df74308202b6b4847f344
+
 

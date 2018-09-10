@@ -203,8 +203,10 @@ class: primary
 * New Data Collection Procedures on Select Shoe Pairs 
    + 107 Full Sets of Data - No Problems
    + Casting, Flour Impressions, High Resolution 3D Scanning
-   + Develop a strict outline for how data collection will be done
-<img src = "images/James/Negative_New Balance_Right_Left Light Ground.JPG" width="20%"/>
+   + Develop a strict outline for data collection
+<img src = "images/James/Old_Scan.PNG" width="24%"/>
+<img src = "images/James/New_Scan.PNG" width="30%"/>
+<img src = "images/James/New_Scan2.PNG" width="40%"/>
    
 ---
 class: inverse

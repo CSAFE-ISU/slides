@@ -301,6 +301,11 @@ class: primary
 
 
 ---
+class: primary  
+# Locfit.robust updates  
+![](images/kiegan/bad-new-function.png)  
+
+---
 class: inverse
 # Danica  
 

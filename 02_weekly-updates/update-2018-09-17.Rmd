@@ -120,6 +120,8 @@ class: secondary
 doi: 10.1109/TSMC.1983.6313034
 - Checks for a variety of masks
 - Documentation on my branch (ben)
+
+
 ---
 class: inverse
 # Nick
@@ -127,28 +129,12 @@ class: inverse
 ---
 class: secondary
 
-- Working on getting node counts.
-- Paying penalty for oversights made first time around.
+- Working on preprocessing binary image
+  - Prototyping w/ Numba & Python
+  - Testing performance relative to Cpp
+  - Hope to expedite development
 
 
----
-class: inverse
-# Ganesh  
-
----
-class: primary   
-# UI Development
-
-- Fixed click events for Layered Graphics display in Shiny using some sample datasets.
-- Discovered after lots of pain that some shiny render events, by default, delete all the files in use!!
-
-- Implementing the framework for a small sample bullet dataset
-- Overview of the app layout
-  - First Layer: bullet-to-bullet comparisons, Second Layer: land-to-land comparisons, then Visual comparisons of images, signatures, and so on.
-
-
-
-    
 ---
 class: inverse
 # Nate
@@ -203,14 +189,15 @@ class: inverse
 class: primary
 # This Fall
 
-* New Data Collection Procedures on Select Shoe Pairs 
-   + 107 Full Sets of Data - No Problems
-   + Casting, Flour Impressions, High Resolution 3D Scanning
-   + Develop a strict outline for data collection
-<img src = "images/James/Old_Scan.PNG" width="24%"/>
-<img src = "images/James/New_Scan.PNG" width="30%"/>
-<img src = "images/James/New_Scan2.PNG" width="40%"/>
-   
+* Steady Progress 
+  + 27 Pairs left to 3D Scan
+  
+* Will be Using the Gilman Lab for all "four" Prints
+
+* Mud prints may be taken in Durham due to the 3D Scanner
+
+
+
 ---
 class: inverse
 # Kiegan  
@@ -220,10 +207,10 @@ class: inverse
 class: primary   
 # Fall Semester Goals  
 
-- *Submit to AFTE journal* - 1 advisor down, 1 to go!    
-- *Complete writing of Chapman & Hall book*    
-    - Finishing Chapter 3 draft this week  
-- `get_grooves_logistic` in `bulletxtrctr`  
+- **Submit to AFTE journal** - Finishing up edits this week.    
+- **Complete writing of Chapman & Hall book**    
+    - Finishing Chapter 3 draft *this week*   
+- "Bake-off" of get_grooves methods coming soon.  
 - Ran into an issue with robust LOESS on Houston set  
     - Reworking functions to iterate how we want.  
 
@@ -309,11 +296,11 @@ class: inverse
 
 ---
 class: primary
-# Multi-class Neural Networks
+# Fall Semester Goals
 
-- Trained multi-label neural networks
-- Created shiny app for viewing prediction probabilities
-- https://bigfoot.csafe.iastate.edu/shiny/tiltonm/NNPreview/
+- Develop methods to train "one-hot" neural networks for multi-label classification
+- Write paper on network training and results (ideally also a Creative Component)
+- Continue to help with truthiness data collection
 
 ---
 class: inverse
@@ -353,7 +340,8 @@ class: primary
 
 Which barrel in the original is Test Set barrel X?
 
-![:scale 60%](images/heike/clone-br1.png)
+Test set 1 (Clone 224) versus Barrel 1 (Set 224)
+![:scale 60%](images/heike/ts1-br1.png)
 
 Still todo: Matching individual clones and their respective bullets
 
@@ -366,6 +354,28 @@ Original
 
 Clone
 ![](images/heike/H224clone-TS11-Br11-B2-L3.png)
+
+
+---
+class: primary
+# Hamby 224 - Clone and Original
+Test set 11 (Clone 224) versus Barrel 1 (Set 224)
+![:scale 60%](images/heike/clone-br1.png)
+
+Set 224: Bullet 1 - Bullet 2: 0.98
+
+Set/Clone 224: Bullet 1: 0.97
+
+---
+class: primary
+# Strange scan
+
+Scan of original and corresponding clone - middle part of clone does not show any striae
+
+![:scale 80%](images/heike/br1-b2-l2.png)
+
+![:scale 80%](images/heike/ts11-b1-l2.png)
+
 
 ---
 class: primary

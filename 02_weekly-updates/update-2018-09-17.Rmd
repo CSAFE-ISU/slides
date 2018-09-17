@@ -289,6 +289,18 @@ class: primary
 
 
 ---
+class: primary  
+# Locfit.robust updates  
+![](images/kiegan/locfit.robust-hamby-houston.png)  
+
+
+---
+class: primary  
+# Locfit.robust updates  
+![](images/kiegan/locfit.robust-vs-new-houston.png)  
+
+
+---
 class: inverse
 # Danica  
 

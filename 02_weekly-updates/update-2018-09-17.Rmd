@@ -120,7 +120,19 @@ class: primary
 # DIC  
 **Content:**  
 
-<img src="images/amy/DICbug_local.png" width="50%">
+<img src="images/amy/DICbug_local.png" width="45%"/>
+<img src="images/amy/DICbug_server.png" width="43.8%"/>
+
+
+---
+class: primary
+# DIC  
+**Conclusion:**  
+
+- Work with IT to update server
+- Other model selection techniques. 
+    - Compositional data. 
+    - Borrow from topic modeling literature?
 
     
 ---

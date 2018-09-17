@@ -92,14 +92,48 @@ class: inverse
 class: primary
 # Fall Semester Goals
 
-- **Data Collection** <span style="color:red">IRB Routing!</span>
+- **Data Collection** <span style="color:red">Application is in 'IRB Staff Review' phase.</span>
 - Expand Bayesian hierarchical model
-    - **Formal Model Selection** <span style="color:red">Deviance Information Criterion (DIC)!</span>
+    - **Formal Model Selection** <span style="color:red">Deviance Information Criterion (DIC)</span>
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.
-- Exploratory analysis of 'next level' features (AAFS)
+- Exploratory analysis of 'next level' features (AAFS in February)
     - Work with Ben and Nick
+    
+---
+class: secondary
+## IRB Manager - <br>*"One form to rule them all"*
+
+
+<img src="images/amy/IRB_app.png" width="90%">
+
+---
+class: primary
+# DIC
+**Context:** Formal model selection with DIC. How many grapheme types to use in modeling? <br>
+
+<img src="images/amy/model_selection_example.png" width="90%">
+
+---
+class: primary
+# DIC  
+**Content:**  
+
+<img src="images/amy/DICbug_local.png" width="45%"/>
+<img src="images/amy/DICbug_server.png" width="43.8%"/>
+
+
+---
+class: primary
+# DIC  
+**Conclusion:**  
+
+- Work with IT to update server
+- Other model selection techniques. 
+    - Compositional data. 
+    - Borrow from topic modeling literature?
+
     
 ---
 class: inverse
@@ -161,59 +195,62 @@ class: primary
 
 ---
 class: inverse
+# Ganesh
+
+---
+class: secondary
+- Got Comments back from the Reviewers for the first revision, some more minor changes in formatting and language.
+  - Fixed most issues and almost ready to send back the responses, pondering on some weird points.
+
+- Implementing the diagnostics UI (shiny app) on a sample bullet database
+  - almost there!
+
+
+
+---
+class: inverse
 # Sam
 
 ---
 class: primary
-# Fall semester plans: 
+# Book progress
 
-- submit papers from thesis for publication
-- writing R packages with SP
-    + glass 
-    + shoes
-    + "uncertainty pyramid" stuff with SL & HI
-- working on book funded by ROpenSci Fellowship 
-- narrowing down topics & formats for new CSAFE training materials 
-- writing "Ten Simple Rules for..." articles with DO
-    + statisticians doing forensic science
-    + forensic scientists doing statistics
-    + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
-
----
-class: inverse
-# Soyoung
-
----
-class: primary
-# Fall semester plans: 
-
-- Shoes
-    + Wrap up shoe analysis using edges and SURF 
-    + Compare the performance with other methods such as phase only correlations, Fourier-Mellin transformation correlation
-    + Do analysis with CSAFE shoe data
-    + Submit papers regarding shoe analysis soon!
-   
-- Research on "uncertainty pyramid" with Steve and Hari at NIST   
-
-- Glass analysis with Sam
-    + Exploratory analysis 
-    + Various covariance estimations
-    + Submit papers!
-   
-- Working on book chapters of glass and shoes funded by ROpenSci Fellowship 
+- Confirmed book contributors: 
+  - Amanda Luby (human factors)
+  - Chris Galbraith (digital)
+  - Karen Pan (fingerprint, glass (?))
+  - Eric Hare (bullets)
+  - Xiao Hui (casings, digital)
+  - Nick Berry (handwriting)
+  - Soyoung Park (glass, shoes)
+  - Peter Vallone, Sarah Riman (DNA)
+  
+- Chapter Outline: 
+  - Intro. to problem
+  - Data collection and cleaning
+  - R Packages available & key functions
+  - Drawing conclusions (LR?, SLR?, etc.)
+  - Case Study 
+  
+Other: glossary, hierarchy of propositions, LR chapter? 
 
 ---
 class: primary
-# Analysis result with CSAFE shoe data 
+# Practitioner survey
 
-- All nike shoes with size of 8.5 and 10.5
-- KM (716) : Between replicates
-- KNM (599) : Between shoe IDs
-- Edge matching with three circles
+![](images/sam/subj_ratings.png)  
 
-<img src="images/soyoung/nike_6plots.png" width="80%">
+---
+class: primary
+# Practitioner survey
 
+![](images/sam/formats.png)
 
+---
+class: primary
+# EDA glass paper
+
+![](images/sam/difference_dists.png)
 
 ---
 class: inverse
@@ -264,6 +301,23 @@ class: primary
 
 
 ---
+class: primary  
+# Locfit.robust updates  
+![](images/kiegan/locfit.robust-hamby-houston.png)  
+
+
+---
+class: primary  
+# Locfit.robust updates  
+![](images/kiegan/locfit.robust-vs-new-houston.png)  
+
+
+---
+class: primary  
+# Locfit.robust updates  
+![](images/kiegan/bad-new-function.png)  
+
+---
 class: inverse
 # Danica  
 
@@ -281,62 +335,6 @@ class: primary
     - Things forensic practioners should know before working with statistics -> have a rough draft
 
 
----
-class: inverse
-# Susan
-
----
-class: primary
-# Bullets
-
-- Hamby 44 analysis
-    - Goal is to compare Hamby 36 to Hamby 44
-    - Hopefully will be finished later today
-
----
-class: primary
-# Image Alignment
-
-- `ShoeAlignR` package renamed to `ImageAlignR` 
-    - useful for fingerprints as well
-    - algorithms aren't working with color images yet... not sure why
-- Implemented an alignment algorithm from a [Kaggle post](https://www.kaggle.com/vicensgaitan/image-registration-the-r-way/notebook)
-    - Harris Corner detection + KNN features + RANSAC to find a matching transformation for alignment
-
----
-class: primary
-# Image Alignment
-
-<img src = "images/susan/ShoeAlignNikeByCheckin.png" width = "100%"/>
-
----
-class: primary
-# Image Alignment
-
-<img src = "images/susan/ShoeRANSACNikeByCheckin.png" width = "100%"/>
-
-- Orange points - interesting feature for the first image
-- Purple points - similar feature in 2nd image
-
----
-class: primary
-# Image Alignment
-
-<img src = "images/susan/ShoeOverlayNikeByCheckin.png" width = "100%"/>
-- Red = appears in warped image only
-- Blue = appears in unwarped image only
-- Black = appears in both images (overlapped points)
-
----
-class: primary
-# Image Alignment
-
-- Still to do:
-    - Need to add a better feature detector - corner detection misses some shoe features
-    - Figure out whether the algorithm isn't working on certain shoes:
-        - Image cleaning?
-        - Poor feature detection?
-        - Different people wearing the shoes?
 
 ---
 class: inverse
@@ -344,11 +342,33 @@ class: inverse
 
 ---
 class: primary
+# Neural Networks
+
+- Continue quality control on labeled images
+    - Go through annotations to verify *all* shapes in a given polygon are labeled
+- Implement image augmentation (in particular, stretching) to prevent over-fitting of specific shapes
+    - Regular polygons are identified with high accuracy, but elongated polygons are not
+    - Very close to being implemented!
+
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
 # Fall Semester Goals
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- `x3ptools` and `bulletxtrctr`
+    - \> 95% test coverage (if possible)
+    - Results database - data provenance
+    - Docker or packrat to ensure environment reproducibility
+- Truthiness study data collection
+- Paper with Miranda (Creative Component):    
+one-hot Convolutional NN for shoeprint feature recognition
+- Longitudinal Shoeprint Database
+    - Functioning well enough to present at AAFS in Feb
+
 
 ---
 class: inverse
@@ -441,29 +461,3 @@ class: primary
 class: secondary
 
 [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
-
-
----
-
-class: inverse 
-# Nate 
-
----
-
-class: primary
-# Groove ID
-- Version 2 of changepoint algorithm running 
-- Still undergoing some testing and seeing some bizarre behavior, which may be due to some very small technical issues.
-- After these issues are resolved, I'll run the algorithm on all of Hamby and Houston.
-
----
-
-class: primary
-# SLR
-- Using "mutual information" between the distribution of the data given a score vs the unconditional distribution of the data to measure information loss 
-    - Can estimate this numerically
-- I think that this can be maximized wrt the empirical distribution for the original data with a linear program
-- Then the distribution of log(LR) - log(SLR) could be computed numerically
-- Lots of (small?) issues
-    
-

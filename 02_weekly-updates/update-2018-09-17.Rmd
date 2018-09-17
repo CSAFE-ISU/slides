@@ -107,17 +107,19 @@ class: inverse
 
 ---
 class: primary
-# Semester Intentions
-<img src = "images/ben/stack.jpg" width="35%"/>
-- Collaborate w/Nic & Amy to improve handwriting project
-- Develop improvements / features part of algorithm
-- Eventually port algorithm through an application portal
-- Improve file structure of project
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
+# Progress!
+<img src = "images/ben/corrections.png" width="35%"/>
+- Checks binary image for predefined patterns.
+- Outputs coordinates for corrections, marked by dots.
+---
+class: secondary
 
+<img src = "images/ben/pp1.png" width="35%"/>
+<img src = "images/ben/pp2.png" width="35%"/>
+- F. W. M. Stentiford and R. G. Mortimer, "Some new heuristics for thinning binary handprinted characters for OCR," in IEEE Transactions on Systems, Man, and Cybernetics, vol. SMC-13, no. 1, pp. 81-84, Jan.-Feb. 1983.
+doi: 10.1109/TSMC.1983.6313034
+- Checks for a variety of masks
+- Documentation on my branch (ben)
 ---
 class: inverse
 # Nick
@@ -295,19 +297,6 @@ class: primary
 - Trained multi-label neural networks
 - Created shiny app for viewing prediction probabilities
 - https://bigfoot.csafe.iastate.edu/shiny/tiltonm/NNPreview/
-
-
----
-class: inverse
-# Ben
-
----
-class: primary
-# Last week
-
--Interviewed at Capital One
--Got the internship! Living in DC this summer
--Finished all but 1 step of Preprocessing Alg
 
 ---
 class: inverse

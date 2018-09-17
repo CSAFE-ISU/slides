@@ -357,3 +357,27 @@ class: primary
 class: secondary
 
 [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
+
+---
+
+class: inverse 
+# Nate 
+
+---
+
+class: primary
+# Groove ID
+- Version 2 of changepoint algorithm running 
+- Still undergoing some testing and seeing some bizarre behavior, which may be due to some very small technical issues.
+- After these issues are resolved, I'll run the algorithm on all of Hamby and Houston.
+
+---
+
+class: primary
+# SLR
+- Using "mutual information" between the distribution of the data given a score vs the unconditional distribution of the data to measure information loss 
+    - Can estimate this numerically
+- I think that this can be maximized wrt the empirical distribution for the original data with a linear program
+- Then the distribution of log(LR) - log(SLR) could be computed numerically
+- Lots of (small?) issues
+    

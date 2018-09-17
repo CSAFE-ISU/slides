@@ -92,14 +92,36 @@ class: inverse
 class: primary
 # Fall Semester Goals
 
-- **Data Collection** <span style="color:red">IRB Routing!</span>
+- **Data Collection** <span style="color:red">Application is in 'IRB Staff Review' phase.</span>
 - Expand Bayesian hierarchical model
-    - **Formal Model Selection** <span style="color:red">Deviance Information Criterion (DIC)!</span>
+    - **Formal Model Selection** <span style="color:red">Deviance Information Criterion (DIC)</span>
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.
-- Exploratory analysis of 'next level' features (AAFS)
+- Exploratory analysis of 'next level' features (AAFS in February)
     - Work with Ben and Nick
+    
+---
+class: secondary
+## IRB Manager - <br>*"One form to rule them all"*
+
+
+<img src="images/amy/IRB_app.png" width="90%">
+
+---
+class: primary
+# DIC
+**Context:** Formal model selection with DIC. How many grapheme types to use in modeling? <br>
+
+<img src="images/amy/model_selection_example.png" width="90%">
+
+---
+class: primary
+# DIC  
+**Content:**  
+
+<img src="images/amy/DICbug_local.png" width="50%">
+
     
 ---
 class: inverse

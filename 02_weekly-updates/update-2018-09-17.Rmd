@@ -210,9 +210,8 @@ class: primary
 
 * Mud prints may be taken in Durham due to the 3D Scanner
 
-<img src = "images/James/Negative_BabyPowder.PNG" width="40%"/>
 
-<img src = "images/James/Print 2_BabyPowder.PNG" width="40%"/>   
+
 ---
 class: inverse
 # Kiegan  

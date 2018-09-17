@@ -394,7 +394,6 @@ class: secondary
 
 [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
 
-<<<<<<< HEAD
 
 ---
 class: inverse
@@ -429,7 +428,7 @@ class: primary
 - Edge matching with three circles
 
 <img src="images/nike_6plots.png" width="80%">
-=======
+
 ---
 
 class: inverse 
@@ -453,4 +452,4 @@ class: primary
 - Then the distribution of log(LR) - log(SLR) could be computed numerically
 - Lots of (small?) issues
     
->>>>>>> de96c329ed87cbf22345d7ac629fc2cfe94043b7
+

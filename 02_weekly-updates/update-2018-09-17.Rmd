@@ -128,11 +128,23 @@ class: inverse
 
 ---
 class: secondary
+### Node Count Extraction
 
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
+![](images/Nick/CSAFE_nodes.pdf)
+
+Node Counts: 4, 4, 4, 4, 6, 4
+
+---
+class: secondary
+### Something is strange with the 2 node count -- Need to look at it
+
+![](images/Nick/NodeCountComparison.pdf)
+
+---
+class: secondary
+### Something is strange with the 2 node count -- Need to look at
+
+![](images/Nick/2graphemeEx.png)
 
 
 ---

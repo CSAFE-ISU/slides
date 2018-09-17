@@ -167,19 +167,44 @@ class: inverse
 
 ---
 class: primary
-# Fall semester plans: 
+# Book progress
 
-- submit papers from thesis for publication
-- writing R packages with SP
-    + glass 
-    + shoes
-    + "uncertainty pyramid" stuff with SL & HI
-- working on book funded by ROpenSci Fellowship 
-- narrowing down topics & formats for new CSAFE training materials 
-- writing "Ten Simple Rules for..." articles with DO
-    + statisticians doing forensic science
-    + forensic scientists doing statistics
-    + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+- Confirmed book contributors: 
+  - Amanda Luby (human factors)
+  - Chris Galbraith (digital)
+  - Karen Pan (fingerprint, glass (?))
+  - Eric Hare (bullets)
+  - Xiao Hui (casings, digital)
+  - Nick Berry (handwriting)
+  - Soyoung Park (glass, shoes)
+  - Peter Vallone, Sarah Riman (DNA)
+  
+- Chapter Outline: 
+  - Intro. to problem
+  - Data collection and cleaning
+  - R Packages available & key functions
+  - Drawing conclusions (LR?, SLR?, etc.)
+  - Case Study 
+  
+Other: glossary, hierarchy of propositions, LR chapter? 
+
+---
+class: primary
+# Practitioner survey
+
+![](images/sam/subj_ratings.png)  
+
+---
+class: primary
+# Practitioner survey
+
+![](images/sam/formats.png)
+
+---
+class: primary
+# EDA glass paper
+
+![](images/sam/difference_dists.png)
 
 ---
 class: inverse

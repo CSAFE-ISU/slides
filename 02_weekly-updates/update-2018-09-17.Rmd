@@ -254,37 +254,54 @@ class: inverse
 class: primary
 # Bullets
 
-- Hamby 36 analysis
-    - Use `bulletxtrctr` with legacy featurees
-    - Intelligent re-calculation of results - only recalculate if the inputs have changed
-    - smarter parallel processing - memory issues
 - Hamby 44 analysis
     - Goal is to compare Hamby 36 to Hamby 44
+    - Hopefully will be finished later today
 
 ---
 class: primary
-# Shoes
+# Image Alignment
 
-- Image alignment/shoe coordinate system algorithm
-    - [`ShoeAlignR` package](https://github.com/srvanderplas/ShoeAlignR)
-    - Still to do: See how consistent the coordinates are from image to image (same shoe)
-    - May also apply to chemistry/fingerprint image alignment
-    
-<img src = "images/susan/ShoeCoordinates.png" width = "20%" style="position:absolute;top:200px;right:0" />
+- `ShoeAlignR` package renamed to `ImageAlignR` 
+    - useful for fingerprints as well
+    - algorithms aren't working with color images yet... not sure why
+- Implemented an alignment algorithm from a [Kaggle post](https://www.kaggle.com/vicensgaitan/image-registration-the-r-way/notebook)
+    - Harris Corner detection + KNN features + RANSAC to find a matching transformation for alignment
+
 ---
 class: primary
-# Shoes
+# Image Alignment
 
-- Shoe NN Images:
-    - Better labeling - quality control
-    - Add "context" - for non-rectangular polygons, use minimum bounding rectangle
-        - less distortion
-        - ensures NN isn't recognizing cutout shape instead of actual image features
-    - Fill in white pixels with median non-white pixel value - lower background contrast
+<img src = "images/susan/ShoeAlignNikeByCheckin.png" width = "100%"/>
 
-Before | After
------- | -----
-<img src = "images/susan/Before_Shoe_Image1.jpg" width = "33%"/> <img src = "images/susan/Before_Shoe_Image2.jpg" width = "33%"/> <img src = "images/susan/Before_Shoe_Image3.jpg" width = "33%"/>| <img src = "images/susan/After_Shoe_Image1.jpg" width = "33%" /> <img src = "images/susan/After_Shoe_Image2.jpg" width = "33%" /> <img src = "images/susan/After_Shoe_Image3.jpg" width = "33%" />
+---
+class: primary
+# Image Alignment
+
+<img src = "images/susan/ShoeRANSACNikeByCheckin.png" width = "100%"/>
+
+- Orange points - interesting feature for the first image
+- Purple points - similar feature in 2nd image
+
+---
+class: primary
+# Image Alignment
+
+<img src = "images/susan/ShoeOverlayNikeByCheckin.png" width = "100%"/>
+- Red = appears in warped image only
+- Blue = appears in unwarped image only
+- Black = appears in both images (overlapped points)
+
+---
+class: primary
+# Image Alignment
+
+- Still to do:
+    - Need to add a better feature detector - corner detection misses some shoe features
+    - Figure out whether the algorithm isn't working on certain shoes:
+        - Image cleaning?
+        - Poor feature detection?
+        - Different people wearing the shoes?
 
 ---
 class: inverse

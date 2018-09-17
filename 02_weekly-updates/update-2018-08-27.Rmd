@@ -337,7 +337,7 @@ class: primary
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.
-- Exploritory analysis of 'next level' features (AAFS)
+- Exploratory analysis of 'next level' features (AAFS)
     - Work with Ben and Nick
     
 

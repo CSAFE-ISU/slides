@@ -91,13 +91,13 @@ class: inverse
 class: primary
 # Fall Semester Goals
 
-- Data Collection
+- **Data Collection** <span style="color:red">IRB Routing!</span>
 - Expand Bayesian hierarchical model
-    - Formal Model Selection
+    - **Formal Model Selection** <span style="color:red">Deviance Information Criterion (DIC)!</span>
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.
-- Exploritory analysis of 'next level' features (AAFS)
+- Exploratory analysis of 'next level' features (AAFS)
     - Work with Ben and Nick
     
 ---
@@ -124,10 +124,8 @@ class: inverse
 ---
 class: secondary
 
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
+- Working on getting node counts.
+- Paying penalty for oversights made first time around.
 
 
 ---
@@ -185,16 +183,14 @@ class: inverse
 # Guillermo
 
 ---
-class: primary
-# Plans for this Fall
+class: secondary
 
-- Complete adaptation of registration of 3D scans in R and perform analysis
+- Getting familiar with forensic genetics
+    + Some papers with Thore Egeland
+    + Development of theory and software (R packages)
+    
+- Some time spent on reviewing names of shoeprints database and changes to IRB
 
-- Complete shiny app for 2D outsole scans registration
-
-- Write paper of the database which must include some data analysis
-
-- Write paper on speaker recognition (w/Vianey Leos)
 
 ---
 class: inverse
@@ -293,18 +289,12 @@ class: inverse
 
 ---
 class: primary
-<<<<<<< HEAD
 # Multi-class Neural Networks
 
 - Trained multi-label neural networks
 - Created shiny app for viewing prediction probabilities
 - https://bigfoot.csafe.iastate.edu/shiny/tiltonm/NNPreview/
-=======
-# Fall Semester Goals
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
 
 ---
 class: inverse
@@ -317,5 +307,38 @@ class: primary
 -Interviewed at Capital One
 -Got the internship! Living in DC this summer
 -Finished all but 1 step of Preprocessing Alg
->>>>>>> 538f97f61b7673f0cb1df74308202b6b4847f344
 
+---
+class: inverse
+# Heike
+
+---
+class: primary
+# Scans
+
+- Thanks to everybody who helped with all the visits from FTEs!
+
+- Hamby set 36 scans done, analysis running
+
+- Hamby clone set 224 scans done to 90%
+
+- Hamby set 224 arrived
+
+- several other sets of bullets and cartridge cases
+
+---
+class: primary
+# Programming
+
+- bulletxtrctr re-factoring close to done
+
+- starting on comparisons of before/after feature values
+
+- [x3ptools](https://heike.github.io/x3ptools/) and 
+[bulletxtrctr](https://heike.github.io/bulletxtrctr/)
+
+
+---
+class: secondary
+
+[Issues!!](https://github.com/CSAFE-ISU/slides/issues)

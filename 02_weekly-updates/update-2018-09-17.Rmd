@@ -325,11 +325,13 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Continue quality control on labeled images
+    - Go through annotations to verify *all* shapes in a given polygon are labeled
+- Implement image augmentation (in particular, stretching) to prevent over-fitting of specific shapes
+    - Regular polygons are identified with high accuracy, but elongated polygons are not
+    - Very close to being implemented!
 
 
 ---

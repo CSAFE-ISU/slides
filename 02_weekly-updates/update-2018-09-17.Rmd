@@ -427,7 +427,7 @@ class: primary
 - KNM (599) : Between shoe IDs
 - Edge matching with three circles
 
-<img src="images/nike_6plots.png" width="80%">
+<img src="images/soyoung/nike_6plots.png" width="80%">
 
 ---
 

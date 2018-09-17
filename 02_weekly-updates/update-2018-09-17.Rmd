@@ -221,10 +221,10 @@ class: inverse
 class: primary   
 # Fall Semester Goals  
 
-- *Submit to AFTE journal* - 1 advisor down, 1 to go!    
-- *Complete writing of Chapman & Hall book*    
-    - Finishing Chapter 3 draft this week  
-- `get_grooves_logistic` in `bulletxtrctr`  
+- **Submit to AFTE journal** - Finishing up edits this week.    
+- **Complete writing of Chapman & Hall book**    
+    - Finishing Chapter 3 draft *this week*   
+- "Bake-off" of get_grooves methods coming soon.  
 - Ran into an issue with robust LOESS on Houston set  
     - Reworking functions to iterate how we want.  
 

@@ -115,6 +115,21 @@ class: secondary
 
 <img src="images/amy/IRB_app.png" width="90%">
 
+    
+---
+class: secondary
+### IRB Manager - <br>*"One form to rule them all"*
+
+
+<img src="images/amy/IRB_app.png" width="90%">
+
+---
+class: secondary
+### IRB Manager - <br>*"One form to rule them all"*
+
+
+<img src="images/amy/IRB_app.png" width="90%">
+
 
 
 

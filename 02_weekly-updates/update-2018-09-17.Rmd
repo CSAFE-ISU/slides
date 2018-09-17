@@ -176,7 +176,7 @@ class: primary
 # Fall semester plans: 
 
 - Shoes
-    + Wrap up shoe analysis on edges and SURF 
+    + Wrap up shoe analysis using edges and SURF 
     + Compare the performance with other methods such as phase only correlations, Fourier-Mellin transformation correlation
     + Do analysis with CSAFE shoe data
     + Submit papers regarding shoe analysis soon!

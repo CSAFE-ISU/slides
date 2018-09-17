@@ -194,7 +194,7 @@ class: primary
 class: primary
 # Analysis result with CSAFE shoe data 
 
-- All nike shoes with size of 8.5 and 10.5
+- All nike shoes with size of 8.5 and 10.5 at time 4 (6 months)
 - KM (716) : Between replicates
 - KNM (599) : Between shoe IDs
 - Edge matching with three circles

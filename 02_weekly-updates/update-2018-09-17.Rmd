@@ -108,7 +108,7 @@ class: inverse
 ---
 class: primary
 # Progress!
-<img src = "images/ben/corrections.png" width="35%"/>
+<img src = "images/ben/corrections.png" width="85%"/>
 - Checks binary image for predefined patterns.
 - Outputs coordinates for corrections, marked by dots.
 ---

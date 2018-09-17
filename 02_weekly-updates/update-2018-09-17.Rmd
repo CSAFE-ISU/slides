@@ -103,17 +103,27 @@ class: primary
     
 ---
 class: secondary
-### IRB Manager - <br>*"One form to rule them all"*
+## IRB Manager - <br>*"One form to rule them all"*
 
 
 <img src="images/amy/IRB_app.png" width="90%">
 
 ---
 class: secondary
-### IRB Manager - <br>*"One form to rule them all"*
+## DIC
+**Context:** Formal model selection with DIC. How many grapheme types to use in modeling? <br>
+**Content:**  
+
+|No. Graphemes| DIC Server (JAGS 4.2.0) | DIC Local (JAGS 4.3.0) |  
+| :------   | :------- | :------- |  
+| 2 | 1 | 1 |  
+| 2 | 1 | 1 |  
+| 2 | 1 | 1 |  
+| 2 | 1 | 1 |  
+| <span>&#8942;</span> | 1 | 1 |  
 
 
-<img src="images/amy/IRB_app.png" width="90%">
+
 
     
 ---

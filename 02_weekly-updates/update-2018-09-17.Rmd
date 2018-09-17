@@ -203,14 +203,16 @@ class: inverse
 class: primary
 # This Fall
 
-* New Data Collection Procedures on Select Shoe Pairs 
-   + 107 Full Sets of Data - No Problems
-   + Casting, Flour Impressions, High Resolution 3D Scanning
-   + Develop a strict outline for data collection
-<img src = "images/James/Old_Scan.PNG" width="24%"/>
-<img src = "images/James/New_Scan.PNG" width="30%"/>
-<img src = "images/James/New_Scan2.PNG" width="40%"/>
-   
+* Steady Progress 
+  + 27 Pairs left to 3D Scan
+  
+* Will be Using the Gilman Lab for all "four" Prints
+
+* Mud prints may be taken in Durham due to the 3D Scanner
+
+<img src = "images/James/Negative_BabyPowder.PNG" width="40%"/>
+
+<img src = "images/James/Print 2_BabyPowder.PNG" width="40%"/>   
 ---
 class: inverse
 # Kiegan  

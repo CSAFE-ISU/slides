@@ -233,6 +233,62 @@ class: primary
     - Things forensic practioners should know before working with statistics -> have a rough draft
 
 
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Bullets
+
+- Hamby 44 analysis
+    - Goal is to compare Hamby 36 to Hamby 44
+    - Hopefully will be finished later today
+
+---
+class: primary
+# Image Alignment
+
+- `ShoeAlignR` package renamed to `ImageAlignR` 
+    - useful for fingerprints as well
+    - algorithms aren't working with color images yet... not sure why
+- Implemented an alignment algorithm from a [Kaggle post](https://www.kaggle.com/vicensgaitan/image-registration-the-r-way/notebook)
+    - Harris Corner detection + KNN features + RANSAC to find a matching transformation for alignment
+
+---
+class: primary
+# Image Alignment
+
+<img src = "images/susan/ShoeAlignNikeByCheckin.png" width = "100%"/>
+
+---
+class: primary
+# Image Alignment
+
+<img src = "images/susan/ShoeRANSACNikeByCheckin.png" width = "100%"/>
+
+- Orange points - interesting feature for the first image
+- Purple points - similar feature in 2nd image
+
+---
+class: primary
+# Image Alignment
+
+<img src = "images/susan/ShoeOverlayNikeByCheckin.png" width = "100%"/>
+- Red = appears in warped image only
+- Blue = appears in unwarped image only
+- Black = appears in both images (overlapped points)
+
+---
+class: primary
+# Image Alignment
+
+- Still to do:
+    - Need to add a better feature detector - corner detection misses some shoe features
+    - Figure out whether the algorithm isn't working on certain shoes:
+        - Image cleaning?
+        - Poor feature detection?
+        - Different people wearing the shoes?
 
 ---
 class: inverse
@@ -245,26 +301,6 @@ class: primary
 - Develop methods to train "one-hot" neural networks for multi-label classification
 - Write paper on network training and results (ideally also a Creative Component)
 - Continue to help with truthiness data collection
-
-
----
-class: inverse
-# Susan
-
----
-class: primary
-# Fall Semester Goals
-
-- `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
-
 
 ---
 class: inverse
@@ -358,6 +394,7 @@ class: secondary
 
 [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
 
+<<<<<<< HEAD
 
 ---
 class: inverse
@@ -392,3 +429,28 @@ class: primary
 - Edge matching with three circles
 
 <img src="images/nike_6plots.png" width="80%">
+=======
+---
+
+class: inverse 
+# Nate 
+
+---
+
+class: primary
+# Groove ID
+- Version 2 of changepoint algorithm running 
+- Still undergoing some testing and seeing some bizarre behavior, which may be due to some very small technical issues.
+- After these issues are resolved, I'll run the algorithm on all of Hamby and Houston.
+
+---
+
+class: primary
+# SLR
+- Using "mutual information" between the distribution of the data given a score vs the unconditional distribution of the data to measure information loss 
+    - Can estimate this numerically
+- I think that this can be maximized wrt the empirical distribution for the original data with a linear program
+- Then the distribution of log(LR) - log(SLR) could be computed numerically
+- Lots of (small?) issues
+    
+>>>>>>> de96c329ed87cbf22345d7ac629fc2cfe94043b7

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for September 17</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for September 17
+### 2018/09/17
+
+---
+
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+---
+class: inverse
+# Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table. Sam Tyner talked about the three must-haves of your summary:
+
+
+
+| Must-have | It means |
+| :------   | :------- |
+| Context | Why are you doing what you're doing? "I'm working on X project in order to Y" |
+| Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
+| Conclusion | What did you learn? "This will help me because it..." or "This important because it gets us to..." |
+
+
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
+ 
+
+
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Fall Semester Goals
+
+- **Data Collection** &lt;span style="color:red"&gt;Application is in 'IRB Staff Review' phase.&lt;/span&gt;
+- Expand Bayesian hierarchical model
+    - **Formal Model Selection** &lt;span style="color:red"&gt;Deviance Information Criterion (DIC)&lt;/span&gt;
+    - Tests and Intervals
+    - Validation
+- Write and submit a paper on that modeling.
+- Exploratory analysis of 'next level' features (AAFS in February)
+    - Work with Ben and Nick
+    
+---
+class: secondary
+## IRB Manager - &lt;br&gt;*"One form to rule them all"*
+
+
+&lt;img src="images/amy/IRB_app.png" width="90%"&gt;
+
+---
+class: primary
+# DIC
+**Context:** Formal model selection with DIC. How many grapheme types to use in modeling? &lt;br&gt;
+
+&lt;img src="images/amy/model_selection_example.png" width="90%"&gt;
+
+---
+class: primary
+# DIC  
+**Content:**  
+
+&lt;img src="images/amy/DICbug_local.png" width="45%"/&gt;
+&lt;img src="images/amy/DICbug_server.png" width="43.8%"/&gt;
+
+
+---
+class: primary
+# DIC  
+**Conclusion:**  
+
+- Work with IT to update server
+- Other model selection techniques. 
+    - Compositional data. 
+    - Borrow from topic modeling literature?
+
+    
+---
+class: inverse
+# Ben
+
+---
+class: primary
+# Progress!
+&lt;img src = "images/ben/corrections.png" width="85%"/&gt;
+- Checks binary image for predefined patterns.
+- Outputs coordinates for corrections, marked by dots.
+---
+class: secondary
+
+&lt;img src = "images/ben/pp1.png" width="35%"/&gt;
+&lt;img src = "images/ben/pp2.png" width="35%"/&gt;
+- F. W. M. Stentiford and R. G. Mortimer, "Some new heuristics for thinning binary handprinted characters for OCR," in IEEE Transactions on Systems, Man, and Cybernetics, vol. SMC-13, no. 1, pp. 81-84, Jan.-Feb. 1983.
+doi: 10.1109/TSMC.1983.6313034
+- Checks for a variety of masks
+- Documentation on my branch (ben)
+
+
+---
+class: inverse
+# Nick
+
+---
+class: secondary
+### Node Count Extraction
+
+![](images/Nick/CSAFE_nodes.pdf)
+
+Node Counts: 4, 4, 4, 4, 6, 4
+
+---
+class: secondary
+### Something is strange with the 2 node count -- Need to look at it
+
+![](images/Nick/NodeCountComparison.pdf)
+
+---
+class: secondary
+### Something is strange with the 2 node count -- Need to look at
+
+![](images/Nick/2graphemeEx.png)
+
+
+---
+class: inverse
+# Nate
+
+
+---
+class: primary
+# Fall Semester Goals
+- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
+- Finish groove changepoint detection algorithm version 2 and test on all available data
+- Write paper with Kiegan on groove results
+
+---
+class: inverse
+# Ganesh
+
+---
+class: secondary
+- Got Comments back from the Reviewers for the first revision, some more minor changes in formatting and language.
+  - Fixed most issues and almost ready to send back the responses, pondering on some weird points.
+
+- Implementing the diagnostics UI (shiny app) on a sample bullet database
+  - almost there!
+
+
+
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Book progress
+
+- Confirmed book contributors: 
+  - Amanda Luby (human factors)
+  - Chris Galbraith (digital)
+  - Karen Pan (fingerprint, glass (?))
+  - Eric Hare (bullets)
+  - Xiao Hui (casings, digital)
+  - Nick Berry (handwriting)
+  - Soyoung Park (glass, shoes)
+  - Peter Vallone, Sarah Riman (DNA)
+  
+- Chapter Outline: 
+  - Intro. to problem
+  - Data collection and cleaning
+  - R Packages available &amp; key functions
+  - Drawing conclusions (LR?, SLR?, etc.)
+  - Case Study 
+  
+Other: glossary, hierarchy of propositions, LR chapter? 
+
+---
+class: primary
+# Practitioner survey
+
+![](images/sam/subj_ratings.png)  
+
+---
+class: primary
+# Practitioner survey
+
+![](images/sam/formats.png)
+
+---
+class: primary
+# EDA glass paper
+
+![](images/sam/difference_dists.png)
+
+---
+class: inverse
+# Guillermo
+
+---
+class: secondary
+
+- Getting familiar with forensic genetics
+    + Some papers with Thore Egeland
+    + Development of theory and software (R packages)
+    
+- Some time spent on reviewing names of shoeprints database and changes to IRB
+
+
+---
+class: inverse
+# James
+
+---
+class: primary
+# This Fall
+
+* Steady Progress 
+  + 27 Pairs left to 3D Scan
+  
+* Will be Using the Gilman Lab for all "four" Prints
+
+* Mud prints may be taken in Durham due to the 3D Scanner
+
+
+
+---
+class: inverse
+# Kiegan  
+
+
+---
+class: primary   
+# Fall Semester Goals  
+
+- **Submit to AFTE journal** - Finishing up edits this week.    
+- **Complete writing of Chapman &amp; Hall book**    
+    - Finishing Chapter 3 draft *this week*   
+- "Bake-off" of get_grooves methods coming soon.  
+- Ran into an issue with robust LOESS on Houston set  
+    - Reworking functions to iterate how we want.  
+
+
+---
+class: primary  
+# Locfit.robust updates  
+![](images/kiegan/locfit.robust-hamby-houston.png)  
+
+
+---
+class: primary  
+# Locfit.robust updates  
+![](images/kiegan/locfit.robust-vs-new-houston.png)  
+
+
+---
+class: primary  
+# Locfit.robust updates  
+![](images/kiegan/bad-new-function.png)  
+
+---
+class: inverse
+# Danica  
+
+---
+class: primary   
+# Update  
+
+- Submit draft BF vs. LR paper to AOS -&gt;  should be done this week!  
+    - Write a follow-up paper to LPR  -&gt;  have a nice draft
+- Continue NIJ grant to validate FDE conclusions
+    - Started work on the second phase
+    - Trying to determine a good way to combine kinematic measures
+- Working on my Top 10 lists
+    - Things statisticians should know before working in forensics -&gt; have a nice draft
+    - Things forensic practioners should know before working with statistics -&gt; have a rough draft
+
+
+
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Neural Networks
+
+- Continue quality control on labeled images
+    - Go through annotations to verify *all* shapes in a given polygon are labeled
+- Implement image augmentation (in particular, stretching) to prevent over-fitting of specific shapes
+    - Regular polygons are identified with high accuracy, but elongated polygons are not
+    - Very close to being implemented!
+
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Fall Semester Goals
+
+- `x3ptools` and `bulletxtrctr`
+    - \&gt; 95% test coverage (if possible)
+    - Results database - data provenance
+    - Docker or packrat to ensure environment reproducibility
+- Truthiness study data collection
+- Paper with Miranda (Creative Component):    
+one-hot Convolutional NN for shoeprint feature recognition
+- Longitudinal Shoeprint Database
+    - Functioning well enough to present at AAFS in Feb
+
+
+---
+class: inverse
+# Heike
+
+---
+class: primary
+# Scans
+
+
+- Hamby set 36 scans done, &lt;span style="color:orange"&gt;analysis done, results are a bit strange&lt;/span&gt;
+
+- Hamby clone set 224 &lt;span style="color:orange"&gt;scans done &lt;/span&gt;
+
+- Hamby set 224 &lt;span style="color:orange"&gt;scans done &lt;/span&gt;
+
+- &lt;span style="color:orange"&gt;Hamby set 10 arrived from St Louis, in scanning process. &lt;/span&gt;
+
+- several other sets of bullets and cartridge cases
+
+---
+class: primary
+# Hamby 224 - Clone
+
+- Hamby 224 Clone
+
+    - organized as test set: two known bullets from the same barrel are paired with an unknown
+    
+    - total of fifteen test sets (one for each unknown): some clones have replicates
+
+
+![:scale 40%](images/heike/set1.png) ![:scale 40%](images/heike/set2.png)    
+
+---
+class: primary
+# Hamby 224 - Clone and Original
+
+Which barrel in the original is Test Set barrel X?
+
+Test set 1 (Clone 224) versus Barrel 1 (Set 224)
+![:scale 60%](images/heike/ts1-br1.png)
+
+Still todo: Matching individual clones and their respective bullets
+
+---
+class: primary
+# Scans
+
+Original
+![](images/heike/H224set-br1-B1-L1.png)
+
+Clone
+![](images/heike/H224clone-TS11-Br11-B2-L3.png)
+
+
+---
+class: primary
+# Hamby 224 - Clone and Original
+Test set 11 (Clone 224) versus Barrel 1 (Set 224)
+![:scale 60%](images/heike/clone-br1.png)
+
+Set 224: Bullet 1 - Bullet 2: 0.98
+
+Set/Clone 224: Bullet 1: 0.97
+
+---
+class: primary
+# Strange scan
+
+Scan of original and corresponding clone - middle part of clone does not show any striae
+
+![:scale 80%](images/heike/br1-b2-l2.png)
+
+![:scale 80%](images/heike/ts11-b1-l2.png)
+
+
+---
+class: primary
+# Programming
+
+- bulletxtrctr re-factoring ~~close to~~ done
+
+- starting on comparisons of before/after feature values
+
+- [x3ptools](https://heike.github.io/x3ptools/) and 
+[bulletxtrctr](https://heike.github.io/bulletxtrctr/)
+
+
+---
+class: secondary
+
+[Issues!!](https://github.com/CSAFE-ISU/slides/issues)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="css/macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

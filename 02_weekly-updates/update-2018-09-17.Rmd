@@ -164,7 +164,7 @@ class: inverse
 class: secondary
 ### Node Count Extraction
 
-![](images/Nick/CSAFE_nodes.pdf)
+![](images/Nick/CSAFE_nodes.png)
 
 Node Counts: 4, 4, 4, 4, 6, 4
 
@@ -172,7 +172,7 @@ Node Counts: 4, 4, 4, 4, 6, 4
 class: secondary
 ### Something is strange with the 2 node count -- Need to look at it
 
-![](images/Nick/NodeCountComparison.pdf)
+![](images/Nick/NodeCountComparison.png)
 
 ---
 class: secondary

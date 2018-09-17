@@ -336,7 +336,8 @@ class: primary
 
 Which barrel in the original is Test Set barrel X?
 
-![:scale 60%](images/heike/clone-br1.png)
+Test set 1 (Clone 224) versus Barrel 1 (Set 224)
+![:scale 60%](images/heike/ts1-br1.png)
 
 Still todo: Matching individual clones and their respective bullets
 
@@ -349,6 +350,28 @@ Original
 
 Clone
 ![](images/heike/H224clone-TS11-Br11-B2-L3.png)
+
+
+---
+class: primary
+# Hamby 224 - Clone and Original
+Test set 11 (Clone 224) versus Barrel 1 (Set 224)
+![:scale 60%](images/heike/clone-br1.png)
+
+Set 224: Bullet 1 - Bullet 2: 0.98
+
+Set/Clone 224: Bullet 1: 0.97
+
+---
+class: primary
+# Strange scan
+
+Scan of original and corresponding clone - middle part of clone does not show any striae
+
+![:scale 80%](images/heike/br1-b2-l2.png)
+
+![:scale 80%](images/heike/ts11-b1-l2.png)
+
 
 ---
 class: primary

@@ -361,25 +361,6 @@ class: primary
 
 ---
 class: inverse
-# Susan
-
----
-class: primary
-# Fall Semester Goals
-
-- `x3ptools` and `bulletxtrctr`
-    - \&gt; 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
-
-
----
-class: inverse
 # Heike
 
 ---
@@ -498,6 +479,64 @@ class: primary
 - KNM (599) : Between shoe IDs
 - Edge matching with three circles
  &lt;img src="images/soyoung/nike_6plots.png" width="80%"&gt;
+
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Bullets
+
+- Hamby 44 analysis
+    - Goal is to compare Hamby 36 to Hamby 44
+    - Hopefully will be finished later today
+
+---
+class: primary
+# Image Alignment
+
+- `ShoeAlignR` package renamed to `ImageAlignR` 
+    - useful for fingerprints as well
+    - algorithms aren't working with color images yet... not sure why
+- Implemented an alignment algorithm from a [Kaggle post](https://www.kaggle.com/vicensgaitan/image-registration-the-r-way/notebook)
+    - Harris Corner detection + KNN features + RANSAC to find a matching transformation for alignment
+
+---
+class: primary
+# Image Alignment
+
+&lt;img src = "images/susan/ShoeAlignNikeByCheckin.png" width = "100%"/&gt;
+
+---
+class: primary
+# Image Alignment
+
+&lt;img src = "images/susan/ShoeRANSACNikeByCheckin.png" width = "100%"/&gt;
+
+- Orange points - interesting feature for the first image
+- Purple points - similar feature in 2nd image
+
+---
+class: primary
+# Image Alignment
+
+&lt;img src = "images/susan/ShoeOverlayNikeByCheckin.png" width = "100%"/&gt;
+- Red = appears in warped image only
+- Blue = appears in unwarped image only
+- Black = appears in both images (overlapped points)
+
+---
+class: primary
+# Image Alignment
+
+- Still to do:
+    - Need to add a better feature detector - corner detection misses some shoe features
+    - Figure out whether the algorithm isn't working on certain shoes:
+        - Image cleaning?
+        - Poor feature detection?
+        - Different people wearing the shoes?
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script src="css/macros.js"></script>

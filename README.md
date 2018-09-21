@@ -79,6 +79,7 @@ August 27: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/
 September 03: Labor Day <br>
 September 10: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-09-10.html)<br>
 September 17: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-09-17.html)<br>
+September 24: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-09-24.html)<br>
 
 ### Summer 2018 Slides
 

@@ -227,14 +227,16 @@ class: inverse
 class: primary
 # Fall Semester Goals
 
-- Data Collection <- IRB is in review
+- Data Collection
 - Expand Bayesian hierarchical model
-    - Formal Model Selection <- Further investigate DIC
+    - **Formal Model Selection**
+        - <span style="color:red">Further investigation of DIC</span>
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.
 - Exploritory analysis of 'next level' features (AAFS)
-    - Work with Ben and Nick
+    - **Work with Ben and Nick**
+        - <span style="color:red">Node/Grapheme counts & FlashID Data...</span>
     
 ---
 class: inverse

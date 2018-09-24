@@ -241,6 +241,7 @@ class: primary
 - Expand Bayesian hierarchical model
     - **Formal Model Selection**
         - <span style="color:red">Further investigation of DIC</span>
+        - <span style="color:red">Still waiting on IT to get access to JAGS 4.3.0 (bug fix)...</span>
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.

@@ -289,16 +289,13 @@ class: inverse
 class: primary
 # This Fall
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
-   + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
+* 3D Scans are finished 
+
+* We are currently working out the issues with the flour impressions
+   + Changing to Baby Powder
+   + Getting a cart for the camera to help allignment 
+* Have started mud impressions and am getting it fine tuned
+   +3D Scanning 
    
 ---
 class: inverse

@@ -326,13 +326,13 @@ class: primary
    + Changing to Baby Powder
    + Getting a cart for the camera to help alignment
    
-<img src = "images/James/Inv.PNG" width="60%"/>
+<img src = "images/James/Inv.png" width="60%"/>
 
 ---
 class: primary
 # Baby Powder
 
-<img src = "images/James/Print.PNG" width="50%"/>
+<img src = "images/James/Print.png" width="50%"/>
 
 ---
 class: primary

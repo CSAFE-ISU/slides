@@ -110,7 +110,7 @@ class: primary
 - KM (716) : Between replicates
 - KNM (599) : Between shoe IDs
 - KNM example between ID 1 and ID2 of size 10.5 at time 4
- <img src="images/soyoung/edge_ex.png" width="80%">
+ <img src="images/soyoung/edge_ex.PNG" width="80%">
 
 
 ---

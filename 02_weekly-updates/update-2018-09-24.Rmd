@@ -229,28 +229,25 @@ class: inverse
 
 ---
 class: primary
-# Semester Intentions
-<img src = "images/ben/stack.jpg" width="35%"/>
-- Collaborate w/Nic & Amy to improve handwriting project
-- Develop improvements / features part of algorithm
-- Eventually port algorithm through an application portal
-- Improve file structure of project
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
+# Improvements!
+<img src = "images/ben/csafe_single_vs.png" width="35%"/>
 
+
+---
+class: primary
+<img src = "images/ben/noclean_wow.png" width="35%"/>
+
+---
+class: primary
+<img src = "images/ben/good_zoom_hole_open.png" width="35%"/>
+
+- Wrappers for testing created
+- Improvements to structure and performance
 ---
 class: inverse
 # Nick
 
 ---
-class: secondary
-
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
 
 
 ---

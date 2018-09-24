@@ -109,6 +109,16 @@ class: primary
  - All nike shoes with size of 8.5 and 10.5 at time 4 (6 months)
 - KM (716) : Between replicates
 - KNM (599) : Between shoe IDs
+- KNM example between ID 1 and ID2 of size 10.5 at time 4
+ <img src="images/soyoung/edge_ex.PNG" width="60%">
+
+
+---
+class: primary
+# Analysis result with CSAFE shoe data 
+ - All nike shoes with size of 8.5 and 10.5 at time 4 (6 months)
+- KM (716) : Between replicates
+- KNM (599) : Between shoe IDs
 - Edge matching with three circles
  <img src="images/soyoung/nike_6plots.png" width="80%">
 
@@ -120,10 +130,23 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
-- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
-- Finish groove changepoint detection algorithm version 2 and test on all available data
-- Write paper with Kiegan on groove results
+# Groove ID
+- Version 2 of changepoint algorithm running (hopefully bug free)
+    - Preliminary results seem a little too variable
+- Running algorithm on entire Hamby44 set today
+- Next step is to gather all of the code in an R package and thoroughly document everything.
+
+---
+class: primary
+
+# SLR
+- Looking into "mutual information" between the distribution of the data given a score vs the unconditional distribution of the data to measure information loss 
+    - Can potentially estimate this numerically
+    
+- Putting a prior on $H_0$ vs $H_A$ results in an interesting(?) equality
+    - $\log(LR) - \log(SLR) = \frac{1}{p(H_A | X,S)} \left[KL(p(M|X,S) || p(M|S)) - \log(\frac{p(H_0|X,S)}{p(H_0|S)}) \right]$
+    - Is it possible to compute a reasonable upper bound for this, specific to the score distribution of interest? 
+    - What does it mean that the left side is independent of prior, but right side is not?
 
 
 ---
@@ -216,12 +239,15 @@ class: primary
 
 - Data Collection
 - Expand Bayesian hierarchical model
-    - Formal Model Selection
+    - **Formal Model Selection**
+        - <span style="color:red">Further investigation of DIC</span>
+        - <span style="color:red">Still waiting on IT to get access to JAGS 4.3.0 (bug fix)...</span>
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.
 - Exploritory analysis of 'next level' features (AAFS)
-    - Work with Ben and Nick
+    - **Work with Ben and Nick**
+        - <span style="color:red">Node/Grapheme counts & FlashID Data...</span>
     
 ---
 class: inverse
@@ -248,7 +274,26 @@ class: inverse
 # Nick
 
 ---
+class: primary
+# Actual Node Counts
 
+![](images/Nick/RealNodeCounts.png)
+
+---
+class: primary
+# Flash ID 4 Node Grapheme
+
+- This is a good 4 node grapheme. We would like to do this.
+
+<img src = "images/Nick/Good4grapheme.png" width="35%"/>
+
+---
+class: primary
+# Flash ID 4 Node Grapheme
+
+- This is a bad 4 node grapheme. We would NOT like to do this.
+
+<img src = "images/Nick/Bad4nodes.png" width="35%"/>
 
 ---
 class: inverse
@@ -288,16 +333,15 @@ class: inverse
 # Guillermo
 
 ---
-class: primary
-# Plans for this Fall
+class: secondary
 
-- Complete adaptation of registration of 3D scans in R and perform analysis
+- Write some functions to check filename (and bundle them in an R package)
 
-- Complete shiny app for 2D outsole scans registration
+- Do some minor changes to IRB (with James)
 
-- Write paper of the database which must include some data analysis
+- Playing with aligned images from EverOS
 
-- Write paper on speaker recognition (w/Vianey Leos)
+
 
 ---
 class: inverse
@@ -305,16 +349,33 @@ class: inverse
 
 ---
 class: primary
-# This Fall
+# Baby Powder
 
 * 3D Scans are finished 
 
 * We are currently working out the issues with the flour impressions
    + Changing to Baby Powder
-   + Getting a cart for the camera to help allignment 
-* Have started mud impressions and am getting it fine tuned
-   +3D Scanning 
+   + Getting a cart for the camera to help alignment
    
+<img src = "images/James/Inv.png" width="60%"/>
+
+
+---
+class: primary
+# Baby Powder
+
+<img src = "images/James/Print.png" width="55%"/>
+
+
+---
+class: primary
+# Mud
+
+* Fine tuning mud impressions 
+   + 3D Scanning 
+   
+<img src = "images/James/Capture2.PNG" width="40%"/>
+<img src = "images/James/DryDirt.PNG" width="50%"/>  
 ---
 class: inverse
 # Kiegan  
@@ -332,24 +393,28 @@ class: primary
     - Finishing up functions so we can run downstream  
     - Starting to write up methodology  
     
-
-
 ---
 class: inverse
 # Danica  
 
 ---
 class: primary   
-# Fall Semester Goals  
+# Fall Semester Update  
 
-- Submit draft BF vs. LR paper to AOS  
-    - Write a follow-up paper to LPR  
+- Submit draft BF vs. LR paper to AOS 
+    - nearly done ...
+    - forgot all my usernames/passwords for the EJMS!  
+- Write a follow-up paper to LPR  
+    - first draft done, working on second draft
 - Continue NIJ grant to validate FDE conclusions  
-- Work with Amy on the CSAFE Handwriting project  
-- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
-- Write a paper for LPR on approximations to BFs
-- Write a paper on Fiducial Factors with UNC
-
+    - drafted surveys to send out to the examiners with the comparisons
+    - starting to look at kinematic scores
+    - can use these to recreate the static scans
+- Write a paper on Fiducial Factors with UNC  
+    - working on simulations during the hurricane in NC
+    - to be submitted before winter break
+- "Top 10 Things" 
+    - fell by the wayside because I was creating & grading STAT 104 exams
 
 ---
 class: inverse
@@ -357,12 +422,25 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Augmentation
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Recent models have had 92-95% accuracy*
+    - *Images still improving in quality
+    - *Unequal class representation makes "accuracy" not the best measure overall, but is consistent across all previous models so far
+- Augmented images rotate, flip, and shear data to prevent over-fitting
 
+<img src = "images/miranda/9-24-18/aug_circ.png" width="35%"/><img src = "images/miranda/9-24-18/aug_hex.png" width="35%"/>
+
+---
+class:primary
+# Automation...
+
+- On Friday, Susan and I set up scripts to automatically run a new model each night on most recent images
+- Something seemed wrong...
+- Turns out, (4\*4\*4\*4)(11,318) = 2,897,408 >> 45,272 = (11,318)\*4
+    - Now, the script will check whether data has been augmented already...
+
+<img src = "images/miranda/9-24-18/typical-training.png" width="48%"/><img src = "images/miranda/9-24-18/atypical-training.png" width="48%"/>
 
 ---
 class: inverse

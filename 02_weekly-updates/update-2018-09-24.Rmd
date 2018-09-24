@@ -227,9 +227,9 @@ class: inverse
 class: primary
 # Fall Semester Goals
 
-- Data Collection
+- Data Collection <- IRB is in review
 - Expand Bayesian hierarchical model
-    - Formal Model Selection
+    - Formal Model Selection <- Further investigate DIC
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.

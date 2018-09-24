@@ -328,15 +328,31 @@ class: inverse
 
 ---
 class: primary
-# This Fall
+# Baby Powder
 
 * 3D Scans are finished 
 
 * We are currently working out the issues with the flour impressions
    + Changing to Baby Powder
-   + Getting a cart for the camera to help allignment 
-* Have started mud impressions and am getting it fine tuned
-   +3D Scanning 
+   + Getting a cart for the camera to help alignment
+   
+<img src = "images/James/Inv.PNG" width="60%"/>
+
+---
+class: primary
+# Baby Powder
+
+<img src = "images/James/Print.PNG" width="50%"/>
+
+---
+class: primary
+# Mud
+
+* Fine tuning mud impressions 
+   + 3D Scanning 
+   
+<img src = "images/James/Capture2.PNG" width="40%"/>
+<img src = "images/James/Capture3.PNG" width="50%"/>
    
 ---
 class: inverse

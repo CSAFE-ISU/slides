@@ -375,26 +375,34 @@ class: primary
     - Finishing up functions so we can run downstream  
     - Starting to write up methodology  
     
+---
+class: inverse
+# Danica  
+
+---
+class: primary   
+# Fall Semester Update  
+
+- Submit draft BF vs. LR paper to AOS 
+    - nearly done ...
+    - forgot all my usernames/passwords for the EJMS!  
+- Write a follow-up paper to LPR  
+    - first draft done, working on second draft
+- Continue NIJ grant to validate FDE conclusions  
+    - drafted surveys to send out to the examiners with the comparisons
+    - starting to look at kinematic scores
+    - can use these to recreate the static scans
+- Write a paper on Fiducial Factors with UNC  
+    - working on simulations during the hurricane in NC
+    - to be submitted before winter break
+- "Top 10 Things" 
+    - fell by the wayside because I was creating & grading STAT 104 exams
 
 ---
 class: inverse
 # Miranda
 
 ---
-class: primary
-# Fall Semester Goals
-
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
-
-
----
-class: inverse
-# Danica  
-
----
-<<<<<<< HEAD
 class: primary
 # Augmentation
 
@@ -413,25 +421,6 @@ class:primary
 - Something seemed wrong...
 - Turns out, (4\*4\*4\*4)(11,318) = 2,897,408 >> 45,272 = (11,318)\*4
     - Now, the script will check whether data has been augmented already...
-=======
-class: primary   
-# Fall Semester Update  
-
-- Submit draft BF vs. LR paper to AOS 
-    - nearly done ...
-    - forgot all my usernames/passwords for the EJMS!  
-- Write a follow-up paper to LPR  
-    - first draft done, working on second draft
-- Continue NIJ grant to validate FDE conclusions  
-    - drafted surveys to send out to the examiners with the comparisons
-    - starting to look at kinematic scores
-    - can use these to recreate the static scans
-- Write a paper on Fiducial Factors with UNC  
-    - working on simulations during the hurricane in NC
-    - to be submitted before winter break
-- "Top 10 Things" 
-    - fell by the wayside because I was creating & grading STAT 104 exams
->>>>>>> d6ab066f83fa18322f9d51e05b1cc3091836f3c8
 
 <img src = "images/miranda/9-24-18/typical-training.png" width="48%"/><img src = "images/miranda/9-24-18/atypical-training.png" width="48%"/>
 

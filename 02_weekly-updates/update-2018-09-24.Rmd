@@ -346,7 +346,8 @@ class: primary
 class: primary
 # Baby Powder
 
-<img src = "images/James/Print.png" width="50%"/>
+<img src = "images/James/Print.png" width="55%"/>
+
 
 ---
 class: primary
@@ -356,8 +357,7 @@ class: primary
    + 3D Scanning 
    
 <img src = "images/James/Capture2.PNG" width="40%"/>
-<img src = "images/James/Capture3.PNG" width="50%"/>
-   
+<img src = "images/James/DryDirt.PNG" width="50%"/>  
 ---
 class: inverse
 # Kiegan  

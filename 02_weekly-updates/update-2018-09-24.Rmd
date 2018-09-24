@@ -370,12 +370,25 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Augmentation
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Recent models have had 92-95% accuracy*
+    - *Images still improving in quality
+    - *Unequal class representation makes "accuracy" not the best measure overall, but is consistent across all previous models so far
+- Augmented images rotate, flip, and shear data to prevent over-fitting
 
+<img src = "images/miranda/9-24-18/aug_circ.png" width="35%"/><img src = "images/miranda/9-24-18/aug_hex.png" width="35%"/>
+
+---
+class:primary
+# Automation...
+
+- On Friday, Susan and I set up scripts to automatically run a new model each night on most recent images
+- Something seemed wrong...
+- Turns out, (4\*4\*4\*4)(11,318) = 2,897,408 >> 45,272 = (11,318)\*4
+    - Now, the script will check whether data has been augmented already...
+
+<img src = "images/miranda/9-24-18/typical-training.png" width="48%"/><img src = "images/miranda/9-24-18/atypical-training.png" width="48%"/>
 
 ---
 class: inverse

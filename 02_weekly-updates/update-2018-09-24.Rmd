@@ -134,9 +134,16 @@ class: inverse
 class: primary
 # Bullets
 
-- Hamby 44 analysis
-    - Goal is to compare Hamby 36 to Hamby 44
-    - Hopefully will be finished later today
+- Hamby 44 analysis - compare Hamby 36 to Hamby 44
+    - ~~Hopefully will be finished later today~~     
+    Finished last Monday. Results are a little weird, but not too bad.
+- Resampling with `bulletsamplr` package:     
+Use time-series bootstrap methods that ensure continuity (threshold bootstrap) to build a bullet signature using pieces of previously generated signatures
+    - Did this week: Got a database of cycles populated with Hamby 36 and Hamby 44 signatures
+    - Short term goal: Get the methods working
+    - Long term goal: Calculate truly "random" match score statistics to get null distributions
+
+
 
 ---
 class: primary
@@ -144,9 +151,10 @@ class: primary
 
 - `ShoeAlignR` package renamed to `ImageAlignR` 
     - useful for fingerprints as well
-    - algorithms aren't working with color images yet... not sure why
+    <!-- - algorithms aren't working with color images yet... not sure why -->
 - Implemented an alignment algorithm from a [Kaggle post](https://www.kaggle.com/vicensgaitan/image-registration-the-r-way/notebook)
     - Harris Corner detection + KNN features + RANSAC to find a matching transformation for alignment
+    - Added SURF feature detector from `image.dlib` package
 
 ---
 class: primary
@@ -177,12 +185,25 @@ class: primary
 # Image Alignment
 
 - Still to do:
-    - Need to add a better feature detector - corner detection misses some shoe features
+    - ~~Need to add a better feature detector - corner detection misses some shoe features~~
     - Figure out whether the algorithm isn't working on certain shoes:
         - Image cleaning?
         - Poor feature detection?
         - Different people wearing the shoes?
+            - The algorithm does much better when aligning shoes at the same timepoint (but still isn't perfect)
+    - Get the algorithm working on color images
+    - Use on fingerprint data
 
+---
+class: primary
+# Neural Networks
+
+- Add features to shiny app that facilitate debugging/fixing labels
+    - Chunk image linked directly to LabelMe page for the shoe
+- Automate generation of labeled images (at 5pm daily) and integrate with model script
+    - Shrink large regions down instead of slicing them up
+    - No more filling in white pixels with the mean pixel value
+- New model is fit every night after image generation is done
 
 
 ---

@@ -1,15 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for September 24</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for September 24
+### 2018/09/24
+
 ---
-title: "Weekly Update for September 24"
-date: "2018/09/24"
-output:
-  xaringan::moon_reader:
-    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
----
+
 
 
 class: inverse
@@ -79,7 +85,7 @@ class: secondary
 - If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
 
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
  
 
 ---
@@ -110,7 +116,7 @@ class: primary
 - KM (716) : Between replicates
 - KNM (599) : Between shoe IDs
 - KNM example between ID 1 and ID2 of size 10.5 at time 4
- <img src="images/soyoung/edge_ex.PNG" width="60%">
+ &lt;img src="images/soyoung/edge_ex.PNG" width="60%"&gt;
 
 
 ---
@@ -120,7 +126,7 @@ class: primary
 - KM (716) : Between replicates
 - KNM (599) : Between shoe IDs
 - Edge matching with three circles
- <img src="images/soyoung/nike_6plots.png" width="80%">
+ &lt;img src="images/soyoung/nike_6plots.png" width="80%"&gt;
 
     
 ---
@@ -143,8 +149,8 @@ class: primary
 - Looking into "mutual information" between the distribution of the data given a score vs the unconditional distribution of the data to measure information loss 
     - Can potentially estimate this numerically
     
-- Putting a prior on $H_0$ vs $H_A$ results in an interesting(?) equality
-    - $\log(LR) - \log(SLR) = \frac{1}{p(H_A | X,S)} \left[KL(p(M|X,S) || p(M|S)) - \log(\frac{p(H_0|X,S)}{p(H_0|S)}) \right]$
+- Putting a prior on `\(H_0\)` vs `\(H_A\)` results in an interesting(?) equality
+    - `\(\log(LR) - \log(SLR) = \frac{1}{p(H_A | X,S)} \left[KL(p(M|X,S) || p(M|S)) - \log(\frac{p(H_0|X,S)}{p(H_0|S)}) \right]\)`
     - Is it possible to compute a reasonable upper bound for this, specific to the score distribution of interest? 
     - What does it mean that the left side is independent of prior, but right side is not?
 
@@ -174,7 +180,7 @@ class: primary
 
 - `ShoeAlignR` package renamed to `ImageAlignR` 
     - useful for fingerprints as well
-    <!-- - algorithms aren't working with color images yet... not sure why -->
+    &lt;!-- - algorithms aren't working with color images yet... not sure why --&gt;
 - Implemented an alignment algorithm from a [Kaggle post](https://www.kaggle.com/vicensgaitan/image-registration-the-r-way/notebook)
     - Harris Corner detection + KNN features + RANSAC to find a matching transformation for alignment
     - Added SURF feature detector from `image.dlib` package
@@ -183,13 +189,13 @@ class: primary
 class: primary
 # Image Alignment
 
-<img src = "images/susan/ShoeAlignNikeByCheckin.png" width = "100%"/>
+&lt;img src = "images/susan/ShoeAlignNikeByCheckin.png" width = "100%"/&gt;
 
 ---
 class: primary
 # Image Alignment
 
-<img src = "images/susan/ShoeRANSACNikeByCheckin.png" width = "100%"/>
+&lt;img src = "images/susan/ShoeRANSACNikeByCheckin.png" width = "100%"/&gt;
 
 - Orange points - interesting feature for the first image
 - Purple points - similar feature in 2nd image
@@ -198,7 +204,7 @@ class: primary
 class: primary
 # Image Alignment
 
-<img src = "images/susan/ShoeOverlayNikeByCheckin.png" width = "100%"/>
+&lt;img src = "images/susan/ShoeOverlayNikeByCheckin.png" width = "100%"/&gt;
 - Red = appears in warped image only
 - Blue = appears in unwarped image only
 - Black = appears in both images (overlapped points)
@@ -240,14 +246,14 @@ class: primary
 - Data Collection
 - Expand Bayesian hierarchical model
     - **Formal Model Selection**
-        - <span style="color:red">Further investigation of DIC</span>
-        - <span style="color:red">Still waiting on IT to get access to JAGS 4.3.0 (bug fix)...</span>
+        - &lt;span style="color:red"&gt;Further investigation of DIC&lt;/span&gt;
+        - &lt;span style="color:red"&gt;Still waiting on IT to get access to JAGS 4.3.0 (bug fix)...&lt;/span&gt;
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.
 - Exploritory analysis of 'next level' features (AAFS)
     - **Work with Ben and Nick**
-        - <span style="color:red">Node/Grapheme counts & FlashID Data...</span>
+        - &lt;span style="color:red"&gt;Node/Grapheme counts &amp; FlashID Data...&lt;/span&gt;
     
 ---
 class: inverse
@@ -256,16 +262,16 @@ class: inverse
 ---
 class: primary
 # Improvements!
-<img src = "images/ben/csafe_single_vs.png" width="35%"/>
+&lt;img src = "images/ben/csafe_single_vs.png" width="35%"/&gt;
 
 
 ---
 class: primary
-<img src = "images/ben/noclean_wow.png" width="35%"/>
+&lt;img src = "images/ben/noclean_wow.png" width="35%"/&gt;
 
 ---
 class: primary
-<img src = "images/ben/good_zoom_hole_open.png" width="35%"/>
+&lt;img src = "images/ben/good_zoom_hole_open.png" width="35%"/&gt;
 
 - Wrappers for testing created
 - Improvements to structure and performance
@@ -285,7 +291,7 @@ class: primary
 
 - This is a good 4 node grapheme. We would like to do this.
 
-<img src = "images/Nick/Good4grapheme.png" width="35%"/>
+&lt;img src = "images/Nick/Good4grapheme.png" width="35%"/&gt;
 
 ---
 class: primary
@@ -293,7 +299,7 @@ class: primary
 
 - This is a bad 4 node grapheme. We would NOT like to do this.
 
-<img src = "images/Nick/Bad4nodes.png" width="35%"/>
+&lt;img src = "images/Nick/Bad4nodes.png" width="35%"/&gt;
 
 ---
 class: inverse
@@ -320,9 +326,9 @@ class: primary
 - writing R packages with SP
     + glass 
     + shoes
-    + "uncertainty pyramid" stuff with SL & HI
+    + "uncertainty pyramid" stuff with SL &amp; HI
 - working on book funded by ROpenSci Fellowship 
-- narrowing down topics & formats for new CSAFE training materials 
+- narrowing down topics &amp; formats for new CSAFE training materials 
 - writing "Ten Simple Rules for..." articles with DO
     + statisticians doing forensic science
     + forensic scientists doing statistics
@@ -357,14 +363,14 @@ class: primary
    + Changing to Baby Powder
    + Getting a cart for the camera to help alignment
    
-<img src = "images/James/Inv.png" width="60%"/>
+&lt;img src = "images/James/Inv.png" width="60%"/&gt;
 
 
 ---
 class: primary
 # Baby Powder
 
-<img src = "images/James/Print.png" width="55%"/>
+&lt;img src = "images/James/Print.png" width="55%"/&gt;
 
 
 ---
@@ -374,8 +380,8 @@ class: primary
 * Fine tuning mud impressions 
    + 3D Scanning 
    
-<img src = "images/James/Capture2.PNG" width="40%"/>
-<img src = "images/James/DryDirt.PNG" width="50%"/>  
+&lt;img src = "images/James/Capture2.PNG" width="40%"/&gt;
+&lt;img src = "images/James/DryDirt.PNG" width="50%"/&gt;  
 ---
 class: inverse
 # Kiegan  
@@ -387,7 +393,7 @@ class: primary
 
 - **Submit to AFTE journal**  
     - First round of edits complete
-- Complete writing of Chapman & Hall book  
+- Complete writing of Chapman &amp; Hall book  
 - **Write a joint paper with Nate on grooves project**  
     - Organizational work  
     - Finishing up functions so we can run downstream  
@@ -414,7 +420,7 @@ class: primary
     - working on simulations during the hurricane in NC
     - to be submitted before winter break
 - "Top 10 Things" 
-    - fell by the wayside because I was creating & grading STAT 104 exams
+    - fell by the wayside because I was creating &amp; grading STAT 104 exams
 
 ---
 class: inverse
@@ -429,7 +435,7 @@ class: primary
     - *Unequal class representation makes "accuracy" not the best measure overall, but is consistent across all previous models so far
 - Augmented images rotate, flip, and shear data to prevent over-fitting
 
-<img src = "images/miranda/9-24-18/aug_circ.png" width="35%"/><img src = "images/miranda/9-24-18/aug_hex.png" width="35%"/>
+&lt;img src = "images/miranda/9-24-18/aug_circ.png" width="35%"/&gt;&lt;img src = "images/miranda/9-24-18/aug_hex.png" width="35%"/&gt;
 
 ---
 class:primary
@@ -437,10 +443,10 @@ class:primary
 
 - On Friday, Susan and I set up scripts to automatically run a new model each night on most recent images
 - Something seemed wrong...
-- Turns out, (4\*4\*4\*4)(11,318) = 2,897,408 >> 45,272 = (11,318)\*4
+- Turns out, (4\*4\*4\*4)(11,318) = 2,897,408 &gt;&gt; 45,272 = (11,318)\*4
     - Now, the script will check whether data has been augmented already...
 
-<img src = "images/miranda/9-24-18/typical-training.png" width="48%"/><img src = "images/miranda/9-24-18/atypical-training.png" width="48%"/>
+&lt;img src = "images/miranda/9-24-18/typical-training.png" width="48%"/&gt;&lt;img src = "images/miranda/9-24-18/atypical-training.png" width="48%"/&gt;
 
 ---
 class: inverse
@@ -451,5 +457,51 @@ class: secondary
 
 - [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
 - One issue down, three to go.
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
-
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -274,7 +274,26 @@ class: inverse
 # Nick
 
 ---
+class: primary
+# Actual Node Counts
 
+![](images/Nick/RealNodeCounts.png)
+
+---
+class: primary
+# Flash ID 4 Node Grapheme
+
+- This is a good 4 node grapheme. We would like to do this.
+
+<img src = "images/Nick/Good4grapheme.png" width="35%"/>
+
+---
+class: primary
+# Flash ID 4 Node Grapheme
+
+- This is a bad 4 node grapheme. We would NOT like to do this.
+
+<img src = "images/Nick/Bad4nodes.png" width="35%"/>
 
 ---
 class: inverse

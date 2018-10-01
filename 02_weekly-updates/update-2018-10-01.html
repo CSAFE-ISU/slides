@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for October 1</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for October 1
+### 2018/10/01
+
+---
+
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+---
+class: inverse
+# Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table. Sam Tyner talked about the three must-haves of your summary:
+
+
+
+| Must-have | It means |
+| :------   | :------- |
+| Context | Why are you doing what you're doing? "I'm working on X project in order to Y" |
+| Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
+| Conclusion | What did you learn? "This will help me because it..." or "This important because it gets us to..." |
+
+
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
+ 
+
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Update on plans: 
+
+- submit papers from thesis for publication
+    + **Chapter 1 ready to submit this week**
+    + Chapter 2 up next
+- writing R packages with SP
+    + glass 
+    + shoes
+    + "uncertainty pyramid" stuff with SL &amp; HI
+- **Glass EDA paper** with SP. **Poster at Forensics@NIST**  
+- working on book funded by ROpenSci Fellowship 
+- ~~narrowing down topics &amp; formats for new CSAFE training materials~~ **Preparing talk for Albany State University's Forensic Science week next week (!)**
+- writing "Ten Simple Rules for..." articles with DO
+    + statisticians doing forensic science
+    + forensic scientists doing statistics
+    + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+    
+---
+class: primary
+# PCA on Glass data
+
+Variable loadings: variables near each other are correlated 
+
+![](images/sam/pca_loadings_glass.png)
+
+---
+class: primary
+# Var. Imp. Mfr A
+
+&lt;iframe src="images/sam/mfr-a-three-most-imp-vars.html" height="550" width="800"&gt;&lt;/iframe&gt;
+
+---
+class: inverse
+# Guillermo
+
+---
+class: primary
+# Plans for this Fall
+
+- Complete adaptation of registration of 3D scans in R and perform analysis
+
+- Complete shiny app for 2D outsole scans registration
+
+- Write paper of the database which must include some data analysis
+
+- Write paper on speaker recognition (w/Vianey Leos)
+
+---
+class: inverse
+# James
+
+---
+class: primary
+# Currently 
+
+* Science Bound Saturday
+   + 24 High School Students, many interested in Forensics
+   + One very interested in forensics and statistics 
+   + Lots of great questions
+   
+* Developed the 3D written procedure specifically for mud and dirt prints
+
+* Ironed out what images will be taken
+
+* Started 3D scanning shoes that do not have complete sets (50 pairs)
+---
+class: primary
+# Cart 
+
+* Data Collection on Hold
+   + Consistency in Photographs - building a rolling camera cart
+   
+   
+&lt;img src = "images/James/Cart.png" width="60%"/&gt;
+---
+class: inverse
+# Soyoung
+
+---
+class: primary
+# Fall semester plans: 
+ - Shoes
+    + Wrap up shoe analysis using edges and SURF 
+    + Compare the performance with other methods such as phase only correlations, Fourier-Mellin transformation correlation
+    + Do analysis with CSAFE shoe data
+    + Submit papers regarding shoe analysis soon!
+   
+- Research on "uncertainty pyramid" with Steve and Hari at NIST   
+ - Glass analysis with Sam
+    + Exploratory analysis 
+    + Various covariance estimations
+    + Submit papers!
+   
+- Working on book chapters of glass and shoes funded by ROpenSci Fellowship 
+
+---
+class: primary
+# Analysis result with CSAFE shoe data 
+- All nike shoes with size of 8.5 and 10.5 at time 4 (6 months)
+- KM (210) : Between replicates within IDs
+- KNM (180) : Between IDs
+- Methods : Edge matching with three circles and RF for score, phase-only correlation (POC), Fourier-Mellin transform correlation (FMTC)
+ &lt;img src="images/soyoung/ROC_rf_POC_FTC.PNG" width="60%"&gt;
+
+
+
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Fall Semester Goals
+
+- **Data Collection** &lt;/font&gt; &lt;font color="red"&gt;Things are happening.&lt;/font&gt;
+- Expand Bayesian hierarchical model
+    - **Formal Model Selection** &lt;/font&gt; &lt;font color="red"&gt;Still focused here.&lt;/font&gt;
+    - Tests and Intervals
+    - Validation
+- Write and submit a paper on that modeling.
+- Exploritory analysis of 'next level' features (AAFS)
+    - **Work with Ben and Nick** 
+        - &lt;/font&gt; &lt;font color="red"&gt;FlashID data - this week?&lt;/font&gt;
+        - &lt;/font&gt; &lt;font color="red"&gt;Re-extract data &amp; re-run models&lt;/font&gt;
+    
+---
+class: inverse
+# Ben
+
+---
+class: primary
+# Semester Intentions
+&lt;img src = "images/ben/stack.jpg" width="35%"/&gt;
+- Collaborate w/Nic &amp; Amy to improve handwriting project
+- Develop improvements / features part of algorithm
+- Eventually port algorithm through an application portal
+- Improve file structure of project
+- Working on preprocessing binary image
+  - Prototyping w/ Numba &amp; Python
+  - Testing performance relative to Cpp
+  - Hope to expedite development
+
+---
+class: inverse
+# Nick
+
+---
+class: secondary
+
+ - Working on correcting node count. Difficult to detect sharp turns.
+
+---
+class: inverse
+# Ganesh
+
+---
+class: secondary
+
+ - Literature Review
+ 
+ - Zhou J., Arshad S.Z., Luo S., Chen F. (2017) Effects of Uncertainty and Cognitive Load on User Trust in Predictive Decision Making. In: Bernhaupt R., Dalvi G., Joshi A., K. Balkrishan D., O'Neill J., Winckler M. (eds) Human-Computer Interaction - INTERACT 2017. INTERACT 2017. Lecture Notes in Computer Science, vol 10516. Springer, Cham
+https://csjzhou.github.io/papers/INTERACT2017_Effects_Trust.pdf
+
+---
+class: inverse
+# Nate
+
+
+---
+class: primary
+# Groove ID
+
+&lt;img src = "images/Nate/results_comp_hamby44.PNG" width="100%" height="100%"/&gt;
+
+---
+class: secondary
+
+&lt;img src = "images/Nate/results_comparison_hamby44_zoom.PNG" width="100%" height="100%"/&gt;
+   
+---
+class: secondary
+
+&lt;img src = "images/Nate/land13.PNG" width="100%" height="100%"/&gt;
+
+---
+class: secondary
+
+&lt;img src = "images/Nate/land14.PNG" width="100%" height="100%"/&gt;
+
+---
+class: secondary
+
+&lt;img src = "images/Nate/land23.PNG" width="100%" height="100%"/&gt;
+
+---
+class: inverse
+# Kiegan  
+
+
+---
+class: primary   
+# Fall Semester Goals  
+
+- Submit to AFTE journal  
+- Complete writing of Chapman &amp; Hall book  
+- **Write a joint paper with Nate on grooves project**  
+    - Outline ready to go  
+    - Starting "bake-off" and writing soon  
+- Data structure issue  
+
+
+---
+class: primary  
+# Data structure issue  
+![](images/kiegan/median_hamby.png)  
+
+
+---
+class: primary  
+# Data structure issue  
+![](images/kiegan/median_houston.png)  
+
+---
+class: inverse
+# Danica  
+
+---
+class: primary   
+# Fall Semester Update  
+
+- Submit BF vs. LR paper to AOS 
+    - Done!  
+- Write a follow-up paper to LPR  
+    - working on making second draft less technical
+- Continue NIJ grant to validate FDE conclusions  
+    - received survey results from pilot set of examiners
+    - starting to look at kinematic/dynamic scores
+    - can use these to recreate the static scans
+- New NIJ grant awarded!
+    - Co-PI with Larry Tang from NIST/GMU
+    - 1 yr. = approx. $200,000
+    - error rates
+    - conclusion scales
+
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Sorry I can't be there today! 
+
+Last week, I worked on:
+
+- Debugging picture labeling for Neural Network, working through model issues
+- Relabeling pictures (manual tagging)
+- Bullet resampling - package works, needs to be faster
+- Pestering IT about the Shoe Database frontend (sigh)
+- (w/ Nick) Handwriting methods applied to fingerprints - not bad, but picture quality issues
+
+This week:
+
+ - More debugging of NN model
+ - Refactor bullet resampling package
+ - More fingerprint and shoe alignment
+
+
+
+---
+class: inverse
+# Miranda
+
+
+---
+class: primary
+# More Surprises
+
+- Class confusion matrix is informative for models from two weeks ago, but very strange for most recent models
+
+&lt;img src = "images/miranda/18-10-1/ConfusionMatrix.png" width="48%"/&gt;&lt;img src = "images/miranda/18-10-1/ConfusionMatrix2.png" width="48%"/&gt;
+
+---
+class: primary
+# Image Quantity
+
+- Might be an issue of relative quantities between classes
+- May combine pentagon and hexagon
+- May also augment classes proportionally
+&lt;img src = "images/miranda/18-10-1/ImageQuantity.png" width="70%"/&gt;
+
+
+---
+class: inverse
+# Issues
+
+---
+class: secondary
+
+- [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
+- One issue down, three to go.
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

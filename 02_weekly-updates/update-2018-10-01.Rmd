@@ -133,7 +133,7 @@ class: primary
    
 * Data Collection on Hold
    + Consistency in Photographs - building a rolling camera cart
-<img src = "images/James/Cart.PNG" width="60%"/>
+<img src = "images/James/Cart.png" width="60%"/>
 ---
 class: inverse
 # Soyoung

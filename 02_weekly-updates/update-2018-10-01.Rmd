@@ -127,12 +127,23 @@ class: primary
 # Currently 
 
 * Science Bound Saturday
-   + 24 High School Students, Many interested in Forensics
+   + 24 High School Students, many interested in Forensics
    + One very interested in forensics and statistics 
    + Lots of great questions
    
+* Developed the 3D written procedure specifically for mud and dirt prints
+
+* Ironed out what images will be taken
+
+* Started 3D scanning shoes that do not have complete sets (50 pairs)
+---
+class: primary
+# Cart 
+
 * Data Collection on Hold
    + Consistency in Photographs - building a rolling camera cart
+   
+   
 <img src = "images/James/Cart.png" width="60%"/>
 ---
 class: inverse

@@ -219,17 +219,9 @@ class: inverse
 
 ---
 class: primary
-# Semester Intentions
-<img src = "images/ben/stack.jpg" width="35%"/>
-- Collaborate w/Nic & Amy to improve handwriting project
-- Develop improvements / features part of algorithm
-- Eventually port algorithm through an application portal
-- Improve file structure of project
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
-
+ - Removing odd behaviors
+ - Performance improvements
+   <img src="images/ben/good_zoom_hole_open_2.png" width="40%" height="40%"/>
 ---
 class: inverse
 # Nick

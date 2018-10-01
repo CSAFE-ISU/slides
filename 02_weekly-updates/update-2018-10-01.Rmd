@@ -141,19 +141,27 @@ class: inverse
 
 ---
 class: primary
-# This Fall
+# Currently 
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
-   + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
+* Science Bound Saturday
+   + 24 High School Students, many interested in Forensics
+   + One very interested in forensics and statistics 
+   + Lots of great questions
+   
+* Developed the 3D written procedure specifically for mud and dirt prints
 
+* Ironed out what images will be taken
+
+* Started 3D scanning shoes that do not have complete sets (50 pairs)
+---
+class: primary
+# Cart 
+
+* Data Collection on Hold
+   + Consistency in Photographs - building a rolling camera cart
+   
+   
+<img src = "images/James/Cart.png" width="60%"/>
 ---
 class: inverse
 # Soyoung
@@ -218,10 +226,7 @@ class: inverse
 ---
 class: secondary
 
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
+ - Working on correcting node count. Difficult to detect sharp turns.
 
 ---
 class: inverse
@@ -230,11 +235,30 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
-- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
-- Finish groove changepoint detection algorithm version 2 and test on all available data
-- Write paper with Kiegan on groove results
+# Groove ID
+
+<img src = "images/Nate/results_comp_hamby44.PNG" width="100%" height="100%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/results_comparison_hamby44_zoom.PNG" width="100%" height="100%"/>
    
+---
+class: secondary
+
+<img src = "images/Nate/land13.PNG" width="100%" height="100%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/land14.PNG" width="100%" height="100%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/land23.PNG" width="100%" height="100%"/>
+
 ---
 class: inverse
 # Kiegan  
@@ -246,13 +270,22 @@ class: primary
 
 - Submit to AFTE journal  
 - Complete writing of Chapman & Hall book  
-    - Working on this from home T/Th  
-- Write a joint paper with Nate on grooves project  
-    - Probably aim for Journal of Forensic Sciences  
-    - Compare/contrast of methodologies
-    - Downstream impact on the algorithm!  
-- Taking one class (Stat 643) and research credits  
+- **Write a joint paper with Nate on grooves project**  
+    - Outline ready to go  
+    - Starting "bake-off" and writing soon  
+- Data structure issue  
 
+
+---
+class: primary  
+# Data structure issue  
+![](images/kiegan/median_hamby.png)  
+
+
+---
+class: primary  
+# Data structure issue  
+![](images/kiegan/median_houston.png)  
 
 ---
 class: inverse

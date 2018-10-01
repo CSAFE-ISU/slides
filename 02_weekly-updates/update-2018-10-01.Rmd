@@ -127,12 +127,23 @@ class: primary
 # Currently 
 
 * Science Bound Saturday
-   + 24 High School Students, Many interested in Forensics
+   + 24 High School Students, many interested in Forensics
    + One very interested in forensics and statistics 
    + Lots of great questions
    
+* Developed the 3D written procedure specifically for mud and dirt prints
+
+* Ironed out what images will be taken
+
+* Started 3D scanning shoes that do not have complete sets (50 pairs)
+---
+class: primary
+# Cart 
+
 * Data Collection on Hold
    + Consistency in Photographs - building a rolling camera cart
+   
+   
 <img src = "images/James/Cart.png" width="60%"/>
 ---
 class: inverse
@@ -245,13 +256,22 @@ class: primary
 
 - Submit to AFTE journal  
 - Complete writing of Chapman & Hall book  
-    - Working on this from home T/Th  
-- Write a joint paper with Nate on grooves project  
-    - Probably aim for Journal of Forensic Sciences  
-    - Compare/contrast of methodologies
-    - Downstream impact on the algorithm!  
-- Taking one class (Stat 643) and research credits  
+- **Write a joint paper with Nate on grooves project**  
+    - Outline ready to go  
+    - Starting "bake-off" and writing soon  
+- Data structure issue  
 
+
+---
+class: primary  
+# Data structure issue  
+![](images/kiegan/median_hamby.png)  
+
+
+---
+class: primary  
+# Data structure issue  
+![](images/kiegan/median_houston.png)  
 
 ---
 class: inverse

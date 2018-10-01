@@ -237,13 +237,22 @@ class: primary
 
 - Submit to AFTE journal  
 - Complete writing of Chapman & Hall book  
-    - Working on this from home T/Th  
-- Write a joint paper with Nate on grooves project  
-    - Probably aim for Journal of Forensic Sciences  
-    - Compare/contrast of methodologies
-    - Downstream impact on the algorithm!  
-- Taking one class (Stat 643) and research credits  
+- **Write a joint paper with Nate on grooves project**  
+    - Outline ready to go  
+    - Starting "bake-off" and writing soon  
+- Data structure issue  
 
+
+---
+class: primary  
+# Data structure issue  
+![](images/kiegan/median_hamby.png)  
+
+
+---
+class: primary  
+# Data structure issue  
+![](images/kiegan/median_houston.png)  
 
 ---
 class: inverse

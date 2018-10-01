@@ -304,15 +304,21 @@ class: inverse
 
 ---
 class: primary   
-# Fall Semester Goals  
+# Fall Semester Update  
 
-- Submit draft BF vs. LR paper to AOS  
-    - Write a follow-up paper to LPR  
+- Submit BF vs. LR paper to AOS 
+    - Done!  
+- Write a follow-up paper to LPR  
+    - working on making second draft less technical
 - Continue NIJ grant to validate FDE conclusions  
-- Work with Amy on the CSAFE Handwriting project  
-- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
-- Write a paper for LPR on approximations to BFs
-- Write a paper on Fiducial Factors with UNC
+    - received survey results from pilot set of examiners
+    - starting to look at kinematic/dynamic scores
+    - can use these to recreate the static scans
+- New NIJ grant awarded!
+    - Co-PI with Larry Tang from NIST/GMU
+    - 1 yr. = approx. $200,000
+    - error rates
+    - conclusion scales
 
 
 ---

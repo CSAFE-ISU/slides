@@ -273,17 +273,23 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Sorry I can't be there today! 
 
-- `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
+Last week, I worked on:
+
+- Debugging picture labeling for Neural Network, working through model issues
+- Relabeling pictures (manual tagging)
+- Bullet resampling - package works, needs to be faster
+- Pestering IT about the Shoe Database frontend (sigh)
+- (w/ Nick) Handwriting methods applied to fingerprints - not bad, but picture quality issues
+
+This week:
+
+ - More debugging of NN model
+ - Refactor bullet resampling package
+ - More fingerprint and shoe alignment
+
+
 
 ---
 class: inverse

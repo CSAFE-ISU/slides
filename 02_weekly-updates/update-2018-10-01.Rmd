@@ -161,6 +161,7 @@ class: primary
    
    
 <img src = "images/James/Cart.png" width="60%"/>
+
 ---
 class: inverse
 # Soyoung

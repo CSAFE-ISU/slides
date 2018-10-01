@@ -167,6 +167,17 @@ class: primary
 - Working on book chapters of glass and shoes funded by ROpenSci Fellowship 
 
 ---
+class: primary
+# Analysis result with CSAFE shoe data 
+- All nike shoes with size of 8.5 and 10.5 at time 4 (6 months)
+- KM (210) : Between replicates within IDs
+- KNM (180) : Between IDs
+- Methods : Edge matching with three circles and RF for score, phase-only correlation (POC), Fourier-Mellin transform correlation (FMTC)
+ <img src="images/soyoung/ROC_rf_POC_FTC.PNG" width="60%">
+
+
+
+---
 class: inverse
 # Amy
 

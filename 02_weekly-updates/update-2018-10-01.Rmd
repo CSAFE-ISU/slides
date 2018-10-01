@@ -88,19 +88,36 @@ class: inverse
 
 ---
 class: primary
-# Fall semester plans: 
+# Update on plans: 
 
 - submit papers from thesis for publication
+    + **Chapter 1 ready to submit this week**
+    + Chapter 2 up next
 - writing R packages with SP
     + glass 
     + shoes
     + "uncertainty pyramid" stuff with SL & HI
+- **Glass EDA paper** with SP. **Poster at Forensics@NIST**  
 - working on book funded by ROpenSci Fellowship 
-- narrowing down topics & formats for new CSAFE training materials 
+- ~~narrowing down topics & formats for new CSAFE training materials~~ **Preparing talk for Albany State University's Forensic Science week next week (!)**
 - writing "Ten Simple Rules for..." articles with DO
     + statisticians doing forensic science
     + forensic scientists doing statistics
     + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+    
+---
+class: primary
+# PCA on Glass data
+
+Variable loadings: variables near each other are correlated 
+
+![](images/sam/pca_loadings_glass.png)
+
+---
+class: primary
+# Var. Imp. Mfr A
+
+<iframe src="images/sam/mfr-a-three-most-imp-vars.html" height="550" width="800"></iframe>
 
 ---
 class: inverse

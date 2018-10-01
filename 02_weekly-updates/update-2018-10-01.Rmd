@@ -210,11 +210,30 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
-- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
-- Finish groove changepoint detection algorithm version 2 and test on all available data
-- Write paper with Kiegan on groove results
+# Groove ID
+
+<img src = "images/Nate/results_comp_hamby44.PNG" width="100%" height="100%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/results_comparison_hamby44_zoom.PNG" width="100%" height="100%"/>
    
+---
+class: secondary
+
+<img src = "images/Nate/land13.PNG" width="100%" height="100%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/land14.PNG" width="100%" height="100%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/land23.PNG" width="100%" height="100%"/>
+
 ---
 class: inverse
 # Kiegan  

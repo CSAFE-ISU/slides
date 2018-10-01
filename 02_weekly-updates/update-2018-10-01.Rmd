@@ -166,14 +166,16 @@ class: inverse
 class: primary
 # Fall Semester Goals
 
-- Data Collection
+- **Data Collection** </font> <font color="red">Things are happening.</font>
 - Expand Bayesian hierarchical model
-    - Formal Model Selection
+    - **Formal Model Selection** </font> <font color="red">Still focused here.</font>
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.
 - Exploritory analysis of 'next level' features (AAFS)
-    - Work with Ben and Nick
+    - **Work with Ben and Nick** 
+        - </font> <font color="red">FlashID data - this week?</font>
+        - </font> <font color="red">Re-extract data & re-run models</font>
     
 ---
 class: inverse

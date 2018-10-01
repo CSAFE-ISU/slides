@@ -124,19 +124,16 @@ class: inverse
 
 ---
 class: primary
-# This Fall
+# Currently 
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
-   + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
-
+* Science Bound Saturday
+   + 24 High School Students, Many interested in Forensics
+   + One very interested in forensics and statistics 
+   + Lots of great questions
+   
+* Data Collection on Hold
+   + Consistency in Photographs - building a rolling camera cart
+<img src = "images/James/Cart.PNG" width="60%"/>
 ---
 class: inverse
 # Soyoung

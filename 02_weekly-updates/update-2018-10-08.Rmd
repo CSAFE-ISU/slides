@@ -19,7 +19,7 @@ class: inverse
 class: primary 
 # New CSAFE slide template
 
-We're now using [`xaringan`](https://github.com/yihui/xaringan)
+We are now using [`xaringan`](https://github.com/yihui/xaringan)
 
 What's changed: 
 

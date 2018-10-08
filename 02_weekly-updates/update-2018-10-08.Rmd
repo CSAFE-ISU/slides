@@ -226,7 +226,7 @@ class: inverse
 class: primary   
 # Update  
 
-- Submitted Revision 
+- Submitted latest Revision 
 - Literature Review and App development (design changes) in process
 
     

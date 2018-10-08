@@ -310,7 +310,7 @@ class: secondary
 
 - Will read papers suggested by Susan
 
-<img src = "C:/Users/basulto/Dropbox/postdoc/slides/02_weekly-updates/images/guillermo/matscan_mean.png" width="60%", height = "60%"/>
+<img src = "images/guillermo/matscan_mean.png" width="60%", height = "60%"/>
 
 ---
 class: inverse

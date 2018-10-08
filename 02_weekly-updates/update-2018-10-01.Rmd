@@ -190,7 +190,7 @@ class: primary
 - KM (210) : Between replicates within IDs
 - KNM (180) : Between IDs
 - Methods : Edge matching with three circles and RF for score, phase-only correlation (POC), Fourier-Mellin transform correlation (FMTC)
- <img src="images/soyoung/ROC_POC_FMTC_plot.PNG" width="60%">
+ <img src="images/soyoung/RF_POC_FMTC_plot.PNG" width="60%">
 
 
 ---

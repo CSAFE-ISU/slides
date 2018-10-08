@@ -237,10 +237,24 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
-- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
-- Finish groove changepoint detection algorithm version 2 and test on all available data
-- Write paper with Kiegan on groove results
+# Groove ID
+
+<img src = "images/Nate/bcp2_results_nozoom.png" width="100%", height = "100%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/bcp2_results.png" width="100%", height = "100%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/land55_bcp2.png" width="100%", height = "100%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/land191_bcp2.png" width="100%", height = "100%"/>
 
 ---
 class: inverse

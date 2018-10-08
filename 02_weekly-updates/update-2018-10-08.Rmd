@@ -140,11 +140,13 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Model fixed!
+    - After implementing aumentation, one function argument didn't update as expected
+- More quality control, optimize training parameters
+
+ <img src = "images/miranda/18-10-08/ConfMat_18-10-07.png" width="55%"/>
 
 
 

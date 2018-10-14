@@ -128,11 +128,12 @@ class: inverse
 class: primary
 # Preprocessing Complete!
 - Next steps: Character recognition? Other feature detection?
-<img src = "images/ben/openh_9oct.png" width="40%"/>
+
+<img src = "images/ben/openh_9oct.png" width="65%"/>
 
 ---
 class: inverse:
-<img src = "images/ben/goodwordmessage_9oct.png" width="45%"/>
+<img src = "images/ben/goodwordmessage_9oct.png" width="75%"/>
 
 ---
 class: inverse

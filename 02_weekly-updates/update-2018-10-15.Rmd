@@ -9,6 +9,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      beforeInit: "css/macros.js"
 ---
 
 
@@ -335,6 +336,34 @@ class: primary
 <img src = "images/miranda/2018-10-15/onehot-92_labeled_heatmap.png" width="35%"/><img src = "images/miranda/2018-10-15/onehot-3000_labeled_heatmap.png" width="35%"/>
 <img src = "images/miranda/2018-10-15/onehot-1312_labeled_heatmap.png" width="35%"/><img src = "images/miranda/2018-10-15/onehot-165_labeled_heatmap.png" width="35%"/>
 
+
+---
+class: inverse
+# Heike
+
+---
+class: primary
+# CSAFE persistence bullets
+
+![](images/heike/B902-L1-20x.png)
+![:scale 40%](images/heike/B902-L1-50x.png)
+
+
+---
+class: primary
+# CSAFE persistence bullets
+
+Signatures from 20 and 50x magnification
+
+![](images/heike/signatures-raw.png)
+
+---
+class: primary
+# CSAFE persistence bullets
+
+Aligned Signatures from 20 and 50x magnification
+
+![](images/heike/signatures-raw-aligned.png)
 
 ---
 class: inverse

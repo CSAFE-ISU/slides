@@ -254,19 +254,20 @@ class: primary
     - Getting test sets ready
 - **Submit proposal to DFSC for funding**
     - Reworking NIJ Grad Fellowship proposal
-    - Incorporating peer review comments
+    - Incorporating peer review comments  
+    
+    
+---  
+class: primary  
+# Update to plotting results  
+ 
+<img src = "images/kiegan/boxplots_afte_results.png" />  
 
 ---  
 class: primary  
 # Update to plotting results  
  
-<img src = "images/kiegan/boxplots_afte_results.png" />
-
----  
-class: primary  
-# Update to plotting results  
- 
-<img src = "images/kiegan/stacked_bars_afte_results.png" />  
+<img src = "images/kiegan/stacked_bars_afte_results.png" />   
 
 
 

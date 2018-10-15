@@ -111,9 +111,12 @@ class: inverse
 class: primary
 # Fall Semester Goals
 
-- Data Collection
+- **Data Collection**
+    - Moving (slowly).
 - Expand Bayesian hierarchical model
-    - Formal Model Selection
+    - **Formal Model Selection**
+        - Cleaning up code.
+        - Methods other than DIC.
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.

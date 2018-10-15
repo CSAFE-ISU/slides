@@ -243,16 +243,18 @@ class: inverse
 
 ---
 class: primary   
-# Fall Semester Goals  
+# Chugging along!  
 
-- Submit to AFTE journal  
+- **Submit to AFTE journal**  
+    - Getting close!  
 - Complete writing of Chapman & Hall book  
-    - Working on this from home T/Th  
-- Write a joint paper with Nate on grooves project  
-    - Probably aim for Journal of Forensic Sciences  
-    - Compare/contrast of methodologies
-    - Downstream impact on the algorithm!  
-- Taking one class (Stat 643) and research credits  
+    - On pause so we can focus on getting 2 papers ready  
+- **Write a joint paper with Nate on grooves project**  
+    - Integrating in to `bulletxtrctr` this week
+    - Getting test sets ready
+- **Submit proposal to DFSC for funding**
+    - Reworking NIJ Grad Fellowship proposal
+    - Incorporating peer review comments
 
 
 ---

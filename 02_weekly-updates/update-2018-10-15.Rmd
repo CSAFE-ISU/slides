@@ -114,6 +114,8 @@ class: primary
 
 - **Data Collection**
     - Moving (slowly).
+- **FlashID Data**
+    - Update install scheduled for tomorrow morning!
 - Expand Bayesian hierarchical model
     - **Formal Model Selection**
         - Cleaning up code.

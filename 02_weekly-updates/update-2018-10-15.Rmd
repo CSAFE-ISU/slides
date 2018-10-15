@@ -284,15 +284,18 @@ class: inverse
 
 ---
 class: primary   
-# Fall Semester Goals  
+# Fall Semester Update  
 
-- Submit draft BF vs. LR paper to AOS  
-    - Write a follow-up paper to LPR  
+- Write a BF vs. LR paper for LPR  
+    - working on making second draft less technical
+    - this is taking longer than I expected :(
 - Continue NIJ grant to validate FDE conclusions  
-- Work with Amy on the CSAFE Handwriting project  
-- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
-- Write a paper for LPR on approximations to BFs
-- Write a paper on Fiducial Factors with UNC
+    - poster presentation for Forensics@NIST next month
+    - oral presentation accepted for AAFS Feb 2019
+- New NIJ grant awarded!
+    - working on award acceptance and budgets
+- 10 Things article
+    - writing a draft complete with paragraphs and references
 
 
 ---

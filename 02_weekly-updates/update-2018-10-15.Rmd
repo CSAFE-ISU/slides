@@ -271,17 +271,14 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Write all the things!
 
-- `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
+- `bulletsamplr` package 
+    - Determined there's not a significant change in groove height along the signature
+    - Started examining null feature distribution
+    - Paper describing method for resampling bullet sequences
+- Paper validating bullet algorithm on different case study sets (w/ Heike)
+- Revising Statistical Atlas paper
 
 ---
 class: inverse

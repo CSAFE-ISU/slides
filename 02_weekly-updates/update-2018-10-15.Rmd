@@ -113,13 +113,13 @@ class: primary
 # Fall Semester Goals
 
 - **Data Collection**
-    - Moving (slowly).
+    - </font> <font color="red">Moving (slowly).</font>
 - **FlashID Data**
-    - Update install scheduled for tomorrow morning!
+    - </font> <font color="red">Update install scheduled for tomorrow morning!</font>
 - Expand Bayesian hierarchical model
     - **Formal Model Selection**
-        - Cleaning up code.
-        - Methods other than DIC.
+        - </font> <font color="red">Cleaning up code.</font>
+        - </font> <font color="red">Methods other than DIC.</font>
     - Tests and Intervals
     - Validation
 - Write and submit a paper on that modeling.

@@ -256,6 +256,19 @@ class: primary
     - Reworking NIJ Grad Fellowship proposal
     - Incorporating peer review comments
 
+---  
+class: primary  
+# Update to plotting results  
+ 
+<img src = "images/kiegan/boxplots_afte_results.png" />
+
+---  
+class: primary  
+# Update to plotting results  
+ 
+<img src = "images/kiegan/stacked_bars_afte_results.png" />  
+
+
 
 ---
 class: inverse

@@ -377,7 +377,7 @@ class: primary
 
 - Class confusion matrix is informative for models from two weeks ago, but very strange for most recent models
 
-<img src = "images/miranda/18-10-1/ConfusionMatrix.png" width="48%"/><img src = "images/miranda/18-10-1/ConfusionMatrix2.png" width="48%"/>
+<img src = "images/miranda/2018-10-01/ConfusionMatrix.png" width="48%"/><img src = "images/miranda/18-10-1/ConfusionMatrix2.png" width="48%"/>
 
 ---
 class: primary

@@ -440,7 +440,7 @@ class:primary
 - Turns out, (4\*4\*4\*4)(11,318) = 2,897,408 >> 45,272 = (11,318)\*4
     - Now, the script will check whether data has been augmented already...
 
-<img src = "images/miranda/9-24-18/typical-training.png" width="48%"/><img src = "images/miranda/9-24-18/atypical-training.png" width="48%"/>
+<img src = "images/miranda/2018-09-24/typical-training.png" width="48%"/><img src = "images/miranda/2018-09-24/atypical-training.png" width="48%"/>
 
 ---
 class: inverse

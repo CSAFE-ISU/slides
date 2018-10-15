@@ -390,7 +390,7 @@ class: primary
 # Analysis result with CSAFE shoe data 
 - POC is rotation invariant!
 - Known mated pairs
- <img src="images/soyoung/rot_KM.PNG" width="60%">
+ <img src="images/soyoung/rot_KM.png" width="60%">
 
 
 ---
@@ -398,7 +398,7 @@ class: primary
 # Analysis result with CSAFE shoe data 
 - POC is rotation invariant!
 - Known non-mated pairs
- <img src="images/soyoung/rot_KNM.PNG" width="60%">
+ <img src="images/soyoung/rot_KNM.png" width="60%">
 
 
 

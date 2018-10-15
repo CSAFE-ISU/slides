@@ -166,13 +166,20 @@ class: primary
 class: inverse
 # Nate
 
+---
+class: primary
+# Groove ID
+
+- Documented functions necessary to run changepoint analysis
+- Working on a vignette for the R package
 
 ---
 class: primary
-# Fall Semester Goals
-- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
-- Finish groove changepoint detection algorithm version 2 and test on all available data
-- Write paper with Kiegan on groove results
+# SLR
+
+- Documenting what I've tried so far
+- Small examples to compare SLRs and LRs
+- Do well-calibrated SLRs have properties that imply they are close to true LRs with high probability?
 
 ---
 class: inverse

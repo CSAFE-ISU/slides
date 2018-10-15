@@ -222,19 +222,26 @@ class: inverse
 # James
 
 ---
-class: primary
-# This Fall
+class: primary   
+# Back at Data Collection!
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
-   + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
+
+<img src = "images/James/CartNew.png" width="32%"/>
+<img src = "images/James/Cart2.png" width="32%"/>
+
+---
+class: inverse: 
+
+<img src = "images/James/Vinyl1.png" width="32%"/>
+<img src = "images/James/Vinyl2.png" width="32%"/>
+<img src = "images/James/Vinyl3.png" width="32%"/>
+
+---
+class: inverse: 
+
+<img src = "images/James/LightRoom.png" width="32%"/>
+<img src = "images/James/LightUp.png" width="32%"/>
+<img src = "images/James/LightSide.png" width="32%"/>
    
 ---
 class: inverse

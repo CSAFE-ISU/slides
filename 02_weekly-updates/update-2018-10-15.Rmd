@@ -316,11 +316,22 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Working on poster for Forensics@NIST and AAFS
+- How to best quantify accuracy for one-hot prediction?
+    - ROC-type curve for probability threshhold
+- Generating heatmaps to visualize what neural networks look for
+    - Generating these for our model is difficult
+    - So far, can only generate from original VGG16 (see next slide...)
+
+---
+class: primary
+# VGG16 Prediction
+
+<img src = "images/miranda/2018-10-15/onehot-92_labeled_heatmap.png" width="35%"/><img src = "images/miranda/2018-10-15/onehot-3000_labeled_heatmap.png" width="35%"/>
+<img src = "images/miranda/2018-10-15/onehot-1312_labeled_heatmap.png" width="35%"/><img src = "images/miranda/2018-10-15/onehot-165_labeled_heatmap.png" width="35%"/>
+
 
 ---
 class: inverse

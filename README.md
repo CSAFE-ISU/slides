@@ -83,6 +83,7 @@ September 24: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updat
 October 01: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-10-01.html)<br>
 October 08: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-10-08.html)<br>
 October 15: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-10-15.html)<br>
+October 22: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-10-22.html)<br>
 
 ### Summer 2018 Slides
 

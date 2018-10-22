@@ -142,11 +142,12 @@ class: inverse
 
 ---
 class: primary
-# 
+# Works in progress..
 
 - Data
     -  </font> <font color="red">FlashID - Updates to data dump</font>
-    -  </font> <font color="black">Hoping this will help with model performance.</font>
+    -  </font> <font color="black">Hoping this will help with model performance.</font>    
+    
 - Hierarchical model </font> <font color="red">evaluation</font>
     -  </font> <font color="red">Coding: ROC/AUC</font> </font> <font color="black">(multi-class extensions, one vs. all)</font>
     -  </font> <font color="red">Coding: ABC for model selection </font>
@@ -191,7 +192,7 @@ class: inverse
 class: secondary
 
 - The Chumbley Land-to-land comparisons Paper got accepted!!
-- Now setting Bullet-to-Bullet Comparisons and writing about the UI.
+- Now setting Bullet-to-Bullet Comparisons and writing about the UI..
 
 ---
 class: inverse

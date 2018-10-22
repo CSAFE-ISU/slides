@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for October 22</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for October 22
+### 2018/10/22
+
+---
+
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+---
+class: inverse
+# Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table. Sam Tyner talked about the three must-haves of your summary:
+
+
+
+| Must-have | It means |
+| :------   | :------- |
+| Context | Why are you doing what you're doing? "I'm working on X project in order to Y" |
+| Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
+| Conclusion | What did you learn? "This will help me because it..." or "This important because it gets us to..." |
+
+
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
+ 
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Last Week
+
+- Set up participant recruitment for truthiness
+- Writing `bulletsamplr` paper
+    - Figured out how to bootstrap matching bullet signatures
+- Submitted revised Statistical Atlas paper
+- Added crosscut to `image_x3p` in x3ptools package
+
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Neural Networks
+
+- Working on poster for AAFS and Forensics@NIST
+- Heatmaps to visualize important image features
+    - Track predictions across sections of a whole shoe image
+    - Restructuring model training method to connect pre-trained base to our classifier
+- More visualizations...
+
+---
+class: primary
+# ROC
+
+&lt;img src = "images/miranda/2018-10-22/AUC.png" width="100%"/&gt;
+
+---
+class: inverse
+# Soyoung
+
+---
+class: primary
+# Fall semester plans: 
+ - Shoes
+    + Wrap up shoe analysis using edges and SURF 
+    + Compare the performance with other methods such as phase only correlations, Fourier-Mellin transformation correlation
+    + Do analysis with CSAFE shoe data
+    + Submit papers regarding shoe analysis soon!
+   
+- Research on "uncertainty pyramid" with Steve and Hari at NIST   
+ - Glass analysis with Sam
+    + Exploratory analysis 
+    + Various covariance estimations
+    + Submit papers!
+   
+- Working on book chapters of glass and shoes funded by ROpenSci Fellowship 
+
+
+
+---
+class: primary
+# Analysis with CSAFE shoe data 
+- POC is rotation variant!
+- Try to find ways to adjust rotation bewteen two images
+ &lt;img src="images/soyoung/ex_rotation.PNG" width="85%"&gt;
+
+
+---
+class: primary
+# Glass Analysis  
+- Comparison between Standard method vs. Random forest 
+- When two methods disgree,
+
+|   | False neg.  | False pos.| True neg.  | True  pos.  |
+|:-:|:-:|:-:|:-:|:-:|
+|std| 92  |7635   |2299   |9   |
+|RF | 9  |2299   |  7635 |92   |
+
+- For false positives, std uses K (27.81%), Li (18.62%), Zr (14.43%), Ba (8.98%), Ti (6.72%) 
+
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Works in progress..
+
+- Data
+    -  &lt;/font&gt; &lt;font color="red"&gt;FlashID - Updates to data dump&lt;/font&gt;
+    -  &lt;/font&gt; &lt;font color="black"&gt;Hoping this will help with model performance.&lt;/font&gt;    
+    
+- Hierarchical model &lt;/font&gt; &lt;font color="red"&gt;evaluation&lt;/font&gt;
+    -  &lt;/font&gt; &lt;font color="red"&gt;Coding: ROC/AUC&lt;/font&gt; &lt;/font&gt; &lt;font color="black"&gt;(multi-class extensions, one vs. all)&lt;/font&gt;
+    -  &lt;/font&gt; &lt;font color="red"&gt;Coding: ABC for model selection &lt;/font&gt;
+    -  &lt;/font&gt; &lt;font color="black"&gt;Fscore (micro and macro averaging)&lt;/font&gt;
+    -  &lt;/font&gt; &lt;font color="black"&gt;Log-loss for multi-class classification&lt;/font&gt;
+    
+    
+---
+class: inverse
+# Ben
+
+---
+class: primary
+# Semester Intentions
+&lt;img src = "images/ben/stack.jpg" width="35%"/&gt;
+- Collaborate w/Nic &amp; Amy to improve handwriting project
+- Develop improvements / features part of algorithm
+- Eventually port algorithm through an application portal
+- Improve file structure of project
+- Working on preprocessing binary image
+  - Prototyping w/ Numba &amp; Python
+  - Testing performance relative to Cpp
+  - Hope to expedite development
+
+---
+class: inverse
+# Nick
+
+---
+class: secondary
+
+- Working on preprocessing binary image
+  - Prototyping w/ Numba &amp; Python
+  - Testing performance relative to Cpp
+  - Hope to expedite development
+
+---
+class: inverse
+# Ganesh
+
+---
+class: secondary
+
+- The Chumbley Land-to-land comparisons Paper got accepted!!
+- Now setting Bullet-to-Bullet Comparisons and writing about the UI..
+
+---
+class: inverse
+# Nate
+
+
+---
+class: primary
+# Groove ID
+
+- Writing vignette/drafting methodological description
+- Work on integrating changepoint functions with bulletxtrctr(?) this week
+
+---
+class: primary
+# SLR
+
+&lt;img src = "images/Nate/logratio.png" width="90%" height="90%"/&gt;
+
+---
+class: secondary
+
+&lt;img src = "images/Nate/logratio_mux.png" width="60%" height="60%"/&gt;
+
+---
+class: secondary
+
+&lt;img src = "images/Nate/logratio_mub.png" width="60%" height="60%"/&gt;
+
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Fall semester plans: 
+
+- submit papers from thesis for publication
+    + **Chapter One submitted!**
+- glass work with SP 
+    + **NIST poster accepted**
+    + working on a paper for Journal of Forensic Sciences **(template?)**
+- working on book funded by ROpenSci Fellowship 
+- writing "Ten Simple Rules for..." articles with DO. **meeting tomorrow**
+    + statisticians doing forensic science
+    + forensic scientists doing statistics
+    + **legal professionals encountering statistics - have a very rough draft of rules.** 
+    + **Chatted with SP from ASA about it last Friday. He is very supportive.**
+    
+---
+class: primary
+# Last week
+
+Went to the Committee on National Statistics offices and 137th meetings. 
+
+What I learned: 
+  - Turns out there's more to federal statistics than the Census Bureau! 
+  - Current administration's talk of reorganizing the federal statistical agencies is causing [uproar](http://magazine.amstat.org/blog/2018/08/01/usdafoot/) in the community
+  - Bureau of Transportation Statistics has an Office of Spatial Analysis and Visualization
+  - The government has A LOT of data out there. Just have to know where to look! (e.g. The U.S. Energy Information Administration (EIA) API is the source of gasbuddy.com)
+    
+Inspired to give a talk to Graphics group on Nov. 16th @ 2:10pm about the many data sources available from the US federal government. 
+
+
+---
+class: inverse
+# Guillermo
+
+---
+class: primary
+# Plans for this Fall
+
+- Complete adaptation of registration of 3D scans in R and perform analysis
+
+- Complete shiny app for 2D outsole scans registration
+
+- Write paper of the database which must include some data analysis
+
+- Write paper on speaker recognition (w/Vianey Leos)
+
+---
+class: inverse
+# James
+
+---
+class: primary
+# Data Collection 
+
+* Estimate 10-13 hours per- 3 pairs
+   + 2D Scanning
+   + 3D Scanning (High Definition)
+   + High Resolution Photos
+   + 3D Mud Scans
+   + Mud Photos
+   + Casting 
+   + Baby Powder Photos
+   
+* We are contacting an expert for input
+* estimate &gt;17 weeks to finish all shoes in their current condition 
+
+---
+class: primary
+# Data Collection 
+
+&lt;img src = "images/James/Path.png" width="45%"/&gt;
+&lt;img src = "images/James/CastStudy.png" width="45%"/&gt;
+* Baby Powder Prints - 342
+* Casting - 6 
+   + 334 Casts total 
+* Cast Photos - 4
+* 3D Mud Scans - 15
+* Mud Photos - 21
+
+   
+   
+
+
+
+---
+class: inverse
+# Kiegan  
+
+
+---
+class: primary   
+# Fall Semester Goals  
+
+- Submit to AFTE journal  
+- Complete writing of Chapman &amp; Hall book  
+    - Working on this from home T/Th  
+- Write a joint paper with Nate on grooves project  
+    - Probably aim for Journal of Forensic Sciences  
+    - Compare/contrast of methodologies
+    - Downstream impact on the algorithm!  
+- Taking one class (Stat 643) and research credits  
+
+
+---
+class: inverse
+# Danica  
+
+---
+class: primary   
+# Fall Semester Goals  
+
+- Submit draft BF vs. LR paper to AOS  
+    - Write a follow-up paper to LPR  
+- Continue NIJ grant to validate FDE conclusions  
+- Work with Amy on the CSAFE Handwriting project  
+- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
+- Write a paper for LPR on approximations to BFs
+- Write a paper on Fiducial Factors with UNC
+
+
+---
+class: inverse
+# Heike  
+
+---
+class: primary   
+# x3p images
+
+Adding helper lines on x3p images
+
+![](images/heike/x3p-helper.png)
+
+Might help with creating a mask for different areas of the file
+![](images/heike/x3p-mask.png)
+
+
+---
+class: inverse
+# Issues
+
+---
+class: secondary
+
+- [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
+- Two issue down, two to go.
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

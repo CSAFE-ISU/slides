@@ -219,16 +219,31 @@ class: primary
 # Fall semester plans: 
 
 - submit papers from thesis for publication
-- writing R packages with SP
-    + glass 
-    + shoes
-    + "uncertainty pyramid" stuff with SL & HI
+    + **Chapter One submitted!**
+- glass work with SP 
+    + **NIST poster accepted**
+    + working on a paper for Journal of Forensic Sciences **(template?)**
 - working on book funded by ROpenSci Fellowship 
-- narrowing down topics & formats for new CSAFE training materials 
-- writing "Ten Simple Rules for..." articles with DO
+- writing "Ten Simple Rules for..." articles with DO. **meeting tomorrow**
     + statisticians doing forensic science
     + forensic scientists doing statistics
-    + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+    + **legal professionals encountering statistics - have a very rough draft of rules.** 
+    + **Chatted with SP from ASA about it last Friday. He is very supportive.**
+    
+---
+class: primary
+# Last week
+
+Went to the Committee on National Statistics offices and 137th meetings. 
+
+What I learned: 
+  - Turns out there's more to federal statistics than the Census Bureau! 
+  - Current administration's talk of reorganizing the federal statistical agencies is causing [uproar](http://magazine.amstat.org/blog/2018/08/01/usdafoot/) in the community
+  - Bureau of Transportation Statistics has an Office of Spatial Analysis and Visualization
+  - The government has A LOT of data out there. Just have to know where to look! (e.g. The U.S. Energy Information Administration (EIA) API is the source of gasbuddy.com)
+    
+Inspired to give a talk to Graphics group on Nov. 16th @ 2:10pm about the many data sources available from the US federal government. 
+
 
 ---
 class: inverse

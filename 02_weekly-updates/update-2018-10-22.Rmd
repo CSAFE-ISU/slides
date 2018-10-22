@@ -270,6 +270,7 @@ class: primary
 <img src = "images/James/CastStudy.png" width="45%"/>
 * Baby Powder Prints - 342
 * Casting - 6 
+   + 334 Casts total 
 * Cast Photos - 4
 * 3D Mud Scans - 15
 * Mud Photos - 21
@@ -290,12 +291,12 @@ class: primary
 
 - Submit to AFTE journal  
 - Complete writing of Chapman & Hall book  
-- **Write a joint paper with Nate on grooves project**  
-    - Beginning the writing phase
-    - Starting test sets soon! 
-- **DFSC Funding opportunity**
-    - Writing white paper as soon as grooves testing starts
-
+    - Working on this from home T/Th  
+- Write a joint paper with Nate on grooves project  
+    - Probably aim for Journal of Forensic Sciences  
+    - Compare/contrast of methodologies
+    - Downstream impact on the algorithm!  
+- Taking one class (Stat 643) and research credits  
 
 
 ---

@@ -147,9 +147,11 @@ class: primary
 - Data
     -  </font> <font color="red">FlashID - Updates to data dump</font>
     -  </font> <font color="black">Hoping this will help with model performance.</font>
-- Hierarchical model
+- Hierarchical model </font> <font color="red">evaluation</font>
     -  </font> <font color="red">Coding: ROC/AUC</font>
     -  </font> <font color="red">Coding: ABC for model selection </font>
+    -  </font> <font color="black">Fscore (micro and macro averaging)</font>
+    -  </font> <font color="black">Log-loss for multi-class classification</font>
     
     
 ---

@@ -101,12 +101,19 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Working on poster for AAFS and Forensics@NIST
+- Heatmaps to visualize important image features
+    - Track predictions across sections of a whole shoe image
+    - Restructuring model training method to connect pre-trained base to our classifier
+- More visualizations...
 
+---
+class: primary
+# ROC
+
+<img src = "images/miranda/2018-10-22/AUC.png" width="100%"/>
 
 ---
 class: inverse

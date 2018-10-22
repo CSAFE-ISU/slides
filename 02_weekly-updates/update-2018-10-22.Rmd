@@ -87,17 +87,13 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Last Week
 
-- `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
+- Set up participant recruitment for truthiness
+- Writing `bulletsamplr` paper
+    - Figured out how to bootstrap matching bullet signatures
+- Submitted revised Statistical Atlas paper
+- Added crosscut to `image_x3p` in x3ptools package
 
 ---
 class: inverse

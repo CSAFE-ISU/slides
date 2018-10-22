@@ -191,7 +191,7 @@ class: inverse
 class: secondary
 
 - The Chumbley Land-to-land comparisons Paper got accepted!!
-- Now setting Bullet-to-Bullet Comparisons and writing about the UI..
+- Now setting Bullet-to-Bullet Comparisons and writing about the UI.
 
 ---
 class: inverse

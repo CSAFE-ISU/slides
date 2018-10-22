@@ -87,17 +87,13 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Last Week
 
-- `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
+- Set up participant recruitment for truthiness
+- Writing `bulletsamplr` paper
+    - Figured out how to bootstrap matching bullet signatures
+- Submitted revised Statistical Atlas paper
+- Added crosscut to `image_x3p` in x3ptools package
 
 ---
 class: inverse
@@ -105,12 +101,19 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Working on poster for AAFS and Forensics@NIST
+- Heatmaps to visualize important image features
+    - Track predictions across sections of a whole shoe image
+    - Restructuring model training method to connect pre-trained base to our classifier
+- More visualizations...
 
+---
+class: primary
+# ROC
+
+<img src = "images/miranda/2018-10-22/AUC.png" width="100%"/>
 
 ---
 class: inverse
@@ -180,20 +183,6 @@ class: secondary
   - Hope to expedite development
 
 
----
-class: inverse
-# Ganesh  
-
----
-class: primary   
-# Fall Semester Goals  
-
-- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
-- Continue with the development of the User Interface
-- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
-- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
-
-    
 ---
 class: inverse
 # Nate
@@ -330,6 +319,22 @@ class: primary
 - Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
 - Write a paper for LPR on approximations to BFs
 - Write a paper on Fiducial Factors with UNC
+
+
+---
+class: inverse
+# Heike  
+
+---
+class: primary   
+# x3p images
+
+Adding helper lines on x3p images
+
+![](images/heike/x3p-helper.png)
+
+Might help with creating a mask for different areas of the file
+![](images/heike/x3p-mask.png)
 
 
 ---

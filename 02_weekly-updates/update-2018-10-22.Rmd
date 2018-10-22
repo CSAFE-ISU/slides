@@ -266,6 +266,8 @@ class: primary
 class: primary
 # Data Collection 
 
+<img src = "images/James/Path.JPG" width="32%"/>
+<img src = "images/James/CastStudy.png" width="32%"/>
 * Baby Powder Prints - 342
 * Casting - 6 
 * Cast Photos - 4

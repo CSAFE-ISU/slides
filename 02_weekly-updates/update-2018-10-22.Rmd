@@ -313,6 +313,22 @@ class: primary
 
 ---
 class: inverse
+# Heike  
+
+---
+class: primary   
+# x3p images
+
+Adding helper lines on x3p images
+
+![](images/heike/x3p-helper.png)
+
+Might help with creating a mask for different areas of the file
+![](images/heike/x3p-mask.png)
+
+
+---
+class: inverse
 # Issues
 
 ---

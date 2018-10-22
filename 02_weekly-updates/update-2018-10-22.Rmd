@@ -181,6 +181,15 @@ class: secondary
   - Testing performance relative to Cpp
   - Hope to expedite development
 
+---
+class: inverse
+# Ganesh
+
+---
+class: secondary
+
+- The Chumbley Land-to-land comparisons Paper got accepted!!
+- Now setting Bullet-to-Bullet Comparisons and writing about the UI..
 
 ---
 class: inverse

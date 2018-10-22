@@ -136,6 +136,29 @@ class: primary
    
 - Working on book chapters of glass and shoes funded by ROpenSci Fellowship 
 
+
+
+---
+class: primary
+# Analysis with CSAFE shoe data 
+- POC is rotation variant!
+- Try to find ways to adjust rotation bewteen two images
+ <img src="images/soyoung/ex_rotation.PNG" width="60%">
+
+
+---
+class: primary
+# Glass Analysis  
+- Comparison between Standard method vs. Random forest 
+- When two methods disgree,
+
+|   | False neg.  | False pos.| True neg.  | True  pos.  |
+|:-:|:-:|:-:|:-:|:-:|
+|std| 92  |7635   |2299   |9   |
+|RF | 9  |2299   |  7635 |92   |
+
+- For false positives, std uses K (27.81\%), Li (18.62\%), Zr (14.43\%), Ba (8.98\%), Ti (6.72\%) 
+
 ---
 class: inverse
 # Amy

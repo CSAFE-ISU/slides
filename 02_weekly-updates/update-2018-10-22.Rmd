@@ -213,6 +213,16 @@ class: primary
 <img src = "images/Nate/logratio.png" width="90%" height="90%"/>
 
 ---
+class: secondary
+
+<img src = "images/Nate/logratio_mux.png" width="60%" height="60%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/logratio_mub.png" width="60%" height="60%"/>
+
+---
 class: inverse
 # Sam
 

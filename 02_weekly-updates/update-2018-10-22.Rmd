@@ -248,19 +248,35 @@ class: inverse
 
 ---
 class: primary
-# This Fall
+# Data Collection 
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
-   + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
+* Estimate 10-13 hours per- 3 pairs
+   + 2D Scanning
+   + 3D Scanning (High Definition)
+   + High Resolution Photos
+   + 3D Mud Scans
+   + Mud Photos
+   + Casting 
+   + Baby Powder Photos
    
+* We are contating an expert for imput
+* estimate >17 weeks to finish all shoes in their current condition 
+
+---
+class: primary
+# Data Collection 
+
+* Baby Powder Prints - 342
+* Casting - 6 
+* Cast Photos - 4
+* 3D Mud Scans - 15
+* Mud Photos - 21
+
+   
+   
+
+
+
 ---
 class: inverse
 # Kiegan  

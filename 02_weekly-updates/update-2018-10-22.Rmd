@@ -201,10 +201,16 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
-- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
-- Finish groove changepoint detection algorithm version 2 and test on all available data
-- Write paper with Kiegan on groove results
+# Groove ID
+
+- Writing vignette/drafting methodological description
+- Work on integrating changepoint functions with bulletxtrctr(?) this week
+
+---
+class: primary
+# SLR
+
+<img src = "images/Nate/logratio.png" width="90%" height="90%"/>
 
 ---
 class: inverse

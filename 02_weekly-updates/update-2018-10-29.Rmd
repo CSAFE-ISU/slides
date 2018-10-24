@@ -84,6 +84,23 @@ class: secondary
 
 ---
 class: inverse
+# Danica  
+
+---
+class: primary   
+# Fall Semester Goals  
+
+- Submit draft BF vs. LR paper to AOS  
+    - Write a follow-up paper to LPR  
+- Continue NIJ grant to validate FDE conclusions  
+- Work with Amy on the CSAFE Handwriting project  
+- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
+- Write a paper for LPR on approximations to BFs
+- Write a paper on Fiducial Factors with UNC
+
+
+---
+class: inverse
 # Soyoung
 
 ---
@@ -102,80 +119,6 @@ class: primary
     + Submit papers!
    
 - Working on book chapters of glass and shoes funded by ROpenSci Fellowship 
-
----
-class: inverse
-# Amy
-
----
-class: primary
-# Fall Semester Goals
-
-- Data Collection
-- Expand Bayesian hierarchical model
-    - Formal Model Selection
-    - Tests and Intervals
-    - Validation
-- Write and submit a paper on that modeling.
-- Exploritory analysis of 'next level' features (AAFS)
-    - Work with Ben and Nick
-    
----
-class: inverse
-# Ben
-
----
-class: primary
-# Semester Intentions
-<img src = "images/ben/stack.jpg" width="35%"/>
-- Collaborate w/Nic & Amy to improve handwriting project
-- Develop improvements / features part of algorithm
-- Eventually port algorithm through an application portal
-- Improve file structure of project
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
-
----
-class: inverse
-# Nick
-
----
-class: primary
-# Fall semester plans
-
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
-
-
----
-class: inverse
-# Ganesh  
-
----
-class: primary   
-# Fall Semester Goals  
-
-- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
-- Continue with the development of the User Interface
-- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
-- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
-
-    
----
-class: inverse
-# Nate
-
-
----
-class: primary
-# Fall Semester Goals
-- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
-- Finish groove changepoint detection algorithm version 2 and test on all available data
-- Write paper with Kiegan on groove results
 
 ---
 class: inverse
@@ -199,22 +142,6 @@ class: primary
 
 ---
 class: inverse
-# Guillermo
-
----
-class: primary
-# Plans for this Fall
-
-- Complete adaptation of registration of 3D scans in R and perform analysis
-
-- Complete shiny app for 2D outsole scans registration
-
-- Write paper of the database which must include some data analysis
-
-- Write paper on speaker recognition (w/Vianey Leos)
-
----
-class: inverse
 # James
 
 ---
@@ -231,7 +158,108 @@ class: primary
    + Soc. 590 (Independent Study Research)
    + Gen. 409 (Molecular Genetics)
    + Possible independent paper into Stationary Serial Homicide
-   
+
+---
+class: inverse
+# Nick
+
+---
+class: primary
+## Fall semester plans
+
+- Working on preprocessing binary image
+  - Prototyping w/ Numba & Python
+  - Testing performance relative to Cpp
+  - Hope to expedite development
+
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Fall Semester Goals
+
+- Develop methods to train "one-hot" neural networks for multi-label classification
+- Write paper on network training and results (ideally also a Creative Component)
+- Continue to help with truthiness data collection
+
+---
+class: inverse
+# Nate
+
+
+---
+class: primary
+# Fall Semester Goals
+- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
+- Finish groove changepoint detection algorithm version 2 and test on all available data
+- Write paper with Kiegan on groove results
+
+---
+class: inverse
+# Ben
+
+---
+class: primary
+# Semester Intentions
+<img src = "images/ben/stack.jpg" width="35%"/>
+- Collaborate w/Nic & Amy to improve handwriting project
+- Develop improvements / features part of algorithm
+- Eventually port algorithm through an application portal
+- Improve file structure of project
+- Working on preprocessing binary image
+  - Prototyping w/ Numba & Python
+  - Testing performance relative to Cpp
+  - Hope to expedite development
+  
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Fall Semester Goals
+
+- Data Collection
+- Expand Bayesian hierarchical model
+    - Formal Model Selection
+    - Tests and Intervals
+    - Validation
+- Write and submit a paper on that modeling.
+- Exploritory analysis of 'next level' features (AAFS)
+    - Work with Ben and Nick
+    
+
+---
+class: inverse
+# Ganesh  
+
+---
+class: primary   
+# Fall Semester Goals  
+
+- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
+- Continue with the development of the User Interface
+- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
+- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
+
+---
+class: inverse
+# Guillermo
+
+---
+class: primary
+# Plans for this Fall
+
+- Complete adaptation of registration of 3D scans in R and perform analysis
+
+- Complete shiny app for 2D outsole scans registration
+
+- Write paper of the database which must include some data analysis
+
+- Write paper on speaker recognition (w/Vianey Leos)
+
 ---
 class: inverse
 # Kiegan  
@@ -253,23 +281,6 @@ class: primary
 
 ---
 class: inverse
-# Danica  
-
----
-class: primary   
-# Fall Semester Goals  
-
-- Submit draft BF vs. LR paper to AOS  
-    - Write a follow-up paper to LPR  
-- Continue NIJ grant to validate FDE conclusions  
-- Work with Amy on the CSAFE Handwriting project  
-- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
-- Write a paper for LPR on approximations to BFs
-- Write a paper on Fiducial Factors with UNC
-
-
----
-class: inverse
 # Susan
 
 ---
@@ -286,17 +297,6 @@ one-hot Convolutional NN for shoeprint feature recognition
 - Longitudinal Shoeprint Database
     - Functioning well enough to present at AAFS in Feb
 
----
-class: inverse
-# Miranda
-
----
-class: primary
-# Fall Semester Goals
-
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
 
 ---
 class: inverse
@@ -306,7 +306,8 @@ class: inverse
 class: secondary
 
 - [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
-- One issue down, three to go.
+- Three issue down, two to go.
+
 
 ```{r, eval=FALSE, echo=FALSE}
 ## Presenters
@@ -322,4 +323,3 @@ set.seed(1029)
 ## Shuffle presenters
 sample(presenter)
 ```
-

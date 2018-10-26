@@ -285,18 +285,19 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Last Week
 
-- `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
+- Tests for `bulletxtrctr` - back to 98% coverage
+- Working with multiple Hamby studies - aligning known bullets from Hamby 36, 44, 224
+- `bulletsamplr`
+    - multi-cycle sampling units
+    - paper - notation, creating known non-match sequences
+- Bullet Case Study Validation paper
 
+---
+class: secondary
+
+<img src='images/susan/cycles.png' width = "90%">
 
 ---
 class: inverse

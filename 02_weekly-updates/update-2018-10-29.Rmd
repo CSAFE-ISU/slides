@@ -274,7 +274,7 @@ class: primary
 - Taking 2 or 3 Classes
 - Continue with the development of the User Interface
   + Aligning and Overlaying Images by matching the crosscut
-  + Dealing with x3p raw image used in this, highest correlation window identified in the signature alignment
+  + Dealing with x3p raw image used in this, trying to use signature alignment windows
   + Writing
 - Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
 

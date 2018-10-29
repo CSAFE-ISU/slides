@@ -146,19 +146,19 @@ class: inverse
 
 ---
 class: primary
-# This Fall
+# Still Collecting Data
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
-   + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
+* Time Estimate: 8-10 hours a week
 
+<img src = "images/James/Dark.png" width="60%"/>
+
+---
+class: primary
+# Randomly Acquired Characteristics
+
+<img src = "images/James/1RPhoto.png" width="32%"/>
+<img src = "images/James/1RCast.png" width="32%"/>
+<img src = "images/James/1RCast2.png" width="32%"/>
 ---
 class: inverse
 # Nick

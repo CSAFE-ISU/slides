@@ -217,7 +217,7 @@ class: primary
 - *Very* close to functioning heatmaps!
   - Susan's looks better...
   
-<img src = "images/Miranda/2018-10-29/Heatmap1.png" width="45%"/>   <img src = "images/Miranda/2018-10-29/Heatmap2.png" width="45%"/>
+<img src = "images/miranda/2018-10-29/Heatmap1.png" width="45%"/>   <img src = "images/miranda/2018-10-29/Heatmap2.png" width="45%"/>
 
 
 

@@ -230,7 +230,15 @@ class: inverse
 class: primary
 # SLR
 
-<img src = "images/Nate/unanchored_logSLR_logLR.png" width="80%" height = "80%"/>
+- $H_0: Y \sim N(0,\sigma^2_w + \sigma^2_b)$ ,  $X \sim N(\mu_x, \sigma^2_w)$
+- $H_A: Y \sim N(\mu_x,\sigma^2_w)$ , $X \sim N(\mu_x, \sigma^2_w)$
+- $s(x,y) = (x - y)^2$
+- $\mu_x = 0$
+
+---
+class: secondary
+
+<img src = "images/Nate/unanchored_logSLR_logLR.png" width="70%" height = "70%"/>
 
 ---
 class: secondary

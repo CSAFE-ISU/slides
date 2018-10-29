@@ -210,11 +210,15 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Finish poster for Forensics@NIST
+- *Very* close to functioning heatmaps!
+  - Susan's looks better...
+  
+<img src = "images/Miranda/2018-10-29/Heatmap1.png" width="45%"/>   <img src = "images/Miranda/2018-10-29/Heatmap2.png" width="45%"/>
+
+
 
 ---
 class: inverse

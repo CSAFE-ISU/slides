@@ -142,7 +142,8 @@ class: inverse
 # Nick
 
 ---
-class: secondary
+class: primary
+# Fall semester plans
 
 - Working on preprocessing binary image
   - Prototyping w/ Numba & Python
@@ -306,3 +307,19 @@ class: secondary
 
 - [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
 - One issue down, three to go.
+
+```{r, eval=FALSE, echo=FALSE}
+## Presenters
+presenter <- 
+  c("Soyoung", "Amy", "Ben", "Nick", 
+    "Ganesh", "Nate", "Sam", "Guillermo", 
+    "James", "Kiegan", "Danica", "Susan", 
+    "Miranda")
+
+## Set seed as the date (mmdd)
+set.seed(1029)
+
+## Shuffle presenters
+sample(presenter)
+```
+

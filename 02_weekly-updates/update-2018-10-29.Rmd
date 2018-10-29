@@ -223,10 +223,32 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
-- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
-- Finish groove changepoint detection algorithm version 2 and test on all available data
-- Write paper with Kiegan on groove results
+# SLR
+
+<img src = "images/Nate/unanchored_logSLR_logLR.png" width="80%" height = "80%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/unanchored_logSLR.png" width="70%" height = "70%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/hepler2_logSLR_logLR.png" width="70%" height = "70%"/>
+
+---
+class: secondary
+
+<img src = "images/Nate/hepler2_logSLR.png" width="70%" height = "70%"/>
+
+---
+class: primary
+# Groove ID
+
+- Integrating changepoint code with bulletxtrctr
+- Next, test on relevant data
+- Continue with documentation
 
 ---
 class: inverse

@@ -1,6 +1,6 @@
 ---
-title: "Weekly Update for August 22"
-date: "2018/08/22"
+title: "Weekly Update for October 29"
+date: "2018/10/29"
 output:
   xaringan::moon_reader:
     css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
@@ -129,16 +129,28 @@ class: primary
 # Fall semester plans: 
 
 - submit papers from thesis for publication
-- writing R packages with SP
-    + glass 
-    + shoes
-    + "uncertainty pyramid" stuff with SL & HI
-- working on book funded by ROpenSci Fellowship 
-- narrowing down topics & formats for new CSAFE training materials 
+    + one submission down, one rejection received. Some tweaks happening, resubmission to another journal soon. 
+- glass data with SP
+- working on book funded by ROpenSci Fellowship - meeting this week with the other fellows
 - writing "Ten Simple Rules for..." articles with DO
-    + statisticians doing forensic science
-    + forensic scientists doing statistics
-    + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+    + meeting moved to this week 
+    
+---
+class: primary
+# Glass study 
+
+Comparing the error rates from Soyoung's random forest to the standard method
+
+<img src = "images/sam/rf_std_err_rates_poster.png" width="100%"/>
+
+---
+class: primary
+# EDA Shiny App
+
+Ways to allow people coming to our poster to interact with the glass data. Ideas? 
+
+<img src = "images/sam/glass-shinyapp.png" width="100%"/>
+
 
 ---
 class: inverse

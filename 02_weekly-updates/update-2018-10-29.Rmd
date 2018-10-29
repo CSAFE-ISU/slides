@@ -107,17 +107,13 @@ class: inverse
 class: primary
 # Fall semester plans: 
  - Shoes
-    + Wrap up shoe analysis using edges and SURF 
-    + Compare the performance with other methods such as phase only correlations, Fourier-Mellin transformation correlation
-    + Do analysis with CSAFE shoe data
-    + Submit papers regarding shoe analysis soon!
-   
-- Research on "uncertainty pyramid" with Steve and Hari at NIST   
- - Glass analysis with Sam
+    + Working on shoe paper to submit soon!
+    + Working on shoe poster for NIST conference, next week.
+- Glass analysis with Sam
     + Exploratory analysis 
     + Various covariance estimations
     + Submit papers!
-   
+- Research on "uncertainty pyramid" with Steve and Hari at NIST  
 - Working on book chapters of glass and shoes funded by ROpenSci Fellowship 
 
 ---

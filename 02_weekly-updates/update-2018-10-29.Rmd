@@ -256,17 +256,11 @@ class: inverse
 
 ---
 class: primary
-# Semester Intentions
-<img src = "images/ben/stack.jpg" width="35%"/>
-- Collaborate w/Nic & Amy to improve handwriting project
-- Develop improvements / features part of algorithm
-- Eventually port algorithm through an application portal
-- Improve file structure of project
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
-  
+# More features!
+- Grapheme based features
+- Feel free to suggest any ideas!
+- Returning a list of features given a grapheme as input
+- Examples: Aspect Ratio, Skew / Tilt of letter, Length of loops
 ---
 class: inverse
 # Amy
@@ -293,9 +287,11 @@ class: inverse
 class: primary   
 # Fall Semester Goals  
 
-- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
+- Taking 2 or 3 Classes
 - Continue with the development of the User Interface
-- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
+  + Aligning and Overlaying Images by matching the crosscut
+  + Dealing with x3p raw image used in this, trying to use signature alignment windows
+  + Writing
 - Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
 
 ---

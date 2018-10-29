@@ -282,6 +282,10 @@ class: inverse
 class: primary
 # Fall Semester Goals
 
+---
+class: primary
+# Fall Semester Goals
+
 - Data Collection
 - Expand Bayesian hierarchical model
     - Formal Model Selection
@@ -291,6 +295,63 @@ class: primary
 - Exploritory analysis of 'next level' features (AAFS)
     - Work with Ben and Nick
     
+---
+class: primary
+# Incorporating New Features
+ </font> <font color="blue">W </font>: writer <br>
+ </font> <font color="blue">G </font>: grapheme type <br>
+ </font> <font color="red">M </font>: grapheme-wise measurements (Nick and Ben)<br>
+
+Current model:
+\begin{align}
+P(W|G) & \propto \color{blue}{P(G|W)P(W)}\\
+\end{align}
+where <br>
+\begin{align}
+\color{blue}{P(G|W=w)} &\sim \mbox{Multinomial}(\underline{\pi}{}_{\text{w}})\\
+\end{align}
+\begin{align}
+\underline{\pi}{}_{\text{w}} \sim \mbox{Dirichlet}(\underline{\alpha}) \mbox{ ,  } \alpha_i \sim \mbox{Gamma}(a,b)
+\end{align}
+\begin{align}
+\color{blue}{P(W)} \sim \mbox{Discrete Uniform}(no.writers)
+\end{align}
+
+---
+class: primary
+# Incorporating New Features
+
+Proposed model:
+\begin{align}
+P(W|\color{red}{M},G) & \propto \color{red}{P(M|G,W)}\color{blue}{P(G|W)P(W)}
+\end{align}
+
+<br> 
+
+<img src = "images/Amy/Modeling_with_M.png" width="60%" height = "60%" align="middle">
+
+
+
+---
+class: primary
+# Incorporating New Features
+
+Proposed model:
+\begin{align}
+P(W|\color{red}{M},G) & \propto \color{red}{P(M|G,W)}\color{blue}{P(G|W)P(W)}
+\end{align}
+where <br>
+\begin{align}
+\color{red}{P(M|G,W)} &\sim  g(M_1, M_2, ... ;\underline{\eta})\\
+\end{align}
+\begin{align}
+\color{blue}{P(G|W)} &\sim \mbox{Multinomial}(\underline{\pi}{}_{\text{w}})\\
+\end{align}
+\begin{align}
+\color{blue}{P(W)} \sim \mbox{Discrete Uniform}(no.writers)
+\end{align}
+
+ 
 
 ---
 class: inverse

@@ -141,16 +141,34 @@ class: primary
 
 Comparing the error rates from Soyoung's random forest to the standard method
 
-<img src = "images/sam/rf_std_err_rates_poster.png" width="100%"/>
+<img src = "images/sam/rf_std_err_rates_poster.png" width="115%"/>
 
 ---
 class: primary
 # EDA Shiny App
 
-Ways to allow people coming to our poster to interact with the glass data. Ideas? 
+Ways to allow people coming to our poster to interact with the glass data. [Seeking input & ideas](https://github.com/CSAFE-ISU/slides/issues/7).
 
 <img src = "images/sam/glass-shinyapp.png" width="100%"/>
 
+
+---
+class: primary
+# Self care ideas
+
+Because the world can get us all down sometimes and we forget to care for ourselves:
+
+- meditate
+- go to yoga
+- take a nap
+- drink water 
+- take a bath
+- go on a walk 
+- go to bed early
+- drink herbal tea
+- read your favorite book 
+- call a friend you haven't talked to in a while
+- watch cat fail videos on YouTube
 
 ---
 class: inverse

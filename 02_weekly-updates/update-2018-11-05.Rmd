@@ -223,12 +223,17 @@ class: inverse
 
 ---
 class: primary
-# Fall semester plans
+# handwriter
 
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
+![](images/Nick/Animatecsafeletters.gif)
+
+---
+class: primary
+# Flash ID
+
+<br><br><br><br><br><br>
+
+![](images/Nick/CSAFE_FLASHID.gif)
 
 
 ---

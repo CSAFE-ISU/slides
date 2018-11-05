@@ -269,11 +269,21 @@ class: inverse
 
 ---
 class: primary
-# More features!
+# More features! (1)
 - Grapheme based features
-- Feel free to suggest any ideas!
-- Returning a list of features given a grapheme as input
-- Examples: Aspect Ratio, Skew / Tilt of letter, Length of loops
+- Aspect Ratio, Letter Slant, Centroid
+- Addition of Line Based Features 
+<img src = "images/ben/graphemes_to_features.png" width="90%" height = "85%"/>
+
+---
+class: primary
+<img src = "images/ben/line.png" width="70%" height = "70%"/>
+<img src = "images/ben/line.png" width="70%" height = "70%"/>
+- In addition to letter feature vector, line features as well.
+- Line height, baseline (top/bottom), distance between lines..
+- Suggestions for line features welcome!
+- Bozekova, M. (2008, March). Comparison of Handwritings. Retrieved November 2, 2018.
+ 
 ---
 class: inverse
 # Amy

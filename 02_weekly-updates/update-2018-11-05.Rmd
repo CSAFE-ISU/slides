@@ -86,11 +86,12 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Forensics@NIST this week
+- Debug new model training method (to make heatmaps)
+  - Validation accuracy isn't changing during training
+- Writing up what we've already done
 
 
 ---

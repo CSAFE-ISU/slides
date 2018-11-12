@@ -135,10 +135,22 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
-- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
-- Finish groove changepoint detection algorithm version 2 and test on all available data
-- Write paper with Kiegan on groove results
+# SLR
+
+- Continuing to write up results based on the simple normal example
+    - Probability that SLR/LR is large depends on the ratio of between and within source variances as well as the rarity of the known source
+    - Probabilities are large under the defense hypothesis and small under the prosecution
+    - Distribution of SLR/LR under the defense hypothesis is highly skewed
+    - Does it matter if $SLR/LR > 10000$ when $LR \approx 2 \times 10^{-35}$
+
+---
+class: primary
+# Groove ID
+
+- bulletcp package is passing Travis-CI 
+- Model and estimation procedure is written up in the vignette. 
+- Working on the data preprocessing section. 
+- Additional work will probably only be necessary for the vignette, not for the JFS paper.
 
 ---
 class: inverse

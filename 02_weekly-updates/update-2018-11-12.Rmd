@@ -168,11 +168,11 @@ class: inverse
 ---
 class: primary   
 # Fall Semester Goals  
-
-- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
-- Continue with the development of the User Interface
-- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
-- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
+- User Interface
+- User Interface
+  - Added some interactive functionalities to generate profiles at different slices *on the fly*.
+  - fixed some of the surface matrix problems i was having
+  - Overlaying and Aligning Images
 
 ---
 class: inverse
@@ -186,8 +186,8 @@ class: primary
  + Continued Data Collection
  + Some Odd Jobs
  
-* Files - 432 New 
-* Total - 1,344/3,852 Total
+* Files - 500 New 
+* Total - 1,404/3,852 Total
 
 * This week
  + Continued Data Collection
@@ -270,17 +270,12 @@ class: inverse
 
 ---
 class: primary
-# Semester Intentions
-<img src = "images/ben/stack.jpg" width="35%"/>
-- Collaborate w/Nic & Amy to improve handwriting project
-- Develop improvements / features part of algorithm
-- Eventually port algorithm through an application portal
-- Improve file structure of project
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
-  
+# Lines / Features
+<img src = "images/ben/linenumbers.gif" width="65%"/>
+---
+class: primary
+- Lines / Line numbers implemented  
+- Working on more features
 ---
 class: inverse
 # Amy
@@ -316,7 +311,6 @@ class: primary
 ## This week
 
 - Truthiness data collection
-    - Off to a great start with 5 no-shows in a row `r emo::ji("poop")`
 - Bullet case study validation paper
 - Bullet signature bootstrap paper (if truthiness goes badly)
 

@@ -76,10 +76,10 @@ class: primary
 ---
 class: secondary
 
-- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/handwritten_logo.png"
 
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ <img src = "images/guillermo/handwritten_logo.png" width="55%"/>
  
 
 ---
@@ -88,15 +88,20 @@ class: inverse
 
 ---
 class: primary   
-# Fall Semester Goals  
+# Fall Semester Update  
 
-- Submit draft BF vs. LR paper to AOS  
-    - Write a follow-up paper to LPR  
+- BF vs. LR paper for AOS
+    - rejected :(
+    - but, the associated editor suggested it might be good in Statistical Science with some revisions
+- Write a BF vs. LR paper for LPR  
+    - working on making second draft less technical
+    - trying to come up with some easy examples and visuals to illustrate the theory
 - Continue NIJ grant to validate FDE conclusions  
-- Work with Amy on the CSAFE Handwriting project  
-- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
-- Write a paper for LPR on approximations to BFs
-- Write a paper on Fiducial Factors with UNC
+    - poster presentation for Forensics@NIST next week!
+- 10 Things article
+    - writing a draft complete with paragraphs and references
+-  FBI Aluminum powder
+    - worked on quarterly report and updates with new VSPs
 
 
 ---
@@ -212,7 +217,7 @@ class: primary
 - *Very* close to functioning heatmaps!
   - Susan's looks better...
   
-<img src = "images/Miranda/2018-10-29/Heatmap1.png" width="45%"/>   <img src = "images/Miranda/2018-10-29/Heatmap2.png" width="45%"/>
+<img src = "images/miranda/2018-10-29/Heatmap1.png" width="45%"/>   <img src = "images/miranda/2018-10-29/Heatmap2.png" width="45%"/>
 
 
 
@@ -264,14 +269,28 @@ class: inverse
 
 ---
 class: primary
-# More features!
+# More features! (1)
 - Grapheme based features
-- Feel free to suggest any ideas!
-- Returning a list of features given a grapheme as input
-- Examples: Aspect Ratio, Skew / Tilt of letter, Length of loops
+- Aspect Ratio, Letter Slant, Centroid
+- Addition of Line Based Features 
+<img src = "images/ben/graphemes_to_features.png" width="90%" height = "85%"/>
+
+---
+class: primary
+<img src = "images/ben/line.png" width="70%" height = "70%"/>
+<img src = "images/ben/line.png" width="70%" height = "70%"/>
+- In addition to letter feature vector, line features as well.
+- Line height, baseline (top/bottom), distance between lines..
+- Suggestions for line features welcome!
+- Bozekova, M. (2008, March). Comparison of Handwritings. Retrieved November 2, 2018.
+ 
 ---
 class: inverse
 # Amy
+
+---
+class: primary
+# Fall Semester Goals
 
 ---
 class: primary
@@ -286,6 +305,63 @@ class: primary
 - Exploritory analysis of 'next level' features (AAFS)
     - Work with Ben and Nick
     
+---
+class: primary
+# Incorporating New Features
+ </font> <font color="blue">W </font>: writer <br>
+ </font> <font color="blue">G </font>: grapheme type <br>
+ </font> <font color="red">M </font>: grapheme-wise measurements (Nick and Ben)<br>
+
+Current model:
+\begin{align}
+P(W|G) & \propto \color{blue}{P(G|W)P(W)}\\
+\end{align}
+where <br>
+\begin{align}
+\color{blue}{P(G|W=w)} &\sim \mbox{Multinomial}(\underline{\pi}{}_{\text{w}})\\
+\end{align}
+\begin{align}
+\underline{\pi}{}_{\text{w}} \sim \mbox{Dirichlet}(\underline{\alpha}) \mbox{ ,  } \alpha_i \sim \mbox{Gamma}(a,b)
+\end{align}
+\begin{align}
+\color{blue}{P(W)} \sim \mbox{Discrete Uniform}(no.writers)
+\end{align}
+
+---
+class: primary
+# Incorporating New Features
+
+Proposed model:
+\begin{align}
+P(W|\color{red}{M},G) & \propto \color{red}{P(M|G,W)}\color{blue}{P(G|W)P(W)}
+\end{align}
+
+<br> 
+
+<img src = "images/Amy/Modeling_with_M.png" width="60%" height = "60%" align="middle">
+
+
+
+---
+class: primary
+# Incorporating New Features
+
+Proposed model:
+\begin{align}
+P(W|\color{red}{M},G) & \propto \color{red}{P(M|G,W)}\color{blue}{P(G|W)P(W)}
+\end{align}
+where <br>
+\begin{align}
+\color{red}{P(M|G,W)} &\sim  g(M_1, M_2, ... ;\underline{\eta})\\
+\end{align}
+\begin{align}
+\color{blue}{P(G|W)} &\sim \mbox{Multinomial}(\underline{\pi}{}_{\text{w}})\\
+\end{align}
+\begin{align}
+\color{blue}{P(W)} \sim \mbox{Discrete Uniform}(no.writers)
+\end{align}
+
+ 
 
 ---
 class: inverse
@@ -308,15 +384,20 @@ class: inverse
 
 ---
 class: primary
+# This week...
+
+- No new comments received from IRB
+
+- Struggled with `purrr`, `tidyr` and mutant dataframes
+
+<img src = "images/guillermo/matscan_tibble.png" width="85%"/>
+
+
+---
+class: primary
 # Plans for this Fall
 
-- Complete adaptation of registration of 3D scans in R and perform analysis
-
-- Complete shiny app for 2D outsole scans registration
-
-- Write paper of the database which must include some data analysis
-
-- Write paper on speaker recognition (w/Vianey Leos)
+<img src = "images/guillermo/ellip1.png" width="33%"/><img src = "images/guillermo/ellip2.png" width="33%"/><img src = "images/guillermo/ellip3.png" width="33%"/>
 
 ---
 class: inverse

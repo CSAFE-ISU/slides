@@ -1,15 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for Novbmber 05</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for Novbmber 05
+### 2018/11/05
+
 ---
-title: "Weekly Update for August 22"
-date: "2018/08/22"
-output:
-  xaringan::moon_reader:
-    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
----
+
 
 
 class: inverse
@@ -77,7 +83,7 @@ class: secondary
 - If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
 
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
  
 
 ---
@@ -86,11 +92,12 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Forensics@NIST this week
+- Debug new model training method (to make heatmaps)
+  - Validation accuracy isn't changing during training
+- Writing up what we've already done
 
 
 ---
@@ -105,9 +112,9 @@ class: primary
 - writing R packages with SP
     + glass 
     + shoes
-    + "uncertainty pyramid" stuff with SL & HI
+    + "uncertainty pyramid" stuff with SL &amp; HI
 - working on book funded by ROpenSci Fellowship 
-- narrowing down topics & formats for new CSAFE training materials 
+- narrowing down topics &amp; formats for new CSAFE training materials 
 - writing "Ten Simple Rules for..." articles with DO
     + statisticians doing forensic science
     + forensic scientists doing statistics
@@ -123,7 +130,7 @@ class: primary
 # Fall Semester Goals
 
 - `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
+    - \&gt; 95% test coverage (if possible)
     - Results database - data provenance
     - Docker or packrat to ensure environment reproducibility
 - Truthiness study data collection
@@ -142,13 +149,11 @@ class: primary
 # Fall Semester Goals  
 
 - Submit to AFTE journal  
-- Complete writing of Chapman & Hall book  
-    - Working on this from home T/Th  
+- Complete writing of Chapman &amp; Hall book  
 - Write a joint paper with Nate on grooves project  
     - Probably aim for Journal of Forensic Sciences  
     - Compare/contrast of methodologies
     - Downstream impact on the algorithm!  
-- Taking one class (Stat 643) and research credits  
     
 ---
 class: inverse
@@ -177,31 +182,17 @@ class: inverse
 
 ---
 class: primary
-# This Fall
+# General Update
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
-   + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
+* Last Week
+ + Resolved Storage Issues 
+ + Working with Soyoung on some data collection 
+    - 5 New Pairs of Shoes
+ 
+* Files - 570 New 
+* Total - 912 Total 
 
----
-class: inverse
-# Ganesh  
 
----
-class: primary   
-# Fall Semester Goals  
-
-- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
-- Continue with the development of the User Interface
-- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
-- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
 
 ---
 class: inverse
@@ -225,12 +216,17 @@ class: inverse
 
 ---
 class: primary
-# Fall semester plans
+# handwriter
 
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
+![](images/Nick/Animatecsafeletters.gif)
+
+---
+class: primary
+# Flash ID
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+![](images/Nick/CSAFE_FLASHID.gif)
 
 
 ---
@@ -285,13 +281,13 @@ class: inverse
 ---
 class: primary
 # Semester Intentions
-<img src = "images/ben/stack.jpg" width="35%"/>
-- Collaborate w/Nic & Amy to improve handwriting project
+&lt;img src = "images/ben/stack.jpg" width="35%"/&gt;
+- Collaborate w/Nic &amp; Amy to improve handwriting project
 - Develop improvements / features part of algorithm
 - Eventually port algorithm through an application portal
 - Improve file structure of project
 - Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
+  - Prototyping w/ Numba &amp; Python
   - Testing performance relative to Cpp
   - Hope to expedite development
 
@@ -305,19 +301,51 @@ class: secondary
 
 - [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
 - One issue down, three to go.
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
-```{r, eval=FALSE, echo=FALSE}
-## Presenters
-presenter <- 
-  c("Soyoung", "Amy", "Ben", "Nick", 
-    "Ganesh", "Nate", "Sam", "Guillermo", 
-    "James", "Kiegan", "Danica", "Susan", 
-    "Miranda")
-
-## Set seed as the date (mmdd)
-set.seed(1105)
-
-## Shuffle presenters
-sample(presenter)
-```
-
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

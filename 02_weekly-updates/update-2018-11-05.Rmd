@@ -1,6 +1,6 @@
 ---
-title: "Weekly Update for August 22"
-date: "2018/08/22"
+title: "Weekly Update for Novbmber 05"
+date: "2018/11/05"
 output:
   xaringan::moon_reader:
     css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
@@ -86,11 +86,12 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Neural Networks
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Forensics@NIST this week
+- Debug new model training method (to make heatmaps)
+  - Validation accuracy isn't changing during training
+- Writing up what we've already done
 
 
 ---
@@ -143,12 +144,10 @@ class: primary
 
 - Submit to AFTE journal  
 - Complete writing of Chapman & Hall book  
-    - Working on this from home T/Th  
 - Write a joint paper with Nate on grooves project  
     - Probably aim for Journal of Forensic Sciences  
     - Compare/contrast of methodologies
     - Downstream impact on the algorithm!  
-- Taking one class (Stat 643) and research credits  
     
 ---
 class: inverse
@@ -177,31 +176,17 @@ class: inverse
 
 ---
 class: primary
-# This Fall
+# General Update
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
-   + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
+* Last Week
+ + Resolved Storage Issues 
+ + Working with Soyoung on some data collection 
+    - 5 New Pairs of Shoes
+ 
+* Files - 570 New 
+* Total - 912 Total 
 
----
-class: inverse
-# Ganesh  
 
----
-class: primary   
-# Fall Semester Goals  
-
-- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
-- Continue with the development of the User Interface
-- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
-- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
 
 ---
 class: inverse
@@ -225,12 +210,17 @@ class: inverse
 
 ---
 class: primary
-# Fall semester plans
+# handwriter
 
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
+![](images/Nick/Animatecsafeletters.gif)
+
+---
+class: primary
+# Flash ID
+
+<br><br><br><br><br><br>
+
+![](images/Nick/CSAFE_FLASHID.gif)
 
 
 ---
@@ -310,7 +300,7 @@ class: secondary
 ## Presenters
 presenter <- 
   c("Soyoung", "Amy", "Ben", "Nick", 
-    "Ganesh", "Nate", "Sam", "Guillermo", 
+    "Nate", "Sam", "Guillermo", 
     "James", "Kiegan", "Danica", "Susan", 
     "Miranda")
 

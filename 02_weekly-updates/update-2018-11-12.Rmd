@@ -135,10 +135,22 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
-- Verify theoretical basis for current SLR goals and begin experiments on simulated data 
-- Finish groove changepoint detection algorithm version 2 and test on all available data
-- Write paper with Kiegan on groove results
+# SLR
+
+- Continuing to write up results based on the simple normal example
+    - Probability that SLR/LR is large depends on the ratio of between and within source variances as well as the rarity of the known source
+    - Probabilities are large under the defense hypothesis and small under the prosecution
+    - Distribution of SLR/LR under the defense hypothesis is highly skewed
+    - Does it matter if $SLR/LR > 10000$ when $LR \approx 2 \times 10^{-35}$
+
+---
+class: primary
+# Groove ID
+
+- bulletcp package is passing Travis-CI 
+- Model and estimation procedure is written up in the vignette. 
+- Working on the data preprocessing section. 
+- Additional work will probably only be necessary for the vignette, not for the JFS paper.
 
 ---
 class: inverse
@@ -200,6 +212,7 @@ class: primary
 # Fall Semester Goals
 
 - Develop methods to train "one-hot" neural networks for multi-label classification
+    - Fix model that we broke trying to do cool stuff
 - Write paper on network training and results (ideally also a Creative Component)
 - Continue to help with truthiness data collection
     
@@ -247,17 +260,12 @@ class: inverse
 
 ---
 class: primary
-# Semester Intentions
-<img src = "images/ben/stack.jpg" width="35%"/>
-- Collaborate w/Nic & Amy to improve handwriting project
-- Develop improvements / features part of algorithm
-- Eventually port algorithm through an application portal
-- Improve file structure of project
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
-  
+# Lines / Features
+<img src = "images/ben/linenumbers.gif" width="65%"/>
+---
+class: primary
+- Lines / Line numbers implemented  
+- Working on more features
 ---
 class: inverse
 # Amy
@@ -293,7 +301,6 @@ class: primary
 ## This week
 
 - Truthiness data collection
-    - Off to a great start with 5 no-shows in a row `r emo::ji("poop")`
 - Bullet case study validation paper
 - Bullet signature bootstrap paper (if truthiness goes badly)
 

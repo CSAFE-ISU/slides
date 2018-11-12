@@ -213,6 +213,7 @@ class: primary
 # Fall Semester Goals
 
 - Develop methods to train "one-hot" neural networks for multi-label classification
+    - Fix model that we broke trying to do cool stuff
 - Write paper on network training and results (ideally also a Creative Component)
 - Continue to help with truthiness data collection
     

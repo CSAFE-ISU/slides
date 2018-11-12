@@ -116,6 +116,15 @@ class: primary
     + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
 
 ---
+class: primary
+# Updates 
+
+- Spoke to lots of folks about the glass poster at NIST! 
+- Had a good visit with Steve & Hari about "uncertainty pyramid" stuff
+- Learned a lot about DNA from Pete Vallone & Sarah Riman
+- Lots of writing to do! 
+
+---
 class: inverse
 # Nick
 

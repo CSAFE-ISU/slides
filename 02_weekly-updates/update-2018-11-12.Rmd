@@ -164,21 +164,18 @@ class: primary
 
 * Last Week
  + Continued Data Collection
- + Some odd jobs
+ + Some Odd Jobs
  
 * Files - 432 New 
-* Total - 1,344/3,852 Total 
+* Total - 1,344/3,852 Total
 
----
-class: primary
-# New Project
+* This week
+ + Continued Data Collection
+ + Possible Odd Jobs
+ + Assist Soyoung
 
-* 5 pairs of shoes
-   + 100 scans total
-   + 50 scans without weighted vest
-   + 50 scans with a weighted vest
 
-* Cleaned scanner using methods given to us by IT
+
 
 ---
 class: inverse

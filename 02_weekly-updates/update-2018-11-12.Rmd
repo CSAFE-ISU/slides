@@ -282,17 +282,21 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Updates
 
-- `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
+## Last week
+
+- Forensics@NIST
+- Applying for all 3 ISU Statistics TT positions 
+- Truthiness study setup
+- Bullet case study validation paper
+
+## This week
+
+- Truthiness data collection
+    - Off to a great start with 5 no-shows in a row `r emo::ji("poop")`
+- Bullet case study validation paper
+- Bullet signature bootstrap paper (if truthiness goes badly)
 
 ---
 class: inverse

@@ -86,15 +86,14 @@ class: inverse
 
 ---
 class: primary   
-# Fall Semester Goals  
+# Fall Semester Update  
 
-- Submit draft BF vs. LR paper to AOS  
-    - Write a follow-up paper to LPR  
-- Continue NIJ grant to validate FDE conclusions  
-- Work with Amy on the CSAFE Handwriting project  
-- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
-- Write a paper for LPR on approximations to BFs
-- Write a paper on Fiducial Factors with UNC
+- Sorry I can't make it today ...
+- Busy trying to catch up on STAT 104 grading after being gone to the NIST conference
+- Still working on writing up papers from my dissertation research ...
+- Still working on NIJ grant for handwriting
+    - Please let me know if you are interested in the poster I presented and I will email it to you or sit down with you to discuss any time! (Net ID: dmommen)
+
 
 ---
 class: inverse

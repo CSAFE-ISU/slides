@@ -177,8 +177,8 @@ class: primary
  + Continued Data Collection
  + Some Odd Jobs
  
-* Files - 432 New 
-* Total - 1,344/3,852 Total
+* Files - 500 New 
+* Total - 1,404/3,852 Total
 
 * This week
  + Continued Data Collection

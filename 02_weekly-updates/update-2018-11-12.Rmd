@@ -160,7 +160,8 @@ class: inverse
 class: primary   
 # Fall Semester Goals  
 - User Interface
-  - Added some interactive functionalities to generate markings at different slices on the fly.
+- User Interface
+  - Added some interactive functionalities to generate profiles at different slices *on the fly*.
   - fixed some of the surface matrix problems i was having
   - Overlaying and Aligning Images
 

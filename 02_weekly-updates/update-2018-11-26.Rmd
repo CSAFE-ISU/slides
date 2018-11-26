@@ -313,13 +313,10 @@ class: inverse
 
 ---
 class: primary
-# Fall semester plans
+# Nick
 
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
-
+ - Added functionality to classify letters with connectivity score.
+ - Feature extraction at a solid stable point.
 
 ---
 class: inverse

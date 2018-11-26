@@ -215,6 +215,7 @@ class: inverse
 ---
 class: primary
 # Possible Issue with Photos
+Womens Shoes Worn By Women
 
 <img src = "images/James/1sp.png" width="45%"/>
 <img src = "images/James/3sp.png" width="45%"/>
@@ -241,6 +242,11 @@ class: primary
 <img src = "images/James/05811.png" width="45%"/>
 <img src = "images/James/05821.png" width="45%"/>
 
+---
+class: primary
+# Possible Issue
+
+<img src = "images/James/0421.png" width="45%"/>
 
 
 

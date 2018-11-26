@@ -214,18 +214,31 @@ class: inverse
 
 ---
 class: primary
-# This Fall
+# Possible Issue
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
-   + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
+<img src = "images/James/1sp.png" width="45%"/>
+<img src = "images/James/3sp.png" width="45%"/>
+
+
+---
+class: primary
+# Possible Issue
+
+<img src = "images/James/04711.png" width="45%"/>
+<img src = "images/James/04721.png" width="45%"/>
+
+---
+class: primary
+# Possible Issue
+
+<img src = "images/James/05811.png" width="45%"/>
+<img src = "images/James/05821.png" width="45%"/>
+
+
+
+
+
+
 
 ---
 class: inverse

@@ -181,7 +181,7 @@ class:primary
 # Last Couple of Weeks
 
 - Truthiness: Pilot data done! 
-    - Transcription of audio recordings: 0.5/41 as of 8am
+    - Transcription of audio recordings: 5/41 as of 1pm
     - Initial findings: 
         1. People don't know basic geography
         2. Logical statements are hard - "Less than 85% have access to electricity" interpreted as:
@@ -191,6 +191,7 @@ class:primary
             - more than 85% don't have access to electricity
             - and more...
 - Case Study Validation paper
+    - Designing a template that works with arcane JFS formatting requirements
 - `bulletxtrctr` tests for groove-finding functions from Nate and Kiegan 
 
 ---

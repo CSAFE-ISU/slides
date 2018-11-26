@@ -213,21 +213,15 @@ class: inverse
 # James
 
 ---
-
----
 class: primary
 # Possible Issue
 
-<img src = "images/James/1sp.png" width="45%"/>
+
 <img src = "images/James/3sp.png" width="45%"/>
-
-
----
-class: primary
-# Possible Issue
-
-<img src = "images/James/04711.png" width="45%"/>
 <img src = "images/James/04721.png" width="45%"/>
+
+
+
 
 ---
 class: primary

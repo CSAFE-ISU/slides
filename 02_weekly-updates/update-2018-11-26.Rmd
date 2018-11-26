@@ -282,7 +282,7 @@ class: primary
 - picked up a publication about modeling survival of butterfly larvae, so that should be fun. 
 
 ---
-class: inverse
+class: primary
 # Neat stuff I learned recently
 
 Really neat paper: "Risk and Uncertainty Communication" by David Spiegelhalter [(PDF)](https://www.annualreviews.org/doi/pdf/10.1146/annurev-statistics-010814-020148)

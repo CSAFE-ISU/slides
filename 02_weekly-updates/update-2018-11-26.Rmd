@@ -214,6 +214,13 @@ class: inverse
 
 ---
 class: primary
+# Possible Issue with Photos
+
+<img src = "images/James/1sp.png" width="45%"/>
+<img src = "images/James/3sp.png" width="45%"/>
+
+---
+class: primary
 # Possible Issue
 
 <img src = "images/James/1sp.png" width="45%"/>

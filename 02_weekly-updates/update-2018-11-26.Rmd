@@ -86,11 +86,25 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Updates
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+- Working on slides for Graphics Group this Friday, writing paper/CC
+- Fine-tuning model, exploring other options
+- Developing/choosing a cool acronym...
+
+<img src = "images/miranda/2018-11-26/ConfMat.png" width="55%"/>
+
+---
+class: primary
+# Cool Acronym
+
+- PRINNTS:  Pretty Rad Identification Neural Network Tool for Shoes
+
+- FOReNNSICC: Footwear Outsole Recognition Neural Network for Statistical Information on Class Characteristics
+
+- CoNNOR: Convolutional Neural Network for Outsole Recognition
+
+- Other ideas?
 
 ---
 class: inverse

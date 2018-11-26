@@ -213,12 +213,6 @@ class: inverse
 # James
 
 ---
-class: primary
-# Possible Issue with Photos
-Womens Shoes Worn By Women
-
-<img src = "images/James/1sp.png" width="45%"/>
-<img src = "images/James/3sp.png" width="45%"/>
 
 ---
 class: primary

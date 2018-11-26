@@ -269,16 +269,25 @@ class: primary
 # Fall semester plans: 
 
 - submit papers from thesis for publication
-- writing R packages with SP
-    + glass 
-    + shoes
-    + "uncertainty pyramid" stuff with SL & HI
+    + 2nd submit of first (to ISR)
+    + working on another paper this week
+- work with Soyoung: 
+    + glass eda paper : hope to have a full draft by end of 2018
+    + learning about Dirichlet processes for work w/Steve & Hari
 - working on book funded by ROpenSci Fellowship 
-- narrowing down topics & formats for new CSAFE training materials 
-- writing "Ten Simple Rules for..." articles with DO
-    + statisticians doing forensic science
-    + forensic scientists doing statistics
-    + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
+- writing "Ten Simple Rules for..." article : close to a full draft. 
+    + need another coauthor (Alicia?)
+- picked up a publication about modeling survival of butterfly larvae, so that should be fun. 
+
+---
+class: inverse
+# Neat stuff I learned recently
+
+Really neat paper: "Risk and Uncertainty Communication" by David Spiegelhalter [(PDF)](https://www.annualreviews.org/doi/pdf/10.1146/annurev-statistics-010814-020148)
+
+Lecture series on Bayesian Nonparametrics (for Dirichlet Processes) [(YouTube)](https://youtu.be/I7bgrZjoRhM)
+
+
 
 ---
 class: inverse
@@ -298,13 +307,10 @@ class: inverse
 
 ---
 class: primary
-# Fall semester plans
+# Nick
 
-- Working on preprocessing binary image
-  - Prototyping w/ Numba & Python
-  - Testing performance relative to Cpp
-  - Hope to expedite development
-
+ - Added functionality to classify letters with connectivity score.
+ - Feature extraction at a solid stable point.
 
 ---
 class: inverse

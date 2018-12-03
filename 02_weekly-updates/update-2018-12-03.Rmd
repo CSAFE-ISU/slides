@@ -155,15 +155,24 @@ class: inverse
 
 ---
 class: primary
-# Plans for this Fall
+# Moving Forward with Shoeprints Study
 
-- Complete adaptation of registration of 3D scans in R and perform analysis
+- Selecting a few participants to continue in the study
 
-- Complete shiny app for 2D outsole scans registration
+- Discussion: 
+    + Gender (technician doesn't fit in womens shoes)
+    + Size
+    + Participants (Participants with two pair of shoes?)
 
-- Write paper of the database which must include some data analysis
 
-- Write paper on speaker recognition (w/Vianey Leos)
+---
+class: primary
+# About RACs and Pilot 
+
+- Idea: Use neural networks to classify RACs (or identify)?
+
+- Let us look at the data structure
+
 
 ---
 class: inverse

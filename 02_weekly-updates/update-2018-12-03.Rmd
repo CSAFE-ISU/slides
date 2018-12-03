@@ -110,20 +110,6 @@ class: primary
 
 ---
 class: inverse
-# Ganesh  
-
----
-class: primary   
-# Fall Semester Goals  
-
-- Taking 2 or 3 classes (Time Series (Stat 551), Optimization in Machine Learning (Com Sc 578X), Cognitive Psychology for Human Computer Interaction (HCI 521))
-- Continue with the development of the User Interface
-- Explore possibilities of Optimizing the Random Forest wherever possible in the bullet project and implement it.
-- Conceptualize the bullet-to-bullet comparison problem for the Chumbley score method.
-
-
----
-class: inverse
 # Amy
 
 ---
@@ -308,7 +294,7 @@ class: secondary
 ## Presenters
 presenter <- 
   c("Soyoung", "Amy", "Ben", "Nick", 
-    "Ganesh", "Nate", "Sam", "Guillermo", 
+     "Nate", "Sam", "Guillermo", 
     "James", "Kiegan", "Danica", "Susan", 
     "Miranda")
 

@@ -231,6 +231,13 @@ class: primary
 * Continueing on with the mud prints and casting
 * Planning for the next phase of the study
 
+---
+class: primary
+# Bugs of Some Sort
+
+<img src = "images/James/bug.PNG" width="48%"/>
+<img src = "images/James/bug2.PNG" width="48%"/>
+
 
 ---
 class: inverse

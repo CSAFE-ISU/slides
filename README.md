@@ -89,6 +89,7 @@ November 05: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-update
 November 12: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-11-12.html)<br>
 November 19: Thanksgiving week<br>
 November 26: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-11-26.html)<br>
+December 03: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-12-03.html)<br>
 
 ### Summer 2018 Slides
 

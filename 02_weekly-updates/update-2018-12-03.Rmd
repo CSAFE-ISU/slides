@@ -81,24 +81,6 @@ class: secondary
  
 ---
 class: inverse
-# Susan
-
----
-class: primary
-# Fall Semester Goals
-
-- `x3ptools` and `bulletxtrctr`
-    - \> 95% test coverage (if possible)
-    - Results database - data provenance
-    - Docker or packrat to ensure environment reproducibility
-- Truthiness study data collection
-- Paper with Miranda (Creative Component):    
-one-hot Convolutional NN for shoeprint feature recognition
-- Longitudinal Shoeprint Database
-    - Functioning well enough to present at AAFS in Feb
-
----
-class: inverse
 # Kiegan  
 
 
@@ -210,6 +192,20 @@ class: primary
     + forensic scientists doing statistics
     + [legal professionals encountering statistics](https://github.com/CSAFE-ISU/slides/issues/2)
 
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Last week
+
+- `bulletxtrctr` test coverage to 97%
+- `x3ptools` test coverage to 98%
+- Truthiness: 20/41 recordings transcribed
+- Worked on shoe heatmaps with Miranda
+- Bullet case validation paper fixes
 
 ---
 class: inverse

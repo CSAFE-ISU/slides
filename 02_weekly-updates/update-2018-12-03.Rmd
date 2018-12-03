@@ -116,14 +116,21 @@ class: inverse
 class: primary
 # Fall Semester Goals
 
-- Data Collection
+- <font color="red">Data Collection</font> Pilot in spring semester, then full collection.
 - Expand Bayesian hierarchical model
-    - Formal Model Selection
+    - <font color="red">Formal Model Selection</font>
     - Tests and Intervals
     - Validation
-- Write and submit a paper on that modeling.
+- <font color="red">Write and submit a paper on that modeling.</font> Draft by end of break.
 - Exploritory analysis of 'next level' features (AAFS)
     - Work with Ben and Nick
+
+---
+class: primary
+# Recently
+
+<img src = "images/Amy/ConsistencyofBayesProceduresPaper.png" width="90%" height = "90%"/>
+
 
 ---
 class: inverse

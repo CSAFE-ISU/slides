@@ -225,19 +225,13 @@ class: inverse
 
 ---
 class: primary
-# This Fall
+# Currently 
 
-* Possible Phase 2 of Data Collection for the shoe database 
-   + Just received feedback from the DCI
-   + Further tuning of our new procedures
-   + Develop a strict outline for how data collection will be done
-* New 3D Scanner Techniques
-* Beginning my masters work
-   + GDCB 510 (Transmission Genetics)
-   + Soc. 590 (Independent Study Research)
-   + Gen. 409 (Molecular Genetics)
-   + Possible independent paper into Stationary Serial Homicide
-    
+* Have compleated baby powder prints on the size 10-10.5 pairs of shoes (complete sets)
+* Continueing on with the mud prints and casting
+* Planning for the next phase of the study
+
+
 ---
 class: inverse
 # Soyoung

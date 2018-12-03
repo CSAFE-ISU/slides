@@ -199,11 +199,19 @@ class: inverse
 
 ---
 class: primary
-# Fall Semester Goals
+# Heatmaps
 
-- Develop methods to train "one-hot" neural networks for multi-label classification
-- Write paper on network training and results (ideally also a Creative Component)
-- Continue to help with truthiness data collection
+<img src = "images/miranda/2018-12-03/heatmap_2099.png" width="100%"/>
+---
+class: primary
+# Heatmaps
+
+<img src = "images/miranda/2018-12-03/heatmap_834.png" width="100%"/>
+---
+class: primary
+# Heatmaps
+
+<img src = "images/miranda/2018-12-03/heatmap_1664.png" width="100%"/>
 
 ---
 class: inverse
@@ -216,6 +224,13 @@ class: primary
 * Have compleated baby powder prints on the size 10-10.5 pairs of shoes (complete sets)
 * Continueing on with the mud prints and casting
 * Planning for the next phase of the study
+
+---
+class: primary
+# Bugs of Some Sort
+
+<img src = "images/James/bug.PNG" width="48%"/>
+<img src = "images/James/bug2.PNG" width="48%"/>
 
 
 ---

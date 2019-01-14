@@ -163,6 +163,13 @@ class: inverse
 class: primary   
 # Spring Semester Goals
 
+
+- *Taking Two Classes, Auditing One*
+(Stat 544 Bayesian Statistics, Com Sc 575 Computational Perception, Stat 601)
+- *Conclude the User Interface, finish write up.*
+- *Bullet-to-bullet scoring: Using the Chumbley Score method *
+- *Bullet-to-bullet scoring: Other methods/ tests.*
+
 ---
 class: inverse
 # Danica  

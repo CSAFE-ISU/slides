@@ -133,6 +133,14 @@ class: inverse
 class: primary
 # Spring Semester Goals
 
+- Submit glass EDA paper with Sam
+- Working on two papers of shoe analysis on SURF matching 
+- Waiting for response from JCGS 
+- Workinig on the book chapters
+- Working on Dirichlet process for uncentainty pyramid with Sam
+- Working on covariance estimation on glass data with Sam 
+
+
 ---
 class: inverse
 # James

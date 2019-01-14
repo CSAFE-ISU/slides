@@ -163,6 +163,16 @@ class: inverse
 ---
 class: primary
 # Spring Semester Goals
+- Collect data
+- Submit paper
+
+---
+class: primary
+# Near Future
+Undergraduate research assistant    
+Pilot data collection
+
+
 
 ---
 class: inverse

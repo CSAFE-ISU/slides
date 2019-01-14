@@ -72,6 +72,9 @@ You are expected to add your slides **at least** 20 minutes before every Show-an
 - Do not add any HTML file created by compiling the slides.
 - The process to upload is Pull -> Add Slides -> Commit -> Pull -> Push. Note that you must pull the repo twice: once to get the slides for the current week and the second time to get any material that others have pushed in the meantime. When in doubt, always do: commit, PULL, push. 
 
+### Spring 2019 Slides
+January 14: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-01-14.html)<br>
+
 ### Fall 2018 Slides
 
 August 22: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2018-08-22.html)<br>

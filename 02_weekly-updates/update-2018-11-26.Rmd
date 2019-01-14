@@ -321,17 +321,19 @@ class: inverse
 
 ---
 class: primary   
-# Fall Semester Update  
+# Spring Semester Goals  
 
-- Submit revised BF vs. LR paper to Statistical Science
-- Continue NIJ grant to validate FDE conclusions 
+- Submit follow-up BF vs. LR paper to LPR  
+- Continue NIJ grant to validate FDE conclusions
     - Working to figure out how to combine kinematic scores across the entire phrase
-    - Getting a FlashID update that will help compare results to SIFT
-    - Working on updating code to improve the SIFT scores
-    - Finishing up year-end report so that I can get the next year's funds
-- Working on paper with Larry concerning ROC curves and SLRs
-- Invited to attend the Writing Winning Grant Proposals Phase 2 Workshop
-    - Big thanks to Wolfgang!
+- Work with Amy on the CSAFE Handwriting project  
+- Write a paper for LPR on approximations to BFs
+- Write a paper on Fiducial Factors with UNC
+- Start NIJ grant on forensic error rate studies
+    - Working on paper concerning ROC curves and SLRs
+- Writing Winning Grant Proposals Phase 2 Workshop
+    - Draft an NSF CAREER Proposal (for 2020 submission?)
+- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
 
 
 ---

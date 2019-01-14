@@ -180,9 +180,15 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
-### 1. Collect data
-### 2. Submit paper
+# Spring Semester Goals  
+- <strong>Collect data</strong>
+- <strong>Submit paper</strong> (Chapter 1)
+<br> <br>
+- Oral prelim
+- AAFS talk in February
+- Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
+- STATers
+- <i>No classes!</i> :)
 
 ---
 class: primary

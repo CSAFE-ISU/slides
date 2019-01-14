@@ -175,7 +175,7 @@ Pilot data collection
 ---
 class: primary
 # Near Future
-<img src = "images/Amy/Communication_Flyer.png" width="90%" height = "90%"/>
+<img src = "images/amy/Communcation_Flyer.png" width="90%" height = "90%"/>
 
 
 ---

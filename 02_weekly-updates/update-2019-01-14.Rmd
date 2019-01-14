@@ -173,19 +173,13 @@ class: inverse
 ---
 class: primary
 # Spring Semester Goals
-- Collect data
-- Submit paper
+### 1. Collect data
+### 2. Submit paper
 
 ---
 class: primary
-# Near Future
-Undergraduate research assistant    
-Pilot data collection
-
----
-class: primary
-# Near Future
-<img src = "images/amy/Communcation_Flyer.png" width="90%" height = "90%"/>
+# Coming up
+<p> <img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"> <br> <br> <br> <br> - Undergraduate &nbsp; research &nbsp;&nbsp;assistant <br> <br> - Pilot data &nbsp;&nbsp;collection </p>
 
 
 ---

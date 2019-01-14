@@ -113,7 +113,17 @@ class: inverse
 
 ---
 class: primary   
-# Spring Semester Goals
+# Spring Semester Goals  
+
+
+- Submit AFTE paper (waiting on feedback)  
+- Submit JFS paper (draft almost complete!)   
+- AAFS in February  
+- Design/implement gauge R&R  
+- Working on the book  
+- *Oral prelim on grooves material, plans for gauge R&R and beyond...*  
+- *Write up Chapter 1*  
+
     
 ---
 class: inverse

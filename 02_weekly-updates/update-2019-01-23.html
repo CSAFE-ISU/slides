@@ -1,15 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for January 23</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for January 23
+### 2019/01/23
+
 ---
-title: "Weekly Update for January 23"
-date: "2019/01/23"
-output:
-  xaringan::moon_reader:
-    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
----
+
 
 
 class: inverse
@@ -77,7 +83,7 @@ class: secondary
 - If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
 
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
  
 
 ---
@@ -141,10 +147,10 @@ class: primary
     - houston-test downstream (naming issues)  
     - results to share (if time)  
 - AAFS in February  
-- **Design/implement gauge R&R**  
+- **Design/implement gauge R&amp;R**  
     - working on study design  
 - Working on the book  
-- *Oral prelim on grooves material, plans for gauge R&R and beyond...*  
+- *Oral prelim on grooves material, plans for gauge R&amp;R and beyond...*  
 - *Write up Chapter 1*  
 
     
@@ -165,7 +171,7 @@ class: primary
 
 ---
 # Vest prints
-- Variations : 6 weights & 5 pairs of shoes (ID) & 2 sides of shoes (Left and Right) & 5 repeated impressions for each side 
+- Variations : 6 weights &amp; 5 pairs of shoes (ID) &amp; 2 sides of shoes (Left and Right) &amp; 5 repeated impressions for each side 
 
   * KM : repeated measurements within a shoe ID 
   * KNM 1 : Fix weight - between shoe IDs
@@ -173,7 +179,7 @@ class: primary
   * KNM 2-ID5 : Fix shoe ID 05 - between six weights
   * KNM 3 : shoe ID 1 vs shoe ID 2:5 on six weights
 
-<img src="images/soyoung/vest_prints.png" width="80%">
+&lt;img src="images/soyoung/vest_prints.png" width="80%"&gt;
 
 
 ---
@@ -236,15 +242,15 @@ class: inverse
 ---
 class: primary
 # Spring Semester Goals  
-- <strong>Collect data</strong>
+- &lt;strong&gt;Collect data&lt;/strong&gt;
     - Colin joins the team!
     - Automate parts of the process
-<br><br>
-- <strong>Research</strong> (Paper/Chapter 1)
+&lt;br&gt;&lt;br&gt;
+- &lt;strong&gt;Research&lt;/strong&gt; (Paper/Chapter 1)
     - Fun times with `read_csv` (next slide)
-    - Working group Jan. 30 \& Feb. 6
+    - Working group Jan. 30 \&amp; Feb. 6
     
-<br>
+&lt;br&gt;
 - Oral prelim
 - AAFS talk in February
 
@@ -253,8 +259,8 @@ class: primary
 # Fun times.
 - `read_csv` with `purrr::map`  
 - 6G directory
-<br><br>
-<img  src = "images/amy/read_csv-memory.png" width="120%" align="left">
+&lt;br&gt;&lt;br&gt;
+&lt;img  src = "images/amy/read_csv-memory.png" width="120%" align="left"&gt;
 
 
 ---
@@ -291,19 +297,51 @@ class: secondary
 
 - [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
 - One issue down, three to go.
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
-```{r, eval=FALSE, echo=FALSE}
-## Presenters
-presenter <- 
-  c("Soyoung", "Amy", "Ben", "Nick", 
-    "Ganesh", "Nate", "Sam", 
-    "James", "Kiegan", "Danica", "Susan", 
-    "Miranda")
-
-## Set seed as the date (mmdd)
-set.seed(1105)
-
-## Shuffle presenters
-sample(presenter)
-```
-
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

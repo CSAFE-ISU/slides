@@ -101,9 +101,8 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Spring Semester Plans
 
-(Added at 3:45pm in the DFW airport en route to RStudio::conf)
 
 - Submit, submit, submit! 
     * Another thesis chapter to JCGS. (No word yet on other paper submitted to ISR)
@@ -113,6 +112,10 @@ class: primary
     * Covariance matrices for glass element concentrations (w/SP)
     * Keep researching uncertainty pyramid related things (w/SP, SL, HI)
     * ROpenSci fellowship book. Current plan: release in April
+- Reading/working group 
+    * Reading the [paper](https://www.jstatsoft.org/article/view/v028i05) introducing the `caret` package.  
+    * Applying principles from applied machine learning [workshop](https://github.com/topepo/rstudio-conf-2019) at rstudio::conf 
+    
 
 ---
 class: inverse

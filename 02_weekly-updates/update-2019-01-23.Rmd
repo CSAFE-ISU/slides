@@ -221,18 +221,23 @@ class: inverse
 class: primary
 # Spring Semester Goals  
 - <strong>Collect data</strong>
-- <strong>Submit paper</strong> (Chapter 1)
-<br> <br>
+    - Colin joins the team!
+    - Automate parts of the process
+<br><br>
+- <strong>Research</strong> (Paper/Chapter 1)
+    - Fun times with `read_csv` (next slide)
+    
+<br>
 - Oral prelim
 - AAFS talk in February
-- Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
-- STATers
-- <i>No classes!</i> :)
 
 ---
 class: primary
-# Coming up
-<p> <img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"> <br> <br> <br> <br> - Undergraduate &nbsp; research &nbsp;&nbsp;assistant <br> <br> - Pilot data &nbsp;&nbsp;collection </p>
+# Fun times.
+- `read_csv` with `purrr::map`  
+- 6G directory
+<br><br>
+<img  src = "images/amy/read_csv-memory.png" width="120%" align="left">
 
 
 ---

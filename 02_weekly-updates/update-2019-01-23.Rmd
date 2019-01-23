@@ -196,7 +196,9 @@ class: primary
 - *Taking Two Classes, Auditing One*
 (Stat 544 Bayesian Statistics, Com Sc 575 Computational Perception, Stat 601)
 - *Conclude the User Interface, finish write up.*
+ - Getting the file system setup
 - *Bullet-to-bullet scoring: Using the Chumbley Score method *
+ - Cleaning up the data, and rewriting the tests.
 - *Bullet-to-bullet scoring: Other methods/ tests.*
 
 ---

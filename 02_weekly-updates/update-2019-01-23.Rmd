@@ -114,7 +114,7 @@ class: primary
     * ROpenSci fellowship book. Current plan: release in April
 - Reading/working group 
     * Reading the [paper](https://www.jstatsoft.org/article/view/v028i05) introducing the `caret` package.  
-    * Applying principles from applied machine learning [workshop](https://github.com/topepo/rstudio-conf-2019) at rstudio::conf 
+    * Applying principles from applied machine learning [workshop](https://github.com/topepo/rstudio-conf-2019) at rstudio::conf (I wrote a blog post about my experience at rstudio::conf [here](https://sctyner.github.io/rstudio-conf.html).)
     
 
 ---

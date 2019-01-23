@@ -226,6 +226,7 @@ class: primary
 <br><br>
 - <strong>Research</strong> (Paper/Chapter 1)
     - Fun times with `read_csv` (next slide)
+    - Working group Jan. 30 \& Feb. 6
     
 <br>
 - Oral prelim

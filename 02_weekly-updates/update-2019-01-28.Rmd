@@ -123,6 +123,16 @@ class: inverse
 class: primary
 # Spring Semester Goals
 
+- Survive interview
+
+- Submit paper with Miranda
+
+- Port `keras-vis` Python library to R (with Jason)
+
+- bulletsamplr package/paper
+
+- NIJ Grant for prototype scanner
+
 ---
 class: inverse
 # Kiegan  

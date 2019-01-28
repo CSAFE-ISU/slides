@@ -261,8 +261,8 @@ class: primary
     - Working group Jan. 30 \& Feb. 6
     
 <br>
-- Oral prelim
-- AAFS talk in February
+- <strong>Sidenote. </strong>Detroit Lakes, MN tomorrow night: wind chills near -70&deg;F,  "realfeel" temperatures near -60&deg;F.
+
 
 
 ---

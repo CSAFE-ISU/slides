@@ -1,15 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for January 28th</title>
+    <meta charset="utf-8">
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for January 28th
+### 2019/01/28
+
 ---
-title: "Weekly Update for January 28th"
-date: "2019/01/28"
-output:
-  xaringan::moon_reader:
-    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
----
+
 
 
 class: inverse
@@ -77,7 +83,7 @@ class: secondary
 - If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
 
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
  
 
 
@@ -100,10 +106,10 @@ class: primary
     - Putting together results section  
     - Running last sets downstream through random forest  
 - AAFS in February  
-- **Design/implement gauge R&R**  
+- **Design/implement gauge R&amp;R**  
     - Working on study design  
 - Working on the book  
-- *Oral prelim on grooves material, plans for gauge R&R and beyond...*  
+- *Oral prelim on grooves material, plans for gauge R&amp;R and beyond...*  
 - *Write up Chapter 1*  
 
 
@@ -112,7 +118,7 @@ class: primary
 # Initial Results    
 
 
-<img src = "images/kiegan/hamby44_inside_outside.png"/>  
+&lt;img src = "images/kiegan/hamby44_inside_outside.png"/&gt;  
  
 
 
@@ -121,7 +127,7 @@ class: primary
 # Initial Results    
 
 
-<img src = "images/kiegan/phoenix_inside_outside.png"/>  
+&lt;img src = "images/kiegan/phoenix_inside_outside.png"/&gt;  
  
  
 ---
@@ -159,8 +165,8 @@ class: primary
     * Keep researching uncertainty pyramid related things
     * ROpenSci fellowship book. To be released in April
 - **Reading/working group sessions** 
-    * **February 13th:** Presenting the process of fitting a random forest to the glass data, following the [`tidymodels`](https://github.com/tidymodels) workflow & principles. I'm open to using other data if you have it! 
-    * **February 20th:** Working meeting applying the `tidymodels` principles to your own data. This could be CSAFE or other data for your research. Or, pick a dataset from the wild (try the [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) repo). Reference materials are the slides & code from the Applied ML [workshop](https://github.com/topepo/rstudio-conf-2019) at rstudio::conf and the [paper](https://www.jstatsoft.org/article/view/v028i05) from JSS on the `caret` package.
+    * **February 13th:** Presenting the process of fitting a random forest to the glass data, following the [`tidymodels`](https://github.com/tidymodels) workflow &amp; principles. I'm open to using other data if you have it! 
+    * **February 20th:** Working meeting applying the `tidymodels` principles to your own data. This could be CSAFE or other data for your research. Or, pick a dataset from the wild (try the [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) repo). Reference materials are the slides &amp; code from the Applied ML [workshop](https://github.com/topepo/rstudio-conf-2019) at rstudio::conf and the [paper](https://www.jstatsoft.org/article/view/v028i05) from JSS on the `caret` package.
     
 
 
@@ -188,7 +194,7 @@ class: primary
 - Determine next steps with CNN
 - Written Prelim this summer
 
-<img src = "images/miranda/2019-01-28/writing.gif" width="35%"/>
+&lt;img src = "images/miranda/2019-01-28/writing.gif" width="35%"/&gt;
 
 
 
@@ -210,17 +216,17 @@ class: primary
 # SLR
 
 - To review
-    - Uknown source data $Y$ and known source data $X$ are normal
-    - score = $(x - y)^2$
-    - $\log(SLR) - \log(LR)$ is unbounded
-    - Probabilities that $SLR/LR$ under $H_d$ become large with signal-to-noise ratio
-         - Under $H_p$ these probabilities are much more well-behaved
+    - Uknown source data `\(Y\)` and known source data `\(X\)` are normal
+    - score = `\((x - y)^2\)`
+    - `\(\log(SLR) - \log(LR)\)` is unbounded
+    - Probabilities that `\(SLR/LR\)` under `\(H_d\)` become large with signal-to-noise ratio
+         - Under `\(H_p\)` these probabilities are much more well-behaved
 - The catch...
-    - Overwhelming majority of large discrepancies exist when both the SLR and LR are very small (under $H_d$)
+    - Overwhelming majority of large discrepancies exist when both the SLR and LR are very small (under `\(H_d\)`)
     
-- How to interpret $\frac{P(Y|SLR, H_p)}{P(Y|SLR, H_d)}$ (or $\frac{P(Y|SLR, H_d)}{P(Y|SLR, H_p)}$)?
+- How to interpret `\(\frac{P(Y|SLR, H_p)}{P(Y|SLR, H_d)}\)` (or `\(\frac{P(Y|SLR, H_d)}{P(Y|SLR, H_p)}\)`)?
 - I think...
-    - $E_Y \left[ \frac{P(Y|SLR, H_p)}{P(Y|SLR, H_d)} | H_d \right] = E_Y\left[ \frac{P(SLR|H_d)P(SLR|Y,H_p)}{P(SLR|Y, H_d)P(SLR|H_p)} | H_p \right]$
+    - `\(E_Y \left[ \frac{P(Y|SLR, H_p)}{P(Y|SLR, H_d)} | H_d \right] = E_Y\left[ \frac{P(SLR|H_d)P(SLR|Y,H_p)}{P(SLR|Y, H_d)P(SLR|H_p)} | H_p \right]\)`
 
     
 ---
@@ -237,17 +243,17 @@ class: inverse
 ---
 class: primary
 # Spring Semester Goals  
-- <strong>Collect data</strong>
+- &lt;strong&gt;Collect data&lt;/strong&gt;
     - Colin working on QR codes
-<br><br>
-- <strong>Research</strong> (Paper/Chapter 1)
+&lt;br&gt;&lt;br&gt;
+- &lt;strong&gt;Research&lt;/strong&gt; (Paper/Chapter 1)
     - Working with Ben and Nick to process documents
     - Methods for making feature space smaller (2000 columns)
     - CSAFE-01 server issues at the end of last week
-    - Working group Jan. 30 \& Feb. 6
+    - Working group Jan. 30 \&amp; Feb. 6
     
-<br>
-- <strong>Sidenote. </strong>Detroit Lakes, MN tomorrow night: wind chills near -70&deg;F,  "realfeel" temperatures near -55&deg;F.
+&lt;br&gt;
+- &lt;strong&gt;Sidenote. &lt;/strong&gt;Detroit Lakes, MN tomorrow night: wind chills near -70&amp;deg;F,  "realfeel" temperatures near -55&amp;deg;F.
 
 ---
 class: inverse
@@ -314,18 +320,51 @@ class: secondary
 
 - [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
 - One issue down, three to go.
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
-```{r, eval=FALSE, echo=FALSE}
-## Presenters
-presenter <- 
-  c("Soyoung", "Amy", "Ben", "Nick", 
-    "Ganesh", "Nate", "Sam", 
-    "James", "Kiegan", "Danica", "Susan", 
-    "Miranda")
-
-## Set seed as the date (mmdd)
-set.seed(0128)
-
-## Shuffle presenters
-sample(presenter)
-```
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

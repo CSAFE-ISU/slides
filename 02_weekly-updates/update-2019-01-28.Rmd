@@ -256,8 +256,8 @@ class: primary
 <br><br>
 - <strong>Research</strong> (Paper/Chapter 1)
     - Working with Ben and Nick to process documents
-    - Running MCMC on updated data from FlashID
-    - CSAFE-01 issues at the end of last week
+    - Methods for making feature space smaller (2000 columns)
+    - CSAFE-01 server issues at the end of last week
     - Working group Jan. 30 \& Feb. 6
     
 <br>

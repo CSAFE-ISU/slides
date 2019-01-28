@@ -273,14 +273,29 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Groove ID
 
-- Finish (or get close) to SLR paper
-- Finish groove changepoint R package and my contribution to the joint paper with Kiegan
-- Find an internship 
-- Mostly finish dissertation chapter on sparse GPs (and work on corresponding R package?)
-- Oral prelim
-- Learn Python through stat 602
+- Almost done with AAFS poster (need discussion section)
+- Get back to making my R package CRAN worthy (currently passing Travis checks)
+    - change the names of functions
+    
+---
+class: primary
+# SLR
+
+- To review
+    - Uknown source data $Y$ and known source data $X$ are normal
+    - score = $(x - y)^2$
+    - $\log(SLR) - \log(LR)$ is unbounded
+    - Probabilities that $SLR/LR$ under $H_d$ become large with signal-to-noise ratio
+         - Under $H_p$ these probabilities are much more well-behaved
+- The catch...
+    - Overwhelming majority of large discrepancies exist when both the SLR and LR are very small (under $H_d$)
+    
+- How to interpret $\frac{P(Y|SLR, H_p)}{P(Y|SLR, H_d)}$ (or $\frac{P(Y|SLR, H_d)}{P(Y|SLR, H_p)}$)?
+- I think...
+    - $E_Y \left[ \frac{P(Y|SLR, H_p)}{P(Y|SLR, H_d)} | H_d \right] = E_Y\left[ \frac{P(SLR|H_d)P(SLR|Y,H_p)}{P(SLR|Y, H_d)P(SLR|H_p)} | H_p \right]$
+
     
 ---
 class: inverse

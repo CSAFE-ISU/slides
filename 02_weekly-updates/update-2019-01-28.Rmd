@@ -261,7 +261,7 @@ class: primary
     - Working group Jan. 30 \& Feb. 6
     
 <br>
-- <strong>Sidenote. </strong>Detroit Lakes, MN tomorrow night: wind chills near -70&deg;F,  "realfeel" temperatures near -60&deg;F.
+- <strong>Sidenote. </strong>Detroit Lakes, MN tomorrow night: wind chills near -70&deg;F,  "realfeel" temperatures near -55&deg;F.
 
 
 

@@ -187,11 +187,11 @@ class: primary
 
 - Submit glass EDA paper with Sam
 - Working on two papers of shoe analysis on SURF matching 
-- Waiting for response from JCGS 
-- Workinig on the book chapters
+- Workinig on the book chapters of glass and shoe
+- Working with vest prints 
 - Working on Dirichlet process for uncentainty pyramid with Sam
 - Working on covariance estimation on glass data with Sam 
-
+- Waiting for response from JCGS
 
 ---
 class: inverse

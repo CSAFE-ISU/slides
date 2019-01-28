@@ -101,19 +101,20 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
-
-(Added at 3:45pm in the DFW airport en route to RStudio::conf)
+# Spring Goals
 
 - Submit, submit, submit! 
-    * Another thesis chapter to JCGS. (No word yet on other paper submitted to ISR)
-    * Glass EDA paper (w/Soyoung) to JFS 
-    * Jury study paper (from a while ago...) to LPR
+    * Another thesis chapter to JCGS.
+    * Glass EDA paper (w/SP) to JFS (submit by end of Feb.)
+    * Jury study paper to LPR
 - Other research 
-    * Covariance matrices for glass element concentrations (w/SP)
-    * Keep researching uncertainty pyramid related things (w/SP, SL, HI)
-    * ROpenSci fellowship book. Current plan: release in April
-
+    * Covariance matrices for glass element concentrations
+    * Keep researching uncertainty pyramid related things
+    * ROpenSci fellowship book. To be released in April
+- **Reading/working group sessions** 
+    * **February 13th:** Presenting the process of fitting a random forest to the glass data, following the [`tidymodels`](https://github.com/tidymodels) workflow & principles. I'm open to using other data if you have it! 
+    * **February 20th:** Working meeting applying the `tidymodels` principles to your own data. This could be CSAFE or other data for your research. Or, pick a dataset from the wild (try the [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) repo). Reference materials are the slides & code from the Applied ML [workshop](https://github.com/topepo/rstudio-conf-2019) at rstudio::conf and the [paper](https://www.jstatsoft.org/article/view/v028i05) from JSS on the `caret` package.
+    
 ---
 class: inverse
 # Susan

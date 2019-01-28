@@ -123,6 +123,16 @@ class: inverse
 class: primary
 # Spring Semester Goals
 
+- Survive interview
+
+- Submit paper with Miranda
+
+- Port `keras-vis` Python library to R (with Jason)
+
+- bulletsamplr package/paper
+
+- NIJ Grant for prototype scanner
+
 ---
 class: inverse
 # Kiegan  
@@ -242,18 +252,17 @@ class: inverse
 class: primary
 # Spring Semester Goals  
 - <strong>Collect data</strong>
-- <strong>Submit paper</strong> (Chapter 1)
-<br> <br>
-- Oral prelim
-- AAFS talk in February
-- Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
-- STATers
-- <i>No classes!</i> :)
+    - Colin working on QR codes
+<br><br>
+- <strong>Research</strong> (Paper/Chapter 1)
+    - Working with Ben and Nick to process documents
+    - Methods for making feature space smaller (2000 columns)
+    - CSAFE-01 server issues at the end of last week
+    - Working group Jan. 30 \& Feb. 6
+    
+<br>
+- <strong>Sidenote. </strong>Detroit Lakes, MN tomorrow night: wind chills near -70&deg;F,  "realfeel" temperatures near -55&deg;F.
 
----
-class: primary
-# Coming up
-<p> <img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"> <br> <br> <br> <br> - Undergraduate &nbsp; research &nbsp;&nbsp;assistant <br> <br> - Pilot data &nbsp;&nbsp;collection </p>
 
 
 ---

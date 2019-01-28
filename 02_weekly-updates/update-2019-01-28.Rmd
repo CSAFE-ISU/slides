@@ -77,7 +77,7 @@ class: secondary
 - If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
 
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ 
  
 
 
@@ -255,7 +255,19 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Spring Semester Objectives
+1. Provide support to Amy and Ben
+  - Amy working on modellilng. I can aide by providing features and support for package as data extraction happens.
+  - Ben is working on web application. I can help by providing over-arching ideas and assist with any R code that is needed for transition.
+2. Continue to improve **handwriter**
+  - Order letters coherently across lines
+  - Add nodes at sharp turn
+  - Detect loops that have multiple paths
+
+---
+class: primary
+# This week
+<img src = "images/Nick/DoubleBreakPoint.png"/>
 
 ---
 class: inverse

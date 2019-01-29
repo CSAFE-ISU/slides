@@ -124,7 +124,7 @@ class: primary
 
 ---
 class: inverse
-# Kiegan  
+# Kiegan
 
 
 ---
@@ -182,7 +182,7 @@ class: primary
 
 ---
 class: inverse
-# Danica  
+# Danica
 
 ---
 class: primary   

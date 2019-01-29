@@ -126,7 +126,6 @@ class: primary
 class: inverse
 # Kiegan
 
-
 ---
 class: primary   
 # Spring Semester Goals  
@@ -155,15 +154,6 @@ class: primary
 - Workinig on the book chapters
 - Working on Dirichlet process for uncentainty pyramid with Sam
 - Working on covariance estimation on glass data with Sam 
-
-
----
-class: inverse
-# James
-
----
-class: primary
-# Spring Semester Goals
 
 ---
 class: inverse
@@ -247,15 +237,6 @@ class: primary
 - Oral prelim
 - Learn Python through stat 602
     
----
-class: inverse
-# Ben
-
----
-class: primary
-# Spring Semester Goals
-
-
 ---
 class: inverse
 # Issues

@@ -26,9 +26,9 @@ What's changed:
 - New person slide: 
 
 ````
----
-class: inverse
-# Your Name
+  ---
+  class: inverse
+  # Your Name
 ````
 
 ---
@@ -167,7 +167,7 @@ class: primary
 
 ---
 class: inverse
-# Ganesh  
+# Ganesh
 
 ---
 class: primary   

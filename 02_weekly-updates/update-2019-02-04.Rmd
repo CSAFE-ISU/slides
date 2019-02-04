@@ -239,7 +239,23 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Last Week
+
+- Revised presentation slides
+
+- Rewrote `ShoeScrapeR`
+    - handle ["luxury"](https://luxury.zappos.com/) shoes (different Zappos layout)
+    - increased reliability
+
+- Using the CNN output feature vector as a comparison tool
+    1. Trim all 54K shoes to a square region around the ball of the foot
+    2. Run through CoNNOR
+    3. Pairwise comparisons to get a similarity score
+        - Euclidean distance of 1x9 feature vector
+
+---
+
+.center[<img src="images/susan/Connor_Feature_Dist.png" alt = "CoNNOR Feature Similarity" width = "90%" height = "80%"/>]
 
 ---
 class: inverse

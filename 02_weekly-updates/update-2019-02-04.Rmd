@@ -115,6 +115,31 @@ class: primary
 - Working on Dirichlet process for uncentainty pyramid with Sam
 - Working on covariance estimation on glass data with Sam 
 
+
+
+---
+# Vest prints
+- Variations : 6 weights & 5 pairs of shoes (ID) & 2 sides of shoes (Left and Right) & 5 repeated impressions for each side 
+
+  * KM : repeated measurements within a shoe ID 
+  * KNM 1 : Fix weight - between shoe IDs
+  * KNM 2 : Fix shoe 01 - between six weights
+  * KNM 2-ID5 : Fix shoe ID 05 - between six weights
+  * KNM 3 : shoe ID 1 vs shoe ID 2:5 on six weights
+
+<img src="images/soyoung/vest_prints.png" width="80%">
+
+
+
+---
+# Vest prints
+- Explains why there is bimodal desity in KNM2 scores. 
+
+  * KNM 2 : Fix shoe 01, side L- matches between six weights (J1, J2, J3, G1, G2, G3)
+  
+<img src="images/soyoung/vest_prints_KNM2.png" width="80%">
+
+
 ---
 class: inverse
 # Kiegan

@@ -202,9 +202,14 @@ class: primary
     - Modeling and prediction changes using multinomial-Dirichlet hierarchical model
     
 ---
-class: primary
-# Modeling
-<img src = "images/amy/demo_junkbucket.png"/>
+#   
+#   
+<img src = "images/amy/demo_junkbucket.png" width = "100%"/>
+
+---
+#  
+#  
+<img src = "images/amy/demo_junkbucket_qw6.png" width = "100%"/>
 
 
 ---

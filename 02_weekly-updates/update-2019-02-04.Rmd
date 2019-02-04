@@ -218,8 +218,9 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
-
+# Weekly Goals
+1. Clustering graph types
+2. Correcting errors in document processing.
 
 ---
 class: inverse

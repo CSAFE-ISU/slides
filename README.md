@@ -76,6 +76,8 @@ You are expected to add your slides **at least** 20 minutes before every Show-an
 January 14: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-01-14.html)<br>
 January 23: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-01-23.html)<br>
 January 28: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-01-28.html)<br>
+February 4: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-02-04.html)<br>
+
 
 ### Fall 2018 Slides
 

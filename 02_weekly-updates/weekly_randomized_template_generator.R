@@ -1,9 +1,16 @@
 library(lubridate)
-rmd_stub <- "template-spring-2019.Rmd"
+rmd_stub <- "./02_weekly-updates/template-spring-2019.Rmd"
 contents <- readLines(rmd_stub)
 # cat(contents, sep = "\n")
-monday <- Sys.Date() + 7
 
+nextweekday <- function(date, wday) {
+  date <- as.Date(date)
+  diff <- wday - wday(date)
+  if( diff < 0 )
+    diff <- diff + 7
+  return(date + diff)
+}
+monday <- nextweekday(Sys.Date(),2) 
 presenter <- 
   c("Soyoung", "Amy", "Nick", 
     "Ganesh", "Nate", "Sam",
@@ -35,7 +42,7 @@ abc[[length(which(contents== "class: inverse"))]]<- contents[(which(contents== "
 abc<- unlist(abc)
 
 # filename 
-filename <- paste0("update-", monday, ".Rmd")
+filename <- paste0("./02_weekly-updates/update-", monday, ".Rmd")
 cat(abc, sep = "\n", file = filename)
 
 

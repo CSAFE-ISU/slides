@@ -128,13 +128,39 @@ class: primary
 # Spring Semester Goals  
 
 
-- Submit AFTE paper (waiting on feedback)  
-- Submit JFS paper (draft almost complete!)   
-- AAFS in February  
-- Design/implement gauge R&R  
+- **Submit AFTE paper**  
+- **Submit JFS paper**    
+- **AAFS next week**    
+- **Design/implement gauge R&R**  
 - Working on the book  
 - *Oral prelim on grooves material, plans for gauge R&R and beyond...*  
-- *Write up Chapter 1*  
+- **Write up Chapter 1**  
+
+
+---
+class: primary   
+# Hamby set 44 results  
+
+
+<img src = "images/kiegan/hamby44_aucs.png"/>  
+
+
+---
+class: primary   
+# Phoenix PD set results  
+
+
+<img src = "images/kiegan/phoenix-pd_aucs.png"/>  
+
+
+
+---
+class: primary   
+# Houston-test set results  
+
+
+<img src = "images/kiegan/houston-test_aucs.png"/>   
+
 
     
 ---

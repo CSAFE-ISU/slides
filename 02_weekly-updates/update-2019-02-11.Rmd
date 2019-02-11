@@ -199,20 +199,9 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals  
-- <strong>Collect data</strong>
-- <strong>Submit paper</strong> (Chapter 1)
-<br> <br>
-- Oral prelim
-- AAFS talk in February
-- Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
-- STATers
-- <i>No classes!</i> :)
-
----
-class: primary
-# Coming up
-<p> <img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"> <br> <br> <br> <br> - Undergraduate &nbsp; research &nbsp;&nbsp;assistant <br> <br> - Pilot data &nbsp;&nbsp;collection </p>
+# Working From Home
+Working from MN this week! On email and Zoom if you need me.
+- Thanks to everyone who sent resources and engaged in discussion at working group last week.
 
 
 ---

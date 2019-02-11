@@ -221,6 +221,21 @@ Working from MN this week! On email and Zoom if you need me.
 - Thanks to everyone who sent resources and engaged in discussion at working group last week.
 
 
+---
+class: inverse
+# Ganesh
+
+---
+class: primary   
+# Spring Semester Goals
+
+
+- Sorry at the health center, in case I am not back!
+- *Weekly Goals*
+- Break-off and irregularity Detection on Bullet Land images
+  - Edge Detection, Contour Detection, Computer Vision literature read, Any literature recommendations?! 
+- Pre-processing script interface
+
 
 ---
 class: inverse
@@ -295,7 +310,7 @@ class: secondary
 ## Presenters
 presenter <- 
   c("Soyoung", "Amy", "Ben", "Nick", 
-     "Nate", "Sam", 
+    "Ganesh", "Nate", "Sam", 
     "James", "Kiegan", "Danica", "Susan", 
     "Miranda")
 

@@ -200,7 +200,9 @@ class: inverse
 ---
 class: primary
 # Working From Home
-Working from MN this week! On email and Zoom if you need me.
+Working from MN this week! On email and Zoom if you need me.   
+  
+  
 - Thanks to everyone who sent resources and engaged in discussion at working group last week.
 
 

@@ -283,6 +283,19 @@ class: primary
 - Working on covariance estimation on glass data with Sam 
 
 ---
+# Vest prints
+- Variations : 6 weights & 5 pairs of shoes (ID) & 2 sides of shoes (Left and Right) & 5 repeated impressions for each side 
+
+  * KM-W2/W2 (purple):  Between repeated impressions from James (weight-W2)
+  * KM-W4/W4 (green): Between repeated impressions from Ganseh (weight-W4)
+  * KNM2-W2/W4 (yellow): Between I(J-W2) and I(G-W4) from shoe 1
+  * KNM3-W2/W4 (red): Between I(J-W2) from shoe 1 and I(G-W4) from shoe 2-5
+  
+<img src="images/soyoung/vest_W2_W4.png" width="80%">
+
+
+
+---
 class: inverse
 # Issues
 

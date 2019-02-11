@@ -191,7 +191,22 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Last Week
+
+- Set up framework for bullet quality screening project with Joe
+
+- CoNNOR: Got distance calculations working reliably
+    - it turns out, file order matters? Who knew?
+
+- Survived Friday
+
+- Uncoast Unconf participant evaluations
+
+## This Week
+- AAFS Poster - Longitudinal Shoe DB
+    - Testing the database ([issue filed](https://github.com/CSAFE-ISU/slides/issues/9))
+
+
 
 ---
 class: inverse

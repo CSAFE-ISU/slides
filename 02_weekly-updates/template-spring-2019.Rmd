@@ -94,6 +94,21 @@ class: primary
 - Determine next steps with CNN
 - Written Prelim this summer
 
+---
+class: inverse
+# Charlotte
+
+---
+class: primary
+# Spring Semester Goals
+
+---
+class: inverse
+# Joe
+
+---
+class: primary
+# Spring Semester Goals
 
 ---
 class: inverse

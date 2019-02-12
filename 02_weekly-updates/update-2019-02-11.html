@@ -1,15 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for Feb 11</title>
+    <meta charset="utf-8">
+    <meta name="date" content="2019-02-11" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for Feb 11
+### 2019-02-11
+
 ---
-title: "Weekly Update for Feb 11"
-date: "2019-02-11"
-output:
-  xaringan::moon_reader:
-    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
----
+
 
 
 class: inverse
@@ -77,7 +84,7 @@ class: secondary
 - If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
 
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
  
 
 ---
@@ -117,15 +124,15 @@ class: primary
     * Keep researching uncertainty pyramid related things
     * ROpenSci fellowship book. To be released in April
 - Reading/working group sessions 
-    * February 13th: Presenting the process of fitting a random forest to the glass data, following the [`tidymodels`](https://github.com/tidymodels) workflow & principles. 
+    * February 13th: Presenting the process of fitting a random forest to the glass data, following the [`tidymodels`](https://github.com/tidymodels) workflow &amp; principles. 
     * February 20th: Working meeting applying the `tidymodels` principles to your own data. This could be CSAFE or other data for your research. Or, pick a dataset from the wild (try the [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) repo). Reference materials: code from the Applied ML [workshop](https://github.com/topepo/rstudio-conf-2019) at rstudio::conf 
 
 ---
 class:primary
 # Exciting news! 
 
-- Have an interview for a [AAAS Science & Technology Policy Fellowship](https://www.aaas.org/programs/science-technology-policy-fellowships)
-- Have to write a **briefing memo** on a topic of our choice (my choice: open data & public access to data) by this Thursday at 7am, so I'll be a bit distracted until Thursday. :) 
+- Have an interview for a [AAAS Science &amp; Technology Policy Fellowship](https://www.aaas.org/programs/science-technology-policy-fellowships)
+- Have to write a **briefing memo** on a topic of our choice (my choice: open data &amp; public access to data) by this Thursday at 7am, so I'll be a bit distracted until Thursday. :) 
 
 ![Footage of me working on the memo this weekend](http://3.bp.blogspot.com/-q5j3jizOL60/VV52DuTGcaI/AAAAAAAAIUQ/ZGG6FzWp0pw/s1600/tmhnks.gif)
   
@@ -144,9 +151,9 @@ class: primary
 - **Submit AFTE paper**  
 - **Submit JFS paper**    
 - **AAFS next week**    
-- **Design/implement gauge R&R**  
+- **Design/implement gauge R&amp;R**  
 - Working on the book  
-- *Oral prelim on grooves material, plans for gauge R&R and beyond...*  
+- *Oral prelim on grooves material, plans for gauge R&amp;R and beyond...*  
 - **Write up Chapter 1**  
 
 
@@ -155,7 +162,7 @@ class: primary
 # Hamby set 44 results  
 
 
-<img src = "images/kiegan/hamby44_aucs.png"/>  
+&lt;img src = "images/kiegan/hamby44_aucs.png"/&gt;  
 
 
 ---
@@ -163,7 +170,7 @@ class: primary
 # Phoenix PD set results  
 
 
-<img src = "images/kiegan/phoenix-pd_aucs.png"/>  
+&lt;img src = "images/kiegan/phoenix-pd_aucs.png"/&gt;  
 
 
 
@@ -172,7 +179,7 @@ class: primary
 # Houston-test set results  
 
 
-<img src = "images/kiegan/houston-test_aucs.png"/>   
+&lt;img src = "images/kiegan/houston-test_aucs.png"/&gt;   
 
 
     
@@ -292,7 +299,7 @@ class: primary
   * KNM2-W2/W4 (yellow): Between I(J-W2) and I(G-W4) from shoe 1
   * KNM3-W2/W4 (red): Between I(J-W2) from shoe 1 and I(G-W4) from shoes 2-5
   
-<img src="images/soyoung/vest_W2_W4.png" width="70%">
+&lt;img src="images/soyoung/vest_W2_W4.png" width="70%"&gt;
 
 
 
@@ -305,19 +312,62 @@ class: secondary
 
 - [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
 - One issue down, three to go.
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
-```{r, eval=FALSE, echo=FALSE}
-## Presenters
-presenter <- 
-  c("Soyoung", "Amy", "Ben", "Nick", 
-    "Ganesh", "Nate", "Sam", 
-    "James", "Kiegan", "Danica", "Susan", 
-    "Miranda")
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
 
-## Set seed as the date (mmdd)
-set.seed(1105)
-
-## Shuffle presenters
-sample(presenter)
-```
-
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

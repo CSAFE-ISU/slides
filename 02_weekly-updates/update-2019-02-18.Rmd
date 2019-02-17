@@ -163,13 +163,18 @@ class: primary
 # Spring Semester Goals  
 
 
-- Submit AFTE paper (waiting on feedback)  
-- Submit JFS paper (draft almost complete!)   
-- AAFS in February  
-- Design/implement gauge R&R  
+- Submit AFTE paper  
+- **Submit JFS paper**    
+- **AAFS in February**  
+    - Getting presentation ready  
+- **Design/implement gauge R&R**   
+    - Working on model development  
+    - Testing on "user measurements" data   
 - Working on the book  
-- *Oral prelim on grooves material, plans for gauge R&R and beyond...*  
-- *Write up Chapter 1*  
+- **Oral prelim on grooves material, plans for gauge R&R and beyond...**  
+- **Write up Chapter 1**  
+    - Lit Review in progress  
+    - Chapter 1 and JFS paper writing!  
 
     
 ---

@@ -183,7 +183,18 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Last Week
+
+- AAFS poster
+
+- Reading on CNNs and texture detection/segmentation
+
+  - Networks that pull out texture features 
+  
+  - Unsupervised learning of texture information
+  
+  - Ways to separate texture information from shape information
+
 
 ---
 class: inverse

@@ -129,7 +129,10 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Document Partition
+
+<img src="images/Nick/AnimateDocLetters.gif" width = "50%"/>
+
 
 
 ---

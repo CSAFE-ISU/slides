@@ -195,6 +195,7 @@ class: primary
   
   - Ways to separate texture information from shape information
 
+<img src="images/susan/husky-lake.png" width = "100%"/>
 
 ---
 class: inverse

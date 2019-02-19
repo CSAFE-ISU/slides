@@ -1,6 +1,6 @@
 ---
-title: "Weekly Update for Date"
-date: "2019/01/23"
+title: "Weekly Update for Feb 18"
+date: "2019-02-18"
 output:
   xaringan::moon_reader:
     css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
@@ -82,79 +82,17 @@ class: secondary
 
 ---
 class: inverse
-# Miranda
-
----
-class: primary
-# Spring Semester Goals
-
-- Write up neural network progress (to use as Creative Component)
-- AAFS poster in February
-- Help Susan with Truthiness study
-- Determine next steps with CNN
-- Written Prelim this summer
-
----
-class: inverse
-# Charlotte
-
----
-class: primary
-# Spring Semester Goals
-
----
-class: inverse
-# Joe
-
----
-class: primary
-# Spring Semester Goals
-
----
-class: inverse
-# Sam
-
----
-class: primary
-# Spring Semester Goals
-
-(Added at 3:45pm in the DFW airport en route to RStudio::conf)
-
-- Submit, submit, submit! 
-    * Another thesis chapter to JCGS. (No word yet on other paper submitted to ISR)
-    * Glass EDA paper (w/Soyoung) to JFS 
-    * Jury study paper (from a while ago...) to LPR
-- Other research 
-    * Covariance matrices for glass element concentrations (w/SP)
-    * Keep researching uncertainty pyramid related things (w/SP, SL, HI)
-    * ROpenSci fellowship book. Current plan: release in April
-
----
-class: inverse
-# Susan
-
----
-class: primary
-# Spring Semester Goals
-
----
-class: inverse
-# Kiegan
+# Ganesh
 
 ---
 class: primary   
-# Spring Semester Goals  
+# Weekly goals and update
 
+- Pre-processing interface for the Bullet UI (finishing up)
+- Break-off and irregularity Detection on Bullet Land images
+  - Computer Vision literature: Image segmentation, Edge Detection, Contour Detection 
+  - One way  that I am exploring is using Markov Random Fields for Image Segementation
 
-- Submit AFTE paper (waiting on feedback)  
-- Submit JFS paper (draft almost complete!)   
-- AAFS in February  
-- Design/implement gauge R&R  
-- Working on the book  
-- *Oral prelim on grooves material, plans for gauge R&R and beyond...*  
-- *Write up Chapter 1*  
-
-    
 ---
 class: inverse
 # Soyoung
@@ -172,18 +110,30 @@ class: primary
 
 ---
 class: inverse
-# Ganesh
+# Miranda
 
 ---
-class: primary   
+class: primary
 # Spring Semester Goals
 
+- Write up neural network progress (to use as Creative Component)
+- AAFS poster in February
+- Help Susan with Truthiness study
+- Determine next steps with CNN
+- Written Prelim this summer
 
-- *Taking Two Classes, Auditing One*
-(Stat 544 Bayesian Statistics, Com Sc 575 Computational Perception, Stat 601)
-- *Conclude the User Interface, finish write up.*
-- *Bullet-to-bullet scoring: Using the Chumbley Score method *
-- *Bullet-to-bullet scoring: Other methods/ tests.*
+
+---
+class: inverse
+# Nick
+
+---
+class: primary
+# Document Partition
+
+<img src="images/Nick/AnimateDocLetters.gif" width = "50%"/>
+
+
 
 ---
 class: inverse
@@ -207,34 +157,46 @@ class: primary
 
 ---
 class: inverse
-# Nick
+# Kiegan
 
 ---
-class: primary
-# Spring Semester Goals
+class: primary   
+# Spring Semester Goals  
 
 
+- Submit AFTE paper  
+- **Submit JFS paper**    
+- **AAFS in February**  
+    - Getting presentation ready  
+- **Design/implement gauge R&R**   
+    - Working on model development  
+    - Testing on "user measurements" data   
+- Working on the book  
+- **Oral prelim on grooves material, plans for gauge R&R and beyond...**  
+- **Write up Chapter 1**  
+    - Lit Review in progress  
+    - Chapter 1 and JFS paper writing!  
+
+    
 ---
 class: inverse
-# Amy
+# Susan
 
 ---
 class: primary
-# Spring Semester Goals  
-- <strong>Collect data</strong>
-- <strong>Submit paper</strong> (Chapter 1)
-<br> <br>
-- Oral prelim
-- AAFS talk in February
-- Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
-- STATers
-- <i>No classes!</i> :)
+# Last Week
 
----
-class: primary
-# Coming up
-<p> <img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"> <br> <br> <br> <br> - Undergraduate &nbsp; research &nbsp;&nbsp;assistant <br> <br> - Pilot data &nbsp;&nbsp;collection </p>
+- AAFS poster
 
+- Reading on CNNs and texture detection/segmentation
+
+  - Networks that pull out texture features 
+  
+  - Unsupervised learning of texture information
+  
+  - Ways to separate texture information from shape information
+
+<img src="images/susan/husky-lake.png" width = "100%"/>
 
 ---
 class: inverse
@@ -252,6 +214,38 @@ class: primary
 - Oral prelim
 - Learn Python through stat 602
     
+---
+class: inverse
+# Amy
+
+---
+class: primary
+- <strong>Collect data</strong>
+    * Colin will (small) pilot next week at Show and Tell.
+- <strong>Research</strong>
+    * Working with `handwriter` extracted features - going well.
+<br> <br>
+- AAFS presentation
+
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Spring Semester Goals
+
+(Added at 3:45pm in the DFW airport en route to RStudio::conf)
+
+- Submit, submit, submit! 
+    * Another thesis chapter to JCGS. (No word yet on other paper submitted to ISR)
+    * Glass EDA paper (w/Soyoung) to JFS 
+    * Jury study paper (from a while ago...) to LPR
+- Other research 
+    * Covariance matrices for glass element concentrations (w/SP)
+    * Keep researching uncertainty pyramid related things (w/SP, SL, HI)
+    * ROpenSci fellowship book. Current plan: release in April
+
 ---
 class: inverse
 # Issues

@@ -211,18 +211,16 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# This Week
 
-(Added at 3:45pm in the DFW airport en route to RStudio::conf)
+- Completed draft of glass paper
+- **Wednesday @ 3:10pm**: `tidymodels` BYOD DIY. It will be exactly what it sounds like! 
+- If you need data: try [TidyTuesdays](https://github.com/rfordatascience/tidytuesday), the [`mlbench`](https://cran.r-project.org/web/packages/mlbench/mlbench.pdf) package, or the [`AmesHousing`](https://cran.r-project.org/web/packages/AmesHousing/AmesHousing.pdf) package. 
+- Repo from rstudio::conf [here](https://github.com/topepo/rstudio-conf-2019); my slides from last time [here](https://github.com/CSAFE-ISU/slides/tree/master/04_working-group-talks/tidymodels)
 
-- Submit, submit, submit! 
-    * Another thesis chapter to JCGS. (No word yet on other paper submitted to ISR)
-    * Glass EDA paper (w/Soyoung) to JFS 
-    * Jury study paper (from a while ago...) to LPR
-- Other research 
-    * Covariance matrices for glass element concentrations (w/SP)
-    * Keep researching uncertainty pyramid related things (w/SP, SL, HI)
-    * ROpenSci fellowship book. Current plan: release in April
+![](https://media.giphy.com/media/TAozOrHYx32SI/giphy.gif)
+
+
 
 ---
 class: inverse

@@ -106,7 +106,20 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Last Week
+
+- AAFS
+
+- NIJ Grant Proposal - Revising the Shoe Scanning Gadget proposal
+
+- Reading on using CNNs for:
+    - Texture vs. Shape vs. Color separation    
+    - [Image Alignment](https://arxiv.org/pdf/1703.05593.pdf)
+        - output is an estimated translation matrix
+        - method is a bit more robust than SURF/RANSAC
+
+- CSAFE Renewal project proposals for truthiness, shoes, and possibly digital stuff
+
 
 ---
 class: inverse

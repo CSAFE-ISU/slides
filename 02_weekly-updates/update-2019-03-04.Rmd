@@ -216,9 +216,13 @@ class: inverse
 class: primary
 # Last Week
 
-- Worked on NIJ grant
+- NIJ grant: Class Characteristics
+    - Call with Lesley Hammer - ways to frame the data collection to solve problems examiners currently face
+    - Email to DCI Investigator - will follow up this week
 
-- updated tests for `x3ptools`, tried to fix Travis for `x3ptools` and `bulletxtrctr` (50/50 success rate)
+- Bullet software
+    - updated tests for `x3ptools`
+    - tried to fix Travis for `x3ptools` (fixed!) and `bulletxtrctr` (not fixed)
 
 ```{r i-made-a-thing, eval = F, include = F}
 library(hexSticker)
@@ -245,7 +249,7 @@ ggplot() +
 ggsave("02_weekly-updates/images/susan/csafe-sticker.png", width = 2, height = 2, dpi = 600)
 ```
 - I made a thing: 
-.center[<img src="images/susan/csafe-sticker.png", width = "50%"/>]
+.center[<img src="images/susan/csafe-sticker.png" width = "35%" style="margin-top:-40px;"/>]
 
 ---
 class: inverse

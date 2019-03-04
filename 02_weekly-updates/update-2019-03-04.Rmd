@@ -281,6 +281,13 @@ class: primary
 <img src="images/miranda/2019-03-04/block5_conv3_post_Filter_142.png", width = "49%"/>
 
 ---
+class: primary
+# Freaky
+
+<img src="images/miranda/2019-03-04/block5_conv3_post_Filter_208.png", width = "49%"/>
+<img src="images/miranda/2019-03-04/block5_conv3_post_Filter_220.png", width = "49%"/>
+
+---
 class: inverse
 # Kiegan
 

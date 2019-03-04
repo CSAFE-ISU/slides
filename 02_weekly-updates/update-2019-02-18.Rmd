@@ -86,14 +86,12 @@ class: inverse
 
 ---
 class: primary   
-# Spring Semester Goals
+# Weekly goals and update
 
-
-- *Taking Two Classes, Auditing One*
-(Stat 544 Bayesian Statistics, Com Sc 575 Computational Perception, Stat 601)
-- *Conclude the User Interface, finish write up.*
-- *Bullet-to-bullet scoring: Using the Chumbley Score method *
-- *Bullet-to-bullet scoring: Other methods/ tests.*
+- Pre-processing interface for the Bullet UI (finishing up)
+- Break-off and irregularity Detection on Bullet Land images
+  - Computer Vision literature: Image segmentation, Edge Detection, Contour Detection 
+  - One way  that I am exploring is using Markov Random Fields for Image Segementation
 
 ---
 class: inverse
@@ -131,7 +129,10 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Document Partition
+
+<img src="images/Nick/AnimateDocLetters.gif" width = "50%"/>
+
 
 
 ---
@@ -195,6 +196,7 @@ class: primary
   
   - Ways to separate texture information from shape information
 
+<img src="images/susan/husky-lake.png" width = "100%"/>
 
 ---
 class: inverse
@@ -218,21 +220,12 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals  
 - <strong>Collect data</strong>
-- <strong>Submit paper</strong> (Chapter 1)
+    * Colin will (small) pilot next week at Show and Tell.
+- <strong>Research</strong>
+    * Working with `handwriter` extracted features - going well.
 <br> <br>
-- Oral prelim
-- AAFS talk in February
-- Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
-- STATers
-- <i>No classes!</i> :)
-
----
-class: primary
-# Coming up
-<p> <img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"> <br> <br> <br> <br> - Undergraduate &nbsp; research &nbsp;&nbsp;assistant <br> <br> - Pilot data &nbsp;&nbsp;collection </p>
-
+- AAFS presentation
 
 ---
 class: inverse

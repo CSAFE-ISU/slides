@@ -232,7 +232,6 @@ knitr::include_graphics("images/sam/xaringandemo.gif")
 
 [How:](https://yihui.name/en/2019/02/ultimate-inf-mr/) `remotes::install_github('yihui/xaringan', upgrade = TRUE)`, Then, `xaringan:::inf_mr()` or Tools `r emo::ji("right arrow")`  Addins `r emo::ji("right arrow")` Search "xaringan" `r emo::ji("right arrow")` Execute.
 
-
 ---
 class: inverse
 # Ganesh

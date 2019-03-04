@@ -1,0 +1,347 @@
+---
+title: "Weekly Update for Mar 4"
+date: "2019-03-04"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+  ---
+  class: inverse
+  # Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table. Sam Tyner talked about the three must-haves of your summary:
+
+
+
+| Must-have | It means |
+| :------   | :------- |
+| Context | Why are you doing what you're doing? "I'm working on X project in order to Y" |
+| Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
+| Conclusion | What did you learn? "This will help me because it..." or "This important because it gets us to..." |
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+
+ <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ 
+
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Spring Semester Goals  
+- <strong>Collect data</strong>
+- <strong>Submit paper</strong> (Chapter 1)
+<br> <br>
+- Oral prelim
+- AAFS talk in February
+- Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
+- STATers
+- <i>No classes!</i> :)
+
+---
+class: primary
+# Coming up
+<p> <img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"> <br> <br> <br> <br> - Undergraduate &nbsp; research &nbsp;&nbsp;assistant <br> <br> - Pilot data &nbsp;&nbsp;collection </p>
+
+
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Spring Semester Goals
+
+(Added at 3:45pm in the DFW airport en route to RStudio::conf)
+
+- Submit, submit, submit! 
+    * Another thesis chapter to JCGS. (No word yet on other paper submitted to ISR)
+    * Glass EDA paper (w/Soyoung) to JFS 
+    * Jury study paper (from a while ago...) to LPR
+- Other research 
+    * Covariance matrices for glass element concentrations (w/SP)
+    * Keep researching uncertainty pyramid related things (w/SP, SL, HI)
+    * ROpenSci fellowship book. Current plan: release in April
+
+---
+class: inverse
+# Soyoung
+
+---
+class: primary
+# Spring Semester Goals
+
+- Submit glass EDA paper with Sam
+- Working on two papers of shoe analysis on SURF matching 
+- Waiting for response from JCGS 
+- Workinig on the book chapters
+- Working on Dirichlet process for uncentainty pyramid with Sam
+- Working on covariance estimation on glass data with Sam 
+
+---
+class: inverse
+# Danica
+
+---
+class: primary   
+# Spring Semester Goals
+
+- Submit follow-up BF vs. LR paper to LPR  
+- Continue NIJ grant to validate FDE conclusions
+    - Working to figure out how to combine kinematic scores across the entire phrase
+- Work with Amy on the CSAFE Handwriting project  
+- Write a paper for LPR on approximations to BFs
+- Write a paper on Fiducial Factors with UNC
+- Start NIJ grant on forensic error rate studies
+    - Working on paper concerning ROC curves and SLRs
+- Writing Winning Grant Proposals Phase 2 Workshop
+    - Draft an NSF CAREER Proposal (for 2020 submission?)
+- Work with Dan Spitzner from UVA on the CSAFE Statistical Foundations project
+
+---
+class: inverse
+# Nick
+
+---
+class: primary
+# Spring Semester Goals
+
+
+---
+class: inverse
+# Ganesh
+
+---
+class: primary   
+# Spring Semester Goals
+
+- *Finished the User Interface*
+  - Start writing! 
+- *Reading on Markov Random Fields*
+- *Testing some existing methods to identify irregularities*
+
+---
+class: inverse
+# Nate
+
+
+---
+class: primary
+# Spring Semester Goals
+
+- Finish (or get close) to SLR paper
+- Finish groove changepoint R package and my contribution to the joint paper with Kiegan
+- Find an internship 
+- Mostly finish dissertation chapter on sparse GPs (and work on corresponding R package?)
+- Oral prelim
+- Learn Python through stat 602
+    
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Last Week
+
+- Worked on NIJ grant
+
+- updated tests for `x3ptools`, tried to fix Travis for `x3ptools` and `bulletxtrctr` (50/50 success rate)
+
+```{r i-made-a-thing, eval = F, include = F}
+library(hexSticker)
+library(ggplot2)
+library(showtext)
+
+# https://fonts.google.com/featured/Superfamilies
+font_add_google("Montserrat", "Montserrat", regular.wt = 300, db_cache = F)
+# font_paths("/home/susan/.local/share/fonts/Unknown Vendor/TrueType")
+# font_files()
+fp_url <- "https://github.com/CSAFE-ISU/Templates/raw/master/logos/fingerprint.png"
+text_url <- "https://github.com/CSAFE-ISU/Templates/raw/master/logos/csafe_sticker_text.png"
+url_url <- "https://github.com/CSAFE-ISU/Templates/raw/master/logos/url_text.png"
+ggplot() + 
+  coord_fixed() +
+  geom_hexagon(size = 1.2, fill = "#FFFFFF", color = "#22a8e0") +
+  geom_segment(aes(x = 0.18, xend = .98, y = 1.25, yend = 1.25), color = "#cf0a2c", size = 1) + 
+  ggimage::geom_image(aes(image = text_url, y = 1.1, x = .175, size = I(.45)), hjust = 0) +
+  ggimage::geom_image(aes(image = fp_url, y = .9, x = 1.325, size = I(.5))) +
+  geom_text(aes(x = 1, y = 0, label = "forensicstats.org"), 
+            family = "Montserrat", angle = -30, color = "#8a8a8d", hjust = 1.125, 
+            vjust = -0.5, size = 2) + 
+  theme_void() 
+ggsave("02_weekly-updates/images/susan/csafe-sticker.png", width = 2, height = 2, dpi = 600)
+```
+- I made a thing: 
+.center[<img src="images/susan/csafe-sticker.png", width = "50%"/>]
+
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Convolution
+
+<img src="images/miranda/2019-03-04/filter.png", width = "100%"/>
+
+---
+class: primary
+# Convolution
+
+<img src="images/miranda/2019-03-04/filter1.png", width = "100%"/>
+
+---
+class: primary
+# Convolution
+
+<img src="images/miranda/2019-03-04/filter2.png", width = "100%"/>
+
+---
+class: primary
+# Keras-Vis
+
+- Jason's R Package: https://github.com/jkhseo/Keras-Vis
+- Gradient ascent to visualize image that maximally activates each filter
+
+
+<img src="images/miranda/2019-03-04/block5_conv3_13_001-004.png", width = "100%"/>
+<img src="images/miranda/2019-03-04/block5_conv3_13_005-008.png", width = "100%"/>
+
+---
+class: primary
+# Useful Filters
+
+<img src="images/miranda/2019-03-04/block5_conv3_post_Filter_34.png", width = "49%"/>
+<img src="images/miranda/2019-03-04/block5_conv3_post_Filter_184.png", width = "49%"/>
+
+---
+class: primary
+# Too specific?
+
+<img src="images/miranda/2019-03-04/block5_conv3_post_Filter_182.png", width = "49%"/>
+<img src="images/miranda/2019-03-04/block5_conv3_post_Filter_142.png", width = "49%"/>
+
+---
+class: inverse
+# Kiegan
+
+---
+class: primary   
+# Spring Semester Goals  
+
+
+- Submit AFTE paper 
+- Submit JFS paper   
+- **AAFS in February**  
+    - done! 
+- **Design/implement gauge R&R**  
+    - Working group next week!  
+    - Updates in images!  
+- Working on the book  
+- **Oral prelim on grooves material, plans for gauge R&R and beyond...**  
+- **Write up Chapter 1**  
+
+---
+class: primary   
+# Pilot Study Data  
+
+<img src = "images/kiegan/pilot-study-grid.png"/>
+ 
+---
+class: primary   
+# Pilot Study Data  
+
+<img src = "images/kiegan/pilot-study-lands-all-ops.png"/>  
+
+---
+class: primary   
+# Pilot Study Data  
+
+<img src = "images/kiegan/pilot-study-lands-ops.png"/>  
+
+
+    
+---
+class: inverse
+# Issues
+
+---
+class: secondary
+
+- [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
+- One issue down, three to go.
+
+```{r, eval=FALSE, echo=FALSE}
+## Presenters
+presenter <- 
+  c("Soyoung", "Amy", "Ben", "Nick", 
+    "Ganesh", "Nate", "Sam", 
+    "James", "Kiegan", "Danica", "Susan", 
+    "Miranda")
+
+## Set seed as the date (mmdd)
+set.seed(1105)
+
+## Shuffle presenters
+sample(presenter)
+```
+

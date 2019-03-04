@@ -1,15 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekly Update for Feb 25</title>
+    <meta charset="utf-8">
+    <meta name="date" content="2019-02-25" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Weekly Update for Feb 25
+### 2019-02-25
+
 ---
-title: "Weekly Update for Feb 25"
-date: "2019-02-25"
-output:
-  xaringan::moon_reader:
-    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
----
+
 
 
 class: inverse
@@ -77,7 +84,7 @@ class: secondary
 - If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
 
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ &lt;img src = "images/guillermo/sample_image.JPG" width="35%"/&gt;
  
 
 ---
@@ -128,19 +135,19 @@ class: inverse
 ---
 class: primary
 # Spring Semester Goals  
-- <strong>Collect data</strong>
-- <strong>Submit paper</strong> (Chapter 1)
-<br> <br>
+- &lt;strong&gt;Collect data&lt;/strong&gt;
+- &lt;strong&gt;Submit paper&lt;/strong&gt; (Chapter 1)
+&lt;br&gt; &lt;br&gt;
 - Oral prelim
 - AAFS talk in February
 - Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
 - STATers
-- <i>No classes!</i> :)
+- &lt;i&gt;No classes!&lt;/i&gt; :)
 
 ---
 class: primary
 # Coming up
-<p> <img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"> <br> <br> <br> <br> - Undergraduate &nbsp; research &nbsp;&nbsp;assistant <br> <br> - Pilot data &nbsp;&nbsp;collection </p>
+&lt;p&gt; &lt;img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; - Undergraduate &amp;nbsp; research &amp;nbsp;&amp;nbsp;assistant &lt;br&gt; &lt;br&gt; - Pilot data &amp;nbsp;&amp;nbsp;collection &lt;/p&gt;
 
 
 ---
@@ -185,7 +192,7 @@ class: primary
 ---
 class: secondary
 
- <img src = "images/Nate/cond_prob_heatmap_hd.pdf" width="35%"/>
+ &lt;img src = "images/Nate/cond_prob_heatmap_hd.pdf" width="35%"/&gt;
 
     
 ---
@@ -215,10 +222,10 @@ class: primary
 - Submit JFS paper   
 - **AAFS in February**  
     - done! 
-- **Design/implement gauge R&R**  
+- **Design/implement gauge R&amp;R**  
     - Working group next week!  
 - Working on the book  
-- **Oral prelim on grooves material, plans for gauge R&R and beyond...**  
+- **Oral prelim on grooves material, plans for gauge R&amp;R and beyond...**  
 - **Write up Chapter 1**  
 
 
@@ -244,27 +251,9 @@ class: primary
 
 With the new update of `xaringan`, you can see your updated slides live in RStudio!
 
-```{r out.width="75%", echo = FALSE, fig.align = "center"}
-knitr::include_graphics("images/sam/xaringandemo.gif")
-```
+&lt;img src="images/sam/xaringandemo.gif" width="75%" style="display: block; margin: auto;" /&gt;
 
-[How:](https://yihui.name/en/2019/02/ultimate-inf-mr/) `remotes::install_github('yihui/xaringan', upgrade = TRUE)`, Then, `xaringan:::inf_mr()` or Tools `r emo::ji("right arrow")`  Addins `r emo::ji("right arrow")` Search "xaringan" `r emo::ji("right arrow")` Execute.
-
-
----
-class: inverse
-# Ganesh
-
----
-class: primary   
-# Spring Semester Goals
-
-
-- *Taking Two Classes, Auditing One*
-(Stat 544 Bayesian Statistics, Com Sc 575 Computational Perception, Stat 601)
-- *Conclude the User Interface, finish write up.*
-- *Bullet-to-bullet scoring: Using the Chumbley Score method *
-- *Bullet-to-bullet scoring: Other methods/ tests.*
+[How:](https://yihui.name/en/2019/02/ultimate-inf-mr/) `remotes::install_github('yihui/xaringan', upgrade = TRUE)`, Then, `xaringan:::inf_mr()` or Tools &lt;U+27A1&gt;&lt;U+FE0F&gt;  Addins &lt;U+27A1&gt;&lt;U+FE0F&gt; Search "xaringan" &lt;U+27A1&gt;&lt;U+FE0F&gt; Execute.
 
 ---
 class: inverse
@@ -275,6 +264,51 @@ class: secondary
 
 - [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
 - One issue down, three to go.
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
-
-
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

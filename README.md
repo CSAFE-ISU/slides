@@ -79,6 +79,8 @@ January 28: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates
 February 4: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-02-04.html)<br>
 February 11: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-02-11.html)<br>
 February 18: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-02-18.html)<br>
+February 25: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-02-25.html)<br>
+
 
 ### Fall 2018 Slides
 

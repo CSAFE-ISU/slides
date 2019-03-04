@@ -86,9 +86,13 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals  
+# This Week
+- <strong>Co-Instruct STAT 444</strong> </br> 
+
+
 - <strong>Collect data</strong>
     * Pilot today? </br> </br>
+    
 - <strong>Research</strong>
     * Model 1: Bucket counts
     * Model 2: Bucket counts + slopes

@@ -110,16 +110,30 @@ class: inverse
 class: primary
 # Spring Semester Goals
 
-(Added at 3:45pm in the DFW airport en route to RStudio::conf)
-
 - Submit, submit, submit! 
-    * Another thesis chapter to JCGS. (No word yet on other paper submitted to ISR)
-    * Glass EDA paper (w/Soyoung) to JFS 
-    * Jury study paper (from a while ago...) to LPR
+    * Another thesis chapter to JCGS. **Hopefully this week or next.** (No word yet on other paper submitted to ISR.)
+    * Glass EDA paper (w/Soyoung) to ~~JFS~~ FSI. **Draft complete. Waiting on feedback from A.**
 - Other research 
-    * Covariance matrices for glass element concentrations (w/SP)
-    * Keep researching uncertainty pyramid related things (w/SP, SL, HI)
-    * ROpenSci fellowship book. Current plan: release in April
+    * ROpenSci fellowship book. Current plan: release in April. **My primary focus in March.**
+    
+---
+class: primary
+# Tonight
+
+### Crime Solving with Genetic Genealogy
+#### CeCe Moore
+##### 8:00 pm – Sun Room, Memorial Union
+
+Abstract: *The 2018 arrest of the Golden State serial killer in California made international headlines in part because police teamed up with genealogists to use familial DNA to track him down. This new method of sleuthing raises questions about how it’s done, ethics and privacy, and the reliability of genetic and DNA tests. CeCe Moore is an investigative genetic genealogist and media consultant. She has worked as the genetic genealogist for the PBS Television documentary series Finding Your Roots with Henry Louis Gates, Jr. since 2013. She is the founder of The DNA Detectives and recently joined forces with Parabon Nanolabs to lead their new Genetic Genealogy Services for law enforcement unit. National Affairs Series: Building a Better Democracy.*
+
+---
+class: primary
+# Tomorrow (& every Tues.)
+
+### Tidy Tuesdays w/R-Ladies Ames
+
+Practice your `tidyverse` skills with us! New [data](https://github.com/rladies-ames/tidytuesday/tree/master/data/2019/2019-03-05) every week. 
+
 
 ---
 class: inverse

@@ -256,13 +256,35 @@ class: primary
 # Spring Semester Goals  
 
 
-- Submit AFTE paper (waiting on feedback)  
-- Submit JFS paper (draft almost complete!)   
-- AAFS in February  
-- Design/implement gauge R&R  
+- Submit AFTE paper 
+- Submit JFS paper   
+- **AAFS in February**  
+    - done! 
+- **Design/implement gauge R&R**  
+    - Working group next week!  
+    - Updates in images!  
 - Working on the book  
-- *Oral prelim on grooves material, plans for gauge R&R and beyond...*  
-- *Write up Chapter 1*  
+- **Oral prelim on grooves material, plans for gauge R&R and beyond...**  
+- **Write up Chapter 1**  
+
+---
+class: primary   
+# Pilot Study Data  
+
+<img src = "images/kiegan/pilot-study-grid.png"/>
+ 
+---
+class: primary   
+# Pilot Study Data  
+
+<img src = "images/kiegan/pilot-study-lands-all-ops.png"/>  
+
+---
+class: primary   
+# Pilot Study Data  
+
+<img src = "images/kiegan/pilot-study-lands-ops.png"/>  
+
 
     
 ---

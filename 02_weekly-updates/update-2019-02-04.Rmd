@@ -218,9 +218,22 @@ class: inverse
 
 ---
 class: primary
-# Weekly Goals
-1. Clustering graph types
-2. Correcting errors in document processing.
+# This week
+
+ - Better node placement - combining nodes that are too close together
+ - Chapter 3 of diss is on clustering letters. Goal is to make "buckets" for amy's modeling more informative.
+
+---
+class: primary
+# Fun R thing
+
+```{r}
+x = c(2,20,200,2000,20000,200000)
+as.character(x)
+format(x, scientific = FALSE)
+format(x, scientific = FALSE, trim = TRUE)
+```
+
 
 ---
 class: inverse

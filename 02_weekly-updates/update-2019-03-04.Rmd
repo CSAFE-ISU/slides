@@ -97,6 +97,12 @@ class: primary
 <br> <br>
 
 ---
+class: secondary  
+#     
+<img src = "images/amy/Example_PostPredProb.png" width = "100%"/>
+
+
+---
 #     
 #     
 <img src = "images/amy/Sec10_Model1.png" width = "62%"/>

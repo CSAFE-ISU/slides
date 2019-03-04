@@ -239,13 +239,46 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Convolution
 
-- Write up neural network progress (to use as Creative Component)
-- AAFS poster in February
-- Help Susan with Truthiness study
-- Determine next steps with CNN
-- Written Prelim this summer
+<img src="images/miranda/2019-03-04/filter.png", width = "100%"/>
+
+---
+class: primary
+# Convolution
+
+<img src="images/miranda/2019-03-04/filter1.png", width = "100%"/>
+
+---
+class: primary
+# Convolution
+
+<img src="images/miranda/2019-03-04/filter2.png", width = "100%"/>
+
+---
+class: primary
+# Keras-Vis
+
+- Jason's R Package: https://github.com/jkhseo/Keras-Vis
+- Gradient ascent to visualize image that maximally activates each filter
+
+
+<img src="images/miranda/2019-03-04/block5_conv3_13_001-004.png", width = "100%"/>
+<img src="images/miranda/2019-03-04/block5_conv3_13_005-008.png", width = "100%"/>
+
+---
+class: primary
+# Useful Filters
+
+<img src="images/miranda/2019-03-04/block5_conv3_post_Filter_34.png", width = "49%"/>
+<img src="images/miranda/2019-03-04/block5_conv3_post_Filter_184.png", width = "49%"/>
+
+---
+class: primary
+# Too specific?
+
+<img src="images/miranda/2019-03-04/block5_conv3_post_Filter_182.png", width = "49%"/>
+<img src="images/miranda/2019-03-04/block5_conv3_post_Filter_142.png", width = "49%"/>
 
 ---
 class: inverse

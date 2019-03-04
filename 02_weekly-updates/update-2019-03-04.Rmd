@@ -273,7 +273,7 @@ class: primary
 class: primary
 # Keras-Vis
 
-- Jason's R Package: https://github.com/jkhseo/Keras-Vis
+- Jason's R package: https://github.com/jkhseo/Keras-Vis
 - Gradient ascent to visualize image that maximally activates each filter
 
 

@@ -88,18 +88,24 @@ class: inverse
 class: primary
 # Spring Semester Goals  
 - <strong>Collect data</strong>
-- <strong>Submit paper</strong> (Chapter 1)
+    * Pilot today? </br> </br>
+- <strong>Research</strong>
+    * Model 1: Bucket counts
+    * Model 2: Bucket counts + slopes
+    * Holdout documents.
+    * Borrow ideas from gene expression applications to address the 0-1 nature of posterior predictive probabilities.
 <br> <br>
-- Oral prelim
-- AAFS talk in February
-- Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
-- STATers
-- <i>No classes!</i> :)
 
 ---
-class: primary
-# Coming up
-<p> <img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"> <br> <br> <br> <br> - Undergraduate &nbsp; research &nbsp;&nbsp;assistant <br> <br> - Pilot data &nbsp;&nbsp;collection </p>
+#     
+#     
+<img src = "images/amy/Sec10_Model1.png" width = "62%"/>
+
+---
+#     
+#     
+<img src = "images/amy/Sec10_Model2.png" width = "61%"/>
+
 
 
 ---

@@ -217,14 +217,11 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Updates
 
-- Finish (or get close) to SLR paper
-- Finish groove changepoint R package and my contribution to the joint paper with Kiegan
-- Find an internship 
-- Mostly finish dissertation chapter on sparse GPs (and work on corresponding R package?)
-- Oral prelim
-- Learn Python through stat 602
+- Submitted bulletcp to CRAN
+    - Returned to me with some requested changes 
+- Look at SLR results with simulated data and random forest scores 
     
 ---
 class: inverse

@@ -166,15 +166,50 @@ class: primary
 # Spring Semester Goals  
 
 
-- Submit AFTE paper (waiting on feedback)  
+- Submit AFTE paper  
 - Submit JFS paper (draft almost complete!)   
-- AAFS in February  
-- Design/implement gauge R&R  
+- ~~AAFS in February~~  
+- **Design/implement gauge R&R**  
+    - More working group this week!  
+    - Some interesting recapture findings to share...  
 - Working on the book  
-- *Oral prelim on grooves material, plans for gauge R&R and beyond...*  
-- *Write up Chapter 1*  
+- **Oral prelim on grooves material, plans for gauge R&R and beyond...**  
+- **Write up Chapter 1**  
 
-    
+
+
+---
+class: primary   
+# Rounds 1, 3, 5   
+
+<img src = "images/kiegan/BL6-5-Bullet1-Connor-Sneox1-Round1.png" width="60%"/>  
+
+<img src = "images/kiegan/BL6-5-Bullet1-Connor-Sneox1-Round3.png" width="60%"/>  
+
+<img src = "images/kiegan/BL6-5-Bullet1-Connor-Sneox2-Round5.png" width="60%"/>  
+
+
+---
+class: primary   
+# Immediate Recapture: Shift  
+
+<img src = "images/kiegan/recapture-shift.png"/>  
+
+
+---
+class: primary   
+# Immediate Recap: Crosscut  
+
+<img src = "images/kiegan/recapture-diff-crosscuts.png"/>  
+
+
+---
+class: primary   
+# Immediate Recap: Crosscut   
+
+<img src = "images/kiegan/recapture-same-crosscut.png"/>  
+
+
 ---
 class: inverse
 # Nate

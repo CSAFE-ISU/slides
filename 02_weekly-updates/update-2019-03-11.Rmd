@@ -86,18 +86,15 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# ~~Spring Semester~~ March Goals
 
-(Added at 3:45pm in the DFW airport en route to RStudio::conf)
+Working almost exclusively on the *Open Forensic Science in R* book. 
 
-- Submit, submit, submit! 
-    * Another thesis chapter to JCGS. (No word yet on other paper submitted to ISR)
-    * Glass EDA paper (w/Soyoung) to JFS 
-    * Jury study paper (from a while ago...) to LPR
-- Other research 
-    * Covariance matrices for glass element concentrations (w/SP)
-    * Keep researching uncertainty pyramid related things (w/SP, SL, HI)
-    * ROpenSci fellowship book. Current plan: release in April
+**If I emailed you about it, please get back to me ASAP. Heike and I want to make sure all of CSAFE's R packages are included.** 
+
+I was at the [Chicago R Unconference](https://chirunconf.github.io/) this weekend and I'm off today. It was really fun! We wrote an [Unconf Toolbox](https://github.com/unconf-toolbox) for other people interested in hosting their own R unconf, and we are now going to apply for [an ISC grant](https://www.r-consortium.org/projects/call-for-proposals) from the R Consortium to expand the project. (That bit was [H. Wick's idea](https://twitter.com/hadleywickham/status/1105048536066990081))
+
+See you tomorrow! 
 
 ---
 class: inverse

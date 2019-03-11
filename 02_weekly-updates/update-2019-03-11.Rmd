@@ -227,20 +227,25 @@ class: inverse
 ---
 class: primary
 # Spring Semester Goals  
-- <strong>Collect data</strong>
-- <strong>Submit paper</strong> (Chapter 1)
+- <strong>Collect Data</strong>
+- <strong>Research</strong> (Chapter 1)
 <br> <br>
-- Oral prelim
-- AAFS talk in February
-- Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
-- STATers
-- <i>No classes!</i> :)
+
 
 ---
-class: primary
-# Coming up
-<p> <img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"> <br> <br> <br> <br> - Undergraduate &nbsp; research &nbsp;&nbsp;assistant <br> <br> - Pilot data &nbsp;&nbsp;collection </p>
+#     
+<img src = "images/amy/zero_pileup.png" width = "100%"/>
 
+
+---
+class: secondary  
+#     
+<img src = "images/amy/model_recap.png" width = "100%"/>
+
+
+---
+#     
+<img src = "images/amy/new_pi_sampling.png" width = "100%"/>
 
 ---
 class: inverse

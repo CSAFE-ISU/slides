@@ -261,6 +261,27 @@ class: primary
 - `x3ptools` - update testing for add_grid_x3p. Test coverage is back at 98% (or was when I wrote this)
 
 
+---
+class: inverse
+# Heike
+
+---
+class: primary   
+# Updates to x3ptools
+
+- getting ready for releasing version 0.0.2 to CRAN
+
+- adding some functionality and making Susan sweat with the test coverage (97% right now)
+
+- biggest change: adding color masks
+
+
+---
+class: primary
+
+![](images/heike/markup.png)
+
+https://heike.github.io/x3ptools/
 
 ---
 class: inverse

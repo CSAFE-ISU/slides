@@ -219,7 +219,19 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Last Week
+
+- NIJ Grant Proposal
+    - Prototype machine will be ready after Spring Break  - "land mine actuated camera"
+    
+    - Series of emails with SoleMate about possibility of creating an API, but they don't have the resources right now.
+    
+    - Reframing proposal in terms of immediate utility to practitioners    
+    <div class="small">Iowa DCI doesn't use SoleMate - if they examine a shoe, it's because they've already recovered a suspect's physical shoe. They aren't looking to see what shoes could have made any given print.</div>
+    
+- `x3ptools` - update testing for add_grid_x3p. Test coverage is back at 98% (or was when I wrote this)
+
+
 
 ---
 class: inverse

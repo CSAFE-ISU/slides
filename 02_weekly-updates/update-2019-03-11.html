@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="date" content="2019-03-11" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
-    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -301,12 +301,16 @@ class: inverse
 
 ---
 class: primary   
-# Spring Semester Goals
+# Goals
 
-
-- *Done with the UI, start write up.*
-- *Start Writing the Toolmark chapter*
-
+- Start Writing toolmark chapter for Sam's ROpenSci book.
+** UI updates**
+- *Done with the UI; work on write up.*
+- *Demo next time, possibly combine standalone apps into one, multitab UI*
+  - App 1 :: Preliminary operations like feature extraction, generating score,
+  transformations, and then batching it to have cross-comparison results of all possible combinations
+  - App 2 :: Visualizations and Diagnostics
+  Visualize, compare, diagnose problems in the Bullet pipeline. 
 
 ---
 class: inverse
@@ -334,19 +338,30 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   d.head.appendChild(s);
 })();</script>
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
   }
-});
+})();
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);

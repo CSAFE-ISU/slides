@@ -294,12 +294,16 @@ class: inverse
 
 ---
 class: primary   
-# Spring Semester Goals
+# Goals
 
-
-- *Done with the UI, start write up.*
-- *Start Writing the Toolmark chapter*
-
+- Start Writing toolmark chapter for Sam's ROpenSci book.
+** UI updates**
+- *Done with the UI; work on write up.*
+- *Demo next time, possibly combine standalone apps into one, multitab UI*
+  - App 1 :: Preliminary operations like feature extraction, generating score,
+  transformations, and then batching it to have cross-comparison results of all possible combinations
+  - App 2 :: Visualizations and Diagnostics
+  Visualize, compare, diagnose problems in the Bullet pipeline. 
 
 ---
 class: inverse

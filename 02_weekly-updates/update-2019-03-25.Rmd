@@ -90,17 +90,17 @@ class: primary
 
 <br><br><br>
 
-<img src = "images/Nick/TransitionPlot1.pdf" width="15%"/>
-<img src = "images/Nick/TransitionPlot2.pdf" width="15%"/>
-<img src = "images/Nick/TransitionPlot3.pdf" width="15%"/>
-<img src = "images/Nick/TransitionPlot4.pdf" width="15%"/>
-<img src = "images/Nick/TransitionPlot5.pdf" width="15%"/>
-<img src = "images/Nick/TransitionPlot6.pdf" width="15%"/>
+<img src = "images/Nick/TransitionPlot1.png" width="15%"/>
+<img src = "images/Nick/TransitionPlot2.png" width="15%"/>
+<img src = "images/Nick/TransitionPlot3.png" width="15%"/>
+<img src = "images/Nick/TransitionPlot4.png" width="15%"/>
+<img src = "images/Nick/TransitionPlot5.png" width="15%"/>
+<img src = "images/Nick/TransitionPlot6.png" width="15%"/>
 
 ---
 class: primary
 # HW Clusters
-<img src = "images/Nick/ClustersWithMeans_10docs_40.pdf" width="80%"/>
+<img src = "images/Nick/ClustersWithMeans_10docs_40.png" width="80%"/>
 
 ---
 class: inverse

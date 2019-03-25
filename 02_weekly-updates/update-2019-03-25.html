@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="date" content="2019-03-25" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
-    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -231,20 +231,13 @@ class: inverse
 ---
 class: primary
 # Spring Semester Goals  
-- &lt;strong&gt;Collect data&lt;/strong&gt;
-- &lt;strong&gt;Submit paper&lt;/strong&gt; (Chapter 1)
+- &lt;strong&gt;Data Collection&lt;/strong&gt;
+      - Document scanner
+      - IRB amendment submitted (signatures, short phrase, personnel)
+- &lt;strong&gt;Research&lt;/strong&gt;
+      - R package! (awesome for Rstan)
+      - Overdispersion (&lt;strike&gt;Stratified sampling&lt;/strike&gt;, Negative multinomial)
 &lt;br&gt; &lt;br&gt;
-- Oral prelim
-- AAFS talk in February
-- Learning about other areas of statistics: FDA, adaptive designs, "statistical learning" (602), ...
-- STATers
-- &lt;i&gt;No classes!&lt;/i&gt; :)
-
----
-class: primary
-# Coming up
-&lt;p&gt; &lt;img style ="float:left;padding-right:25px;" src = "images/amy/Communcation_Flyer.png" width="68%" align="middle"&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; - Undergraduate &amp;nbsp; research &amp;nbsp;&amp;nbsp;assistant &lt;br&gt; &lt;br&gt; - Pilot data &amp;nbsp;&amp;nbsp;collection &lt;/p&gt;
-
 
 ---
 class: inverse
@@ -314,30 +307,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   d.head.appendChild(s);
 })();</script>
 
-<script>
-(function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
   }
-})();
+});
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);

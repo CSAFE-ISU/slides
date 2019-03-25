@@ -170,7 +170,32 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Over the Last 2 Weeks:
+
+NIJ Grant 
+
+- restructure into distinct phases
+- complete rewrite of narrative - focus on current practitioner practice and potential to incrementally improve (instead of just enabling likelihood ratios out of the box...)
+- prototype machine should be testable on Thursday!
+- IRB application mostly complete - hope to submit by April 2 for review on the 16th
+
+__still to do__: 
+- finish Phase 2 narrative
+- write the impact section and additional boilerplate
+- finish IRB application
+
+---
+class: primary
+# Over the Last 2 Weeks:
+
+Annual Review of Statistics Paper on Testing Statistical Graphics
+
+- requested ~1000 things from interlibrary loan, including a book which describes statistics as a discipline somewhere between "accounting and the science of higher mathematics" 
+- Overview of historical graphical testing, testing methods sections
+
+__still to do__: 9 pages down, another 14 to go on lineups, best practices, and future research areas
+
+
 
 ---
 class: inverse

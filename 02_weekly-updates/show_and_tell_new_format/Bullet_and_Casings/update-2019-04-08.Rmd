@@ -116,6 +116,67 @@ class: inverse
 ---
 class: primary
 # Project Updates
+
+---
+class: primary
+# Cartridge Cases: Overview
+
+  - A cartridge case is the metal casing that holds the component parts (projectile, propellant, etc.) of a cartridge together.
+
+  - When the head or base of the cartridge case moves rearward, it strikes what is called the breech face of the firearm.
+
+  - Forensic examiners claim that cartridge cases can be matched/identified by the impressions that are left on the cartridge case by the breech face of the firearm.
+  
+<img src = "../../images/joeZ/barrelBreechface.JPG" width="35%"/>
+<img src = "../../images/joeZ/cartridgeBreechface.JPG" width="35%" align="right"/>
+
+---
+class: primary
+## Cartridge Cases: Project Description
+
+  - **Broadly:** Automate the process of matching/identifying cartridge cases based on breech face impressions.
+
+  - **Currently:** Implement and improve upon a procedure developed by Xiao Hui, a CSAFE alumn from Carnegie Mellon, for 2D scans of cartridge cases to 3D topographical scans.
+
+  - **Far down the road:** Develop new methods (a la Hare et. al) to match/identify cartridge cases.
+
+<img src = "../../images/joeZ/breechfaceScanForwardView.JPG" width="35%" border="2"/>
+<img src = "../../images/joeZ/breechfaceScanSideView.JPG" width="35%" border="2" align="right"/>
+
+---
+class: primary
+## Cartridge Cases: Implementation
+
+(1) Automatically identify the breech face impression region
+
+ - RANSAC, Canny edge detector + Hough transform, ideas?
+ 
+--
+
+(2) "Clean" the breech face impression region
+
+ - Adjust for lighting, remove "circular symmetry" and outliers
+ 
+--
+
+(3) Match an unknown breech face scan to a set of known breech face scans by maximizing the cross-correlation function through rotations/translations.
+
+  - **Issue:** CCF may be small over entire region, especially with inconsistent scans.
+
+  - **Improvement:** Congruent Matching Cells method. Break up two breech face scans into regions and count the number of highly correlated regions. Call the breech face scans a match if this count exceeds some threshold.
+  
+--
+  
+(4) Non-parametrically calculate a "p-value" of obtaining a higher CCF score by chance using a known database of firearm-labeled cartridge cases.
+
+  - **Issue:** To what distribution do we compare the similarity score? Do we consider all pairwise comparisons of cartridge cases of the same brand and fired by the same gun? Do we allow for different cartridge case brands or different guns?
+
+---
+class: primary
+## Cartridge Cases: Implementation
+
+<img src = "../../images/joeZ/houghtransformCircles.JPG" width="80%"/>
+
 ---
 class: inverse
 # LateBreak

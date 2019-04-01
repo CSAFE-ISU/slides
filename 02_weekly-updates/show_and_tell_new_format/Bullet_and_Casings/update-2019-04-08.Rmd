@@ -105,10 +105,49 @@ class: inverse
 
 ---
 class: primary   
-# Project Updates
+# Project Background
+ 
+My responsibilities on the bullet project: 
+
+- Automated groove ID methods 
+    - Publishing work  
+- Scanning Variability Study  
+    - Pilot study data analysis  
+    - Study design and implementation  
+    - Model development  
+    - Data analysis  
+    - Publishing work  
+- Neural nets applied to 3D scan processing  
+    - This is a future project!  
+
+---
+class: primary   
+# Project Updates: GROOVE ID 
+
+Two papers in preparation:  
+
+- AFTE Journal Paper on initial groove ID methods  
+    - In the editing/submission preparation stage  
+    - "Less" technical version, shorter 
+- JFS or FSI Paper on "final" groove ID methods
+    - Joint work with Nate
+    - Two-Class Classification Method
+    - Bayesian Changepoint Method (Nate)
+    - Pairwise results comparison on 3 bullet test sets  
+
+---
+class: primary   
+# Project Updates: VARIABILITY STUDY 
+
+- *study background*  
+- *study design*
+- *data collection progress?*
+- *pilot study data results*
 
 
-    
+
+
+
 ---
 class: inverse
 # Joe

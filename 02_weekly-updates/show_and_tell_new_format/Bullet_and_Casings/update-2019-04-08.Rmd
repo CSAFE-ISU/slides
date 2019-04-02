@@ -97,7 +97,49 @@ class: inverse
 
 ---
 class: primary
-# Project Updates
+# Bayesian Changepoint Groove ID
+
+- Automated groove detection using Bayesian changepoint analysis 
+- Think of points where groove meets land as parameters in a model defined piecewise
+- Likelihood is not continuous wrt the changepoint locations 
+- Account for local structure with dependent errors 
+    
+---
+class: primary
+# bulletcp
+
+- R package to perform the following steps
+  - Potentially remove global structure using Kiegan's robust LOESS
+  - Impute missing data so that observations are equally spaced
+  - Run 4 MCMCs to fit a model with 0 grooves, 1 left or 1 right groove, and 2 grooves
+  - Simultaneously select the number of grooves and the groove locations using MAP estimates
+  
+---
+class: secondary
+# bulletcp demo
+
+```{r, eval = FALSE}
+install.packages("bulletcp")
+library(bulletcp)
+library(ggplot2)
+data(example_data)
+d <- raw_data[seq(from = 1, to = nrow(raw_data), by = 15),]
+grooves <- get_grooves_bcp(x = d$x, value = d$value, adjust = 20)
+
+g <- ggplot(data = d) +
+  geom_point(mapping = aes(x = x, y = value)) +
+  geom_vline(mapping = aes(xintercept = grooves$groove[1])) +
+  geom_vline(mapping = aes(xintercept = grooves$groove[2]))
+g
+```
+
+---
+class: secondary
+# Issues
+
+- Random walks are inefficient optimization tools
+- Posterior is multimodal
+
 
 ---
 class: inverse
@@ -105,10 +147,49 @@ class: inverse
 
 ---
 class: primary   
-# Project Updates
+# Project Background
+ 
+My responsibilities on the bullet project: 
+
+- Automated groove ID methods 
+    - Publishing work  
+- Scanning Variability Study  
+    - Pilot study data analysis  
+    - Study design and implementation  
+    - Model development  
+    - Data analysis  
+    - Publishing work  
+- Neural nets applied to 3D scan processing  
+    - This is a future project!  
+
+---
+class: primary   
+# Project Updates: GROOVE ID 
+
+Two papers in preparation:  
+
+- AFTE Journal Paper on initial groove ID methods  
+    - In the editing/submission preparation stage  
+    - "Less" technical version, shorter 
+- JFS or FSI Paper on "final" groove ID methods
+    - Joint work with Nate
+    - Two-Class Classification Method
+    - Bayesian Changepoint Method (Nate)
+    - Pairwise results comparison on 3 bullet test sets  
+
+---
+class: primary   
+# Project Updates: VARIABILITY STUDY 
+
+- *study background*  
+- *study design*
+- *data collection progress?*
+- *pilot study data results*
 
 
-    
+
+
+
 ---
 class: inverse
 # Joe

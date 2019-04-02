@@ -97,7 +97,49 @@ class: inverse
 
 ---
 class: primary
-# Project Updates
+# Bayesian Changepoint Groove ID
+
+- Automated groove detection using Bayesian changepoint analysis 
+- Think of points where groove meets land as parameters in a model defined piecewise
+- Likelihood is not continuous wrt the changepoint locations 
+- Account for local structure with dependent errors 
+    
+---
+class: primary
+# bulletcp
+
+- R package to perform the following steps
+  - Potentially remove global structure using Kiegan's robust LOESS
+  - Impute missing data so that observations are equally spaced
+  - Run 4 MCMCs to fit a model with 0 grooves, 1 left or 1 right groove, and 2 grooves
+  - Simultaneously select the number of grooves and the groove locations using MAP estimates
+  
+---
+class: secondary
+# bulletcp demo
+
+```{r, eval = FALSE}
+install.packages("bulletcp")
+library(bulletcp)
+library(ggplot2)
+data(example_data)
+d <- raw_data[seq(from = 1, to = nrow(raw_data), by = 15),]
+grooves <- get_grooves_bcp(x = d$x, value = d$value, adjust = 20)
+
+g <- ggplot(data = d) +
+  geom_point(mapping = aes(x = x, y = value)) +
+  geom_vline(mapping = aes(xintercept = grooves$groove[1])) +
+  geom_vline(mapping = aes(xintercept = grooves$groove[2]))
+g
+```
+
+---
+class: secondary
+# Issues
+
+- Random walks are inefficient optimization tools
+- Posterior is multimodal
+
 
 ---
 class: inverse

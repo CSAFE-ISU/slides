@@ -173,9 +173,10 @@ class: primary
 
 ---
 class: primary
-## Cartridge Cases: Implementation
+## Cartridge Cases: Hough Transform
 
-<img src = "../../images/joeZ/houghtransformCircles.JPG" width="80%"/>
+<img src = "../../images/joeZ/houghtransformCircles.JPG" border="2" width="49%"/>
+<img src = "../../images/joeZ/filteredBreechfaceScan.JPG" border="2" width="49%" align="right"/>
 
 ---
 class: inverse

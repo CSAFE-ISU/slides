@@ -88,6 +88,18 @@ class: inverse
 class: primary   
 # Project Updates
 
+Projects
+- *User Interface for Diagnostics in the Bullet matching pipeline*
+ - Demonstration
+- *Markov Random Field based identification of irregularities in Bullet Lands*
+  - Completed an initial Implementation of an Unsupervised MRF and Expectation Maximization method.
+  - Tested on one land png, Need to test on better quality data land surface matrix
+  - working on improving Initial label set and Priors for the method, heavily affects the performance of the method. 
+- *Book Chapter on Toolmarks*
+  - Writing the book chapter on toolmarks for the ROpenSci book
+- *Chumbley Non-random Bullet-to-Bullet scoring* 
+  - Coerce all windows into a new statistical test for bullets
+
 
 
 ---

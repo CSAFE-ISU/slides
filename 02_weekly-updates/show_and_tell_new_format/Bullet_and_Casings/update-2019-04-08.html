@@ -49,7 +49,28 @@ class: primary
 
 ---
 class: primary
-# Update from the lab
+# Bullet projects - Big picture 
+
+- **data collection**
+
+- **computational tools**
+
+- matching lands: 
+
+    1. crosscut identification
+    2. **groove location**
+    3. curvature removal
+    4. alignment of signatures
+    5. feature extraction
+    6. matching with trained Random Forest
+
+- **analysis of results**
+
+- **communication of results**
+
+---
+class: primary
+# Update from the data collection
 
 - **scans from bullet lands (about 20,000 total)**
 
@@ -65,9 +86,60 @@ class: primary
     - DFSC (about 2000)
     - getting ready to scan cartridges for CSAFE persistence
     
+- **shooting range**
+    
+    - we are planning to go out to the range one more time to finish up the persistence study
 ---
 class: primary
 # Computational tools
+
+- **fix3p**:  Chrome extension by Talen Fisher
+
+    demo
+
+- **x3ptools**
+
+    - on CRAN in version 0.0.2 since Mar 27
+    
+    - working with masks: color images overlaid on top of the rendered scan surface
+    
+&lt;img src = "heike/land-markup.png" border="2"/&gt;
+
+---
+class: primary
+# x3ptools
+
+- change to the structure: x3p objects now have a slot called `mask` (raster image)
+
+  
+- **new functions**
+
+  - `x3p_add_mask`: for a new mask (you shouldn't need that), but you can make changes to the mask with any image operation
+
+  - `x3p_snapshot (file)`: save a snapshot of the active rgl device  in a (png) file
+
+  - `x3p_darker`, `x3p_lighter`: darken/lighten the active rgl device
+  
+  - `x3p_show_xml`, `x3p_modify_xml()`: show and modify elements of the meta file
+
+---
+class: primary
+# x3ptools
+
+- **word of caution**:
+
+  the addition of masks to `x3ptools` has impacts on a lot of other functionality. 
+
+     - `sample_x3p` works fine (mask is being sub-sampled)
+     
+     - `y_flip_x3p` does NOT flip the mask. This is a bug and will be fixed.
+  
+  Please watch out for strange behavior and report.
+
+
+- **immediate future changes**:
+
+  all functions of the form `xxx_x3p` will be changed to `x3p_xxx` 
 
 ---
 class: inverse

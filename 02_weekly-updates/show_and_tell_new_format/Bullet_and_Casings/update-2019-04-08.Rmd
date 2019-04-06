@@ -3,7 +3,7 @@ title: "Project CC: Bullets and Cartridge Cases"
 date: "2019-04-08"
 output:
   xaringan::moon_reader:
-    css: ["default", "css/csafe.css", "../../css/csafe-fonts.css"]
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css", "css/this-presentation.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -206,7 +206,7 @@ class: primary
 
 ---
 class: primary
-## Cartridge Cases: Project Description
+# Cartridge Cases: Project Description
 
   - **Broadly:** Automate the process of matching/identifying cartridge cases based on breech face impressions.
 
@@ -219,7 +219,7 @@ class: primary
 
 ---
 class: primary
-## Cartridge Cases: Implementation
+# Cartridge Cases: Implementation
 
 (1) Automatically identify the breech face impression region
 
@@ -247,7 +247,7 @@ class: primary
 
 ---
 class: primary
-## Cartridge Cases: Hough Transform
+# Cartridge Cases: Hough Transform
 
 <img src = "../../images/joeZ/houghtransformCircles.JPG" border="2" width="49%"/>
 <img src = "../../images/joeZ/filteredBreechfaceScan.JPG" border="2" width="49%" align="right"/>

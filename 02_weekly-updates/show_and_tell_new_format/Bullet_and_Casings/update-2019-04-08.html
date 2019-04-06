@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="date" content="2019-04-08" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/CSAFE-ISU/Templates/master/xaringan_template/css/csafe.css" type="text/css" />
-    <link rel="stylesheet" href="../../css/csafe-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css/this-presentation.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -75,6 +76,18 @@ class: inverse
 ---
 class: primary   
 # Project Updates
+
+Projects
+- *User Interface for Diagnostics in the Bullet matching pipeline*
+ - Demonstration
+- *Markov Random Field based identification of irregularities in Bullet Lands*
+  - Completed an initial Implementation of an Unsupervised MRF and Expectation Maximization method.
+  - Tested on one land png, Need to test on better quality data land surface matrix
+  - working on improving Initial label set and Priors for the method, heavily affects the performance of the method. 
+- *Book Chapter on Toolmarks*
+  - Writing the book chapter on toolmarks for the ROpenSci book
+- *Chumbley Non-random Bullet-to-Bullet scoring* 
+  - Coerce all windows into a new statistical test for bullets
 
 
 
@@ -202,7 +215,7 @@ class: primary
 
 ---
 class: primary
-## Cartridge Cases: Project Description
+# Cartridge Cases: Project Description
 
   - **Broadly:** Automate the process of matching/identifying cartridge cases based on breech face impressions.
 
@@ -215,7 +228,7 @@ class: primary
 
 ---
 class: primary
-## Cartridge Cases: Implementation
+# Cartridge Cases: Implementation
 
 (1) Automatically identify the breech face impression region
 
@@ -243,7 +256,7 @@ class: primary
 
 ---
 class: primary
-## Cartridge Cases: Hough Transform
+# Cartridge Cases: Hough Transform
 
 &lt;img src = "../../images/joeZ/houghtransformCircles.JPG" border="2" width="49%"/&gt;
 &lt;img src = "../../images/joeZ/filteredBreechfaceScan.JPG" border="2" width="49%" align="right"/&gt;

@@ -261,10 +261,6 @@ class: inverse
 
 ---
 class: primary
-# Project Updates
-
----
-class: primary
 # Cartridge Cases: Overview
 
   - A cartridge case is the metal casing that holds the component parts (projectile, propellant, etc.) of a cartridge together.
@@ -310,9 +306,11 @@ class: primary
   - **Issue:** CCF may be small over entire region, especially with inconsistent scans.
 
   - **Improvement:** Congruent Matching Cells method. Break up two breech face scans into regions and count the number of highly correlated regions. Call the breech face scans a match if this count exceeds some threshold.
-  
---
-  
+
+---
+class: primary
+# Cartridge Cases: Implementation
+
 (4) Non-parametrically calculate a "p-value" of obtaining a higher CCF score by chance using a known database of firearm-labeled cartridge cases.
 
   - **Issue:** To what distribution do we compare the similarity score? Do we consider all pairwise comparisons of cartridge cases of the same brand and fired by the same gun? Do we allow for different cartridge case brands or different guns?

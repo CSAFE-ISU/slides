@@ -1,84 +1,65 @@
 ---
-title: "Weekly Update for Apr 8"
+title: "Project CC: Bullets and Cartridge Cases"
 date: "2019-04-08"
 output:
   xaringan::moon_reader:
-    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    css: ["default", "css/csafe.css", "../../css/csafe-fonts.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 ---
-
-
-class: inverse
-# About Slides
-
----
-class: primary 
-# New CSAFE slide template
-
-We're now using [`xaringan`](https://github.com/yihui/xaringan)
-
-What's changed: 
-
-- New person slide: 
-
-````
-  ---
-  class: inverse
-  # Your Name
-````
-
----
-class: secondary
-
-- New content slide with title: 
-
-````
----
 class: primary
-# Title of slide 
+# Overview
+Faculty
+- Heike Hofmann
+- Susan VanderPlas
 
-Slide content
-````
+Graduate Students
 
-- New content slide without title: 
+- Ganesh Krishnan
+- Kiegan Rice (& Nate Garton)
+- Charlotte Roigers
+- Joe Zemmels
 
-````
----
-class: secondary
 
-Slide content with no title on slide
-````
+Undergraduates
 
----
-class: inverse
-# Sample User
+- Talen Fisher (fix3p)
+- Mya Fisher, Allison Mark, Connor Hergenreter, Carley McConnell, Anyesha Ray (scanner)
 
 ---
 class: primary
-# Sample Slide
+# News
 
-- Sample Table. Sam Tyner talked about the three must-haves of your summary:
+- Talen was awarded with the **2019 Dean's High Impact Award for Undergraduate Research**
 
+- Three summer REUs from HCI (Ganesh will supervise) [link to project description]
 
-
-| Must-have | It means |
-| :------   | :------- |
-| Context | Why are you doing what you're doing? "I'm working on X project in order to Y" |
-| Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
-| Conclusion | What did you learn? "This will help me because it..." or "This important because it gets us to..." |
+- AFTE is the week after Hands-on - proposals for abstracts are due April 15
 
 ---
-class: secondary
+class: primary
+# Update from the lab
 
-- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+- **scans from bullet lands (about 20,000 total)**
 
+    - LAPD: 4 bullets per barrel for 426 out of 626 firearms
+    - Hamby Sets 10, 36, 44, 224, and a clone (35 bullets each)
+    - Houston test sets (6 kits with 25 bullets each)
+    - Houston persistence: 8 barrels with 40 fired bullets each
+    - St Louis persistence: 2 barrels with 192 fired bullets each
+    - most of the CSAFE persistence study 
+    
+- **and cartridge cases**
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
- 
+    - DFSC (about 2000)
+    - getting ready to scan cartridges for CSAFE persistence
+    
+---
+class: primary
+# Computational tools
 
 ---
 class: inverse

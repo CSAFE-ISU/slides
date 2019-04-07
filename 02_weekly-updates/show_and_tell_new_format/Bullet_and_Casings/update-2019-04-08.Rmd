@@ -340,6 +340,15 @@ Using heights in scans:
 <img src = "heike/breech-face-histogram.png" border="2" width="49%"/>
 
 ---
+class: primary
+# Cartride Cases 
+
+Using heights in scans: 
+
+<img src = "heike/breech-face-markup.png" border="2" width="49%"/>
+<img src = "../../images/joeZ/breechfaceScan_histFiltered.JPG" border="2" width="49%"/>
+
+---
 class: inverse
 # LateBreak
 

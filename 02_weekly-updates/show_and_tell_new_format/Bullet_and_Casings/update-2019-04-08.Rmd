@@ -414,8 +414,22 @@ class: primary
   - Re-run and canny edge detection and hough transform to try and actually detect striations
 ---
 class: primary
-# 
+# Edge Detection
 
+<img src = "charlotte/initial_strong_hamby44_bull1_L1.png" width = "70%" align = "top"/>
+<img src = "charlotte/initial_strong_houston_barf_bull11_L1.png" width = "70%" align = "bottom">
+
+---
+class: primary
+# Hough Transform
+<img src = "charlotte/initial_hough_transform_hamby44_bull1_L1.png" width = "70%" align = "top"/>
+<img src = "charlotte/initial_hough_transform_houston_barf_bull11_L1.png" width = "70%" align = "bottom">
+
+---
+class: primary
+# Watershed Algorithm
+<img src = "charlotte/initial_watershed_hamby44_bull1_L1.png" width = "70%" align = "top"/>
+<img src = "charlotte/initial_watershed_houston_barf_bull11_L1.png" width = "70%" align = "bottom">
 ---
 
 class: inverse

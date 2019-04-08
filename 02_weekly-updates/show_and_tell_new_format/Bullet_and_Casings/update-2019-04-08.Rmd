@@ -240,18 +240,63 @@ Two papers in preparation:
     - Joint work with Nate
     - Two-Class Classification Method
     - Bayesian Changepoint Method (Nate)
-    - Pairwise results comparison on 3 bullet test sets  
+    - Pairwise results comparison on 3 bullet test sets   
 
 ---
 class: primary   
-# Project Updates: VARIABILITY STUDY 
+# Project Updates: VARIABILITY STUDY  
 
-- *study background*  
-- *study design*
-- *data collection progress?*
-- *pilot study data results*
+Goal of automated methods is to reduce human involvement in decision making.  
+
+Some things need to be quantified about the automated bullet matching process:  
+- Potential impact of different humans scanning LEAs 
+- Potential impact of different machines 
+- Whether differences impact raw data, processed data
+- Whether differences impact similarity scores
 
 
+---
+class: primary   
+# Project Updates: VARIABILITY STUDY  
+
+Had some pilot study data to work with! I've shown this before as signatures:  
+<img src = "kiegan/signature_reps_operator.pdf"/>  
+
+
+---
+class: primary   
+# Project Updates: VARIABILITY STUDY  
+
+<img src = "kiegan/pairwise-model-pilot-data-results.png"/>  
+
+
+---
+class: primary   
+# Project Updates: VARIABILITY STUDY  
+
+Data collection is in progress! 
+- 9 bullets 
+    - 3 bullets each from 3 barrels
+- 5 operators
+- 2 machines
+- 5 repetitions per operator/machine  
+
+
+---
+class: primary   
+# Project Updates  
+
+What's up next?  
+- Priority is *publishing*!!  
+- Keeping an eye on data collection  
+- Standard bullet scans  
+- 3D alignment work  
+- Getting pilot analysis code cleaned up   
+- Thinking about framework for R&R, quality metrics   
+   - Package, shiny application, etc...  
+- Starting to look at "markup" LEA scans  
+    - This data will be used for neural net project   
+- Not bullets, but also diving back into the book!  
 
 
 

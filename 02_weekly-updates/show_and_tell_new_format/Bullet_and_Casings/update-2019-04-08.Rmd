@@ -37,7 +37,7 @@ class: primary
 
 - Three summer REUs from HCI (Ganesh will supervise) [link to project description]
 
-- AFTE is the week after Hands-on - proposals for abstracts are due April 15
+- AFTE is the week after All-Hands - proposals for abstracts are due April 15
 
 ---
 class: primary

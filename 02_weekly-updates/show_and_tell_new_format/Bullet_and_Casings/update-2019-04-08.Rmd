@@ -314,8 +314,8 @@ class: primary
 
   - Forensic examiners claim that cartridge cases can be matched/identified by the impressions that are left on the cartridge case by the breech face of the firearm.
   
-<img src = "../../images/joeZ/barrelBreechface.JPG" width="35%"/>
-<img src = "../../images/joeZ/cartridgeBreechface.JPG" width="35%" align="right"/>
+<img src = "joeZ/barrelBreechface.JPG" width="35%"/>
+<img src = "joeZ/cartridgeBreechface.JPG" width="35%" align="right"/>
 
 ---
 class: primary
@@ -327,8 +327,8 @@ class: primary
 
   - **Far down the road:** Develop new methods (a la Hare et. al) to match/identify cartridge cases.
 
-<img src = "../../images/joeZ/breechfaceScanForwardView.JPG" width="35%" border="2"/>
-<img src = "../../images/joeZ/breechfaceScanSideView.JPG" width="35%" border="2" align="right"/>
+<img src = "joeZ/breechfaceScanForwardView.JPG" width="35%" border="2"/>
+<img src = "joeZ/breechfaceScanSideView.JPG" width="35%" border="2" align="right"/>
 
 ---
 class: primary
@@ -364,8 +364,8 @@ class: primary
 class: primary
 # Cartridge Cases: Hough Transform
 
-<img src = "../../images/joeZ/houghtransformCircles.JPG" border="2" width="49%"/>
-<img src = "../../images/joeZ/filteredBreechfaceScan.JPG" border="2" width="49%"/>
+<img src = "joeZ/houghtransformCircles.JPG" border="2" width="49%"/>
+<img src = "joeZ/filteredBreechfaceScan.JPG" border="2" width="49%"/>
 
 ---
 class: primary
@@ -392,7 +392,7 @@ class: primary
 Using heights in scans: 
 
 <img src = "heike/breech-face-markup.png" border="2" width="49%"/>
-<img src = "../../images/joeZ/breechfaceScan_histFiltered.JPG" border="2" width="49%"/>
+<img src = "joeZ/breechfaceScan_histFiltered.JPG" border="2" width="49%"/>
 
 ---
 class: inverse

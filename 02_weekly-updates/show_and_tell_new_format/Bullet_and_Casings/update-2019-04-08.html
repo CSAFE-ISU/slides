@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>Project CC: Bullets and Cartridge Cases</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="date" content="2019-04-08" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/csafe.css" type="text/css" />
-    <link rel="stylesheet" href="css/csafe-fonts.css" type="text/css" />
-    <link rel="stylesheet" href="css/this-presentation.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe.css" type="text/css" />
+    <link rel="stylesheet" href="css\csafe-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css\this-presentation.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -323,8 +323,8 @@ class: primary
 
   - Forensic examiners claim that cartridge cases can be matched/identified by the impressions that are left on the cartridge case by the breech face of the firearm.
   
-&lt;img src = "../../images/joeZ/barrelBreechface.JPG" width="35%"/&gt;
-&lt;img src = "../../images/joeZ/cartridgeBreechface.JPG" width="35%" align="right"/&gt;
+&lt;img src = "joeZ/barrelBreechface.JPG" width="35%"/&gt;
+&lt;img src = "joeZ/cartridgeBreechface.JPG" width="35%" align="right"/&gt;
 
 ---
 class: primary
@@ -336,8 +336,8 @@ class: primary
 
   - **Far down the road:** Develop new methods (a la Hare et. al) to match/identify cartridge cases.
 
-&lt;img src = "../../images/joeZ/breechfaceScanForwardView.JPG" width="35%" border="2"/&gt;
-&lt;img src = "../../images/joeZ/breechfaceScanSideView.JPG" width="35%" border="2" align="right"/&gt;
+&lt;img src = "joeZ/breechfaceScanForwardView.JPG" width="35%" border="2"/&gt;
+&lt;img src = "joeZ/breechfaceScanSideView.JPG" width="35%" border="2" align="right"/&gt;
 
 ---
 class: primary
@@ -373,8 +373,8 @@ class: primary
 class: primary
 # Cartridge Cases: Hough Transform
 
-&lt;img src = "../../images/joeZ/houghtransformCircles.JPG" border="2" width="49%"/&gt;
-&lt;img src = "../../images/joeZ/filteredBreechfaceScan.JPG" border="2" width="49%"/&gt;
+&lt;img src = "joeZ/houghtransformCircles.JPG" border="2" width="49%"/&gt;
+&lt;img src = "joeZ/filteredBreechfaceScan.JPG" border="2" width="49%"/&gt;
 
 ---
 class: primary
@@ -401,7 +401,7 @@ class: primary
 Using heights in scans: 
 
 &lt;img src = "heike/breech-face-markup.png" border="2" width="49%"/&gt;
-&lt;img src = "../../images/joeZ/breechfaceScan_histFiltered.JPG" border="2" width="49%"/&gt;
+&lt;img src = "joeZ/breechfaceScan_histFiltered.JPG" border="2" width="49%"/&gt;
 
 ---
 class: inverse
@@ -422,6 +422,7 @@ class: secondary
 - [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
 - One issue down, three to go.
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
@@ -431,16 +432,57 @@ class: secondary
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
 })();</script>
 
 <script>
 (function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
     code = codes[i];
     if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
@@ -454,7 +496,8 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     i++;
   }
-})();
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

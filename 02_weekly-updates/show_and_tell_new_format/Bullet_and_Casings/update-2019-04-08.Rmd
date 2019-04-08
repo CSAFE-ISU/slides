@@ -396,6 +396,43 @@ Using heights in scans:
 
 ---
 class: inverse
+# Charlotte
+---
+
+class: primary
+# Bullet Quality Overview
+
+- **Goal:** To automate the process of identifying "good" and "bad" quality regions of bullet scans using computer vision algorithms.
+
+- **Process:**
+  - First prep images by running bullet scans through a Canny Edge detector
+  - Perform a Hough Transform on edges to identify differing regions of bullet scans
+  - Remove undesireable groove portions of bullets using watershed segmentation
+
+- **Future:** 
+  - Improve image separation process between Hough transforms and watershed segmentation
+  - Re-run and canny edge detection and hough transform to try and actually detect striations
+---
+class: primary
+# Edge Detection
+
+<img src = "charlotte/initial_strong_hamby44_bull1_L1.png" width = "70%" align = "top"/>
+<img src = "charlotte/initial_strong_houston_barf_bull11_L1.png" width = "70%" align = "bottom">
+
+---
+class: primary
+# Hough Transform
+<img src = "charlotte/initial_hough_transform_hamby44_bull1_L1.png" width = "70%" align = "top"/>
+<img src = "charlotte/initial_hough_transform_houston_barf_bull11_L1.png" width = "70%" align = "bottom">
+
+---
+class: primary
+# Watershed Algorithm
+<img src = "charlotte/initial_watershed_hamby44_bull1_L1.png" width = "70%" align = "top"/>
+<img src = "charlotte/initial_watershed_houston_barf_bull11_L1.png" width = "70%" align = "bottom">
+---
+
+class: inverse
 # LateBreak
 
 

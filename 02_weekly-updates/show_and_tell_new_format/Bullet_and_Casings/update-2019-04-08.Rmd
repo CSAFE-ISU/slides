@@ -319,7 +319,8 @@ class: primary
 class: primary
 # Cartridge Cases: Hough Transform
 
-<img src = "../../images/joeZ/houghtransformCircles.JPG" border="2" width="70%"/>
+<img src = "../../images/joeZ/houghtransformCircles.JPG" border="2" width="49%"/>
+<img src = "../../images/joeZ/filteredBreechfaceScan.JPG" border="2" width="49%"/>
 
 ---
 class: primary

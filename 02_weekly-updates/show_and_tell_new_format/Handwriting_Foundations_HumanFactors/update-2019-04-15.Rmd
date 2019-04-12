@@ -104,7 +104,37 @@ class: inverse
 
 ---
 class: primary
-# Project Updates
+# Project Summary
+
+- Is it reasonable to replace the true LR with an SLR in court? 
+- Gaussian example with known score distribution
+- Generalize patterns through probabilistic bounds on the LR
+- Examine these bounds and patterns in a more realistic, simulated setting
+
+---
+class: primary
+# Main Questions
+
+- How large are discrepancies between an LR and an SLR?
+- How likely are discrepancies? 
+- How meaningful are discrepancies? 
+- How likely are meaningful discrepancies? 
+
+---
+class: primary
+# Main Results
+
+- Change in score $\neq$ change in data $\implies$ large discrepancies possible  
+- $P \left(LR < \alpha SLR | S(X,Y) = s, H_d \right) \geq 1 - \frac{1}{\alpha}$
+- $P \left(LR > SLR/\alpha | S(X,Y) = s, H_p \right) \geq 1 - \frac{1}{\alpha}$
+
+---
+class: primary
+# Other Interesting Results
+
+- $M_1 < LR < M_2 \implies M_1 < SLR < M_2$
+- $SLR \ll E_{Y|s,H_p}\left[ LR \right] \implies$ inability to make claims about how small the LR might be if $H_d$ is true
+- $SLR^{-1} \ll E_{Y|s,H_d}\left[ LR^{-1} \right] \implies$ inability to make claims about how large the LR might be if $H_p$ is true
 
 ---
 class: inverse

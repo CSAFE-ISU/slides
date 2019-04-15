@@ -84,6 +84,7 @@ March 04: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/u
 March 11: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-03-11.html)<br>
 March 25: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-03-25.html)<br>
 April 8: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/show_and_tell_new_format/Bullet_and_Casings/update-2019-04-08.html)<br>
+April 15: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/show_and_tell_new_format/Handwriting_Foundations_HumanFactors/update-2019-04-15.html)<br>
 
 ### Fall 2018 Slides
 

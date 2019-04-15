@@ -89,7 +89,7 @@ class: secondary
 Grouping Result #1: Adjacency Matrix<img src="amy/w27_letterbuckets43.png" width="650" height="600">
 
 ---
-Grouping Result #2: Connectivity Code<img src="amy/w27_connectedcode40.png" width="650" height="600">
+Grouping Result #2: Connectivity Code<img src="amy/W27_connectedcode40.png" width="650" height="600">
 
 ---
 Grouping Result #3: Clusters<img src="amy/w27_cluster40.png"  width="650" height="600">
@@ -102,7 +102,7 @@ class: primary
 - Multivariate Extensions
     - Dispersion matrices
 <br /> <br />
-<img src="amy/fisherdispersionindex_multivariateextension.png" width="800" height="150">
+<img src="amy/fisherdispersionindex_multivariateextension.png" width="600" height="150">
 
 
 ---

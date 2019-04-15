@@ -142,8 +142,68 @@ class: inverse
 
 ---
 class: primary   
-# Spring Semester Goals
+# Update on NIJ Handwriting Project
 
+- Overall goal: To see whether the kinematic similarities/differences can explain examiner responses
+- Sent out a survey containing 40 pairs of writing
+    - 20 pairs contained cursive writing
+    - 20 pairs contained print writing
+    - 10 pairs were known same writer comparisons
+    - 30 pairs were known different writer comparisons
+- Received responses from 41 FDE
+    - Responses are ordinal: 1-7
+    - Modified the 9-pt scale by removing identification and exclusion extremes
+    - 1 indicates extrememly weak support for the hypothesis
+    - 7 indicated extremely strong support for hypothesis
+    
+---
+class: primary   
+# Update on NIJ Handwriting Project
+
+- Problem: The initial exploratory data analysis revealed that on average, examiners were doing terribly in determining whether the pairs came from the same writer or from different writers
+    - Examiners tended to give low support to the prosecution hypothesis for known same writer comparisons
+    - Examiners tended to give low support to the defense hypothesis for known different writer comparisons
+- Solution: Found out that SurveyMonkey flipped all the scores
+    - 7 (extremely strong support) appeared 1st so SurveyMonkey assigned it a score of 1
+    - 1 (extremely weak support) appeared 7th so SurveyMonkey assigned it a score of 7
+    
+---
+class: primary   
+# Update on NIJ Handwriting Project
+
+- Each comparison in the survey has 2 sets of kinematics
+    - 1 for the first document in the comparison
+    - 1 for the second documents in the comparions
+    - each document is split into upstrokes and downstrokes
+- Each stroke has 4 types of features
+    - Temporal: Stroke Duration, Peak Vertical Velcity, Average Vertical Velocity
+    - Spatial/Geometric: Vertical Size, Horizontal Size, Absolute Size, Slant, Loop Surface, Roadlength
+    - Fluency: Number of Peak Acceleration Points
+    - Pressure: Average Pen Pressure
+    
+---
+class: primary   
+# Update on NIJ Handwriting Project
+
+- Problem: each document has A LOT of kinematic measurements
+- Problem: stroke 1 of document 1 doesn't necessarily correspond to stroke 1 of document 2
+- Need to find a way to combine kinematic features to get scores for a single document
+    - For each feature set, used a Wasserstein distance (comparison of empirical CDFs) to get 2 scores for each comparison
+    - 1 score for upstrokes, 1 score for downstrokes
+    - Results in 8 total scores for a single comparison
+    - Low scores indicate similar kinematics
+    
+---
+class: primary   
+# Update on NIJ Handwriting Project
+
+- With the kinematic scores worked out, I proceeded to model the examiner responses (correctly reversed) using the 8 scores as predictors via ordinal logistic regression ... and found nothing!
+- Problem: There were a subset of examiners who gave the same score to the prosecution hypothesis that they did to the defense hypothesis
+- Solution: Developed a "coherency" score
+    - If an examiner was truly using a coherent LR-approach, then whatever score they gave for the prosecution hypothesis would be the reverse of whatever score they gave the defense hypothesis
+    - Example: A coherent examiner who said 6 for Hp would say 2 for Hd
+    - Example: A coherent examiner who said 3 for Hp would say 5 for Hd
+    - Result: some examiners are doing a coherent LR-style method, while others are presumably doing a Two-Stage approach!
 
 
 ---

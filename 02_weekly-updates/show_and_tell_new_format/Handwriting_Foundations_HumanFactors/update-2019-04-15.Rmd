@@ -87,6 +87,16 @@ class: inverse
 ---
 class: primary
 # Project Updates
+- Data Collection
+    - Contact groups
+    - Documentation for James
+- Research
+    - <strike>20 min. talk at AAFS (February) </strike>
+    - Poster at All-Hands (May)
+    - 20 min. talk at JSM (July/August)
+    - 60-90 min. talk at ASQDE (August)
+    - Poster <font color="red">(?)</font> at Simulation and Statistics Conference (September)
+
 
 ---
 class: inverse

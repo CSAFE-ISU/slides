@@ -104,7 +104,20 @@ class: inverse
 
 ---
 class: primary
-# Spring Semester Goals
+# Glyph as a graph
+<img src = "images/Ximage.png" width="80%"/>
+
+---
+<img src = "images/DistMeasurePlot.png" width="100%"/>
+
+---
+<img src = "images/WeightedMeans.png" width="100%"/>
+
+---
+<img src = "images/DigitMeans.png" width="100%"/>
+
+---
+<img src = "images/HWmeans.png" width="100%"/>
 
 
 ---

@@ -104,15 +104,45 @@ class: inverse
 
 ---
 class: primary
-# Project Updates
+# Longitudinal Shoe Study
+
+- Working with CSSM and Library DataShare program to get permanent DOIs for all 7 collection methods
+
+- Created a [collection](https://iastate.figshare.com/account/home#/collections/4477757) for the study
+    - Collection manuals are a separate "dataset"
+    - Already uploaded: Mat scan data, film + powder, vinyl (crime scene) photos, 2d scans
+    - Upload in progress: paper + powder, camera photos
+    - To upload later: 3d scans (not released for at least a year)
+    
+- To do: write paper describing the experiment and the database(s)
+
+---
+class: secondary
+![](../../images/shoes/figshare_upload_progress.png)
 
 ---
 class: inverse
 # Miranda
 
 ---
-class: primary
-# Project Updates
+class:primary
+# CoNNOR 
+
+- Forensic Science International Paper
+    - Most content from CC
+    - Goal: Make CNNs seem useful and not scary for forensic practitioners
+
+---
+class:primary
+# CoNNOR: Planned investigations (this summer)
+
+- Optimal level to truncate VGG16 for transfer learning on shoes
+
+- Fully convolutional neural networks - accommodate images of any size
+
+- Region segmentation networks
+
+- [`autokeras` R/python package](https://github.com/jcrodriguez1989/autokeras) that optimizes NN structure automatically
 
 
 ---

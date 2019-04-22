@@ -118,7 +118,7 @@ class: primary
 
 ---
 class: secondary
-![](../../images/shoes/figshare_upload_progress.png)
+![](../../images/shoes/longitudinal_study/figshare_upload_progress.png)
 
 ---
 class: inverse

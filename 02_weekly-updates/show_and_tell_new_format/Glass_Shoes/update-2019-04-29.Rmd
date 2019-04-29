@@ -113,6 +113,8 @@ class: primary
     - Already uploaded: Mat scan data, film + powder, vinyl (crime scene) photos, 2d scans
     - Upload in progress: paper + powder, camera photos
     - To upload later: 3d scans (not released for at least a year)
+
+- Fight with DataShare: Can they host data from IRB-reviewed studies?
     
 - To do: write paper describing the experiment and the database(s)
 
@@ -137,6 +139,7 @@ class:primary
 # CoNNOR: Planned investigations (this summer)
 
 - Optimal level to truncate VGG16 for transfer learning on shoes
+    - Currently running Block2 truncated model on Bigfoot
 
 - Fully convolutional neural networks - accommodate images of any size
 

@@ -138,19 +138,25 @@ class:primary
 class:primary
 # CoNNOR: Consistency
 
-![](../../images/miranda/2019-04-29/text-line-1.png)
+```{r, echo = F}
+knitr::include_graphics("images/Miranda/text-line-1.png")
+```
 
 ---
 class:primary
 # CoNNOR: Consistency
 
-![](../../images/miranda/2019-04-29/uggs-1.png)
+```{r, echo = F}
+knitr::include_graphics("images/Miranda/uggs-1.png")
+```
 
 ---
 class:primary
 # CoNNOR: Consistency
 
-![](../../images/miranda/2019-04-29/fix-contrast-1.png)
+```{r, echo = F}
+knitr::include_graphics("images/Miranda/fix-contrast-1.png")
+```
 
 ---
 class:primary

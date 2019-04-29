@@ -126,11 +126,29 @@ class: inverse
 
 ---
 class:primary
-# CoNNOR 
+# CoNNOR: Updates
 
-- Forensic Science International Paper
-    - Most content from CC
+- Defended Creative Component on April 9th!
+- Now turning CC into paper for Forensic Science International (FSI)
     - Goal: Make CNNs seem useful and not scary for forensic practitioners
+
+---
+class:primary
+# CoNNOR: Consistency
+
+![](../../images/miranda/2019-04-29/text-line-1.png)
+
+---
+class:primary
+# CoNNOR: Consistency
+
+![](../../images/miranda/2019-04-29/uggs-1.png)
+
+---
+class:primary
+# CoNNOR: Consistency
+
+![](../../images/miranda/2019-04-29/fix-contrast-1.png)
 
 ---
 class:primary

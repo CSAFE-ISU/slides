@@ -3,12 +3,13 @@ title: "Weekly Update for Apr 22"
 date: "2019-04-22"
 output:
   xaringan::moon_reader:
-    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css", "css/this-presentation.css"]
     lib_dir: libs
     nature:
+      countIncrementalSlides: false
       highlightStyle: github
       highlightLines: true
-      countIncrementalSlides: false
 ---
 
 
@@ -139,7 +140,7 @@ class:primary
 # CoNNOR: Consistency
 
 ```{r, echo = F}
-knitr::include_graphics("images/Miranda/text-line-1.png")
+knitr::include_graphics("../../images/shoes/CoNNOR/2019-04/text-line-1.png")
 ```
 
 ---
@@ -147,7 +148,7 @@ class:primary
 # CoNNOR: Consistency
 
 ```{r, echo = F}
-knitr::include_graphics("images/Miranda/uggs-1.png")
+knitr::include_graphics("../../images/shoes/CoNNOR/2019-04/uggs-1.png")
 ```
 
 ---
@@ -155,7 +156,7 @@ class:primary
 # CoNNOR: Consistency
 
 ```{r, echo = F}
-knitr::include_graphics("images/Miranda/fix-contrast-1.png")
+knitr::include_graphics("../../images/shoes/CoNNOR/2019-04/fix-contrast-1.png")
 ```
 
 ---

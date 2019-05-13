@@ -9,11 +9,8 @@ output:
       countIncrementalSlides: false
       highlightStyle: github
       highlightLines: true
----
 
 
-class: inverse
-# Glass
 
 ---
 class: inverse
@@ -25,6 +22,7 @@ class: primary
 
 * Shoe project 
   + Method 1 : Maximum clique on edge detection (MC-COMP): Under the revision by JCGS!
+  <img src = "images/signature.png"/>
   + Method 2 : Maximum clique on SURF detection : About to submit.
 
 * Glass project with Sam
@@ -43,6 +41,11 @@ class: primary
   + Work on covariance estimation 
   + Work on uncertainty pyramid 
 
+
+---
+
+class: inverse
+# Glass
 
 ---
 class: inverse

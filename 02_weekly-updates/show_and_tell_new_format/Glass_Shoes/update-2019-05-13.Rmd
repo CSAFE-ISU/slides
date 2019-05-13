@@ -32,7 +32,7 @@ class: inverse
 class: primary
 # Project Updates
 
-- Paper is just about ready to submit to Forensic Science International
+- [Paper](https://www.overleaf.com/project/5c9000fe051ee4050dc499ee) is just about ready to submit to Forensic Science International
     * (this week or next `r emo::ji("crossed_fingers")`)
 - Meta-analyses of results: Under what conditions does a method make the wrong decision? 
     * Note: When panes are made by different companies, both methods always conclude different source. The following analyses are only for same company panes. 
@@ -125,6 +125,15 @@ class: primary
 ```{r, echo = FALSE, out.width='65%'}
 knitr::include_graphics(c("images/astm-data.png", "images/rf-data.png"))
 ```
+
+---
+class: primary
+# Message of the paper
+
+1. Much more data collection is required: types of glass (other than float), other companies, more time between manufacture, etc.
+2. The current methods are really only adequate for discrimination. If the samples are indistinguishable, that is not sufficient evidence that they have the same source. 
+3. Random forest is a good candidate for a score-based method, but more data is needed. 
+4. Interval-based methods are inadequate because they are not well-calibrated: no "difficult cases" in the literature. 
 
 ---
 class: inverse

@@ -1,0 +1,155 @@
+---
+title: "Shoe & Glass Project Update"
+date: "2019-05-13"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    lib_dir: libs
+    nature:
+      countIncrementalSlides: false
+      highlightStyle: github
+      highlightLines: true
+---
+
+
+class: inverse
+# Glass
+
+---
+class: inverse
+# Soyoung
+
+---
+class: primary
+# Project Updates
+
+
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Project Updates
+
+- Paper is just about ready to submit to Forensic Science International
+    * (this week or next `r emo::ji("crossed_fingers")`)
+
+---
+class: inverse
+# Shoes 
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Longitudinal Shoe Study
+
+- Working with CSSM and Library DataShare program to get permanent DOIs for all 7 collection methods
+
+- Created a [collection](https://iastate.figshare.com/account/home#/collections/4477757) for the study
+    - Collection manuals are a separate "dataset"
+    - Already uploaded: Mat scan data, film + powder, vinyl (crime scene) photos, 2d scans
+    - Upload in progress: paper + powder, camera photos
+    - To upload later: 3d scans (not released for at least a year)
+
+- Fight with DataShare: Can they host data from IRB-reviewed studies?
+    
+- To do: write paper describing the experiment and the database(s)
+
+---
+class: secondary
+![](../../images/shoes/longitudinal_study/figshare_upload_progress.png)
+
+---
+class: inverse
+# Miranda
+
+---
+class:primary
+# CoNNOR: Updates
+
+- Defended Creative Component on April 9th!
+- Now turning CC into paper for Forensic Science International (FSI)
+    - Goal: Make CNNs seem useful and not scary for forensic practitioners
+
+---
+class:primary
+# CoNNOR: Consistency
+
+```{r, echo = F}
+knitr::include_graphics("../../images/shoes/CoNNOR/2019-04/text-line-1.png")
+```
+
+---
+class:primary
+# CoNNOR: Consistency
+
+```{r, echo = F}
+knitr::include_graphics("../../images/shoes/CoNNOR/2019-04/uggs-1.png")
+```
+
+---
+class:primary
+# CoNNOR: Consistency
+
+```{r, echo = F}
+knitr::include_graphics("../../images/shoes/CoNNOR/2019-04/fix-contrast-1.png")
+```
+
+---
+class:primary
+# CoNNOR: Planned investigations (this summer) {.smaller}
+
+- Optimal level to truncate VGG16 for transfer learning on shoes
+    - Currently running Block2 truncated model on Bigfoot
+
+- Fully convolutional neural networks - accommodate images of any size
+
+- Region segmentation networks
+
+- [`autokeras` R/python package](https://github.com/jcrodriguez1989/autokeras) that optimizes NN structure automatically
+
+
+---
+class: inverse
+# Soyoung
+
+
+
+---
+class: inverse
+# LateBreak
+
+
+---
+class: primary
+# Late Break News
+    
+---
+class: inverse
+# Issues
+
+---
+class: secondary
+
+- [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
+- One issue down, three to go.
+
+```{r, eval=FALSE, echo=FALSE}
+## Presenters
+presenter <- 
+  c("Soyoung", "Amy", "Ben", "Nick", 
+    "Ganesh", "Nate", "Sam", 
+    "James", "Kiegan", "Danica", "Susan", 
+    "Miranda")
+
+## Set seed as the date (mmdd)
+set.seed(1105)
+
+## Shuffle presenters
+sample(presenter)
+```
+

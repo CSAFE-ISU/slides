@@ -1,0 +1,266 @@
+---
+title: "Project Update for Date"
+date: "2019/01/23"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+  ---
+  class: inverse
+  # Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table. Sam Tyner talked about the three must-haves of your summary:
+
+
+
+| Must-have | It means |
+| :------   | :------- |
+| Context | Why are you doing what you're doing? "I'm working on X project in order to Y" |
+| Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
+| Conclusion | What did you learn? "This will help me because it..." or "This important because it gets us to..." |
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+
+ <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ 
+
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Project Updates
+
+
+---
+class: inverse
+# Charlotte
+
+---
+class: primary
+# Project Updates
+---
+class: inverse
+# Joe
+
+---
+class: primary
+# Project Updates
+---
+class: inverse
+# Sam
+
+---
+class: primary
+# Project Updates
+
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# Kiegan
+
+---
+class: primary   
+# Project Updates
+
+
+    
+---
+class: inverse
+# Soyoung
+
+---
+class: primary
+# Project Updates
+
+
+---
+class: inverse
+# Ganesh
+
+---
+class: primary   
+# Project Updates
+
+
+
+---
+class: inverse
+# Danica
+
+---
+class: primary   
+# Spring Semester Goals
+
+
+
+---
+class: inverse
+# Nick
+
+---
+class: primary
+# Spring Semester Goals
+
+
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# Nate
+
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# Project Updates
+
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# Stacy
+
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# Marc
+
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# Sarah
+
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# Harlie
+
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# LateBreak
+
+
+---
+class: primary
+# Late Break News
+    
+---
+class: inverse
+# Issues
+
+---
+class: secondary
+
+- [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
+- One issue down, three to go.
+
+```{r, eval=FALSE, echo=FALSE}
+## Presenters
+presenter <- 
+  c("Soyoung", "Amy", "Ben", "Nick", 
+    "Ganesh", "Nate", "Sam", 
+    "James", "Kiegan", "Danica", "Susan", 
+    "Miranda")
+
+## Set seed as the date (mmdd)
+set.seed(1105)
+
+## Shuffle presenters
+sample(presenter)
+```
+

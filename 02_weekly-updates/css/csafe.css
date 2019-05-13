@@ -84,11 +84,13 @@
 }
 
 .large { 
-  font-size: 130% 
+  font-size: 130%;
 }
+
 .small { 
-  font-size: 70% 
+  font-size: 70% ;
 }
+
 .red {
   color: red;
 }

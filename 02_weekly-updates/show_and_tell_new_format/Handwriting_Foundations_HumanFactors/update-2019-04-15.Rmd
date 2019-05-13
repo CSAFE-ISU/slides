@@ -1,0 +1,272 @@
+---
+title: "Weekly Update for Apr 15"
+date: "2019-04-15"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+  ---
+  class: inverse
+  # Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Project Updates
+   
+- Data Collection<SUP>&nbsp;</SUP>
+    - Contact groups
+    - Documentation for James
+<br /> <br />
+- Research Presentations
+    - <strike>20 min. talk at AAFS (February) </strike>
+    - Poster at All-Hands <font color="green">(May)</font>
+    - 20 min. talk at JSM <font color="green">(July/August)</font>
+        - Abstract editing ends Thursday
+    - 60-90 min. technical talk at ASQDE <font color="green">(August)</font>
+    - Poster <font color="red">(?)</font> at Simulation and Statistics <font color="red">(September)</font>
+<br /> <br />
+- Research Progress
+    - Posterior Predictive mis-calculation
+    - Application to cluster groups
+    - Formal overdispersion calculations
+    - Detailed paper outline (joint with Nick)
+    
+---
+class: secondary
+## Posterior Pred. Mis-Calculation
+<table><tr><td colspan="6">Likelihood Evaluations for a QD</td></tr><tr><td>Iteration</td><td>known #1<br>theta vector</td><td>known #2<br>theta vector</td><td>known #3<br>theta vector</td><td>known #4<br>theta vector</td><td>known #5<br>theta vector</td></tr><tr><td>m = 1</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>m = 2</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>m = 3</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>m = M</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+
+---
+Grouping Result #1: Adjacency Matrix<img src="amy/w27_letterbuckets43.png" width="650" height="600">
+
+---
+Grouping Result #2: Connectivity Code<img src="amy/W27_connectedcode40.png" width="650" height="600">
+
+---
+Grouping Result #3: Clusters<img src="amy/w27_cluster40.png"  width="650" height="600">
+
+
+---
+class: primary
+# Multivariate Dispersion
+- Univariate Dispersion Index $= \frac{variance}{mean}$ <br /><br />
+- Multivariate Extensions
+    - Dispersion matrices
+<br /> <br />
+<img src="amy/fisherdispersionindex_multivariateextension.png" width="600" height="150">
+
+
+---
+class: inverse
+# Nick
+
+---
+class: primary
+# Glyph as a graph
+<img src = "images/Ximage.png" width="80%"/>
+
+---
+<img src = "images/DistMeasurePlot.png" width="100%"/>
+
+---
+<img src = "images/WeightedMeans.png" width="100%"/>
+
+---
+<img src = "images/DigitMeans.png" width="100%"/>
+
+---
+<img src = "images/HWmeans.png" width="100%"/>
+
+
+---
+class: inverse
+# Nate
+
+
+---
+class: primary
+# Project Summary
+
+- Is it reasonable to replace the true LR with an SLR in court? 
+- Gaussian example with known score distribution
+- Generalize patterns through probabilistic bounds on the LR
+- Examine these bounds and patterns in a more realistic, simulated setting
+
+---
+class: primary
+# Main Questions
+
+- How large are discrepancies between an LR and an SLR?
+- How likely are discrepancies? 
+- How meaningful are discrepancies? 
+- How likely are meaningful discrepancies? 
+
+---
+class: primary
+# Main Results
+
+- Change in score $\neq$ change in data $\implies$ large discrepancies possible  
+- $P \left(LR < \alpha SLR | S(X,Y) = s, H_d \right) \geq 1 - \frac{1}{\alpha}$
+- $P \left(LR > SLR/\alpha | S(X,Y) = s, H_p \right) \geq 1 - \frac{1}{\alpha}$
+
+---
+class: primary
+# Other Interesting Results
+
+- $M_1 < LR < M_2 \implies M_1 < SLR < M_2$
+- $SLR \ll E_{Y|s,H_p}\left[ LR \right] \implies$ inability to make claims about how small the LR might be if $H_d$ is true
+- $SLR^{-1} \ll E_{Y|s,H_d}\left[ LR^{-1} \right] \implies$ inability to make claims about how large the LR might be if $H_p$ is true
+
+---
+class: inverse
+# Danica
+
+---
+class: primary   
+# Update on NIJ Handwriting Project
+
+- Overall goal: To see whether the kinematic similarities/differences can explain examiner responses
+- Sent out a survey containing 40 pairs of writing
+    - 20 pairs contained cursive writing
+    - 20 pairs contained print writing
+    - 10 pairs were known same writer comparisons
+    - 30 pairs were known different writer comparisons
+- Received responses from 41 FDE
+    - Responses are ordinal: 1-7
+    - Modified the 9-pt scale by removing identification and exclusion extremes
+    - 1 indicates extrememly weak support for the hypothesis
+    - 7 indicated extremely strong support for hypothesis
+    
+---
+class: primary   
+# Update on NIJ Handwriting Project
+
+- Problem: The initial exploratory data analysis revealed that on average, examiners were doing terribly in determining whether the pairs came from the same writer or from different writers
+    - Examiners tended to give low support to the prosecution hypothesis for known same writer comparisons
+    - Examiners tended to give low support to the defense hypothesis for known different writer comparisons
+- Solution: Found out that SurveyMonkey flipped all the scores
+    - 7 (extremely strong support) appeared 1st so SurveyMonkey assigned it a score of 1
+    - 1 (extremely weak support) appeared 7th so SurveyMonkey assigned it a score of 7
+    
+---
+class: primary   
+# Update on NIJ Handwriting Project
+
+- Each comparison in the survey has 2 sets of kinematics
+    - 1 for the first document in the comparison
+    - 1 for the second documents in the comparions
+    - each document is split into upstrokes and downstrokes
+- Each stroke has 4 types of features
+    - Temporal: Stroke Duration, Peak Vertical Velcity, Average Vertical Velocity
+    - Spatial/Geometric: Vertical Size, Horizontal Size, Absolute Size, Slant, Loop Surface, Roadlength
+    - Fluency: Number of Peak Acceleration Points
+    - Pressure: Average Pen Pressure
+    
+---
+class: primary   
+# Update on NIJ Handwriting Project
+
+- Problem: each document has A LOT of kinematic measurements
+- Problem: stroke 1 of document 1 doesn't necessarily correspond to stroke 1 of document 2
+- Need to find a way to combine kinematic features to get scores for a single document
+    - For each feature set, used a Wasserstein distance (comparison of empirical CDFs) to get 2 scores for each comparison
+    - 1 score for upstrokes, 1 score for downstrokes
+    - Results in 8 total scores for a single comparison
+    - Low scores indicate similar kinematics
+    
+---
+class: primary   
+# Update on NIJ Handwriting Project
+
+- With the kinematic scores worked out, I proceeded to model the examiner responses (correctly reversed) using the 8 scores as predictors via ordinal logistic regression ... and found nothing!
+- Problem: There were a subset of examiners who gave the same score to the prosecution hypothesis that they did to the defense hypothesis
+- Solution: Developed a "coherency" score
+    - If an examiner was truly using a coherent LR-approach, then whatever score they gave for the prosecution hypothesis would be the reverse of whatever score they gave the defense hypothesis
+    - Example: A coherent examiner who said 6 for Hp would say 2 for Hd
+    - Example: A coherent examiner who said 3 for Hp would say 5 for Hd
+    - Result: some examiners are doing a coherent LR-style method, while others are presumably doing a Two-Stage approach!
+
+
+---
+class: inverse
+# LateBreak
+
+
+---
+class: primary
+# Late Break News
+    
+---
+class: inverse
+# Issues
+
+---
+class: secondary
+
+- [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
+- One issue down, three to go.
+
+```{r, eval=FALSE, echo=FALSE}
+## Presenters
+presenter <- 
+  c("Soyoung", "Amy", "Ben", "Nick", 
+    "Ganesh", "Nate", "Sam", 
+    "James", "Kiegan", "Danica", "Susan", 
+    "Miranda")
+
+## Set seed as the date (mmdd)
+set.seed(1105)
+
+## Shuffle presenters
+sample(presenter)
+```
+

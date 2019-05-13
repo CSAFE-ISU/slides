@@ -23,8 +23,25 @@ class: inverse
 class: primary
 # Project Updates
 
+* Shoe project 
+  + Method 1 : Maximum clique on edge detection (MC-COMP): Under the revision by JCGS!
+  + Method 2 : Maximum clique on SURF detection : About to submit.
 
+* Glass project with Sam
+  + Evaluation of methods for forensic comparison of glass fragment: Almost ready to submit to FSI.
+  
 
+---
+class: primary
+# Projects plans
+
+* Shoe project 
+  + Address all questions by referees from JCGS 
+  + Develop a random effects model on similarities using SURF detection by time, weight, person and so on. 
+
+* Glass project
+  + Work on covariance estimation 
+  + Work on uncertainty pyramid 
 
 
 ---

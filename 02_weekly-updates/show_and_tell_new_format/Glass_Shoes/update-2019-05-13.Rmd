@@ -55,7 +55,7 @@ class: inverse
 class: primary
 # Project Updates
 
-- Paper is just about ready to submit to Forensic Science International
+- [Paper](https://www.overleaf.com/project/5c9000fe051ee4050dc499ee) is just about ready to submit to Forensic Science International
     * (this week or next `r emo::ji("crossed_fingers")`)
 - Meta-analyses of results: Under what conditions does a method make the wrong decision? 
     * Note: When panes are made by different companies, both methods always conclude different source. The following analyses are only for same company panes. 
@@ -150,6 +150,15 @@ knitr::include_graphics(c("images/astm-data.png", "images/rf-data.png"))
 ```
 
 ---
+class: primary
+# Message of the paper
+
+1. Much more data collection is required: types of glass (other than float), other companies, more time between manufacture, etc.
+2. The current methods are really only adequate for discrimination. If the samples are indistinguishable, that is not sufficient evidence that they have the same source. 
+3. Random forest is a good candidate for a score-based method, but more data is needed. 
+4. Interval-based methods are inadequate because they are not well-calibrated: no "difficult cases" in the literature. 
+
+---
 class: inverse
 # Shoes 
 
@@ -165,11 +174,11 @@ class: primary
 
 - Created a [collection](https://iastate.figshare.com/account/home#/collections/4477757) for the study
     - Collection manuals are a separate "dataset"
-    - Already uploaded: Mat scan data, film + powder, vinyl (crime scene) photos, 2d scans
+    - Already uploaded: ~~Mat scan data, film + powder, vinyl (crime scene) photos, 2d scans~~ The library deleted everything during a fight with IRB... have to start over with the upload...
     - Upload in progress: paper + powder, camera photos
     - To upload later: 3d scans (not released for at least a year)
 
-- Fight with DataShare: Can they host data from IRB-reviewed studies?
+- Fight with DataShare: Can they host data from IRB-reviewed studies? Yes, as of last Thursday
     
 - To do: write paper describing the experiment and the database(s)
 
@@ -218,7 +227,8 @@ class:primary, smallheader
 # CoNNOR: Planned investigations (this summer)
 
 - Optimal level to truncate VGG16 for transfer learning on shoes
-    - Currently running Block2 truncated model on Bigfoot
+    - Currently running Block4 truncated model on Bigfoot (Block2 killed Bigfoot)
+    - Move computations to GPU server for Block 3 and Block2
 
 - Fully convolutional neural networks - accommodate images of any size
 

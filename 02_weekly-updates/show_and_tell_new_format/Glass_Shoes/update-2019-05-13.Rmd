@@ -13,36 +13,6 @@ output:
 
 
 ---
-class: inverse
-# Soyoung
-
----
-class: primary
-# Project Updates
-
-* Shoe project 
-  + Method 1 : Maximum clique on edge detection (MC-COMP): Under the revision by JCGS!
-  <img src = "images/signature.png"/>
-  + Method 2 : Maximum clique on SURF detection : About to submit.
-
-* Glass project with Sam
-  + Evaluation of methods for forensic comparison of glass fragment: Almost ready to submit to FSI.
-  
-
----
-class: primary
-# Projects plans
-
-* Shoe project 
-  + Address all questions by referees from JCGS 
-  + Develop a random effects model on similarities using SURF detection by time, weight, person and so on. 
-
-* Glass project
-  + Work on covariance estimation 
-  + Work on uncertainty pyramid 
-
-
----
 
 class: inverse
 # Glass
@@ -166,6 +136,10 @@ class: primary
 3. Random forest is a good candidate for a score-based method, but more data is needed. 
 4. Interval-based methods are inadequate because they are not well-calibrated: no "difficult cases" in the literature. 
 
+
+
+
+
 ---
 class: inverse
 # Shoes 
@@ -248,6 +222,56 @@ class:primary, smallheader
 ---
 class: inverse
 # Soyoung
+
+
+---
+class: primary
+# Project Updates
+
+* Shoe project 
+  + Data: CSAFE shoe collection
+  <img src = "images/ex_original_KM_KNM.jpg" width = "70%"/>
+  
+---
+class: primary
+# Project Updates
+
+* Shoe project   
+  + Method 1 : Maximum clique on edge detection (MC-COMP): Under the revision by JCGS!
+  
+  <img src = "images/signature.png" width = "70%"/>
+
+  
+---
+class: primary
+# Project Updates
+* Shoe project  
+  + Method 2 : Maximum clique on SURF detection : About to submit.
+  
+<img src = "images/dens_nike_adidas.png" width = "70%"/>
+
+
+---
+class: primary
+# Project Updates
+* Shoe project
+  +  ROC curves
+  
+<img src = "images/ROC_surf2.png" width = "70%"/>
+
+
+
+---
+class: primary
+# Projects plans
+
+* Shoe project 
+  + Address all questions by referees from JCGS 
+  + Develop a random effects model on similarities using SURF detection by time, weight, person and so on. 
+
+* Glass project
+  + Work on covariance estimation 
+  + Work on uncertainty pyramid 
 
 
 

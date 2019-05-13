@@ -76,31 +76,32 @@ Y_{qk} & = \text{1 if the method made the correct decision and 0 o.w.}
 
 
 ```{r echo=FALSE, message = FALSE, warning = FALSE}
-library(tidyverse)
-library(parsnip)
-data_for_log_reg <- read_csv("dat/dat-for-log-reg.csv")
+# library(tidyverse)
+# library(parsnip)
+# data_for_log_reg <- read_csv("dat/dat-for-log-reg.csv")
+# 
+# data_for_log_reg2 <- filter(data_for_log_reg, same_mfr == 1) %>% 
+#   select( pane_q:score, method, diff_dates, conclude, correct) %>%
+#   mutate(mfr = str_sub(pane_q, 1, 1))
+# 
+# glm_form <- correct ~ diff_dates + mfr + conclude 
+# glm_model_spec <- logistic_reg() %>% set_engine("glm")
+# fitted_glms  <- data_for_log_reg2 %>% nest(-method) %>% 
+#   mutate(model_fit = map(data, fit, object = glm_model_spec, formula = glm_form))
+# fitted_glms <- fitted_glms %>% mutate(coefs = map(model_fit, function(x) coefficients(x$fit)))
+# fitted_glms <- fitted_glms %>% 
+#   mutate(predict_prob = map(model_fit, function(x) predict.glm(x$fit, type = "response")))
+# mod1dat <- fitted_glms %>% select(method, coefs) %>% unnest() %>% 
+#   mutate(var = rep(c("Intercept", "# Days", "Mfr B", "Conclusion"), 2)) %>% spread(var, coefs) %>% 
+#   select(c(1,4,2,5,3))
+# write_csv(mod2dat, "dat/model2info.csv")
+mod1 <- readr::read_csv("dat/model1info.csv")
+mod2 <- readr::read_csv("dat/model2info.csv")
 
-data_for_log_reg2 <- filter(data_for_log_reg, same_mfr == 1) %>% 
-  select( pane_q:score, method, diff_dates, conclude, correct) %>%
-  mutate(mfr = str_sub(pane_q, 1, 1))
+knitr::kable(mod1, format = "html", digits = 3,caption = "Coefficients")
 
-glm_form <- correct ~ diff_dates + mfr + conclude 
-glm_model_spec <- logistic_reg() %>% set_engine("glm")
-fitted_glms  <- data_for_log_reg2 %>% nest(-method) %>% 
-  mutate(model_fit = map(data, fit, object = glm_model_spec, formula = glm_form))
-fitted_glms <- fitted_glms %>% mutate(coefs = map(model_fit, function(x) coefficients(x$fit)))
-fitted_glms <- fitted_glms %>% 
-  mutate(predict_prob = map(model_fit, function(x) predict.glm(x$fit, type = "response")))
-fitted_glms %>% select(method, coefs) %>% unnest() %>% 
-  mutate(var = rep(c("Intercept", "# Days", "Mfr B", "Conclusion"), 2)) %>% spread(var, coefs) %>% 
-  select(c(1,4,2,5,3)) %>% 
-  knitr::kable(format = "html", digits = 3,caption = "Coefficients")
 
-fitted_glms %>% select(method, coefs) %>% unnest() %>% 
-  mutate(var = rep(c("Intercept", "# Days", "Mfr B", "Conclusion"), 2),
-         oddsrat = exp(coefs)) %>% select(-coefs) %>% spread(var, oddsrat) %>% 
-  select(c(1,4,2,5,3)) %>% 
-  knitr::kable(format = "html", digits = 3,caption = "Odds Ratios")
+knitr::kable(mod2, format = "html", digits = 3,caption = "Odds Ratios")
 ```
 
 ---
@@ -119,23 +120,30 @@ Y_{qk} & = \text{1 if the method made the correct decision and 0 o.w.}
 
 
 ```{r echo=FALSE, message = FALSE, warning = FALSE}
-glm_form <- correct ~ diff_dates + mfr + score 
-glm_model_spec <- logistic_reg() %>% set_engine("glm")
-fitted_glms  <- data_for_log_reg2 %>% nest(-method) %>% 
-  mutate(model_fit = map(data, fit, object = glm_model_spec, formula = glm_form))
-fitted_glms <- fitted_glms %>% mutate(coefs = map(model_fit, function(x) coefficients(x$fit)))
-fitted_glms <- fitted_glms %>% 
-  mutate(predict_prob = map(model_fit, function(x) predict.glm(x$fit, type = "response")))
-fitted_glms %>% select(method, coefs) %>% unnest() %>% 
-  mutate(var = rep(c("Intercept", "# Days", "Mfr B", "Score"), 2)) %>% spread(var, coefs) %>% 
-  select(c(1,3,2,4,5)) %>% 
-  knitr::kable(format = "html", digits = 3,caption = "Coefficients")
+# glm_form <- correct ~ diff_dates + mfr + score 
+# glm_model_spec <- logistic_reg() %>% set_engine("glm")
+# fitted_glms  <- data_for_log_reg2 %>% nest(-method) %>% 
+#   mutate(model_fit = map(data, fit, object = glm_model_spec, formula = glm_form))
+# fitted_glms <- fitted_glms %>% mutate(coefs = map(model_fit, function(x) coefficients(x$fit)))
+# fitted_glms <- fitted_glms %>% 
+#   mutate(predict_prob = map(model_fit, function(x) predict.glm(x$fit, type = "response")))
+# mod3 <- fitted_glms %>% select(method, coefs) %>% unnest() %>% 
+#   mutate(var = rep(c("Intercept", "# Days", "Mfr B", "Score"), 2)) %>% spread(var, coefs) %>% 
+#   select(c(1,3,2,4,5)) 
+# write_csv(mod3, "dat/model3info.csv")
+# 
+# mod4 <- fitted_glms %>% select(method, coefs) %>% unnest() %>% 
+#   mutate(var = rep(c("Intercept", "# Days", "Mfr B", "Score"), 2),
+#          oddsrat = exp(coefs)) %>% select(-coefs) %>% spread(var, oddsrat) %>% 
+#   select(c(1,3,2,4,5)) 
+# write_csv(mod4, "dat/model4info.csv")
+mod3 <- readr::read_csv("dat/model3info.csv")
+mod4 <- readr::read_csv("dat/model4info.csv")
 
-fitted_glms %>% select(method, coefs) %>% unnest() %>% 
-  mutate(var = rep(c("Intercept", "# Days", "Mfr B", "Score"), 2),
-         oddsrat = exp(coefs)) %>% select(-coefs) %>% spread(var, oddsrat) %>% 
-  select(c(1,3,2,4,5)) %>% 
-  knitr::kable(format = "html", digits = 3,caption = "Odds Ratios")
+knitr::kable(mod3, format = "html", digits = 3,caption = "Coefficients")
+
+
+knitr::kable(mod4, format = "html", digits = 3,caption = "Odds Ratios")
 ```
 
 ---

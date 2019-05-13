@@ -23,6 +23,26 @@ class: inverse
 class: primary
 # Project Updates
 
+* Shoe project 
+  + Method 1 : Maximum clique on edge detection (MC-COMP): Under the revision by JCGS!
+  + Method 2 : Maximum clique on SURF detection : About to submit.
+
+* Glass project with Sam
+  + Evaluation of methods for forensic comparison of glass fragment: Almost ready to submit to FSI.
+  
+
+---
+class: primary
+# Projects plans
+
+* Shoe project 
+  + Address all questions by referees from JCGS 
+  + Develop a random effects model on similarities using SURF detection by time, weight, person and so on. 
+
+* Glass project
+  + Work on covariance estimation 
+  + Work on uncertainty pyramid 
+
 
 ---
 class: inverse
@@ -151,11 +171,11 @@ class: primary
 
 - Created a [collection](https://iastate.figshare.com/account/home#/collections/4477757) for the study
     - Collection manuals are a separate "dataset"
-    - Already uploaded: Mat scan data, film + powder, vinyl (crime scene) photos, 2d scans
+    - Already uploaded: ~~Mat scan data, film + powder, vinyl (crime scene) photos, 2d scans~~ The library deleted everything during a fight with IRB... have to start over with the upload...
     - Upload in progress: paper + powder, camera photos
     - To upload later: 3d scans (not released for at least a year)
 
-- Fight with DataShare: Can they host data from IRB-reviewed studies?
+- Fight with DataShare: Can they host data from IRB-reviewed studies? Yes, as of last Thursday
     
 - To do: write paper describing the experiment and the database(s)
 
@@ -204,7 +224,8 @@ class:primary, smallheader
 # CoNNOR: Planned investigations (this summer)
 
 - Optimal level to truncate VGG16 for transfer learning on shoes
-    - Currently running Block2 truncated model on Bigfoot
+    - Currently running Block4 truncated model on Bigfoot (Block2 killed Bigfoot)
+    - Move computations to GPU server for Block 3 and Block2
 
 - Fully convolutional neural networks - accommodate images of any size
 

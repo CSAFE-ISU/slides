@@ -1,0 +1,113 @@
+---
+title: "06_10_2019_Update_Images"
+author: "Charlotte Roiger"
+date: "6/6/2019"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(x3ptools)
+library(imager)
+library(bulletxtrctr)
+
+```
+
+```{r}
+# Load in relevant functions
+
+rho_to_ab <- function(rho = NULL, theta = NULL, df = NULL) {
+  if (is.null(df)) {
+    df <- data.frame(rho = rho, theta = theta)
+  }
+  stopifnot(c("rho", "theta") %in% names(df))
+  idx <- df$theta ==0
+  df <- df %>%
+    mutate(yintercept = ifelse(idx, NA, rho/sin(theta)),
+           slope = ifelse(idx, NA, -cos(theta)/sin(theta)),
+           xintercept = ifelse(idx, rho, rho/cos(theta)))
+  df
+}
+
+```
+
+```{r}
+# Load in the data
+
+b1 <- read_bullet(urllist = hamby252demo[[1]])
+b2 <- read_bullet(urllist = hamby252demo[[2]])
+
+b1$bullet <- 1
+b2$bullet <- 2
+b1$land <- 1:6
+b2$land <- 1:6
+bullets <- rbind(b1, b2)
+
+
+bullets$x3p[[1]]$header.info$incrementY
+bullets$x3p[[1]]$header.info$incrementX
+summary(as.vector(bullets$x3p[[1]]$surface.matrix))
+
+bullets <- bullets %>% mutate(
+  x3p = x3p %>% purrr::map(.f = rotate_x3p, 90),
+  ccdata = x3p %>% purrr::map(.f = x3p_to_df)
+)
+
+
+```
+
+
+```{r}
+# Create Processing Images
+
+strong.b1.l1 <- as.cimg(bullets$x3p[[1]]$surface.matrix)
+strong.b1.l3 <- as.cimg(bullets$x3p[[3]]$surface.matrix)
+
+
+# create grad mag
+
+dx <- imgradient(strong.b1.l1, "x")
+dy <- imgradient(strong.b1.l1, "y")
+grad.mag <- sqrt(dx^2 + dy^2)
+strong.b1.l1 <- grad.mag > quantile(grad.mag, .99, na.rm = TRUE)
+
+df.strong.b1.l1 <- hough_line(strong.b1.l1, data.frame = TRUE, shift = FALSE)
+
+df.strong.b1.l1 <- df.strong.b1.l1 %>%
+  mutate(theta = ifelse(theta <= pi, theta, theta - 2*pi)) %>%
+  filter(score > quantile(score, .999),
+         theta < (pi/4),
+         theta> (-pi/4))
+
+png("Hamby252_Bullet1_Land1_Hough.png", width = 800, height = 550)
+plot(strong.b1.l1, main = "Hamby 252 Bullet One Land One Hough Transform")
+with(df.strong.b1.l1,nfline(theta,rho,col="red"))
+dev.off()
+
+segments <- rho_to_ab(df = df.strong.b1.l1)
+
+segments <- segments %>%
+  mutate(
+    pixset.intercept = ifelse(theta ==0, xintercept, (height(strong.b1.l1) - yintercept)/slope),
+    xaverage = ifelse(theta ==0, xintercept, (((0-yintercept)/slope) + pixset.intercept)/2))
+
+good_vertical_segs <- segments$xaverage
+
+lthird <- width(strong.b1.l1)/6
+uthird <- 5*width(strong.b1.l1)/6
+
+closelthird <- good_vertical_segs[which.min(abs(good_vertical_segs - lthird))]
+closeuthird <- good_vertical_segs[which.min(abs(good_vertical_segs - uthird))]
+
+bestfit <- segments %>%
+  filter(xaverage %in% c(closelthird, closeuthird))
+
+png("Hamby252_Bullet1_Land1_Hough_BestFit.png", width = 800, height = 550)
+plot(strong.b1.l1, main = "Hamby 252 Bullet One Land One Best Fit")
+with(bestfit,nfline(theta,rho,col="red"))
+abline(v = lthird, col = "green")
+abline(v = uthird, col = "green")
+dev.off()
+
+```
+

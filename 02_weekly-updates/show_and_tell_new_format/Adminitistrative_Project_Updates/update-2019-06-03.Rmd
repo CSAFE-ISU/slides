@@ -1,6 +1,6 @@
 ---
-title: "Project Update for Date"
-date: "2019/01/23"
+title: "Weekly Update for Jun 3"
+date: "2019-06-03"
 output:
   xaringan::moon_reader:
     css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
@@ -82,125 +82,6 @@ class: secondary
 
 ---
 class: inverse
-# Miranda
-
----
-class: primary
-# Project Updates
-
-
----
-class: inverse
-# Charlotte
-
----
-class: primary
-# Project Updates
----
-
-class: inverse
-# Heike
-
----
-class: primary
-# Project Updates
-
----
-class: inverse
-# Joe
-
----
-class: primary
-# Project Updates
-
----
-class: inverse
-# Sam
-
----
-class: primary
-# Project Updates
-
----
-class: inverse
-# Susan
-
----
-class: primary
-# Project Updates
-
----
-class: inverse
-# Kiegan
-
----
-class: primary   
-# Project Updates
-
----
-class: inverse
-# Soyoung
-
----
-class: primary
-# Project Updates
-
-
----
-class: inverse
-# Ganesh
-
----
-class: primary   
-# Project Updates
-
-
-
----
-class: inverse
-# Danica
-
----
-class: primary   
-# Spring Semester Goals
-
-
-
----
-class: inverse
-# Nick
-
----
-class: primary
-# Spring Semester Goals
-
-
----
-class: inverse
-# Amy
-
----
-class: primary
-# Project Updates
-
----
-class: inverse
-# Nate
-
----
-class: inverse
-# Eryn
-
----
-class: primary
-# Spring Semester Goals
-
----
-class: primary
-# Project Updates
-
----
-class: inverse
 # Stacy
 
 
@@ -210,7 +91,7 @@ class: primary
 
 ---
 class: inverse
-# Marc
+# Sarah
 
 
 ---
@@ -219,7 +100,7 @@ class: primary
 
 ---
 class: inverse
-# Sarah
+# Marc
 
 
 ---

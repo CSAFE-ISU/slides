@@ -44,16 +44,16 @@ write_rmd<- function(monday, contents, presenter, project){
 }
 
 spring_end<- as.Date("2019-05-09")
-summer_start<- as.Date("2019-05-20")
+summer_start<- as.Date("2019-06-1")
 summer_end<- as.Date("2019-08-09")
 fall_start<- as.Date("2019-08-26")
 fall_end<- as.Date("2019-12-19")
 
-semester_end<- spring_end # Specify the end date of the semester
+semester_end<- summer_end #spring_end # Specify the end date of the semester
 
 snt<- list()
 class(snt)<- "Date"
-d<- Sys.Date()
+d<- summer_start#Sys.Date() # Change this from Sys.Date() otherwise the next date will be assigned to Administrative updates
 i<- 1
 monday <- nextweekday(d,2) 
 while(monday<= semester_end){
@@ -122,19 +122,22 @@ for(project in project_names){
       }
   }else if(project == "Bullet_and_Casings"){
     presenter <-
-      c("Ganesh", "Nate", "Kiegan", "Joe", "LateBreak")
+      c("Charlotte", "Ganesh", "Kiegan", "Heike", "Susan", "LateBreak")
+    
+      # c("Ganesh", "Nate", "Kiegan", "Joe", "LateBreak")
     for(datep2 in date_p2){
       write_rmd(snt[datep2], contents, presenter, project)
     }
   }else if(project == "Handwriting_Foundations_HumanFactors"){
     presenter <-
-      c("Amy", "Nick", "Nate", "Danica", "LateBreak")
+      c("James", "Danica", "LateBreak")
+      # c("Amy", "Nick", "Nate", "Danica", "LateBreak")
     for(datep3 in date_p3){
       write_rmd(snt[datep3], contents, presenter, project)
     }
   }else if(project == "Glass_Shoes"){
     presenter <-
-      c("Soyoung", "Sam", "Susan", "Miranda", "LateBreak")
+      c("Soyoung", "Sam", "Susan", "Miranda", "Eryn", "LateBreak")
     for(datep4 in date_p4){
       write_rmd(snt[datep4], contents, presenter, project)
     }

@@ -27,7 +27,7 @@ Faculty
 Graduate Students
 
 - Ganesh Krishnan
-- Kiegan Rice (&amp; Nate Garton)
+- Kiegan Rice
 - Charlotte Roigers
 - Joe Zemmels
 
@@ -249,58 +249,6 @@ class: primary
 
 ---
 class: inverse
-# Nate
-
-
----
-class: primary
-# Bayesian Changepoint Groove ID
-
-- Automated groove detection using Bayesian changepoint analysis 
-- Think of points where groove meets land as parameters in a model defined piecewise
-- Likelihood is not continuous wrt the changepoint locations 
-- Account for local structure with dependent errors 
-    
----
-class: primary
-# bulletcp
-
-- R package to perform the following steps
-  - Potentially remove global structure using Kiegan's robust LOESS
-  - Impute missing data so that observations are equally spaced
-  - Run 4 MCMCs to fit a model with 0 grooves, 1 left or 1 right groove, and 2 grooves
-  - Simultaneously select the number of grooves and the groove locations using MAP estimates
-  
----
-class: secondary
-# bulletcp demo
-
-
-```r
-install.packages("bulletcp")
-library(bulletcp)
-library(ggplot2)
-data(example_data)
-d &lt;- raw_data[seq(from = 1, to = nrow(raw_data), by = 15),]
-grooves &lt;- get_grooves_bcp(x = d$x, value = d$value, adjust = 20)
-
-g &lt;- ggplot(data = d) +
-  geom_point(mapping = aes(x = x, y = value)) +
-  geom_vline(mapping = aes(xintercept = grooves$groove[1])) +
-  geom_vline(mapping = aes(xintercept = grooves$groove[2]))
-g
-```
-
----
-class: secondary
-# Issues
-
-- Random walks are inefficient optimization tools
-- Posterior is multimodal
-
-
----
-class: inverse
 # Kiegan
 
 ---
@@ -309,16 +257,21 @@ class: primary
  
 My responsibilities on the bullet project: 
 
-- Automated groove ID methods 
-    - Publishing work  
+- Automated groove ID methods  
+    - **Publishing work**  
 - Scanning Variability Study  
     - Pilot study data analysis  
     - Study design and implementation  
-    - Model development  
-    - Data analysis  
-    - Publishing work  
-- Neural nets applied to 3D scan processing  
-    - This is a future project!  
+    - **Model development**  
+    - **Data analysis**  
+    - **Publishing work**  
+
+General update:  
+
+- Worked booth and gave a talk at AFTE conference
+- Lots of good feedback from people  
+- Interest in training for FA/TM examiners  
+
 
 ---
 class: primary   
@@ -326,14 +279,14 @@ class: primary
 
 Two papers in preparation:  
 
-- AFTE Journal Paper on initial groove ID methods  
-    - In the editing/submission preparation stage  
-    - "Less" technical version, shorter 
-- JFS or FSI Paper on "final" groove ID methods
-    - Joint work with Nate
+- Journal of Forensic Sciences paper on initial groove ID methods  
+    - Getting into right format, submitting today or tomorrow!  
+- FSI Paper on "final" groove ID methods
+    - Joint work with Nate - just me for the summer
     - Two-Class Classification Method
     - Bayesian Changepoint Method (Nate)
     - Pairwise results comparison on 3 bullet test sets   
+    - Cleaning up, getting ready for submission  
 
 ---
 class: primary   
@@ -345,34 +298,55 @@ Some things need to be quantified about the automated bullet matching process:
 - Potential impact of different humans scanning LEAs 
 - Potential impact of different machines 
 - Whether differences impact raw data, processed data
-- Whether differences impact similarity scores
+- Whether differences impact matching scores
 
 
 ---
 class: primary   
 # Project Updates: VARIABILITY STUDY  
 
-Had some pilot study data to work with! I've shown this before as signatures:  
-&lt;img src = "kiegan/signature_reps_operator.pdf"/&gt;  
-
-
----
-class: primary   
-# Project Updates: VARIABILITY STUDY  
-
-&lt;img src = "kiegan/pairwise-model-pilot-data-results.png"/&gt;  
-
-
----
-class: primary   
-# Project Updates: VARIABILITY STUDY  
-
-Data collection is in progress! 
+Data collection COMPLETE!!!!  
 - 9 bullets 
     - 3 bullets each from 3 barrels
+    - Hamby, Houston, CSAFE Persistence  
 - 5 operators
 - 2 machines
-- 5 repetitions per operator/machine  
+- 3-5 repetitions per operator/machine  
+- ~ 2000 scans to work with. 
+
+
+---
+class: primary   
+# Project Updates: VARIABILITY STUDY  
+
+&lt;img src = "kiegan/bo_land3_all.png"  width="100%"/&gt;
+
+---
+class: primary   
+# Project Updates: VARIABILITY STUDY  
+
+&lt;img src = "kiegan/bo_land3_bullet.png"  width="100%"/&gt;
+
+
+---
+class: primary   
+# Project Updates: VARIABILITY STUDY  
+
+&lt;img src = "kiegan/bp_land6_all.png"  width="100%"/&gt;
+
+---
+class: primary   
+# Project Updates: VARIABILITY STUDY  
+
+&lt;img src = "kiegan/bp_land6_bullet.png"  width="100%"/&gt;
+
+
+---
+class: primary   
+# Project Updates: VARIABILITY STUDY  
+
+&lt;img src = "kiegan/bp_land6_image_carley.png"  width="100%"/&gt;
+
 
 
 ---
@@ -381,15 +355,11 @@ class: primary
 
 What's up next?  
 - Priority is *publishing*!!  
-- Keeping an eye on data collection  
 - Standard bullet scans  
-- 3D alignment work  
-- Getting pilot analysis code cleaned up   
 - Thinking about framework for R&amp;R, quality metrics   
    - Package, shiny application, etc...  
-- Starting to look at "markup" LEA scans  
-    - This data will be used for neural net project   
-- Not bullets, but also diving back into the book!  
+- Working on the book
+
 
 ---
 class: inverse
@@ -434,6 +404,7 @@ class: primary
 
 .center[
 &lt;img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_BestFit.png" width = 90% height = 60%/&gt;
+.caption[Hough line closes to middle two-thirds of bullet]
 ]
 
 ---
@@ -495,7 +466,7 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);

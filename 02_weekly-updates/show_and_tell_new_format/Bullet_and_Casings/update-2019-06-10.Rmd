@@ -333,31 +333,40 @@ class: inverse
 # Ganesh
 
 ---
-class: primary   
-# User Interfaces #1
-
-*User Interface for the batching transformations on land images, striation extraction and batching*
-  - Data generation, Initial Diagnostics for visualization
-  - Process involves
-    - View a sample bullet land
-    - Identify the problems in scaling, transformations, or anyother issues
-    - Select all bullet folders with corresponding lands that you seek to compare
-    - Rectify or make changes to the sample, Batch operation
-    
----
 class: primary
-# User Interfaces #1: Load view
+# Projects
 
-<img src = "ganesh/bullet_prep_1_1.png"  width="100%"/>
+- Two applications for the bullet matching pipeline  
+
+  - *Interactive user interface for performing transformations, preliminary evaluations, extraction and scoring and batching the operations*  
+
+  - *Diagnostics in the bullet matching pipeline using Interactive visualizations *  
+  
+- Chumbley Non-random Bullet-to-Bullet scoring (presenting at JSM) 
+
+
+Other things:
+- Revision of Book Chapter on Toolmarks  
+- Written Prelim this summer  
 
 ---
-class: primary
-# User Interfaces #1
+class: secondary
 
-<img src = "ganesh/bullet_prep_1.png"  width="100%"/>
 
+.center[
+      
+     
+## Demo
+   
+
+]
+
+---
 class:inverse
 # Talen and Jenny
+
+---
+class: primary
 
 [TopazDB](https://isu-csafe.stat.iastate.edu/topazdb/) is live!
 

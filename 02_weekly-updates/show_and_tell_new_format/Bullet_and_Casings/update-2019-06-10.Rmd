@@ -109,6 +109,20 @@ Two papers in preparation:
     - Cleaning up, getting ready for submission  
     
 - Future Work: Hough Transformation (Charlotte) 
+---
+class: primary
+# Computational tools
+
+- **fix3p**:  Chrome extension by Talen Fisher (updated)
+
+- **x3ptools**
+
+- **grooveFinder**
+
+    - implementation of various techniques to identify groove locations
+    - github: [heike/grooveFinder](https://heike.github.io/grooveFinder/)
+    
+    - pull request to `imager` to remove plyr dependency (Susan) - merged yesterday!
 
 ---
 class: inverse
@@ -165,22 +179,6 @@ class: primary
   - Also trying to write up some of this work in a coherent manner
   
   - fine-tuning of parameters, comparison with other methods
-
----
-class: primary
-# Computational tools
-
-- **fix3p**:  Chrome extension by Talen Fisher (updated)
-
-- **x3ptools**
-
-- **grooveFinder**
-
-    - implementation of various techniques to identify groove locations
-    - github: [heike/grooveFinder](https://heike.github.io/grooveFinder/)
-    
-    - pull request to `imager` to remove plyr dependency (Susan) - merged yesterday!
-
 
 ---
 class: inverse

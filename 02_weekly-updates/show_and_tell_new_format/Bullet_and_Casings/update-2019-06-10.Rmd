@@ -111,45 +111,8 @@ Two papers in preparation:
 - Future Work: Hough Transformation (Charlotte) 
 
 ---
-class: primary
-# Overview
-
-Use magnitude thresholding and Hough transform to get groove estimates
-
-.center[
-<img src = "charlotte/04_08_2019_Update/initial_watershed_houston_barf_bull11_L1.png" width = "70%" />
-]
-
----
-class: primary
-# Hough Transforms
-
-- A computer-vision algorithm that detects aligned points in an image
-- Two points on the same line in an image will have the same rho, theta in the feature space.
-- Strong edges will have a lot of points along it, therefore a lot of weight at that specific point.
-  
-  Please watch out for strange behavior and report.
-
-
-- **immediate future changes**:
-
-  all functions of the form `xxx_x3p` will be changed to `x3p_xxx` 
-
----
 class: inverse
 # Charlotte
----
-class: primary
-# Overview
-
-
-- **Past Method**: Used magnitude thresholding and watershed segmentation to find LEAs
-
-- **Current Method**: Use magnitude thresholding and Hough transform to get groove estimates
-
-.center[
-<img src = "charlotte/04_08_2019_Update/initial_watershed_houston_barf_bull11_L1.png" width = "70%" />
-]
 
 ---
 class: primary

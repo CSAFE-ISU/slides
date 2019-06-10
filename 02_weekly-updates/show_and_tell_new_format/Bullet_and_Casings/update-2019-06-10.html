@@ -105,24 +105,22 @@ class: primary
 class: primary
 # Groove identification
 
-<<<<<<< HEAD
-  all functions of the form `xxx_x3p` will be changed to `x3p_xxx` 
+Two papers in preparation:  
+
+- (Kiegan) Journal of Forensic Sciences paper on initial groove ID methods  
+    - Getting into right format, submitting today or tomorrow!  
+    
+- (Kiegan and Nate) FSI Paper on advanced groove ID methods
+    - Two-Class Classification Method
+    - Bayesian Changepoint Method (Nate)
+    - Pairwise results comparison on 3 bullet test sets   
+    - Cleaning up, getting ready for submission  
+    
+- Future Work: Hough Transformation (Charlotte) 
 
 ---
 class: inverse
 # Charlotte
----
-class: primary
-# Overview
-
-
-- **Past Method**: Used magnitude thresholding and watershed segmentation to find LEAs
-
-- **Current Method**: Use magnitude thresholding and Hough transform to get groove estimates
-
-.center[
-&lt;img src = "charlotte/04_08_2019_Update/initial_watershed_houston_barf_bull11_L1.png" width = "70%" /&gt;
-]
 
 ---
 class: primary
@@ -171,42 +169,39 @@ class: primary
 ---
 class: inverse
 # Ganesh
-=======
-Two papers in preparation:  
->>>>>>> 12f4aba4f22c73b4a61061f518f8c1e1b4d89785
 
-- (Kiegan) Journal of Forensic Sciences paper on initial groove ID methods  
-    - Getting into right format, submitting today or tomorrow!  
+---
+class: primary   
+# User Interfaces #1
+
+*User Interface for the batching transformations on land images, striation extraction and batching*
+  - Data generation, Initial Diagnostics for visualization
+  - Process involves
+    - View a sample bullet land
+    - Identify the problems in scaling, transformations, or anyother issues
+    - Select all bullet folders with corresponding lands that you seek to compare
+    - Rectify or make changes to the sample, Batch operation
     
-- (Kiegan and Nate) FSI Paper on advanced groove ID methods
-    - Two-Class Classification Method
-    - Bayesian Changepoint Method (Nate)
-    - Pairwise results comparison on 3 bullet test sets   
-    - Cleaning up, getting ready for submission  
-    
-- Future Work: Hough Transformation (Charlotte) 
+---
+class: primary
+# User Interfaces #1: Load view
+
+&lt;img src = "ganesh/bullet_prep_1_1.png"  width="100%"/&gt;
 
 ---
 class: primary
-# Overview
+# User Interfaces #1
 
-Use magnitude thresholding and Hough transform to get groove estimates
-
-.center[
-&lt;img src = "charlotte/04_08_2019_Update/initial_watershed_houston_barf_bull11_L1.png" width = "70%" /&gt;
-]
+&lt;img src = "ganesh/bullet_prep_1.png"  width="100%"/&gt;
 
 ---
 class: primary
-# Hough Transforms
+# User Interfaces #1: Transformations
 
-- A computer-vision algorithm that detects aligned points in an image
-- Two points on the same line in an image will have the same rho, theta in the feature space.
-- Strong edges will have a lot of points along it, therefore a lot of weight at that specific point.
-  
 .center[
 &lt;img src = "charlotte/06_10_2019_Update/hough_parametrization.png" width = 50% height = 50% &gt;
 ]
+
 
 
 ---
@@ -250,7 +245,7 @@ class: primary
     - implementation of various techniques to identify groove locations
     - github: [heike/grooveFinder](https://heike.github.io/grooveFinder/)
     
-    - pull request to `imager` to remove plyr dependency (Susan)
+    - pull request to `imager` to remove plyr dependency (Susan) - merged yesterday!
 
 ---
 class: primary
@@ -359,8 +354,6 @@ What's up next?
    - Package, shiny application, etc...  
 - Working on the book
 
-<<<<<<< HEAD
-=======
 ---
 class: primary
 # REU projects
@@ -440,9 +433,20 @@ class: primary
 .center[
 ## Demo
 ]
->>>>>>> 12f4aba4f22c73b4a61061f518f8c1e1b4d89785
 
 
+---
+class:inverse
+# Talen and Jenny
+
+[TopazDB](https://isu-csafe.stat.iastate.edu/topazdb/) is live!
+
+Goals:
+- Better bullet organization
+- Bullet versioning 
+    - track re-scans
+- Database frontend
+- Preview scans (via fix3p)
 
 
 ---

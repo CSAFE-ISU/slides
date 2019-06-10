@@ -274,7 +274,7 @@ class: primary
     - implementation of various techniques to identify groove locations
     - github: [heike/grooveFinder](https://heike.github.io/grooveFinder/)
     
-    - pull request to `imager` to remove plyr dependency (Susan)
+    - pull request to `imager` to remove plyr dependency (Susan) - merged yesterday!
 
 ---
 class: primary
@@ -462,9 +462,20 @@ class: primary
 .center[
 ## Demo
 ]
->>>>>>> 12f4aba4f22c73b4a61061f518f8c1e1b4d89785
 
 
+---
+class:inverse
+# Talen and Jenny
+
+[TopazDB](https://isu-csafe.stat.iastate.edu/topazdb/) is live!
+
+Goals:
+- Better bullet organization
+- Bullet versioning 
+    - track re-scans
+- Database frontend
+- Preview scans (via fix3p)
 
 
 ---

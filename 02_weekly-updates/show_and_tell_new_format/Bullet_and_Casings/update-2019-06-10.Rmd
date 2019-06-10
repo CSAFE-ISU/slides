@@ -356,17 +356,6 @@ class: primary
 
 <img src = "ganesh/bullet_prep_1.png"  width="100%"/>
 
----
-class: primary
-# User Interfaces #1: Transformations
-
-.center[
-<img src = "charlotte/06_10_2019_Update/hough_parametrization.png" width = 50% height = 50% >
-]
-
-
-
----
 class:inverse
 # Talen and Jenny
 

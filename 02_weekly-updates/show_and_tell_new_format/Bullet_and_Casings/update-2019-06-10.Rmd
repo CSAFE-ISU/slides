@@ -136,6 +136,66 @@ class: primary
 
 ---
 class: inverse
+# Charlotte
+---
+class: primary
+# Overview
+
+
+- **Past Method**: Used magnitude thresholding and watershed segmentation to find LEAs
+
+- **Current Method**: Use magnitude thresholding and Hough transform to get groove estimates
+
+.center[
+<img src = "charlotte/04_08_2019_Update/initial_watershed_houston_barf_bull11_L1.png" width = "70%" />
+]
+
+---
+class: primary
+# Hough Transforms
+
+- A computer-vision algorithm that detects aligned points in an image
+- Two points appear on the same line in an image will have intersecting lines in the feature space.
+- Strong edges will have a lot of points along it, therefore a lot of intersections at that specific point.
+  
+.center[
+<img src = "charlotte/06_10_2019_Update/hough_parametrization.png" width = 50% height = 50% >
+]
+
+
+---
+class: primary
+# Hough Transform
+.center[
+<img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_Hough.png" width = 90% height = 60%/>
+.caption[Hough Transform with Theta Filtering Hamby 252 Bullet 1 Land 3]
+]
+
+---
+class: primary
+# Hough Transform
+
+.center[
+<img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_BestFit.png" width = 90% height = 60%/>
+.caption[Hough line closes to middle two-thirds of bullet]
+]
+
+---
+
+class: primary
+
+# Current status
+
+- Hough groove method is currently a part of bulletxtrctr and grooveFinder
+
+- Changing the `get_grooves_hough` function to now return two functions that calculate the index of each left and right groove location based on the height at which a cross cut is taken
+
+- Exploring Hough transform options when grooves are excluded
+
+- Also trying to write up some of this work in a coherent manner
+
+---
+class: inverse
 # Ganesh
 
 ---
@@ -382,51 +442,6 @@ What's up next?
     - This data will be used for neural net project   
 - Not bullets, but also diving back into the book!  
 
----
-class: inverse
-# Charlotte
----
-class: primary
-# Overview
-
-
-- **Past Method**: Used magnitude thresholding and watershed segmentation to find LEAs
-
-- **Current Method**: Use magnitude thresholding and Hough transform to get groove estimates
-
-.center[
-<img src = "charlotte/04_08_2019_Update/initial_watershed_houston_barf_bull11_L1.png" width = "70%" />
-]
-
----
-class: primary
-# Hough Transforms
-
-- A computer-vision algorithm that detects aligned points in an image
-- Two points appear on the same line in an image will have intersecting lines in the feature space.
-- Strong edges will have a lot of points along it, therefore a lot of intersections at that specific point.
-  
-.center[
-<img src = "charlotte/06_10_2019_Update/hough_parametrization.png" width = 50% height = 50% >
-]
-
-
----
-class: primary
-# Hough Transform
-.center[
-<img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_Hough.png" width = 90% height = 60%/>
-.caption[Hough Transform with Theta Filtering Hamby 252 Bullet 1 Land 3]
-]
-
----
-class: primary
-# Hough Transform
-
-.center[
-<img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_BestFit.png" width = 90% height = 60%/>
-.caption[Hough line closes to middle two-thirds of bullet]
-]
 
 ---
 

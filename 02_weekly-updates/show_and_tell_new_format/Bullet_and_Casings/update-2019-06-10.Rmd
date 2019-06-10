@@ -141,7 +141,7 @@ class: primary
 
 .center[
 <img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_BestFit.png" width = 90% height = 60%/>
-.caption[Hough line closes to middle two-thirds of bullet]
+.caption[Hough line closest to middle two-thirds of bullet]
 ]
 
 ---

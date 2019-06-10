@@ -153,84 +153,26 @@ class: primary
 ]
 
 ---
-
 class: primary
-
 # Current status
 
 - Hough groove method is currently a part of bulletxtrctr and grooveFinder
 
 - Changing the `get_grooves_hough` function to now return two functions that calculate the index of each left and right groove location based on the height at which a cross cut is taken
 
-- Exploring Hough transform options when grooves are excluded
-
-- Also trying to write up some of this work in a coherent manner
-
----
-class: inverse
-# Ganesh
-
----
-class: primary   
-# User Interfaces #1
-
-*User Interface for the batching transformations on land images, striation extraction and batching*
-  - Data generation, Initial Diagnostics for visualization
-  - Process involves
-    - View a sample bullet land
-    - Identify the problems in scaling, transformations, or anyother issues
-    - Select all bullet folders with corresponding lands that you seek to compare
-    - Rectify or make changes to the sample, Batch operation
-    
----
-class: primary
-# User Interfaces #1: Load view
-
-&lt;img src = "ganesh/bullet_prep_1_1.png"  width="100%"/&gt;
-
----
-class: primary
-# User Interfaces #1
-
-&lt;img src = "ganesh/bullet_prep_1.png"  width="100%"/&gt;
-
----
-class: primary
-# User Interfaces #1: Transformations
-
-.center[
-&lt;img src = "charlotte/06_10_2019_Update/hough_parametrization.png" width = 50% height = 50% &gt;
-]
-
-
-
----
-class: primary
-# Hough Transform
-.center[
-&lt;img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_Hough.png" width = 90% height = 60%/&gt;
-.caption[Hough Transform with Theta Filtering Hamby 252 Bullet 1 Land 3]
-]
-
----
-class: primary
-# Hough Transform
-
-.center[
-&lt;img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_BestFit.png" width = 90% height = 60%/&gt;
-.caption[Hough line closes to middle two-thirds of bullet]
-]
-
----
-class: primary
-# Hough Transform
-
-- implemented as `get_grooves_hough` function
-
 
 &lt;img src = "heike/groove-comparisons.png" width = 90% height = 60%/&gt;
 
-- next step: fine-tuning of parameters, comparison with other methods
+
+---
+class: primary
+# Next steps:
+
+  - Exploring Hough transform options when grooves are excluded
+  
+  - Also trying to write up some of this work in a coherent manner
+  
+  - fine-tuning of parameters, comparison with other methods
 
 ---
 class: primary
@@ -247,13 +189,6 @@ class: primary
     
     - pull request to `imager` to remove plyr dependency (Susan) - merged yesterday!
 
----
-class: primary
-# Database 
-
-Demo
-
-Specs? - Susan, could you fill some things in here?
 
 ---
 class: inverse
@@ -406,33 +341,37 @@ class: inverse
 # Ganesh
 
 ---
+class: primary   
+# User Interfaces #1
+
+*User Interface for the batching transformations on land images, striation extraction and batching*
+  - Data generation, Initial Diagnostics for visualization
+  - Process involves
+    - View a sample bullet land
+    - Identify the problems in scaling, transformations, or anyother issues
+    - Select all bullet folders with corresponding lands that you seek to compare
+    - Rectify or make changes to the sample, Batch operation
+    
+---
 class: primary
-# Projects
+# User Interfaces #1: Load view
 
-- Two applications for the bullet matching pipeline  
-
-  - *Interactive user interface for performing transformations, preliminary evaluations, extraction and scoring and batching the operations*  
-  
-  - *Diagnostics in the bullet matching pipeline using Interactive visualizations *  
-  
-- Chumbley Non-random Bullet-to-Bullet scoring (presenting at JSM)  
-
-
-
-Other things:
-
-- Revision of Book Chapter on Toolmarks  
-
-- Written Prelim this summer  
-
+&lt;img src = "ganesh/bullet_prep_1_1.png"  width="100%"/&gt;
 
 ---
 class: primary
-# User Interfaces
+# User Interfaces #1
+
+&lt;img src = "ganesh/bullet_prep_1.png"  width="100%"/&gt;
+
+---
+class: primary
+# User Interfaces #1: Transformations
 
 .center[
-## Demo
+&lt;img src = "charlotte/06_10_2019_Update/hough_parametrization.png" width = 50% height = 50% &gt;
 ]
+
 
 
 ---

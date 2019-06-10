@@ -36,17 +36,18 @@ Undergraduates
 
 - Talen Fisher (fix3p)
 - Mya Fisher, Connor Hergenreter, Carley McConnell, Amy  (scanner)
-- Syema, Tiger, Emmanuelle
+- REU-sprite: Syema, Tiger, Emmanuelle
+- REU-csafe: Andrew, Molly
 
 ---
 class: primary
-# News
+# Awards and other News
 
-- Talen was awarded with the **2019 Dean's High Impact Award for Undergraduate Research**
+- Kiegan received a first prize for her poster at All Hands
 
-- Three summer REUs from HCI (Ganesh will supervise) [link to project description]
+- Talks at AFTE (Kiegan and Heike) went well, lots of good questions
+- More bullets from Prof Hamby: Clones of HS 224 (complete and labelled)
 
-- AFTE is the week after All-Hands - proposals for abstracts are due April 15
 
 ---
 class: primary
@@ -63,7 +64,7 @@ class: primary
     3. curvature removal
     4. alignment of signatures
     5. feature extraction
-    6. matching with trained Random Forest
+    6. matching with **trained Random Forest**
 
 - **analysis of results**
 
@@ -75,7 +76,8 @@ class: primary
 
 - **scans from bullet lands (about 20,000 total)**
 
-    - LAPD: 4 bullets per barrel for 426 out of 626 firearms
+    - **LAPD: 4 bullets per barrel for 526 out of 626 firearms**
+    - **Variability study: ~2000 scans**
     - Hamby Sets 10, 36, 44, 224, and a clone (35 bullets each)
     - Houston test sets (6 kits with 25 bullets each)
     - Houston persistence: 8 barrels with 40 fired bullets each
@@ -89,163 +91,106 @@ class: primary
     
 - **shooting range**
     
-    - we are planning to go out to the range one more time to finish up the persistence study
+    - **we were out on the range last week: barrels #4 to #7 (in record time!)**
+    - **we are planning to go out to the range one more time to finish up the persistence study**
+
+---
+class: primary
+# Shooting range
+
+&lt;img src = "heike/s&amp;w.png" /&gt;&lt;img src = "heike/live.png"/&gt;
+&lt;img src = "heike/boxes.png"/&gt;&lt;img src = "heike/kevlar-tube.jpg"/&gt;
+
+---
+class: primary
+# Groove identification
+
+Two papers in preparation:  
+
+- (Kiegan) Journal of Forensic Sciences paper on initial groove ID methods  
+    - Getting into right format, submitting today or tomorrow!  
+    
+- (Kiegan and Nate) FSI Paper on advanced groove ID methods
+    - Two-Class Classification Method
+    - Bayesian Changepoint Method (Nate)
+    - Pairwise results comparison on 3 bullet test sets   
+    - Cleaning up, getting ready for submission  
+    
+- Future Work: Hough Transformation (Charlotte) 
+
+---
+class: primary
+# Overview
+
+Use magnitude thresholding and Hough transform to get groove estimates
+
+.center[
+&lt;img src = "charlotte/04_08_2019_Update/initial_watershed_houston_barf_bull11_L1.png" width = "70%" /&gt;
+]
+
+---
+class: primary
+# Hough Transforms
+
+- A computer-vision algorithm that detects aligned points in an image
+- Two points on the same line in an image will have the same rho, theta in the feature space.
+- Strong edges will have a lot of points along it, therefore a lot of weight at that specific point.
+  
+.center[
+&lt;img src = "charlotte/06_10_2019_Update/hough_parametrization.png" width = 50% height = 50% &gt;
+]
+
+
+---
+class: primary
+# Hough Transform
+.center[
+&lt;img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_Hough.png" width = 90% height = 60%/&gt;
+.caption[Hough Transform with Theta Filtering Hamby 252 Bullet 1 Land 3]
+]
+
+---
+class: primary
+# Hough Transform
+
+.center[
+&lt;img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_BestFit.png" width = 90% height = 60%/&gt;
+.caption[Hough line closes to middle two-thirds of bullet]
+]
+
+---
+class: primary
+# Hough Transform
+
+- implemented as `get_grooves_hough` function
+
+
+&lt;img src = "heike/groove-comparisons.png" width = 90% height = 60%/&gt;
+
+- next step: fine-tuning of parameters, comparison with other methods
+
 ---
 class: primary
 # Computational tools
 
-- **fix3p**:  Chrome extension by Talen Fisher
-
-    demo
+- **fix3p**:  Chrome extension by Talen Fisher (updated)
 
 - **x3ptools**
 
-    - on CRAN in version 0.0.2 since Mar 27
+- **grooveFinder**
+
+    - implementation of various techniques to identify groove locations
+    - github: [heike/grooveFinder](https://heike.github.io/grooveFinder/)
     
-    - working with masks: color images overlaid on top of the rendered scan surface
-    
-&lt;img src = "heike/land-markup.png" border="2"/&gt;
+    - pull request to `imager` to remove plyr dependency (Susan)
 
 ---
 class: primary
-# x3ptools
+# Database 
 
-- change to the structure: x3p objects now have a slot called `mask` (raster image)
+Demo
 
-  
-- **new functions**
-
-  - `x3p_add_mask`: for a new mask (you shouldn't need that), but you can make changes to the mask with any image operation
-
-  - `x3p_snapshot (file)`: save a snapshot of the active rgl device  in a (png) file
-
-  - `x3p_darker`, `x3p_lighter`: darken/lighten the active rgl device
-  
-  - `x3p_show_xml`, `x3p_modify_xml()`: show and modify elements of the meta file
-
----
-class: primary
-# x3ptools
-
-- **word of caution**:
-
-  the addition of masks to `x3ptools` has impacts on a lot of other functionality. 
-
-     - `sample_x3p` works fine (mask is being sub-sampled)
-     
-     - `y_flip_x3p` does NOT flip the mask. This is a bug and will be fixed.
-  
-  Please watch out for strange behavior and report.
-
-
-- **immediate future changes**:
-
-  all functions of the form `xxx_x3p` will be changed to `x3p_xxx` 
-
----
-class: inverse
-# Ganesh
-
----
-class: primary   
-# User Interfaces #1
-
-*User Interface for the batching transformations on land images, striation extraction and batching*
-  - Data generation, Initial Diagnostics for visualization
-  - Process involves
-    - View a sample bullet land
-    - Identify the problems in scaling, transformations, or anyother issues
-    - Select all bullet folders with corresponding lands that you seek to compare
-    - Rectify or make changes to the sample, Batch operation
-    
----
-class: primary
-# User Interfaces #1: Load view
-
-&lt;img src = "ganesh/bullet_prep_1_1.png"  width="100%"/&gt;
-
----
-class: primary
-# User Interfaces #1
-
-&lt;img src = "ganesh/bullet_prep_1.png"  width="100%"/&gt;
-
----
-class: primary
-# User Interfaces #1: Transformations
-
-&lt;img src = "ganesh/bullet_prep_2.png"  width="100%"/&gt;
-
----
-class: primary
-# User Interfaces #1: Views
-
-&lt;img src = "ganesh/bullet_prep_3.png"  width="100%"/&gt;
-
----
-class: primary
-# User Interfaces #1: Extraction stages
-
-&lt;img src = "ganesh/1_comb.png"  width="100%"/&gt;
-
-
----
-class: secondary
-# User Interfaces 2
-
-*Interactive User Interface for Diagnostics in the Bullet matching pipeline*
- - Uses the data generated by the previous app 
- - Identifications of problems by visualizing
-  - Bullet-to-bullet scores
-  - Land-to-land scores
-  - Images with or without crosscut 
-  - Signatures for Alignment
-  - Profiles Groove cut-off position
-
-
----
-class: primary
-# User Interfaces 2
-
-&lt;img src = "ganesh/bullet_comparison_1.png"  width="100%"/&gt;
-
----
-class: primary
-# User Interfaces 2
-
-&lt;img src = "ganesh/bullet_comparison_2.png"  width="100%"/&gt;
-
----
-class: primary
-# User Interfaces 2
-
-&lt;img src = "ganesh/bullet_comparison_tankrash_4.png"  width="100%"/&gt;
-
----
-class: primary
-# Book Chapter
-
-- *Working on draft for a Book Chapter on Toolmarks*
-  - Brief Introduction to toolmarks in forensics
-  - Implementations in R and a brief overview of the algorithmic working of
-   the chumbley score methods (Krishnan-Hofmann; Hadler-Morris)
-  - One data set from Ames lab on screwdriver marks available
-  - Diamond thresholding in Jeremy's thesis and making a use case example of it
-  
----
-class: primary
-# Chumbley Non-random Bullet-to-Bullet scoring
-
-*Chumbley Non-random Bullet-to-Bullet scoring* 
-  - Expansion of the last paper 
-  - Collecting all runs form previous paper
-
-*To do*
-  - Getting the results of the two most significant steps of the algorithm
-  - Bullet wise land matching and then bullet to bullet sequential land matching (or n)
-  - Coerce all windows corresponding to 6 lands of a bullet into a new nonparametric statistical test for bullets.
-
-
+Specs? - Susan, could you fill some things in here?
 
 ---
 class: inverse
@@ -273,20 +218,6 @@ General update:
 - Interest in training for FA/TM examiners  
 
 
----
-class: primary   
-# Project Updates: GROOVE ID 
-
-Two papers in preparation:  
-
-- Journal of Forensic Sciences paper on initial groove ID methods  
-    - Getting into right format, submitting today or tomorrow!  
-- FSI Paper on "final" groove ID methods
-    - Joint work with Nate - just me for the summer
-    - Two-Class Classification Method
-    - Bayesian Changepoint Method (Nate)
-    - Pairwise results comparison on 3 bullet test sets   
-    - Cleaning up, getting ready for submission  
 
 ---
 class: primary   
@@ -360,52 +291,88 @@ What's up next?
    - Package, shiny application, etc...  
 - Working on the book
 
+---
+class: primary
+# REU projects
+
+- REU-Sprite: automatic assessment of scan quality
+
+- REU-csafe: re-factoring of Random Forest model with updated features
+
+---
+class: primary
+# Scan quality assessment
+
+Lighting issue: 
+&lt;img src = "heike/K1-NA-U28-L2.png"  width="80%"/&gt;
+
+&lt;img src = "heike/K1-KB-B3-L4.png"  width="80%"/&gt;
+
+Better, but ...
+
+---
+class: primary
+# Scan quality assessment
+
+- extract features from scan to determine quality:
+
+    - Number/percentage of missing values
+    - location of missing values along horizontal axis
+
+- find good cut-offs based on marginal distribution of features
+
+- build warning system for immediate feedback
+
+
+---
+class: primary
+# Random forest re-factoring
+
+- exact feature definition/calculation changed in move from bulletr to bulletxtrctr
+
+- re-run algorithms on Hamby 252 and 173 (NIST scans) 
+
+- compare results from old run to new run
+
+- re-fit Random forest to Hamby 252 and 173, compare scores
+
+- re-fit Random forest on higher-resolution scans 
 
 ---
 class: inverse
-# Charlotte
----
-class: primary
-# Overview
-
-
-- **Past Method**: Used magnitude thresholding and watershed segmentation to find LEAs
-
-- **Current Method**: Use magnitude thresholding and Hough transform to get groove estimates
-
-.center[
-&lt;img src = "charlotte/04_08_2019_Update/initial_watershed_houston_barf_bull11_L1.png" width = "70%" /&gt;
-]
+# Ganesh
 
 ---
 class: primary
-# Hough Transforms
+# Projects
 
-- A computer-vision algorithm that detects aligned points in an image
-- Two points appear on the same line in an image will have intersecting lines in the feature space.
-- Strong edges will have a lot of points along it, therefore a lot of intersections at that specific point.
+- Two applications for the bullet matching pipeline  
+
+  - *Interactive user interface for performing transformations, preliminary evaluations, extraction and scoring and batching the operations*  
   
-.center[
-&lt;img src = "charlotte/06_10_2019_Update/hough_parametrization.png" width = 50% height = 50% &gt;
-]
+  - *Diagnostics in the bullet matching pipeline using Interactive visualizations *  
+  
+- Chumbley Non-random Bullet-to-Bullet scoring (presenting at JSM)  
+
+
+
+Other things:
+
+- Revision of Book Chapter on Toolmarks  
+
+- Written Prelim this summer  
 
 
 ---
 class: primary
-# Hough Transform
-.center[
-&lt;img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_Hough.png" width = 90% height = 60%/&gt;
-.caption[Hough Transform with Theta Filtering Hamby 252 Bullet 1 Land 3]
-]
-
----
-class: primary
-# Hough Transform
+# User Interfaces
 
 .center[
-&lt;img src = "charlotte/06_10_2019_Update/Hamby_252_Bullet1_Land3_BestFit.png" width = 90% height = 60%/&gt;
-.caption[Hough line closes to middle two-thirds of bullet]
+## Demo
 ]
+
+
+
 
 ---
 
@@ -466,7 +433,7 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);

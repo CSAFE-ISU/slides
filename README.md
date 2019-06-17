@@ -74,6 +74,7 @@ You are expected to add your slides **at least** 20 minutes before every Show-an
 
 ### Summer 2019 Slides
 June 10: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/show_and_tell_new_format/Bullet_and_Casings/update-2019-06-10.html)<br>
+June 17: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/show_and_tell_new_format/Handwriting_Foundations_HumanFactors/update-2019-06-17.html)<br>
 
 ### Spring 2019 Slides
 January 14: [Weekly Update](https://csafe-isu.github.io/slides/02_weekly-updates/update-2019-01-14.html)<br>

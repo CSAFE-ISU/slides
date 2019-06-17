@@ -82,7 +82,59 @@ class: secondary
 
 ---
 class: inverse
+# Nate
+
+---
+class: primary
+# Summer plans 
+
+- Internship in Boston
+- Work on SLR paper
+- Will return for Fall semester
+
+---
+class: inverse
 # Danica
+
+---
+class: primary
+# Summer update 
+
+- NIJ Error Rates Grant
+    - Goal: Use ROC curves to explore error rates for Two-Stage Approach
+    - co-PI Larry Tang will be starting a new position at UCF
+    - Working to get a No-Cost Extension so we can continue working on the grant
+    - Once the NCE goes through, will need to transfer grant to UCF
+    - Writing a paper on SLRs using ROC curves
+    - Hoping to get Susan involved to help with visualization of ROC curves soon!
+    - Writing a paper on different types of error rates for Two-Stage Approach for forensics
+    - Will present some results at the SimStat conference in Austria in Sept.
+    
+---
+class: primary
+# Summer update 
+
+- NIJ Handwriting Grant
+    - Goal: Determine whether examiner response regarding strength of support for common source hypotheses can be explained by the kinematic features of handwriting
+    - Found 2 subsets of examiners (Symmetric and Asymmetric)
+    - This means two sets of analyses needed for modeling the examiner responses
+    - Using a Wasserstein distance score from LDA class predictions for Symmetric examiners
+    - Using the ECDF value from both within-writer and between-writer populations of above score for Asymmetric examiners
+    - Will present these results at ASQDE meeting in August
+    - Draft paper on results is written!
+
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Summer plans 
+
+- Internship in Austin
+- Working on handwriting paper with Nick
+- Will return for Fall semester
+
 
 ---
 class: inverse

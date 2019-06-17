@@ -107,16 +107,13 @@ class: primary
  
 ---
 class: primary   
-# Handwriting Study Data collection
+# Data collection
 Purpose:
 
-* Data is to be used in an open access database and to test materials developed by CSAFE researchers
-
-<br /> <br />
+- Data is to be used in an open access database and to test materials developed by CSAFE researchers
 
 Our Goal:
 
-<br /> <br />
 
 - To enroll 100 participants by June 15th, 2019
 - Have all sessions completed by summer's end 

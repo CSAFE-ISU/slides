@@ -201,6 +201,41 @@ class: inverse
 class: primary
 # Project Updates
 
+**Goal of project:** To measure the wear of a shoe overtime
+
+- start with an stl file from the longituidinal shoe study then turn it into a mesh object 
+
+- The problem: Alignment 
+    - Align by the widest and narrowest parts of the outline
+    - Specify landmarks to look for
+    
+- Packages I found that should help:
+  - `shapes`
+  - `geomorph`
+  - `Morpho`
+  - `Arothron`
+  
+- Currently: Writting functions to align shoes 
+
+---
+class: secondary 
+
+
+```{r plot-stl, rgl = TRUE, dev = 'png', fig.width = 8, fig.height = 4, out.width = "100%", echo = F}
+rgl::setupKnitr()
+shoe_flip_angle <- structure(
+  c(-0.999475359916687, -0.0319919027388096, -0.0030277690384537, 
+     0, -0.0320942476391792, 0.99845552444458, 0.0450587198138237, 
+     0, 0.0015826690942049, 0.0451280698180199, -0.998970746994019, 
+     0, 0, 0, 0, 1), .Dim = c(4L, 4L)) 
+
+
+stl <- rgl::readSTL(con = "images/Eryn/centered_shoe.stl", ascii = F, plot = F)
+rgl::open3d()
+rgl::triangles3d(stl, aspect = "iso", col = "blue")
+rgl::view3d(userMatrix = shoe_flip_angle, zoom = .5)
+
+```
 
 
 ---

@@ -194,7 +194,85 @@ Goal: a database of shoe details
   - top, side, back, front, and bottom pictures
 
 - Current Status: Functions are written, trying to make them work reliably. 
+  
 
+
+---
+class: primary
+# Project Updates: `CoNNOR`
+
+- CoNNOR: Convolutional Neural Network for Outsole Recognition
+
+- Automatic pipeline:    .small[
+1. Determine if any data files have changed since last model run
+2. Get images and labels from LabelMe
+3. Find minimum bounding rectangle for each labeled region
+4. Crop and rotate MBR
+5. Save resulting files with names that match the labels:    
+`circle_quad_triangle-1-brand-model-product_productid-color_colorid.png`
+6. Divide all images into training, test, validation sets
+7. Augment the training data once
+8. Read in the training, test, and validation data
+9. Fit the model
+10. Save all model files to a directory labeled with the date/time the script started.
+]
+
+
+---
+class: primary
+# Project Updates: `CoNNOR`
+
+###### Low Contrast Problems
+
+<img src="images/Susan/paper-low-contrast-consistency-1.png" width = "80%"/>
+
+---
+class: primary
+# Project Updates: `CoNNOR`
+
+Goal: Automatically correct contrast before saving images
+
+- Methods: "Histogram equalization"    
+Basically, map the quantiles of the values that exist onto the full range of values:
+
+```{r, echo = F, fig.width = 8, fig.height = 4, out.width = "100%"}
+suppressPackageStartupMessages(library(imager))
+par(mfrow = c(1, 2))
+initial <- matrix(rep(seq(.25, .75, length.out = 10000), 3), nrow = 100, ncol = 100) %>% as.cimg(dim = c(100, 100, 1, 3))
+plot(initial, rescale  = F)
+rescaled <-  matrix(rep(seq(0, 1, length.out = 10000), 3), nrow = 100, ncol = 100) %>% as.cimg(dim = c(100, 100, 1, 3))
+plot(rescaled, rescale  = F)
+```
+
+---
+class: primary
+# Project Updates: `CoNNOR`
+
+- Using Histogram equalization in RGB space can result in odd color changes
+
+- Better solution?
+    - Convert to HSL (hue, saturation, lightness) and only equalize the lightness channel. Then convert back.    
+![](images/Susan/hist_equalization_shoe.png)
+
+
+---
+class: primary
+# Project Updates: `CoNNOR`
+
+- Code is working for *most* images 
+  - still need to handle prlblem images 
+  - images with very low variation in lightness
+  - conversion effects, ...
+
+- Still need to re-fit the model with the contrast-adjusted images.
+
+```{r, out.width = "24%", echo = F}
+knitr::include_graphics(c("images/Susan//bowtie_circle_other-1-alegria-debra-professional-all-spice_product_7814575_color_7062.jpg", 
+"images/Susan//chevron-2-adidas-kids-nemeziz-18-4-in-soccer-little-kid-big-kid-solar-yellow-blue-active-red_product_9124318_color_777986.jpg", 
+"images/Susan//line_quad-1-adidas-originals-nmd-r1-grey-five-grey-five-black_product_8808124_color_758542.jpg", 
+"images/Susan//text-1-adidas-outdoor-terrex-cc-boat-parley-trace-blue-raw-grey-chalk-white_product_8866618_color_727486.jpg"
+))
+```
 ---
 class: inverse
 # LateBreak

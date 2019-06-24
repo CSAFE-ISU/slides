@@ -150,14 +150,6 @@ knitr::include_graphics("https://media.giphy.com/media/3o6gE5nhk4pNuMSwOk/giphy.
 
 ---
 class: inverse
-# Susan
-
----
-class: primary
-# Project Updates
-
----
-class: inverse
 # Miranda
 
 ---
@@ -181,6 +173,27 @@ class: primary
 # Project Updates
 
 
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Project Updates: `ShoeScrapeR`
+
+Goal: a database of shoe details
+
+- Original `ShoeScrapeR` downloads the shoe tread image (no metadata or other images)
+
+- Rewriting/Refactoring to get metadata for shoes:
+  - brand logos
+  - available sizes (at least on Zappos)
+  - available colors
+  - description information
+  - top, side, back, front, and bottom pictures
+
+- Current Status: Functions are written, trying to make them work reliably. 
 
 ---
 class: inverse

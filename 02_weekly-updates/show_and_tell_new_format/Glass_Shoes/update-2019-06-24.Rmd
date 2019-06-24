@@ -97,6 +97,57 @@ class: inverse
 class: primary
 # Project Updates
 
+Greetings from NIST! 
+
+- *Open Forensic Science in R* book now up on my website
+    * [sctyner.github.io/OpenForSciR](https://sctyner.github.io/OpenForSciR/)
+    * Hopefully link to it on CSAFE website soon! 
+- Work done at NIST: 
+    * Draw your own CDFs & bounds (à la Lund & Iyer (2017)) with a Shiny app: [sctyner.shinyapps.io/drawing-cdfs](https://sctyner.shinyapps.io/drawing-cdfs)
+    * R package `dprocsim`: [github.com/sctyner/dprocsim](https://github.com/sctyner/dprocsim)
+        + Simulate CDFs from Dirichlet Process Priors 
+        + Has closures that output functions of those CDFs to evaluate on a grid
+        + Check that they fall in your bounds (Shiny App available in package with `run_shiny()`)
+        + For the priors that fit your criteria, simulate from the posteriors
+        + Evaluate the posterior CDFs on a grid to get uncertainty intervals
+    * Giving a talk on the *down packages and the `tidyverse` on Thursday
+
+---
+class: primary
+# RI2I Symposium
+
+Attended the [Forensic Science Research Innovation to Implementation](https://www.nist.gov/news-events/events/2019/06/forensic-science-research-innovation-implementation-symposium-ri2i) on June 19-20. 
+
+Major takeaways: 
+
+- Different incentives prevent implementation of new research 
+    * **Researchers**: in academia; motivated by need to publish, get grant funding; little to no incentive to expand outside of academia (very comfortable)
+    * **Practitioners**: casework is top priority; no time to read research papers (even if they had perfect access to them); no incentive to learn new tools/other professional development
+    * **Private sector**: don't want to invest in research unless the financial benefits are clear; lots of inherent risk in new technology
+    * **Courts/Legal**: Daubert/Frye; judges cannot do their own research; who is validating the new methods; need to consider old cases decided with old tech
+    
+---
+class: secondary 
+
+- Need for an independent, federal institution for forensic science that will
+    * Validate new methodology
+    * Translate research in academia and work to implement in forensic labs 
+    * Create standard methodology/SOP for new techniques, validation, etc. 
+    * Help labs with their validation (tiger team)
+    * Centralized accreditation 
+    * Host one central place for labs to share data
+    * Legal education 
+    
+---
+class: primary
+# The End
+
+##See you in July! 
+
+```{r, echo = FALSE, fig.align='center', out.width="55%"}
+knitr::include_graphics("https://media.giphy.com/media/3o6gE5nhk4pNuMSwOk/giphy.gif")
+```
+
 ---
 class: inverse
 # Susan

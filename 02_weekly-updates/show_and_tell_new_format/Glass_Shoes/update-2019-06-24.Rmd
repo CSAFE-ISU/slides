@@ -113,6 +113,13 @@ class: inverse
 class: primary
 # Project Updates
 
+- Finishing up paper to submit to Forensic Science International
+- Studying for written prelim
+  - 3 weeks from Tuesday...
+  
+```{r nervous, echo=FALSE, fig.align='center', out.width="65%"}
+knitr::include_graphics("images/Miranda/nervous.gif")
+```
 
 ---
 class: inverse

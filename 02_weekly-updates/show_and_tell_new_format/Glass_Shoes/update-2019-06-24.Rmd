@@ -88,6 +88,35 @@ class: inverse
 class: primary
 # Project Updates
 
+- **Submit JCGS paper**  
+    - Working on revisions  
+    - Performance test on degraded shoe impressions  
+- **Submit shoe paper with SURF detection**  
+    - Almost done
+    - Decide which journal we want to submit
+- **BF vs. LR simulation**  
+    - Help Danica for simulating glass data  
+- *Write the weight effect to SURF score in the shoe comparisons*  
+- Write and do more analyses for more publications  
+
+
+
+# Degraded and smudged impressions   
+
+<img src = "images/Soyoung/ex_deg.png" width="90%">  
+ 
+
+# Mates and non-mates    
+
+<img src = "images/Soyoung/deg_mat_ex.png" width="90%">  
+ 
+
+# Result   
+
+<img src = "images/Soyoung/deg_sim.png" width="90%">  
+ 
+
+
 
 ---
 class: inverse

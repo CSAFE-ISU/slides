@@ -102,6 +102,13 @@ class: inverse
 class: primary
 # Project Updates
 
+---
+class: inverse
+# Eryn
+
+---
+class: primary
+# Project Updates
 
 ---
 class: inverse

@@ -1,5 +1,5 @@
 ---
-title: "Weekly Update for Jul 8"
+title: "Update Jul 8 2019"
 date: "2019-07-08"
 output:
   xaringan::moon_reader:
@@ -10,47 +10,113 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 
+
 ---
 class: inverse
-# Charlotte
+# Ballistics
 
 ---
 class: primary
-# Project Updates
----
+# Overview
+Faculty
+- Heike Hofmann
+- Susan VanderPlas
 
-class: inverse
-# Ganesh
+Graduate Students
 
----
-class: primary   
-# Project Updates
+- Ganesh Krishnan
+- Kiegan Rice (& Nate Garton)
+- Charlotte Roigers
+- (Joe Zemmels)
 
 
+Undergraduates
 
----
-class: inverse
-# Kiegan
-
----
-class: primary   
-# Project Updates
-
----
-class: inverse
-# Heike
+- Talen Fisher (fix3p)
+- Mya Fisher, Allison Mark, Connor Hergenreter, Carley McConnell, Anyesha Ray (scanner)
+- Molly McDermott, Andrew 
+- Syema, Tiger, Emmanuelle (REU-SPRITE)
 
 ---
 class: primary
-# Project Updates
+# Bullet projects - Big picture 
 
----
-class: inverse
-# Susan
+- **data collection**
+
+- **computational tools**
+
+- matching lands: 
+
+    1. crosscut identification
+    2. **groove location**
+    3. curvature removal
+    4. alignment of signatures
+    5. feature extraction
+    6. matching with trained Random Forest
+
+- **analysis of results**
+
+- **communication of results**
 
 ---
 class: primary
-# Project Updates
+# Update from the data collection
+
+- **scans from bullet lands (about 20,000 total)**
+
+    - LAPD: 4 bullets per barrel for **all** of 626 firearms
+    - Hamby Sets 10, 36, 44, 224, and a clone (35 bullets each)
+    - Houston test sets (6 kits with 25 bullets each)
+    - Houston persistence: 8 barrels with 40 fired bullets each
+    - St Louis persistence: 2 barrels with 192 fired bullets each
+    - most of the CSAFE persistence study 
+    
+- **and cartridge cases**
+
+    - DFSC (about 2000)
+    - getting ready to scan cartridges for CSAFE persistence
+    
+- **shooting range**
+    
+    - we are planning to go out to the range *one* more time to finish up the persistence study
+
+---
+
+class: primary
+# NEWs
+
+- visit to Vic Murillo from DCI Ankeny 
+
+![](heike/BER281555Z OVERALL LI 1.jpg)
+
+---
+
+class: primary
+# Charlotte: groove detection
+
+
+
+---
+
+class: primary
+# Ganesh: communication of results/diagnostics
+
+
+---
+class: primary
+# Kiegan: variability study
+
+---
+class: primary
+# Update on REU projects
+
+REU-Sprite: assessment of scan quality
+
+will add anonymized histogram of missing values in variability study
+
+---
+class: inverse
+# Next Project
 
 
 ---

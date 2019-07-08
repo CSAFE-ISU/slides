@@ -1,0 +1,82 @@
+---
+title: "images for update"
+author: "Charlotte Roiger"
+date: "7/7/2019"
+output: html_document
+---
+```{r}
+# Load in libraries
+library(tidyverse)
+library(x3ptools)
+library(imager)
+library(bulletxtrctr)
+
+source("/Users/charlotteroiger/Documents/GitHub/bulletQuality/charlotte_code/hough_newprocess_plot.R")
+
+hough_intermediate_plot <- function(data.x3p){
+  land <- as.cimg(data.x3p$surface.matrix)
+
+  dx <- imgradient(land, "x")
+  dy <- imgradient(land, "y")
+  grad.mag <- sqrt(dx^2+dy^2)
+  strong <- grad.mag > quantile(grad.mag, .99, na.rm = TRUE)
+
+  df.hough <- hough_line(strong, data.frame = TRUE, shift = FALSE)
+  df.hough <- df.hough %>%
+    mutate(theta = ifelse(theta <= pi, theta, theta - 2*pi)) %>%
+    filter(score > quantile(score, .999),
+           theta < (pi/4))
+
+  segments <- grooveFinder:::rho_to_ab(df = df.hough)
+  segments <- segments %>%
+    mutate(
+      xaverage = ifelse(theta == 0, xintercept, ((0-yintercept)/slope + (height(strong) - yintercept)/slope)/2),
+      pixset.intercept = ifelse(theta == 0, xintercept, (height(strong) - yintercept)/slope))
+
+  good_vertical_segs <- segments$xaverage
+
+
+  lthird <- width(strong)/6
+  uthird <- 5*width(strong)/6
+
+  closelthird <- good_vertical_segs[which.min(abs(good_vertical_segs - lthird))]
+  closeuthird <- good_vertical_segs[which.min(abs(good_vertical_segs - uthird))]
+
+
+  bestfit <- segments %>%
+    filter(xaverage %in% c(closelthird, closeuthird))
+
+  plot(strong)
+  with(bestfit, nfline(theta, rho, col = "red", lwd = 3))
+  abline(v = lthird, col = "green", lwd = 3)
+  abline(v = uthird, col = "green", lwd = 3)
+  title(main = "Houston Barrel F Bullet 2 Average-x Method")
+}
+
+```
+
+```{r}
+files <- list.files( "/Users/charlotteroiger/Documents/CSAFE_bullet_quality/data/Houston_barf/", pattern = "*.x3p", full.names = T, recursive = T)
+
+houston.bar1 <- data.frame(file.names = files) %>%
+  mutate(x3p = purrr::map(as.character(file.names), .f = function(file.names){
+    x3ptools::read_x3p(file.names)
+  }))
+
+bullets <- houston.bar1 %>% mutate(
+  ccdata = x3p %>% purrr::map(.f = x3p_to_df),
+  x3p = x3p %>% purrr::map(.f = y_flip_x3p)
+)
+
+```
+
+```{r}
+png("Houston_BarrelF_Bullet2_Old_Process.png", width = 800, height = 550)
+hough_intermediate_plot(bullets$x3p[[2]])
+dev.off()
+
+png("Houston_BarrelF)Bullet2_New_Process.png", width = 800, height = 550)
+hough_newprocess_plot(bullets$x3p[[2]], qu = 0.99)
+dev.off()
+```
+

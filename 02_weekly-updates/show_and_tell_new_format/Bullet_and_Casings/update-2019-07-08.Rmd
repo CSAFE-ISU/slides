@@ -101,6 +101,21 @@ class: primary
   - Perform a Hough Transform on edges to identify groove edges
   - Find Hough lines closest to the middle 2/3rds of the bullet scan at the top and bottom of the bullet scan
 
+.center[
+<img src = "charlotte/07_08_2019_Update/process_descrip.png" width = "49%" />
+]
+  
+---
+
+class: primary
+# Charlotte: groove detection
+
+.center[
+<img src = "charlotte/07_08_2019_Update/Houston_BarrelF_Bullet2_Old_Process.png" width = "55%" align = "top"/>
+
+<img src = "charlotte/07_08_2019_Update/Houston_BarrelF_Bullet2_New_Process.png" width = "55%" align = "bottom"/>
+]
+
 ---
 
 class: primary

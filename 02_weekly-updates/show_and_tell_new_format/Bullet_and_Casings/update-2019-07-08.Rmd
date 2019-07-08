@@ -235,10 +235,96 @@ class: inverse
 class: primary
 # Project Updates
 
+
+
+
 ---
 class: inverse
 # Soyoung
 
+---
+class: primary
+# Glass project overview
+
+- Comparison of claasifiers of standard method (ASTME2330) and the RF method
+
+- Data collection: from two companies, collect sample of panes consecutively manufactured
+
+<img src = "soyoung/box_plot.PNG" width="80%">  
+ 
+---
+class: primary
+# Glass project overview
+
+- Sample of data: 18 chemical compositions were measured
+
+<img src = "soyoung/sample.PNG" width="70%">  
+ 
+ 
+---
+class: primary
+# Glass project overview
+
+- Density estimations
+
+<img src = "soyoung/density2-1.PNG" width="70%">  
+  
+
+---
+class: primary
+# Glass project overview
+
+- Correlation among 18 elements
+
+<img src = "soyoung/corr.PNG" width="60%">  
+  
+
+ 
+---
+class: primary
+# Glass project overview
+
+- ASTM-E2330-12, ASTM-E2927-16  
+
+- Construct the interval on each element and test on the individual element 
+- Use threshold 4, to declare mates/non-mates
+
+<img src = "soyoung/ASTM.PNG" width="70%">   
+  
+ 
+---
+class: primary
+# Glass project overview
+
+- The random forest(RF) method 
+- Train the RF to understand features for mates and non-mates
+
+<img src = "soyoung/simpletree.png" width="50%">   
+  
+ 
+ 
+---
+class: primary
+# Glass project overview
+
+- Source prediction 
+- 69120 comparisons 
+
+<img src = "soyoung/ROC.PNG" width="70%">   
+  
+ 
+ 
+---
+class: primary
+# Glass project overview
+
+- Source prediction 
+- 69120 comparisons 
+
+<img src = "soyoung/performance.PNG" width="80%">   
+  
+ 
+ 
 ---
 class: primary
 # Project Updates

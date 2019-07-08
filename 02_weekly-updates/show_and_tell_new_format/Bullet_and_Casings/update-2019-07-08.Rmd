@@ -358,6 +358,14 @@ class: primary
 - Paper describing CoNNOR submitted to FSI last week!
 
 ---
+class: primary
+## In other news...
+
+-Written prelim starts one week from tomorrow
+
+![](../Glass_Shoes/images/Miranda/nervous2.gif)
+
+---
 class: inverse
 # Susan
 
@@ -366,6 +374,33 @@ class: inverse
 - Currently updating to obtain metadata and images of side, top, bottom, back, front of the shoe, along with brand logos
     - mostly done, but still working to make it robust enough to run on it's own
     - optimizing to reduce repeated downloads of the same data
+
+---
+class: inverse
+# Eryn
+
+---
+class: primary
+# Project Updates
+**Goal of Project** To measure the wear pattern of a single shoe over time 
+
+- taking the longitudinal study's 3D scans of soles of shoes 
+
+.center[
+<img src = "Eryn/Nike_3d_bottom.png" width = "70%" />
+]
+
+---
+class: primary
+# Project Updates Continued
+
+- Alignment posible solultions 
+  - Manual landmark: find specific areas of the shoe to mark as a landmark 
+  - length detection: finding the longest and shortest length of the outline of the shoe as initial alignment
+  
+  .center[
+<img src = "Eryn/heirNike.png" width = "70%" />
+]
 
 ---
 class: inverse
@@ -463,13 +498,6 @@ Collection:
 
 
 
----
-class: inverse
-# Eryn
-
----
-class: primary
-# Project Updates
 
 ---
 class: inverse

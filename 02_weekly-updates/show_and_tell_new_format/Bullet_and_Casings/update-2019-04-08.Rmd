@@ -488,9 +488,8 @@ class: primary
 - **Goal:** To automate the process of identifying "good" and "bad" quality regions of bullet scans using computer vision algorithms.
 
 - **Process:**
-  - First prep images by running bullet scans through a Canny Edge detector
-  - Perform a Hough Transform on edges to identify differing regions of bullet scans
-  - Remove undesireable groove portions of bullets using watershed segmentation
+  - Prep images using gradient thesholding
+  - Perform a Hough Transform on edges to identify 
 
 - **Future:** 
   - Improve image separation process between Hough transforms and watershed segmentation

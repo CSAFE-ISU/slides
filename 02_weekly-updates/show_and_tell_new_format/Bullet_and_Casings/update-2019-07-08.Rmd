@@ -1,5 +1,5 @@
 ---
-title: "Weekly Update for Jul 8"
+title: "Update Jul 8 2019"
 date: "2019-07-08"
 output:
   xaringan::moon_reader:
@@ -9,114 +9,297 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
----
 
-
-class: inverse
-# About Slides
-
----
-class: primary 
-# New CSAFE slide template
-
-We're now using [`xaringan`](https://github.com/yihui/xaringan)
-
-What's changed: 
-
-- New person slide: 
-
-````
-  ---
-  class: inverse
-  # Your Name
-````
-
----
-class: secondary
-
-- New content slide with title: 
-
-````
----
-class: primary
-# Title of slide 
-
-Slide content
-````
-
-- New content slide without title: 
-
-````
----
-class: secondary
-
-Slide content with no title on slide
-````
 
 ---
 class: inverse
-# Sample User
+# Ballistics
 
 ---
 class: primary
-# Sample Slide
+# Overview
+Faculty
+- Heike Hofmann
+- Susan VanderPlas
 
-- Sample Table. Sam Tyner talked about the three must-haves of your summary:
+Graduate Students
+
+- Ganesh Krishnan
+- Kiegan Rice (& Nate Garton)
+- Charlotte Roigers
+- (Joe Zemmels)
 
 
+Undergraduates
 
-| Must-have | It means |
-| :------   | :------- |
-| Context | Why are you doing what you're doing? "I'm working on X project in order to Y" |
-| Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
-| Conclusion | What did you learn? "This will help me because it..." or "This important because it gets us to..." |
+- Talen Fisher (fix3p)
+- Mya Fisher, Allison Mark, Connor Hergenreter, Carley McConnell, Anyesha Ray (scanner)
+- Molly McDermott, Andrew Maloney (REU-CSAFE)
+- Syema, Tiger, Emmanuelle (REU-SPRITE)
 
 ---
-class: secondary
+class: primary
+# Bullet projects - Big picture 
 
-- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+- **data collection**
+
+- **computational tools**
+
+- matching lands: 
+
+    1. crosscut identification
+    2. **groove location**
+    3. curvature removal
+    4. alignment of signatures
+    5. feature extraction
+    6. matching with trained Random Forest
+
+- **analysis of results**
+
+- **communication of results**
+
+---
+class: primary
+# Update from the data collection
+
+- **scans from bullet lands (about 20,000 total)**
+
+    - LAPD: 4 bullets per barrel for **all** of 626 firearms
+    - Hamby Sets 10, 36, 44, 224, and a clone (35 bullets each)
+    - Houston test sets (6 kits with 25 bullets each)
+    - Houston persistence: 8 barrels with 40 fired bullets each
+    - St Louis persistence: 2 barrels with 192 fired bullets each
+    - most of the CSAFE persistence study 
+    
+- **and cartridge cases**
+
+    - DFSC (about 2000)
+    - getting ready to scan cartridges for CSAFE persistence
+    
+- **shooting range**
+    
+    - we are planning to go out to the range *one* more time to finish up the persistence study
+
+---
+
+class: primary
+# NEWs
+
+- visit to Vic Murillo from DCI Ankeny 
+
+![](heike/BER281555Z OVERALL LI 1.jpg)
+
+---
+
+class: primary
+# Charlotte: groove detection
+
+- **Goal:** To automate the process of identifying groove engraved areas of bullet scans using computer vision algorithms.
+
+- **Process:**
+  - Prep images using gradient thesholding
+  - Perform a Hough Transform on edges to identify groove edges
+  - Find Hough lines closest to the middle 2/3rds of the bullet scan at the top and bottom of the bullet scan
+
+.center[
+<img src = "charlotte/07_08_2019_Update/process_descrip.png" width = "49%" />
+]
+  
+---
+
+class: primary
+# Charlotte: groove detection
+
+.center[
+<img src = "charlotte/07_08_2019_Update/Houston_BarrelF_Bullet2_Old_Process.png" width = "55%" align = "top"/>
+
+<img src = "charlotte/07_08_2019_Update/Houston_BarrelF_Bullet2_New_Process.png" width = "55%" align = "bottom"/>
+]
+
+---
+
+class: primary
+# Ganesh: Diagnostics in the bullet matching pipeline  
+    
+### *Shiny Applications*
+
+- **Interactive user interface for performing transformations, preliminary evaluations, extraction and scoring, and batch operations**  
+
+- **Diagnostics using Interactive visualizations in the bullet matching pipeline**
+
+.center[
+### Demo
+]
+---
+class: primary
+# Kiegan: variability study
+
+<img src = "kiegan/scanning-stage3.png"  width="45%"/>
 
 
- <img src = "images/guillermo/sample_image.JPG" width="35%"/>
- 
+---
+class: primary
+# Kiegan: variability study
+
+Collected ~2000 scans: 
+- 9 bullets, 3 each from 3 barrels  
+- 6 LEAs per bullet  
+- 5 operators  
+- 2 machines  
+- 3+ repetitions of each environmental condition  
+
+---
+class: primary
+# Kiegan: variability study  
+Example of all 90 repetitions for a single signature.
+
+<img src = "kiegan/bo_land3_all.png"  width="100%"/>
+
+---
+class: primary
+# Kiegan: variability study  
+
+Initial results show: 
+
+- Differences between barrel types
+     - Deeper striations = larger machine effect  
+     - More tank rash/breakoff = larger bullet effect  
+- Lots of structure due to bullet
+     - Each bullet marks slightly differently
+     - Measured "peaks and valleys" differ  
+
+---
+class: primary
+# Kiegan: variability study  
+
+<img src = "kiegan/bo_land3_bullet.png"  width="100%"/>
+
+
+---
+class: primary
+# Kiegan: variability study  
+
+Currently working on modeling: 
+
+- At the signature level  
+    - Using all X locations, removing overall structure
+    - Subsampling to each 100th X location 
+         - In 5 different phases to check for consistency
+         - model 1: (1, 101, 201,...)
+         - model 2: (21, 121, 221,...), etc.
+
+- Pairwise scores
+    - Same-source pairwise scores 
+    - Different-source pairwise scores 
+         - For completeness
+
+- Balanced with 3 repetitions   
+- Hierarchically with 3-5 repetitions  
+- With/without one operator  
+
+
+---
+class: primary
+# Update on REU projects
+
+REU-Sprite: assessment of scan quality
+
+will add anonymized histogram of missing values in variability study
+
+---
+class: primary
+# REU-CSAFE
+
+**Goal:** Validate `bulletxtrctr` features in comparison to `bulletr` features used to fit the random forest model
+
+**Process:**
+- Get Hamby 173 and 252 scans from NIST
+- Process scans to get new features using `bulletxtrctr`
+- Match new features to old features - what changed?
+
+Currently, trying to match features from Hare et al. (2016) to new features
 
 ---
 class: inverse
-# Charlotte
+# Next Project
 
 ---
 class: primary
 # Project Updates
----
-
-class: inverse
-# Ganesh
-
----
-class: primary   
-# Project Updates
-
-
 
 ---
 class: inverse
-# Kiegan
-
----
-class: primary   
-# Project Updates
-
----
-class: inverse
-# Heike
+# Alicia
 
 ---
 class: primary
 # Project Updates
+
+---
+class: inverse
+# Soyoung
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+## CoNNOR: Convolutional Neural Network for Outsole Recognition
+
+- Goal: Recognize bowtie, chevron, circle, lines, polygons, quadrilaterals, stars, text, and triangles in outsole images
+- Input data: labeled geometric shapes on outsole images
+    - \> 80K shoe outsole images from Zappos.com
+    - ~ 5K have been labeled with one or more polygons - ~28K polygons total.
+    
+![](susan/LabelMe2.png)
+
+---
+class: primary
+## CoNNOR: Convolutional Neural Network for Outsole Recognition
+
+- Model is relatively accurate, but fails in some interesting ways...
+
+
+![](susan/heatmap-04-circle_quad-2-dc-vestrey-black-camo_product_9065558_color_12784.png)
+
+![](susan/heatmap-polygon_recolor-8-new-balance-kids-kjcrzv2g-nubuck-big-kid-team-away-grey-castlerock_product_9052541_color_744767.png)
+
+- Paper describing CoNNOR submitted to FSI last week!
 
 ---
 class: inverse
 # Susan
+
+- `ShoeScrapeR` package: obtain photos of shoes from Zappos.com with appropriate metadata
+
+- Currently updating to obtain metadata and images of side, top, bottom, back, front of the shoe, along with brand logos
+    - mostly done, but still working to make it robust enough to run on it's own
+    - optimizing to reduce repeated downloads of the same data
+
+---
+class: inverse
+# Danica
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# James
+
+---
+class: primary
+# Project Updates
+
+---
+class: inverse
+# Eryn
 
 ---
 class: primary

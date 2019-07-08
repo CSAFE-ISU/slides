@@ -272,6 +272,14 @@ class: primary
 - Paper describing CoNNOR submitted to FSI last week!
 
 ---
+class: primary
+## In other news...
+
+-Written prelim starts one week from tomorrow
+
+![](../Glass_Shoes/images/Miranda/nervous2.gif)
+
+---
 class: inverse
 # Susan
 

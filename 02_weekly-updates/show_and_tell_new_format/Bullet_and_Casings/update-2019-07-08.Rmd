@@ -308,9 +308,9 @@ class: primary
 class: primary
 # Project Updates Continued
 
-- Alignment problems 
-  - Manual landmark
-  - length detection
+- Alignment posible solultions 
+  - Manual landmark: find specific areas of the shoe to mark as a landmark 
+  - length detection: finding the longest and shortest length of the outline of the shoe as initial alignment
   
   .center[
 <img src = "Eryn/heirNike.png" width = "70%" />

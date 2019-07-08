@@ -230,22 +230,7 @@ Currently, trying to match features from Hare et al. (2016) to new features
 
 ---
 class: inverse
-# Next Project
-
----
-class: primary
-# Project Updates
-
----
-class: inverse
-# Alicia
-
----
-class: primary
-# Project Updates
-
-
-
+# Glass
 
 ---
 class: inverse
@@ -336,7 +321,7 @@ class: primary
  
 ---
 class: primary
-# Project Updates
+# Shoes
 
 ---
 class: inverse
@@ -375,7 +360,7 @@ class: primary
 ![](../Glass_Shoes/images/Miranda/nervous2.gif)
 
 ---
-class: inverse
+class: primary
 # Susan
 
 - `ShoeScrapeR` package: obtain photos of shoes from Zappos.com with appropriate metadata
@@ -412,6 +397,10 @@ class: primary
 ]
 
 ---
+class: primary
+# Statistical Foundations
+
+---
 class: inverse
 # Danica
 
@@ -439,6 +428,11 @@ Statistical Foundations
 - NSF Proposal: Likelihood framework for Forensic Evidence
 - Nate Garton: Validity of SLRs for Forensic Evidence
     - 1 draft publication in the works
+
+---
+class: primary
+# Handwriting
+
 
 ---
 class: primary

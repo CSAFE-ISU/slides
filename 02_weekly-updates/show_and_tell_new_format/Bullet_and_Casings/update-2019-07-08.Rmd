@@ -301,7 +301,7 @@ class: primary
 - taking the longitudinal study's 3D scans of soles of shoes 
 
 .center[
-<img src = "Eryn/Nike_3d_bottom.png" width = "49%" />
+<img src = "Eryn/Nike_3d_bottom.png" width = "70%" />
 ]
 
 ---
@@ -313,7 +313,7 @@ class: primary
   - length detection
   
   .center[
-<img src = "Eryn/heirNike.png" width = "49%" />
+<img src = "Eryn/heirNike.png" width = "70%" />
 ]
 
 ---

@@ -287,7 +287,57 @@ class: inverse
 
 ---
 class: primary
+# Statistical Foundations Overview
+
+ISU Faculty
+- Danica Ommen
+- Yumou Qiu
+
+ISU Students
+- Nate Garton
+
+---
+class: primary
 # Project Updates
+Statistical Foundations
+
+- PI on NIJ Grant: Error Rates, ROC Curves, and the Two-Stage Approach
+    - Initial results will be presented at SimStat in Sept.
+- Difference between Bayes Factors and Likelihood Ratios
+    - 1 publication submitted to Statistical Science (waiting on reviews)
+    - 1 draft publication with Soyoung to be submitted to Law, Probability, and Risk
+- NSF Proposal: Likelihood framework for Forensic Evidence
+- Nate Garton: Validity of SLRs for Forensic Evidence
+    - 1 draft publication in the works
+
+---
+class: primary
+# Handwriting Overview
+
+ISU Faculty
+- Danica Ommen
+- Alicia Carriquiry
+
+ISU Students
+- Nick Berry (former student, currently at Berry Consultants)
+- Amy Crawford
+- James Kruse
+
+
+---
+class: primary
+# Project Updates
+Handwriting
+
+- NIJ Grant: Validity of FDE Determinations using Kinematics
+    - Collected writing from 33 different writers (static and dynamic)
+    - Sent a subset of static writing pairs to 40 examiners
+    - Examiners asked for strength of support (1-7) for same writer (Q1) or different writer (Q2)
+    - Is there a relationship between dyanamic features and examiner support?
+    - Initial results will be presented at ASQDE in Aug.
+- Amy Crawford: Bayesian Hierarchical Models for Writership of Handwriting
+    - Inital results to be submitted soon (with Nick)
+    - 1 draft publication coming soon
 
 ---
 class: inverse

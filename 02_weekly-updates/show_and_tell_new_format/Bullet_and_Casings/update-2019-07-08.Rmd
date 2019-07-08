@@ -223,11 +223,6 @@ Currently, trying to match features from Hare et al. (2016) to new features
 class: inverse
 # Next Project
 
-
----
-class: inverse
-# Sam
-
 ---
 class: primary
 # Project Updates

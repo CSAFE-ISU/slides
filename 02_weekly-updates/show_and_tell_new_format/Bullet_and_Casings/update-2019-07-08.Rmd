@@ -283,6 +283,33 @@ class: inverse
 
 ---
 class: inverse
+# Eryn
+
+---
+class: primary
+# Project Updates
+**Goal of Project** To measure the wear pattern of a single shoe over time 
+
+- taking the longitudinal study's 3D scans of soles of shoes 
+
+.center[
+<img src = "Eryn/Nike_3d_bottom.png" width = "49%" />
+]
+
+---
+class: primary
+# Project Updates Continued
+
+- Alignment problems 
+  - Manual landmark
+  - length detection
+  
+  .center[
+<img src = "Eryn/heirNike.png" width = "49%" />
+]
+
+---
+class: inverse
 # Danica
 
 ---
@@ -377,13 +404,6 @@ Collection:
 
 
 
----
-class: inverse
-# Eryn
-
----
-class: primary
-# Project Updates
 
 ---
 class: inverse

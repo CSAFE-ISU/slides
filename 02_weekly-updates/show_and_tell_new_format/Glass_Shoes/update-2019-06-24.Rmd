@@ -11,6 +11,76 @@ output:
       countIncrementalSlides: false
 ---
 
+
+class: inverse
+# About Slides
+
+---
+class: primary 
+# New CSAFE slide template
+
+We're now using [`xaringan`](https://github.com/yihui/xaringan)
+
+What's changed: 
+
+- New person slide: 
+
+````
+  ---
+  class: inverse
+  # Your Name
+````
+
+---
+class: secondary
+
+- New content slide with title: 
+
+````
+---
+class: primary
+# Title of slide 
+
+Slide content
+````
+
+- New content slide without title: 
+
+````
+---
+class: secondary
+
+Slide content with no title on slide
+````
+
+---
+class: inverse
+# Sample User
+
+---
+class: primary
+# Sample Slide
+
+- Sample Table. Sam Tyner talked about the three must-haves of your summary:
+
+
+
+| Must-have | It means |
+| :------   | :------- |
+| Context | Why are you doing what you're doing? "I'm working on X project in order to Y" |
+| Content | What are you doing? "I wrote X function that does Y" or "I ran a simulation of Z" |
+| Conclusion | What did you learn? "This will help me because it..." or "This important because it gets us to..." |
+
+---
+class: secondary
+
+- If you are going to add an image, **create a directory** with your name within "images" folder. For example, "images/**guillermo**/sample_image.JPG"
+
+
+ <img src = "images/guillermo/sample_image.JPG" width="35%"/>
+ 
+
+---
 class: inverse
 # Soyoung
 
@@ -150,21 +220,20 @@ class: primary
 ---
 class: secondary 
 
-RGL doesn't play nice :(
 
 ```{r plot-stl, rgl = TRUE, dev = 'png', fig.width = 8, fig.height = 4, out.width = "100%", echo = F}
-# rgl::setupKnitr()
-# shoe_flip_angle <- structure(
-#   c(-0.999475359916687, -0.0319919027388096, -0.0030277690384537, 
-#      0, -0.0320942476391792, 0.99845552444458, 0.0450587198138237, 
-#      0, 0.0015826690942049, 0.0451280698180199, -0.998970746994019, 
-#      0, 0, 0, 0, 1), .Dim = c(4L, 4L)) 
-# 
-# 
-# stl <- rgl::readSTL("images/Eryn/centered_shoe.stl", ascii = F, plot = F)
-# rgl::open3d()
-# rgl::triangles3d(stl, aspect = "iso", col = "blue")
-# rgl::view3d(userMatrix = shoe_flip_angle, zoom = .5)
+rgl::setupKnitr()
+shoe_flip_angle <- structure(
+  c(-0.999475359916687, -0.0319919027388096, -0.0030277690384537, 
+     0, -0.0320942476391792, 0.99845552444458, 0.0450587198138237, 
+     0, 0.0015826690942049, 0.0451280698180199, -0.998970746994019, 
+     0, 0, 0, 0, 1), .Dim = c(4L, 4L)) 
+
+
+stl <- rgl::readSTL(con = "images/Eryn/centered_shoe.stl", ascii = F, plot = F)
+rgl::open3d()
+rgl::triangles3d(stl, aspect = "iso", col = "blue")
+rgl::view3d(userMatrix = shoe_flip_angle, zoom = .5)
 
 ```
 

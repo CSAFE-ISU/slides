@@ -204,7 +204,7 @@ class: primary
 
 REU-Sprite: assessment of scan quality
 
-will add anonymized histogram of missing values in variability study
+<img src = "heike/variability.png"  width="100%"/>
 
 ---
 class: primary
@@ -270,6 +270,14 @@ class: primary
 ![](susan/heatmap-polygon_recolor-8-new-balance-kids-kjcrzv2g-nubuck-big-kid-team-away-grey-castlerock_product_9052541_color_744767.png)
 
 - Paper describing CoNNOR submitted to FSI last week!
+
+---
+class: primary
+## In other news...
+
+-Written prelim starts one week from tomorrow
+
+![](../Glass_Shoes/images/Miranda/nervous2.gif)
 
 ---
 class: inverse

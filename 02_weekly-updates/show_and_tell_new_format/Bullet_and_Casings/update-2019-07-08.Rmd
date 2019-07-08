@@ -204,7 +204,7 @@ class: primary
 
 REU-Sprite: assessment of scan quality
 
-will add anonymized histogram of missing values in variability study
+<img src = "heike/variability.png"  width="100%"/>
 
 ---
 class: primary

@@ -34,7 +34,7 @@ Undergraduates
 
 - Talen Fisher (fix3p)
 - Mya Fisher, Allison Mark, Connor Hergenreter, Carley McConnell, Anyesha Ray (scanner)
-- Molly McDermott, Andrew 
+- Molly McDermott, Andrew Maloney (REU-CSAFE)
 - Syema, Tiger, Emmanuelle (REU-SPRITE)
 
 ---
@@ -197,6 +197,17 @@ class: primary
 REU-Sprite: assessment of scan quality
 
 will add anonymized histogram of missing values in variability study
+
+---
+class: primary
+# REU-CSAFE
+
+**Goal:** Validate `bulletxtrctr` features in comparison to `bulletr` features used to fit the random forest model
+
+**Process:**
+- Get Hamby 173 and 252 scans from NIST
+- Process scans to get new features using `bulletxtrctr`
+- Match new features to old features - what changed?
 
 ---
 class: inverse

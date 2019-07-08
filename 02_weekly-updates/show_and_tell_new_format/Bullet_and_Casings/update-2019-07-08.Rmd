@@ -106,6 +106,70 @@ class: primary
 class: primary
 # Kiegan: variability study
 
+<img src = "kiegan/scanning-stage3.png"  width="45%"/>
+
+
+---
+class: primary
+# Kiegan: variability study
+
+Collected ~2000 scans: 
+- 9 bullets, 3 each from 3 barrels  
+- 6 LEAs per bullet  
+- 5 operators  
+- 2 machines  
+- 3+ repetitions of each environmental condition  
+
+---
+class: primary
+# Kiegan: variability study  
+Example of all 90 repetitions for a single signature.
+
+<img src = "kiegan/bo_land3_all.png"  width="100%"/>
+
+---
+class: primary
+# Kiegan: variability study  
+
+Initial results show: 
+
+- Differences between barrel types
+     - Deeper striations = larger machine effect  
+     - More tank rash/breakoff = larger bullet effect  
+- Lots of structure due to bullet
+     - Each bullet marks slightly differently
+     - Measured "peaks and valleys" differ  
+
+---
+class: primary
+# Kiegan: variability study  
+
+<img src = "kiegan/bo_land3_bullet.png"  width="100%"/>
+
+
+---
+class: primary
+# Kiegan: variability study  
+
+Currently working on modeling: 
+
+- At the signature level  
+    - Using all X locations, removing overall structure
+    - Subsampling to each 100th X location 
+         - In 5 different phases to check for consistency
+         - model 1: (1, 101, 201,...)
+         - model 2: (21, 121, 221,...), etc.
+
+- Pairwise scores
+    - Same-source pairwise scores 
+    - Different-source pairwise scores 
+         - For completeness
+
+- Balanced with 3 repetitions   
+- Hierarchically with 3-5 repetitions  
+- With/without one operator  
+
+
 ---
 class: primary
 # Update on REU projects

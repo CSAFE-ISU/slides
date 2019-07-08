@@ -246,8 +246,37 @@ class: inverse
 
 ---
 class: primary
-# Project Updates
+## CoNNOR: Convolutional Neural Network for Outsole Recognition
 
+- Goal: Recognize bowtie, chevron, circle, lines, polygons, quadrilaterals, stars, text, and triangles in outsole images
+- Input data: labeled geometric shapes on outsole images
+    - \> 80K shoe outsole images from Zappos.com
+    - ~ 5K have been labeled with one or more polygons - ~28K polygons total.
+    
+![](susan/LabelMe2.png)
+
+---
+class: primary
+## CoNNOR: Convolutional Neural Network for Outsole Recognition
+
+- Model is relatively accurate, but fails in some interesting ways...
+
+
+![](susan/heatmap-04-circle_quad-2-dc-vestrey-black-camo_product_9065558_color_12784.png)
+
+![](susan/heatmap-polygon_recolor-8-new-balance-kids-kjcrzv2g-nubuck-big-kid-team-away-grey-castlerock_product_9052541_color_744767.png)
+
+- Paper describing CoNNOR submitted to FSI last week!
+
+---
+class: inverse
+# Susan
+
+- `ShoeScrapeR` package: obtain photos of shoes from Zappos.com with appropriate metadata
+
+- Currently updating to obtain metadata and images of side, top, bottom, back, front of the shoe, along with brand logos
+    - mostly done, but still working to make it robust enough to run on it's own
+    - optimizing to reduce repeated downloads of the same data
 
 ---
 class: inverse

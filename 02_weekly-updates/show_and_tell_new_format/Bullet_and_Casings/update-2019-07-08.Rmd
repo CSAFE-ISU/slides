@@ -209,6 +209,8 @@ class: primary
 - Process scans to get new features using `bulletxtrctr`
 - Match new features to old features - what changed?
 
+Currently, trying to match features from Hare et al. (2016) to new features
+
 ---
 class: inverse
 # Next Project

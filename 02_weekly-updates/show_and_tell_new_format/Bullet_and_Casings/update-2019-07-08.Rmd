@@ -119,9 +119,17 @@ class: primary
 ---
 
 class: primary
-# Ganesh: communication of results/diagnostics
+# Ganesh: Diagnostics in the bullet matching pipeline  
+    
+### *Shiny Applications*
 
+- **Interactive user interface for performing transformations, preliminary evaluations, extraction and scoring, and batch operations**  
 
+- **Diagnostics using Interactive visualizations in the bullet matching pipeline**
+
+.center[
+### Demo
+]
 ---
 class: primary
 # Kiegan: variability study
@@ -214,11 +222,6 @@ Currently, trying to match features from Hare et al. (2016) to new features
 ---
 class: inverse
 # Next Project
-
-
----
-class: inverse
-# Sam
 
 ---
 class: primary

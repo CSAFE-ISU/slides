@@ -292,10 +292,40 @@ class: primary
 ---
 class: inverse
 # James
+ 
+---
+class: primary   
+# Data collection
+Purpose:
+
+- Data is to be used in an open access database and to test materials developed by CSAFE researchers
+
+Our Goal:
+
+
+- To enroll 100 participants by June 15th, 2019
+- Have all sessions completed by summer's end 
+- Have another graduate student participants in the fall
+
+Currently: 
+
+- 125 Participants 
 
 ---
-class: primary
-# Project Updates
+class: primary   
+# Data Collection: Continued 
+Collection:
+- Three Collections  <SUP>&nbsp;</SUP>
+    - First in person/video/phone 
+    - Need a group of at least three to participate at a distance. 
+<br /> <br />
+- Survey 
+- Three paragraphs - three reps of each
+- Sign a fake name
+<br /> <br />
+- Samples are scanned once completed  
+
+
 
 ---
 class: inverse

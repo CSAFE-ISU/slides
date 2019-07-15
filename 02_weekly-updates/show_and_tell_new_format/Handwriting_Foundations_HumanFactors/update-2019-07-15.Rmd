@@ -86,8 +86,14 @@ class: inverse
 
 ---
 class: primary   
-# Spring Semester Goals
+# Summer Update
 
+- Main focus for last couple weeks has been on:
+    - Finishing up BF vs LR paper for practitioners
+    - NSF CAREER Proposal (nearly complete)
+- Secondary focus
+    - Getting NIJ grant with Larry transferred to GMU
+    - Draft publication for NIJ Handwriting grant (PI will present at ASQDE)
 
 
 ---

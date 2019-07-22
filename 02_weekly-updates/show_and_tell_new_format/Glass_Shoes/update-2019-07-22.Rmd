@@ -122,7 +122,29 @@ class: inverse
 class: primary
 # Project Updates
 
+-Working on the Alignment process: 
 
+  -Trying to find the edge of the shoe to find the longest distance
+  
+  -Vertex points to determine the edge 
+  
+<img src ="images/Eryn/Vertex.jpg" width= "40%"/>  
+
+
+---
+class: secondary
+
+ 
+
+
+
+
+
+---
+class: secondary
+
+<img src = "images/Eryn/Difference_wo_alignment.png" width= "85%" align="left"/>
+<img src = "images/Eryn/difference_scale.png" width="15%" align="right"/>
 
 ---
 class: inverse

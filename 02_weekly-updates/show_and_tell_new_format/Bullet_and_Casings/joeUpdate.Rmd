@@ -1,0 +1,49 @@
+---
+title: "Update August 26, 2019"
+date: "2019-08-21"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+---
+class: primary
+# Joe: Summer Update - John Deere Internship
+
+.center[
+<img src = "joeZ/jdLogo.PNG" width = "30%" />
+<img src = "joeZ/jdHQ.JPG" width = "49%";align = "right"/>
+  
+
+<img src = "joeZ/jdWestOfficeBuilding.JPG" width = "49%"/>
+<img src = "joeZ/forecastPerCVsplit_example.PNG" width = "49%";align = "right"/>
+]
+---
+
+class: primary
+# Joe: Summer Update - Cartridge Cases
+
+ - Algorithm skeleton completed
+
+.center[
+<img src = "joeZ/im1_im2_cellComparison.PNG" width = "80%" />
+]
+
+---
+
+class: primary
+# Joe: Fall Plans
+
+ - STAT 641, 520, 551 and MATH 610
+ 
+ - Instructing STAT 226
+ 
+ - Algorithm improvements & generalizations
+  - Method comparison on DFSC data
+  - Implement/compare recently published changes
+---

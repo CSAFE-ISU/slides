@@ -1,0 +1,144 @@
+---
+title: "Project Updates"
+date: "2019-08-29"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/csafe.css", "css/csafe-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      
+      
+---
+class: inverse
+# Amy
+
+---
+class: primary
+# Semester Goals & Updates
+
+---
+class: inverse
+# Nate
+
+---
+class: primary
+# Semester Goals & Updates
+---
+class: inverse
+# Eryn
+
+---
+class: primary
+# Semester Goals & Updates
+---
+class: inverse
+# Miranda
+
+---
+class: primary
+# Semester Goals & Updates
+
+---
+class: inverse
+# Charlotte
+
+---
+class: primary
+# Semester Goals & Updates
+---
+class: inverse
+# Heike
+
+---
+class: primary
+# Semester Goals & Updates
+---
+class: inverse
+# Joe
+
+---
+class: primary
+# Semester Goals & Updates
+
+---
+class: inverse
+# Susan
+
+---
+class: primary
+# Semester Goals & Updates
+---
+class: inverse
+# Kiegan
+
+---
+class: primary   
+# Semester Goals & Updates
+---
+class: inverse
+# Soyoung
+
+---
+class: primary
+# Semester Goals & Updates
+---
+class: inverse
+# Ganesh
+
+---
+class: primary   
+# Semester Goals & Updates
+
+---
+class: inverse
+# Danica
+
+---
+class: primary   
+# Semester Goals & Updates
+
+---
+class: inverse
+# Yawei
+
+---
+class: primary
+# Semester Goals & Updates
+
+---
+class: inverse
+# LateBreak
+
+
+---
+class: primary
+# Late Break News
+    
+---
+class: inverse
+# Issues
+
+---
+class: secondary
+
+- [Issues!!](https://github.com/CSAFE-ISU/slides/issues)
+- One issue down, three to go.
+
+```{r, eval=FALSE, echo=FALSE}
+## Presenters
+presenter <- 
+  c("Soyoung", "Amy", "Ben", "Nick", 
+    "Ganesh", "Nate", "Sam", 
+    "James", "Kiegan", "Danica", "Susan", 
+    "Miranda")
+
+## Set seed as the date (mmdd)
+set.seed(1105)
+
+## Shuffle presenters
+sample(presenter)
+```
+

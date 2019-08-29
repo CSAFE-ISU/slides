@@ -102,13 +102,7 @@ class: inverse
 class: primary
 # Semester Goals & Updates
 ---
-class: inverse
-# Heike
 
----
-class: primary
-# Semester Goals & Updates
----
 class: inverse
 # Joe
 ---

@@ -219,7 +219,7 @@ class: secondary
 
 Other things for Fall 19
 - Courses: EE520 Speial topics in ML and Stat Learning: Random matrix theory, 
-MATH 610 Digital Image Processing, HCI 596 Emerging trends in HCI, HCI   Design Ethics and Phenomenon, revisiting some old courses
+MATH 610 Digital Image Processing, HCI 596 Emerging trends in HCI, HCI 655, revisiting some old courses
 - Organizing show and tell, Reading group
 
 ---

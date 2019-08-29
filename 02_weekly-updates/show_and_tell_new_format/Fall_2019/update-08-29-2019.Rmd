@@ -121,6 +121,18 @@ class: inverse
 ---
 class: primary
 # Semester Goals & Updates
+
+*Summer*
+
+Sorry I'm out sick today:
+- Revised hough groove estimation incorporated into GrooveFinder
+- Began and will continue (I promise) writing up process and results
+
+*Semester Goals*
+-  Compare Hough grooves to other methods of groove identification and manual identification
+- Finish write-up 
+- Start CC
+
 ---
 
 class: inverse

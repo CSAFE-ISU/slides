@@ -88,11 +88,10 @@ Summer
 
 
 Research Updates and Goals
-- Explore new directions with CoNNOR
-    - Truncate convolutional base for different output features
-    - Train random forest on convolutional features
-        - Use importance to filter features
-    - Unsupervised Fully Convolutional Networks (FCNs) to evaluate/adjust current classification scheme
+- Truncate convolutional base for different output features
+- Train random forest on convolutional features
+    - Use importance to filter features
+- Unsupervised Fully Convolutional Networks (FCNs) to evaluate/adjust current classification scheme
 
 
 ---

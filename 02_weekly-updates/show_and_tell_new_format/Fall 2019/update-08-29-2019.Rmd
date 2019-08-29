@@ -97,21 +97,54 @@ class: primary
  - Algorithm improvements & generalizations
   - Congruent Matching...Donuts? Tori?
   - Method comparison on DFSC data
-  - Implement/compare recently published CMC improvements
+  - Implement/compare recently published CMC improvements  
+  
 ---
 class: inverse
 # Susan
 
 ---
 class: primary
-# Semester Goals & Updates
+# Semester Goals & Updates  
+
 ---
 class: inverse
 # Kiegan
 
 ---
 class: primary   
-# Semester Goals & Updates
+# Semester Goals & Updates  
+
+*Summer work*  
+- Groove ID paper on first round of revisions for JFS (cross your fingers!)  
+- Variability data collection ended up with 2300+ scans!!!! WOW.
+     - Data cleaning/analysis (will share more later)
+- Book - 2 chapters down!  
+- AFTE 2019 and JSM 2019  
+- Prep for SimStat 2019  
+
+---
+class: primary   
+# Semester Goals & Updates  
+
+*Semester goals*  
+- Groove ID project  
+    - paper #2 submission soon!
+    - grooveFinder (adding some functions)
+- Variability study project
+    - Paper draft(s) (and submission??)
+    - R package
+- Book project
+    - 3rd central chapter
+    - intro, conclusion  
+- General bullet project
+    - Pipeline "theory"
+    - Maybe crosscut function  
+    - Feature engineering/Random Forest work?  
+- Stat 651 and job applications (on the side)  
+- pictures?
+
+
 ---
 class: inverse
 # Soyoung

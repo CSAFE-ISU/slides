@@ -16,8 +16,46 @@ class: inverse
 # Amy
 
 ---
-class: primary
-# Semester Goals & Updates
+class: primary   
+# Semester Goals & Updates  
+
+*10 hour Summer appointment*  
+- Presentations
+    - May, Poster at All Hands
+    - June, Prepare 60 min talk for Alicia in Lima
+    - July, 15 min talk at JSM
+    - August, 80 min talk at ASQDE
+    - (Fall) September, Poster at SIMSTAT
+
+- Papers
+    - Clustering vs. Adjacency glyph grouping
+        - In final revisions for submission to Annals of Applied Statistics
+    - Disease Progression Model for Rare Progressive Diseases
+        - Mostly written
+
+- Data Collection
+    - Thanks James!
+
+---
+class: primary   
+# Semester Goals & Updates  
+
+*Semester goals*  
+- Groove ID project  
+    - paper #2 submission soon!
+    - grooveFinder (adding some functions)
+- Variability study project
+    - Paper draft(s) (and submission??)
+    - R package
+- Book project
+    - 3rd central chapter
+    - intro, conclusion  
+- General bullet project
+    - Pipeline "theory"
+    - Maybe crosscut function  
+    - Feature engineering/Random Forest work?  
+- Stat 651 and job applications (on the side)  
+- pictures?
 
 ---
 class: inverse

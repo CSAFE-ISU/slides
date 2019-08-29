@@ -158,7 +158,43 @@ class: inverse
 
 ---
 class: primary
-# Semester Goals & Updates  
+# Summer = Write ALL the things!
+
+- FSI paper with Miranda - Convolutional Neural Network w/ Shoes for Practitioners    
+written & submitted
+- Bullet Case Validation paper w/ Heike & assorted practitioners submitted
+- Book chapter on firearms and statistics w/ Alicia and Heike submitted
+- Started on Shoe DB paper writing
+
+---
+class: primary
+# Summer = Write ALL the things!
+
+- (Graphics) Annual Review paper on Graphics finished & submitted
+- (Graphics) Bayesian visual inference paper is half-rewritten
+
+- Working on 2 different NSF proposals (smart agriculture, shrinking communities)
+
+--
+
+Also, I interviewed at University of Nebraska (Lincoln) in June and accepted a job in July!    
+
+I start January 1.
+
+---
+class: primary
+
+# Semester Goals
+
+- Finish Shoe DB paper
+  - Get Shoe DB data uploaded to DataShare (ISU repository)
+  - Some simple analysis of shoe data to go in the paper
+- Write R package for dealing with shoe data/image cleaning
+- (maybe) finish BulletSamplR and the corresponding paper
+- CoNNOR - fully convolutional, handle the whole shoe
+
+
+
 
 ---
 class: inverse

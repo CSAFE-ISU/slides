@@ -58,11 +58,46 @@ class: primary
 ---
 class: inverse
 # Joe
-
 ---
-class: primary
-# Semester Goals & Updates
 
+class: top, primary
+# Joe: John Deere Internship
+.pull-left[
+.center[
+  <img src="../Bullet_and_Casings/joeZ/jdLogo.PNG" width = "70%"/>
+  <img src="../Bullet_and_Casings/joeZ/jdWestOfficeBuilding.JPG" width = "100%"/>
+]
+]
+
+.pull-right[
+.center[
+  <img src="../Bullet_and_Casings/joeZ/jdHQ.JPG" width = "75%"/>
+  <img src="../Bullet_and_Casings/joeZ/forecastPerCVsplit_example.PNG" width = "80%"/>
+]
+]
+---
+
+class: primary
+# Joe: Cartridge Cases Update
+  - CMC algorithm "skeleton" complete
+
+.center[
+<img src = "../Bullet_and_Casings/joeZ/im1_im2_cellComparison.PNG" width = "64%" />
+<img src = "../Bullet_and_Casings/joeZ/frankensteinsBreechface.PNG" width = "32%"; style="border-left: 5px solid black;"/>
+]
+---
+
+class: primary
+# Joe: Semester Goals
+
+ - STAT 641, 520, 551 and MATH 610
+ 
+ - Instructing STAT 226
+
+ - Algorithm improvements & generalizations
+  - Congruent Matching...Donuts? Tori?
+  - Method comparison on DFSC data
+  - Implement/compare recently published CMC improvements
 ---
 class: inverse
 # Susan
@@ -133,7 +168,7 @@ presenter <-
   c("Soyoung", "Amy", "Ben", "Nick", 
     "Ganesh", "Nate", "Sam", 
     "James", "Kiegan", "Danica", "Susan", 
-    "Miranda")
+    "Miranda","Joe")
 
 ## Set seed as the date (mmdd)
 set.seed(1105)

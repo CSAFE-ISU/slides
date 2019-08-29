@@ -146,12 +146,15 @@ class: inverse
 class: primary
 # Summer = Write ALL the things!
 
-*Summer work* 
 - FSI paper with Miranda - Convolutional Neural Network w/ Shoes for Practitioners    
 written & submitted
 - Bullet Case Validation paper w/ Heike & assorted practitioners submitted
 - Book chapter on firearms and statistics w/ Alicia and Heike submitted
 - Started on Shoe DB paper writing
+
+---
+class: primary
+# Summer = Write ALL the things!
 
 - (Graphics) Annual Review paper on Graphics finished & submitted
 - (Graphics) Bayesian visual inference paper is half-rewritten
@@ -159,7 +162,9 @@ written & submitted
 - Working on 2 different NSF proposals (smart agriculture, shrinking communities)
 
 --
+
 Also, I interviewed at University of Nebraska (Lincoln) in June and accepted a job in July!    
+
 I start January 1.
 
 ---

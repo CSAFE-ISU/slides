@@ -71,6 +71,15 @@ class: inverse
 ---
 class: primary
 # Semester Goals & Updates
+*Summer Project*
+- Started the alignment process for 3D shoe scans
+- Scanned some more shoes 
+
+*Semester Goals*
+- finish alignment process 
+- make process into a pipe line
+- Start writing and working towards CC
+
 ---
 class: inverse
 # Miranda

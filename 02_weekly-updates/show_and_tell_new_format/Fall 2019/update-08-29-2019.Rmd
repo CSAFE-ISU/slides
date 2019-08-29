@@ -63,6 +63,15 @@ class: inverse
 ---
 class: primary
 # Semester Goals & Updates
+*Summer Project*
+- Started the alignment process for 3D shoe scans
+- Scanned some more shoes 
+
+*Semester Goals*
+- finish alignment process 
+- make process into a pipe line
+- Start writing and working towards CC
+
 ---
 class: inverse
 # Miranda
@@ -220,6 +229,29 @@ class: inverse
 ---
 class: primary   
 # Semester Goals & Updates
+
+
+*Summer work*
+- Mentored REU's from the SPIRE-EIT 2019 program 
+- Finished working on the Diagnostics UI 
+- Preliminary Results on Bullet-to-bullet scoring using the Adjusted Chumbley Score algorithm
+- JSM 2019
+
+---
+class: secondary
+
+*Fall Goals*
+- *September* Writing Diagnostics paper, submission deadline early mid to late september for CHI 2020
+- Wrapper for the Bullet-to-bullet chumbley scoring
+- Revision of book chapter on Toolmarks
+- Extend preliminary results for comparing land-to-land scores and bullet-to-bullet scores
+- More writing
+- Possibly something new, TBD!
+
+Other things for Fall 19
+- Courses: EE520 Speial topics in ML and Stat Learning: Random matrix theory, 
+MATH 610 Digital Image Processing, HCI 596 Emerging trends in HCI, HCI 655, revisiting some old courses
+- Organizing show and tell, Reading group
 
 ---
 class: inverse

@@ -25,7 +25,27 @@ class: inverse
 
 ---
 class: primary
-# Semester Goals & Updates
+# Summer Stuff
+
+- Internship at Liberty Mutual in Boston
+- First paper published
+- Finished draft of SLR paper (to be submitted soon hopefully)
+- Finished implementation of sparse GP for regression/classification (chapter 2)
+
+---
+class: primary
+# sparse GP classification
+
+<img src="../Handwriting_Foundations_HumanFactors/nate/toy_example_bernoulli.png" height = "20%" width = "80%"/>
+
+---
+class: primary
+# Semester Goals
+
+- Submit SLR paper (chapter 1)
+- Finish chapter 2 (get ready for submission)
+- Start chapter 3
+
 ---
 class: inverse
 # Eryn

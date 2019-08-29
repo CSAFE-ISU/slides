@@ -19,7 +19,7 @@ class: inverse
 class: primary   
 # Semester Goals & Updates  
 
-*10 hour Summer appointment*  
+*10 hour Summer appointment, Internship*  
 - Presentations
     - May, Poster at All Hands
     - June, Prepare 60 min talk for Alicia in Lima
@@ -41,21 +41,13 @@ class: primary
 # Semester Goals & Updates  
 
 *Semester goals*  
-- Groove ID project  
-    - paper #2 submission soon!
-    - grooveFinder (adding some functions)
-- Variability study project
-    - Paper draft(s) (and submission??)
-    - R package
-- Book project
-    - 3rd central chapter
-    - intro, conclusion  
-- General bullet project
-    - Pipeline "theory"
-    - Maybe crosscut function  
-    - Feature engineering/Random Forest work?  
-- Stat 651 and job applications (on the side)  
-- pictures?
+- Oral Prelim Exam, September 26
+- Handwriting Research
+    - Writer analysis 2 ways (variability, style)
+        - paper, presentations
+    - Integrate cluster template into R package (with Nick)
+    - Analyze our data with covariates!
+- Job applications
 
 ---
 class: inverse
